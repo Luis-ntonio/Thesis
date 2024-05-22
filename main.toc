@@ -1,11 +1,10 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Context and Motivation}{2}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Marco Teórico}{5}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Revisión de la Literatura}{6}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Metodología}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Descripción de la Metodología}{7}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Experimentaciones y Resultados}{8}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Experimentos y Resultados}{8}{section.5.1}%
-\contentsline {chapter}{\numberline {6}Conclusiones y Trabajos Futuros}{9}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{9}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Trabajos Futuros}{9}{section.6.2}%
+\contentsline {chapter}{\numberline {2}State of the Art}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Metodología}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Descripción de la Metodología}{8}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Experimentaciones y Resultados}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Experimentos y Resultados}{9}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Conclusiones y Trabajos Futuros}{10}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusiones}{10}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Trabajos Futuros}{10}{section.5.2}%

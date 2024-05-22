@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.12)  14 MAY 2024 11:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.12)  22 MAY 2024 11:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main"
+**"c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main.tex"
 (c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -811,7 +811,7 @@ Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.11).
 
-<images/logo.png, id=83, 285.065pt x 178.6675pt>
+<images/logo.png, id=79, 285.065pt x 178.6675pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 72.
@@ -819,15 +819,15 @@ Package pdftex.def Info: images/logo.png  used on input line 72.
 [1
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/logo.png>] (./main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 6.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 5.
  (c:/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ))
@@ -845,49 +845,47 @@ l.116 \chapter
 Chapter 1.
 (./Chapter1/1_1Introduction.tex) [2
 
-] (./Chapter1/1_2Problem.tex) (./Chapter1/1_3Justification.tex) (./Chapter1/1_4Objetivos.tex) [3] (./Chapter1/1_5Aportes.tex) [4]
+] (./Chapter1/1_2Problem.tex) (./Chapter1/1_3Justification.tex) (./Chapter1/1_4Objetivos.tex) [3] (./Chapter1/1_5Aportes.tex) [4] (./Chapter2_3/2_theoric.tex [5
+
+]) [6]
 Chapter 2.
-(./Chapter2_3/2_theoric.tex) [5
+(./Chapter2_3/3_state_of_the_art.tex) [7
 
 ]
 Chapter 3.
-(./Chapter2_3/3_state_of_the_art.tex) [6
+(./Chapter4/4_1proposal.tex) (./Chapter4/4_2methodology.tex) [8
 
 ]
 Chapter 4.
-(./Chapter4/4_1proposal.tex) (./Chapter4/4_2methodology.tex) [7
+(./Chapter5/5_1experiments.tex) [9
 
 ]
 Chapter 5.
-(./Chapter5/5_1experiments.tex) [8
+(./Chapter6/6_1conclusions.tex) (./Chapter6/6_2futuros.tex) (./main.bbl [10
 
-]
-Chapter 6.
-(./Chapter6/6_1conclusions.tex) (./Chapter6/6_2futuros.tex) (./main.bbl [9
+] [11
 
-] [10
-
-]) [11] (./main.aux)
+]) [12] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4AEF1D84B86F7DBCECAAA57D7419AE1B;1611.
+(rerunfilecheck)             Checksum: 4E77115F6B462D36AEFF033B8B922FAF;1448.
  ) 
 Here is how much of TeX's memory you used:
- 41945 strings out of 474050
- 990443 string characters out of 5746298
- 1936754 words of memory out of 5000000
- 63604 multiletter control sequences out of 15000+600000
+ 41970 strings out of 474050
+ 990875 string characters out of 5746298
+ 1937754 words of memory out of 5000000
+ 63612 multiletter control sequences out of 15000+600000
  563768 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,6n,117p,959b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,6n,117p,971b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (12 pages, 107985 bytes).
+Output written on main.pdf (13 pages, 119523 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 249 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
