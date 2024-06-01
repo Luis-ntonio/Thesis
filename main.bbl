@@ -105,4 +105,58 @@ W.-K. Tan and H.-H. Teo, ``Productpedia -- a collaborative electronic product ca
 G.~Ryali, S.~S, S.~Kaveri, and P.~M. Comar, ``Trendspotter: Forecasting e-commerce product trends,'' in \emph{Proceedings of the 32nd ACM International Conference on Information and Knowledge Management}, ser. CIKM '23.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA: Association for Computing Machinery, 2023, p. 4808–4814. [Online]. Available: \url{https://doi.org/10.1145/3583780.3615503}
 \BIBentrySTDinterwordspacing
 
+\bibitem{chen-etal-2022-bert2bert}
+\BIBentryALTinterwordspacing
+C.~Chen, Y.~Yin, L.~Shang, X.~Jiang, Y.~Qin, F.~Wang, Z.~Wang, X.~Chen, Z.~Liu, and Q.~Liu, ``bert2{BERT}: Towards reusable pretrained language models,'' in \emph{Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, S.~Muresan, P.~Nakov, and A.~Villavicencio, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Dublin, Ireland: Association for Computational Linguistics, May 2022, pp. 2134--2148. [Online]. Available: \url{https://aclanthology.org/2022.acl-long.151}
+\BIBentrySTDinterwordspacing
+
+\bibitem{agrawal2022large}
+M.~Agrawal, S.~Hegselmann, H.~Lang, Y.~Kim, and D.~Sontag, ``Large language models are few-shot clinical information extractors,'' 2022.
+
+\bibitem{edunov-etal-2019-pre}
+\BIBentryALTinterwordspacing
+S.~Edunov, A.~Baevski, and M.~Auli, ``Pre-trained language model representations for language generation,'' in \emph{Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)}, J.~Burstein, C.~Doran, and T.~Solorio, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Minneapolis, Minnesota: Association for Computational Linguistics, Jun. 2019, pp. 4052--4059. [Online]. Available: \url{https://aclanthology.org/N19-1409}
+\BIBentrySTDinterwordspacing
+
+\bibitem{brinkmann2024product}
+A.~Brinkmann, R.~Shraga, and C.~Bizer, ``Product attribute value extraction using large language models,'' 2024.
+
+\bibitem{labrak2024biomistral}
+Y.~Labrak, A.~Bazoge, E.~Morin, P.-A. Gourraud, M.~Rouvier, and R.~Dufour, ``Biomistral: A collection of open-source pretrained large language models for medical domains,'' 2024.
+
+\bibitem{skondras2023generating}
+P.~Skondras, P.~Zervas, and G.~Tzimas, ``Generating synthetic resume data with large language models for enhanced job description classification,'' \emph{Future Internet}, vol.~15, no.~11, p. 363, 2023.
+
+\bibitem{tang2024strucbench}
+X.~Tang, Y.~Zong, J.~Phang, Y.~Zhao, W.~Zhou, A.~Cohan, and M.~Gerstein, ``Struc-bench: Are large language models really good at generating complex structured data?'' 2024.
+
+\bibitem{xu2024emerging}
+X.~Xu, Y.~Wu, P.~Liang, Y.~He, and H.~Wang, ``Emerging synergies between large language models and machine learning in ecommerce recommendations,'' 2024.
+
+\bibitem{zhang2021ebert}
+D.~Zhang, Z.~Yuan, Y.~Liu, F.~Zhuang, H.~Chen, and H.~Xiong, ``E-bert: A phrase and product knowledge enhanced language model for e-commerce,'' 2021.
+
+\bibitem{zhou2023leveraging}
+J.~Zhou, B.~Liu, J.~N. A.~Y. Hong, K.~chih Lee, and M.~Wen, ``Leveraging large language models for enhanced product descriptions in ecommerce,'' 2023.
+
+\bibitem{zhang2022opt}
+S.~Zhang, S.~Roller, N.~Goyal, M.~Artetxe, M.~Chen, S.~Chen, C.~Dewan, M.~Diab, X.~Li, X.~V. Lin, T.~Mihaylov, M.~Ott, S.~Shleifer, K.~Shuster, D.~Simig, P.~S. Koura, A.~Sridhar, T.~Wang, and L.~Zettlemoyer, ``Opt: Open pre-trained transformer language models,'' 2022.
+
+\bibitem{yuan2023scaling}
+Z.~Yuan, H.~Yuan, C.~Li, G.~Dong, K.~Lu, C.~Tan, C.~Zhou, and J.~Zhou, ``Scaling relationship on learning mathematical reasoning with large language models,'' 2023.
+
+\bibitem{creswell2022selectioninference}
+A.~Creswell, M.~Shanahan, and I.~Higgins, ``Selection-inference: Exploiting large language models for interpretable logical reasoning,'' 2022.
+
+\bibitem{zhou-etal-2023-inform}
+\BIBentryALTinterwordspacing
+C.~Zhou, W.~You, J.~Li, J.~Ye, K.~Chen, and M.~Zhang, ``{INFORM} : Information e{N}tropy based multi-step reasoning {FOR} large language models,'' in \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, H.~Bouamor, J.~Pino, and K.~Bali, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Singapore: Association for Computational Linguistics, Dec. 2023, pp. 3565--3576. [Online]. Available: \url{https://aclanthology.org/2023.emnlp-main.216}
+\BIBentrySTDinterwordspacing
+
+\bibitem{wang2024largescale}
+X.~Wang, G.~Chen, G.~Qian, P.~Gao, X.-Y. Wei, Y.~Wang, Y.~Tian, and W.~Gao, ``Large-scale multi-modal pre-trained models: A comprehensive survey,'' 2024.
+
+\bibitem{minaee2024large}
+S.~Minaee, T.~Mikolov, N.~Nikzad, M.~Chenaghlu, R.~Socher, X.~Amatriain, and J.~Gao, ``Large language models: A survey,'' 2024.
+
 \end{thebibliography}
