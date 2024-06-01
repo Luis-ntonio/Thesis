@@ -56,6 +56,24 @@ C.~Gao, W.~Zhang, G.~Chen, and W.~Lam, ``Jsontuning: Towards generalizable, robu
 \bibitem{macková2023promap}
 K.~Macková and M.~Pilát, ``Promap: Datasets for product mapping in e-commerce,'' 2023.
 
+\bibitem{Muntjir2016}
+\BIBentryALTinterwordspacing
+M.~Muntjir and A.~T. Siddiqui, ``An enhanced framework with advanced study to incorporate the searching of e-commerce products using modernization of database queries,'' \emph{International Journal of Advanced Computer Science and Applications}, vol.~7, no.~5, 2016. [Online]. Available: \url{http://dx.doi.org/10.14569/IJACSA.2016.070514}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Liang_2020}
+\BIBentryALTinterwordspacing
+J.-H. Liang, ``Application of big data technology in product selection on cross-border e-commerce platforms,'' \emph{Journal of Physics: Conference Series}, vol. 1601, no.~3, p. 032012, jul 2020. [Online]. Available: \url{https://dx.doi.org/10.1088/1742-6596/1601/3/032012}
+\BIBentrySTDinterwordspacing
+
+\bibitem{10.1007/978-3-319-20895-4_34}
+W.-K. Tan and H.-H. Teo, ``Productpedia -- a collaborative electronic product catalog for ecommerce 3.0,'' in \emph{HCI in Business}, F.~Fui-Hoon~Nah and C.-H. Tan, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Cham: Springer International Publishing, 2015, pp. 370--381.
+
+\bibitem{10.1145/3583780.3615503}
+\BIBentryALTinterwordspacing
+G.~Ryali, S.~S, S.~Kaveri, and P.~M. Comar, ``Trendspotter: Forecasting e-commerce product trends,'' in \emph{Proceedings of the 32nd ACM International Conference on Information and Knowledge Management}, ser. CIKM '23.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA: Association for Computing Machinery, 2023, p. 4808–4814. [Online]. Available: \url{https://doi.org/10.1145/3583780.3615503}
+\BIBentrySTDinterwordspacing
+
 \bibitem{zhao2023survey}
 W.~X. Zhao, K.~Zhou, J.~Li, T.~Tang, X.~Wang, Y.~Hou, Y.~Min, B.~Zhang, J.~Zhang, Z.~Dong, Y.~Du, C.~Yang, Y.~Chen, Z.~Chen, J.~Jiang, R.~Ren, Y.~Li, X.~Tang, Z.~Liu, P.~Liu, J.-Y. Nie, and J.-R. Wen, ``A survey of large language models,'' 2023.
 
@@ -85,24 +103,6 @@ Y.~Zheng, R.~Zhang, J.~Zhang, Y.~Ye, Z.~Luo, and Y.~Ma, ``Llamafactory: Unified 
 \bibitem{zhu2024lift}
 \BIBentryALTinterwordspacing
 L.~Zhu, L.~Hu, J.~Lin, and S.~Han, ``{LIFT}: Efficient layer-wise fine-tuning for large model models,'' 2024. [Online]. Available: \url{https://openreview.net/forum?id=u0INlprg3U}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Muntjir2016}
-\BIBentryALTinterwordspacing
-M.~Muntjir and A.~T. Siddiqui, ``An enhanced framework with advanced study to incorporate the searching of e-commerce products using modernization of database queries,'' \emph{International Journal of Advanced Computer Science and Applications}, vol.~7, no.~5, 2016. [Online]. Available: \url{http://dx.doi.org/10.14569/IJACSA.2016.070514}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Liang_2020}
-\BIBentryALTinterwordspacing
-J.-H. Liang, ``Application of big data technology in product selection on cross-border e-commerce platforms,'' \emph{Journal of Physics: Conference Series}, vol. 1601, no.~3, p. 032012, jul 2020. [Online]. Available: \url{https://dx.doi.org/10.1088/1742-6596/1601/3/032012}
-\BIBentrySTDinterwordspacing
-
-\bibitem{10.1007/978-3-319-20895-4_34}
-W.-K. Tan and H.-H. Teo, ``Productpedia -- a collaborative electronic product catalog for ecommerce 3.0,'' in \emph{HCI in Business}, F.~Fui-Hoon~Nah and C.-H. Tan, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Cham: Springer International Publishing, 2015, pp. 370--381.
-
-\bibitem{10.1145/3583780.3615503}
-\BIBentryALTinterwordspacing
-G.~Ryali, S.~S, S.~Kaveri, and P.~M. Comar, ``Trendspotter: Forecasting e-commerce product trends,'' in \emph{Proceedings of the 32nd ACM International Conference on Information and Knowledge Management}, ser. CIKM '23.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA: Association for Computing Machinery, 2023, p. 4808–4814. [Online]. Available: \url{https://doi.org/10.1145/3583780.3615503}
 \BIBentrySTDinterwordspacing
 
 \bibitem{chen-etal-2022-bert2bert}
