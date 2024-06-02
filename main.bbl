@@ -86,16 +86,20 @@ M.~Debbah, ``Large language models for telecom,'' in \emph{2023 Eighth Internati
 \bibitem{fan2023fatellm}
 T.~Fan, Y.~Kang, G.~Ma, W.~Chen, W.~Wei, L.~Fan, and Q.~Yang, ``Fate-llm: A industrial grade federated learning framework for large language models,'' 2023.
 
-\bibitem{xu-etal-2021-raise}
-\BIBentryALTinterwordspacing
-R.~Xu, F.~Luo, Z.~Zhang, C.~Tan, B.~Chang, S.~Huang, and F.~Huang, ``Raise a child in large language model: Towards effective and generalizable fine-tuning,'' in \emph{Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing}, M.-F. Moens, X.~Huang, L.~Specia, and S.~W.-t. Yih, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Online and Punta Cana, Dominican Republic: Association for Computational Linguistics, Nov. 2021, pp. 9514--9528. [Online]. Available: \url{https://aclanthology.org/2021.emnlp-main.749}
-\BIBentrySTDinterwordspacing
+\bibitem{Lalor2017Improving}
+J.~P. Lalor, H.~Wu, and H.~Yu, ``Improving machine learning ability with fine-tuning,'' \emph{ArXiv}, vol. abs/1702.08563, 2017.
 
-\bibitem{sun2023comparative}
-X.~Sun, Y.~Ji, B.~Ma, and X.~Li, ``A comparative study between full-parameter and lora-based fine-tuning on chinese instruction data for instruction following large language model,'' 2023.
+\bibitem{Catani2020A}
+L.~Catani and M.~Leifer, ``A mathematical framework for operational fine tunings,'' \emph{Quantum}, vol.~7, p. 948, 2020.
 
-\bibitem{yu2022differentially}
-D.~Yu, S.~Naik, A.~Backurs, S.~Gopi, H.~A. Inan, G.~Kamath, J.~Kulkarni, Y.~T. Lee, A.~Manoel, L.~Wutschitz, S.~Yekhanin, and H.~Zhang, ``Differentially private fine-tuning of language models,'' 2022.
+\bibitem{Shachaf2021A}
+G.~Shachaf, A.~Brutzkus, and A.~Globerson, ``A theoretical analysis of fine-tuning with linear teachers,'' \emph{ArXiv}, 2021.
+
+\bibitem{Vrbancic2020Transfer}
+G.~Vrbancic and V.~Podgorelec, ``Transfer learning with adaptive fine-tuning,'' \emph{IEEE Access}, vol.~8, pp. 196\,197--196\,211, 2020.
+
+\bibitem{Xiao2023Offsite-Tuning:}
+G.~Xiao, J.~Lin, and S.~Han, ``Offsite-tuning: Transfer learning without full model,'' \emph{ArXiv}, vol. abs/2302.04870, 2023.
 
 \bibitem{zheng2024llamafactory}
 Y.~Zheng, R.~Zhang, J.~Zhang, Y.~Ye, Z.~Luo, and Y.~Ma, ``Llamafactory: Unified efficient fine-tuning of 100+ language models,'' 2024.
@@ -104,6 +108,27 @@ Y.~Zheng, R.~Zhang, J.~Zhang, Y.~Ye, Z.~Luo, and Y.~Ma, ``Llamafactory: Unified 
 \BIBentryALTinterwordspacing
 L.~Zhu, L.~Hu, J.~Lin, and S.~Han, ``{LIFT}: Efficient layer-wise fine-tuning for large model models,'' 2024. [Online]. Available: \url{https://openreview.net/forum?id=u0INlprg3U}
 \BIBentrySTDinterwordspacing
+
+\bibitem{Reiter2018A}
+E.~Reiter, ``A structured review of the validity of bleu,'' \emph{Computational Linguistics}, vol. Just Accepted, pp. 1--8, 2018.
+
+\bibitem{Ng2015Better}
+J.-P. Ng and V.~Abrecht, ``Better summarization evaluation with word embeddings for rouge,'' \emph{ArXiv}, vol. abs/1508.06034, 2015.
+
+\bibitem{Ganesan2015ROUGE}
+K.~A. Ganesan, ``Rouge 2.0: Updated and improved measures for evaluation of summarization tasks,'' \emph{ArXiv}, vol. abs/1803.01937, 2015.
+
+\bibitem{Agarwal2008Meteor}
+A.~Agarwal and A.~Lavie, ``Meteor, m-bleu and m-ter: Evaluation metrics for high-correlation with human rankings of machine translation output,'' \emph{ArXiv}, pp. 115--118, 2008.
+
+\bibitem{Ji2022Survey}
+Z.~Ji, N.~Lee, R.~Frieske, T.~Yu, D.~Su, Y.~Xu, E.~Ishii, Y.~Bang, W.~Dai, A.~Madotto, and P.~Fung, ``Survey of hallucination in natural language generation,'' \emph{ACM Computing Surveys}, vol.~55, pp. 1 -- 38, 2022.
+
+\bibitem{Huang2023A}
+L.~Huang, W.~Yu, W.~Ma, W.~Zhong, Z.~Feng, H.~Wang, Q.~Chen, W.~Peng, X.~Feng, B.~Qin, and T.~Liu, ``A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions,'' \emph{ArXiv}, vol. abs/2311.05232, 2023.
+
+\bibitem{Xiao2021On}
+Y.~Xiao and W.~Wang, ``On hallucination and predictive uncertainty in conditional language generation,'' \emph{ArXiv}, vol. abs/2103.15025, 2021.
 
 \bibitem{chen-etal-2022-bert2bert}
 \BIBentryALTinterwordspacing

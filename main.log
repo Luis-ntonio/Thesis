@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.12)  1 JUN 2024 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.12)  1 JUN 2024 20:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -847,25 +847,25 @@ Chapter 1.
 
 ] (./Chapter1/1_2Problem.tex) (./Chapter1/1_3Justification.tex) (./Chapter1/1_4Objetivos.tex) [3] (./Chapter1/1_5Aportes.tex) [4] (./Chapter2_3/2_theoric.tex [5
 
-]) [6] [7]
+] [6] [7] [8{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [9]) [10]
 Chapter 2.
-(./Chapter2_3/3_state_of_the_art.tex [8
+(./Chapter2_3/3_state_of_the_art.tex [11
 
-] [9]) [10] [11]
+] [12]) [13] [14]
 Chapter 3.
-(./Chapter4/4_1proposal.tex) (./Chapter4/4_2methodology.tex) [12
+(./Chapter4/4_1proposal.tex) (./Chapter4/4_2methodology.tex) [15
 
 ]
 Chapter 4.
-(./Chapter5/5_1experiments.tex) [13
+(./Chapter5/5_1experiments.tex) [16
 
 ]
 Chapter 5.
-(./Chapter6/6_1conclusions.tex) (./Chapter6/6_2futuros.tex) (./main.bbl [14
+(./Chapter6/6_1conclusions.tex) (./Chapter6/6_2futuros.tex) (./main.bbl [17
 
-] [15
+] [18
 
-] [16] [17]) [18] (./main.aux)
+] [19] [20] [21]) [22] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -874,18 +874,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4E77115F6B462D36AEFF033B8B922FAF;1448.
  ) 
 Here is how much of TeX's memory you used:
- 42020 strings out of 474050
- 991863 string characters out of 5746298
+ 42073 strings out of 474050
+ 992648 string characters out of 5746298
  1938754 words of memory out of 5000000
- 63634 multiletter control sequences out of 15000+600000
- 563768 words of font info for 59 fonts, out of 8000000 for 9000
+ 63653 multiletter control sequences out of 15000+600000
+ 564103 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,6n,117p,1328b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (19 pages, 139433 bytes).
+ 95i,9n,117p,1328b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (23 pages, 236322 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 279 compressed objects within 3 object streams
- 86 named destinations out of 1000 (max. 500000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 361 compressed objects within 4 object streams
+ 118 named destinations out of 1000 (max. 500000)
  234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
