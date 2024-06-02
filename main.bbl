@@ -121,6 +121,12 @@ K.~A. Ganesan, ``Rouge 2.0: Updated and improved measures for evaluation of summ
 \bibitem{Agarwal2008Meteor}
 A.~Agarwal and A.~Lavie, ``Meteor, m-bleu and m-ter: Evaluation metrics for high-correlation with human rankings of machine translation output,'' \emph{ArXiv}, pp. 115--118, 2008.
 
+\bibitem{venkit2024confidently}
+P.~N. Venkit, T.~Chakravorti, V.~Gupta, H.~Biggs, M.~Srinath, K.~Goswami, S.~Rajtmajer, and S.~Wilson, ``"confidently nonsensical?'': A critical survey on the perspectives and challenges of 'hallucinations' in nlp,'' 2024.
+
+\bibitem{agrawal2024language}
+A.~Agrawal, M.~Suzgun, L.~Mackey, and A.~T. Kalai, ``Do language models know when they're hallucinating references?'' 2024.
+
 \bibitem{Ji2022Survey}
 Z.~Ji, N.~Lee, R.~Frieske, T.~Yu, D.~Su, Y.~Xu, E.~Ishii, Y.~Bang, W.~Dai, A.~Madotto, and P.~Fung, ``Survey of hallucination in natural language generation,'' \emph{ACM Computing Surveys}, vol.~55, pp. 1 -- 38, 2022.
 
