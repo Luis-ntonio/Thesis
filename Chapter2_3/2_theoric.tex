@@ -1,19 +1,19 @@
-\subsection*{E-commerce Product-related Databases}
+\section{E-commerce Product-related Databases}
 In the rapidly evolving world of e-commerce, managing and utilizing product-related databases has become more advanced. Recent developments focus on integrating sophisticated database queries and big data technologies to improve the efficiency and precision of product searches. Research indicates that incorporating database queries into e-commerce platforms significantly streamlines the search process, making it more user-friendly and effective \cite{Muntjir2016}. Additionally, using big data technologies like Hadoop and MPP distributed databases enables detailed analysis of customer reviews and purchasing trends, optimizing product selection and enhancing user experience \cite{Liang_2020}.
 \\\\
 The advancement of database technologies has also led to the creation of new frameworks that support complex data formats and improve the efficiency of e-commerce platforms. For instance, cloud computing-based platforms such as Productpedia help create a centralized electronic product catalog, allowing seamless data synchronization and enabling merchants to define and share semantically rich product information \cite{10.1007/978-3-319-20895-4_34}. Moreover, deploying machine learning models like TrendSpotter helps e-commerce platforms predict and highlight trending products by analyzing current customer engagement data, thereby meeting the market's dynamic demands \cite{10.1145/3583780.3615503}.
 
-\subsection*{Large Language Models (LLMs)} %falta hablar desde el punto de vista computacional
+\section{Large Language Models (LLMs)} %falta hablar desde el punto de vista computacional
 Large language models (LLMs) represent significant progress in natural language processing (NLP), transitioning from statistical to neural models. The term "large language model" generally refers to pre-trained language models of substantial size, often containing hundreds of millions to billions of parameters \cite{zhao2023survey}.
 \\\\
 These models are trained on extensive text datasets using self-supervised learning techniques, enabling them to generate human-like text and perform tasks such as translation, summarization, and sentiment analysis. Due to their extensive training data and sophisticated architectures, LLMs can capture complex language patterns and demonstrate impressive zero-shot and few-shot learning capabilities \cite{naveed2024comprehensive}.
 \\\\
 Beyond typical NLP tasks, LLMs are utilized in various fields. They show potential in improving recommendation systems, executing complex planning, and contributing to areas like telecommunications and robotics \cite{10305960} \cite{fan2023fatellm}.
 
-\subsection*{Fine Tuning} %especifcar como se realiza el fine tuning de forma teorica
+\section{Fine Tuning} %especifcar como se realiza el fine tuning de forma teorica
 Fine-tuning in machine learning is a process where a pre-trained model is adapted to a new, often related task by continuing the training process on a smaller, task-specific dataset. This process is crucial for enhancing model performance and achieving better generalization on the new task.
 
-\subsubsection*{Mathematical Framework}
+\subsection{Mathematical Framework}
 Fine-tuning leverages the pre-existing knowledge embedded in the model parameters from the initial training on a large dataset. Mathematically, this involves optimizing a loss function $L$ with respect to the model parameters $\theta$, which have been pre-trained on a large-scale dataset $D$. The fine-tuning process then adjusts these parameters using a smaller dataset $D'$ specific to the new task. The objective can be expressed as:
 
 \[
@@ -21,26 +21,26 @@ Fine-tuning leverages the pre-existing knowledge embedded in the model parameter
 \]
 where $L_{D'}$ represents the loss on the fine-tuning dataset. This optimization typically uses gradient-based methods to adjust the pre-trained weights minimally but effectively to improve performance on the new task \cite{Lalor2017Improving}.
 
-\subsubsection*{Operational Fine-Tunings}
+\subsection{Operational Fine-Tunings}
 In a more abstract sense, fine-tuning can be seen as an operational fine-tuning where the changes made to the model parameters are tailored to the specifics of the new task. This concept extends beyond traditional parameter optimization, embedding domain-specific knowledge and constraints into the model adjustments. Operational fine-tunings often require ensuring that the adjustments do not lead to significant deviations from the model's prior capabilities, ensuring stability and performance consistency \cite{Catani2020A}.
 
-\subsubsection*{Sample Complexity and Generalization}
+\subsection{Sample Complexity and Generalization}
 The effectiveness of fine-tuning is influenced by the similarity between the pre-training and fine-tuning tasks. The sample complexity, which is the number of training examples required to achieve a certain level of performance, is significantly reduced when fine-tuning is applied. This reduction occurs because the pre-trained model already captures a broad set of features relevant to many tasks. Fine-tuning adjusts these features to better fit the new task, often requiring fewer samples to achieve high accuracy. This relationship can be formalized by analyzing the changes in the generalization bounds of the model after fine-tuning \cite{Shachaf2021A}.
 
-\subsubsection*{Gradient-Based Fine-Tuning}
+\subsection{Gradient-Based Fine-Tuning}
 Fine-tuning often involves gradient-based optimization techniques. For deep neural networks, this means leveraging algorithms like Stochastic Gradient Descent (SGD) to iteratively adjust the weights. The process can be sensitive to the initial learning rate and other hyperparameters, which need to be carefully chosen to avoid large deviations from the pre-trained weights and ensure convergence to a new, optimal set of parameters for the fine-tuning task \cite{Vrbancic2020Transfer}.
 
-\subsubsection*{Computational Efficiency}
+\subsection{Computational Efficiency}
 Fine-tuning is computationally efficient compared to training a model from scratch. By starting with a pre-trained model, the number of training epochs and the amount of data required are significantly reduced. This efficiency is particularly beneficial for large-scale models where the computational cost of full training is prohibitive. Fine-tuning allows for the practical deployment of advanced models in resource-constrained environments by focusing computational resources on the most impactful aspects of training \cite{Xiao2023Offsite-Tuning:}.
 
-\subsection*{JSON-Tuning} 
+\section{JSON-Tuning} 
 JSON-Tuning is a novel approach aimed at enhancing the performance and efficiency of Large Language Models (LLMs) by leveraging the structured data representation capabilities of JSON (JavaScript Object Notation). This method utilizes JSON's hierarchical structure to optimize the input-output processes of LLMs, leading to better parameter tuning and improved model interpretability. JSON-Tuning provides more precise control over training data, resulting in more robust and contextually accurate predictions. This approach also facilitates efficient data organization, simplifying management and utilization during the training and fine-tuning stages of LLM development \cite{zheng2024llamafactory}.
 \\\\
 The benefits of JSON-Tuning extend beyond performance improvements. This technique can substantially reduce the computational load typically associated with traditional fine-tuning methods. By streamlining data processing and minimizing redundancy, JSON-Tuning enables the deployment of LLMs in real-time applications where speed and accuracy are essential. Additionally, JSON's structured nature allows for seamless integration with existing data pipelines and APIs, simplifying workflows for data scientists and developers \cite{zhu2024lift}. This combination of structured data representation and advanced model tuning offers a promising avenue for future research and development in machine learning.
 %falta mencionar las metricas de evaluacion
 
-\subsection*{Evaluation Metrics}
-\subsubsection*{BLEU (Bilingual Evaluation Understudy)}
+\section{Evaluation Metrics}
+\subsection{BLEU (Bilingual Evaluation Understudy)}
 
 The BLEU metric is a widely-used method for evaluating the quality of text which has been machine-translated from one language to another. BLEU measures the correspondence between a machine's output and that of a human by calculating the precision of n-grams (sequences of words) in the generated text relative to a reference translation. Mathematically, the BLEU score is calculated using the formula:
 \[
@@ -63,7 +63,7 @@ e^{(1-\frac{r}{c})} & \text{if } c \leq r
 \]
 where \( c \) is the length of the candidate translation and \( r \) is the length of the reference translation \cite{Reiter2018A}.
 
-\subsubsection*{ROUGE (Recall-Oriented Understudy for Gisting Evaluation)}
+\subsection{ROUGE (Recall-Oriented Understudy for Gisting Evaluation)}
 
 ROUGE is a set of metrics used for evaluating automatic summarization and machine translation that measures the overlap between the generated output and a reference output. Key variants include ROUGE-N, ROUGE-L, and ROUGE-W.
 
@@ -83,7 +83,7 @@ ROUGE is a set of metrics used for evaluating automatic summarization and machin
     \item \textbf{ROUGE-1 and ROUGE-2}: Specifically measure the overlap of unigrams and bigrams, respectively, between the candidate and reference summaries \cite{Ganesan2015ROUGE}.
 \end{enumerate}
 
-\subsubsection*{METEOR (Metric for Evaluation of Translation with Explicit ORdering)}
+\subsection{METEOR (Metric for Evaluation of Translation with Explicit ORdering)}
 
 METEOR evaluates translations by aligning them to human-created reference translations using various modules such as exact matching, stemming, synonymy matching, and paraphrase matching. The final score is a harmonic mean of unigram precision and recall, favoring recall:
 \[
@@ -97,11 +97,11 @@ where:
 
 This metric also incorporates a penalty function for longer alignment chunks to address issues of word ordering \cite{Agarwal2008Meteor}.
 
-\subsection*{Hallucination in NLP}
+\section{Hallucination in NLP}
 
 Hallucination in Natural Language Processing (NLP) refers to the phenomenon where a language model generates text that is not supported by the input data or factual reality \cite{venkit2024confidently}. This issue is prevalent in various NLP tasks such as machine translation, text summarization, and dialogue systems \cite{agrawal2024language}. Hallucinations can degrade the quality and reliability of the generated text, making it crucial to detect and mitigate them effectively \cite{Ji2022Survey}.
 
-\subsubsection*{Types of Hallucinations}
+\subsection{Types of Hallucinations}
 
 Hallucinations in NLP can be broadly classified into intrinsic and extrinsic types:
 \begin{itemize}
@@ -109,7 +109,7 @@ Hallucinations in NLP can be broadly classified into intrinsic and extrinsic typ
     \item \textbf{Extrinsic Hallucinations} happen when the generated content diverges from the source data or factual information \cite{Huang2023A}.
 \end{itemize}
 
-\subsubsection*{Calculating the Percentage of Hallucinations}
+\subsection{Calculating the Percentage of Hallucinations}
 
 To quantify hallucinations in generated text, a systematic approach involves calculating the percentage of hallucinated content. This can be done using the following method:
 \begin{enumerate}

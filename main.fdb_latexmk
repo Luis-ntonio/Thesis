@@ -1,26 +1,26 @@
 # Fdb version 4
-["bibtex main"] 1717372255.08633 "main.aux" "main.bbl" "main" 1717372265.71896 0
+["bibtex main"] 1718600774.52581 "main.aux" "main.bbl" "main" 1718600777.05797 0
   "./references.bib" 1717368732 31242 62cad7348a4bf6783cbeda46e87ee084 ""
   "c:/texlive/2024/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1715541997 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1717372264 5142 871e461c70bc7825cd0a8563d5ec90bb "pdflatex"
+  "main.aux" 1718600776 8882 f11ba2db6d60a0ca95284188fb2c4147 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1717372263.57233 "c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main.tex" "main.pdf" "main" 1717372265.71944 0
+["pdflatex"] 1718600774.90986 "c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main.tex" "main.pdf" "main" 1718600777.05833 0
   "Chapter1/1_1Introduction.tex" 1717371807 2654 be13559c1ebc6db57f07eaa653d5c5ca ""
   "Chapter1/1_2Problem.tex" 1716390956 861 5f1fc83f35926f0d789880e4ca43e9bd ""
   "Chapter1/1_3Justification.tex" 1717371875 478 1fde44cbb5e3244a69ee4887b7fd6ca9 ""
-  "Chapter1/1_4Objetivos.tex" 1717372062 711 16fd82815771534c4296969287157e27 ""
+  "Chapter1/1_4Objetivos.tex" 1718600661 709 cde5e1f163301c22a1bb5678abf643c3 ""
   "Chapter1/1_5Aportes.tex" 1716391870 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Chapter2_3/2_theoric.tex" 1717368767 13154 b47658aa7feabac4c2b8e3eb3ee253be ""
-  "Chapter2_3/3_state_of_the_art.tex" 1717372262 10046 399a07b6476b35d6059cd864204d8318 ""
+  "Chapter2_3/2_theoric.tex" 1718600734 13090 8cd2a63eec87b534235e8993a7b32223 ""
+  "Chapter2_3/3_state_of_the_art.tex" 1718600771 10030 cf309e782ca17791fdc8ca93925ddc21 ""
   "Chapter4/4_1proposal.tex" 1715700203 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Chapter4/4_2methodology.tex" 1715700205 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Chapter5/5_1experiments.tex" 1715700252 97 e8e68527af7f225a5358e7bb732de0c5 ""
   "Chapter6/6_1conclusions.tex" 1715700211 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Chapter6/6_2futuros.tex" 1715700209 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main.tex" 1716394955 4395 806a4fee08638d4c570258a15c07d616 ""
+  "c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main.tex" 1718600636 4389 e6afe69fd18d9d551a93ea3dffd5ebd7 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1715539437 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1715541143 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1715540410 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -286,11 +286,11 @@
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1715549137 8225107 cde4c0f032126121104b219ceae83f1c ""
   "c:/texlive/2024/texmf.cnf" 1715548924 713 e69b156964470283e0530f5060668171 ""
   "images/logo.png" 1715535914 6097 646162c1b5e32a1635c62354b7a757df ""
-  "main.aux" 1717372264 5142 871e461c70bc7825cd0a8563d5ec90bb "pdflatex"
-  "main.bbl" 1717372255 13517 35afb22b5595c7ec123d8ed12c5cc2d2 "bibtex main"
-  "main.out" 1717372264 1448 4e77115f6b462d36aeff033b8b922faf "pdflatex"
-  "main.tex" 1716394955 4395 806a4fee08638d4c570258a15c07d616 ""
-  "main.toc" 1717372264 753 ce732c7fc515d0f625f17e7ec5d37723 "pdflatex"
+  "main.aux" 1718600776 8882 f11ba2db6d60a0ca95284188fb2c4147 "pdflatex"
+  "main.bbl" 1718600774 13517 35afb22b5595c7ec123d8ed12c5cc2d2 "bibtex main"
+  "main.out" 1718600776 6789 25487d991b1f4c314819fb469a0138ec "pdflatex"
+  "main.tex" 1718600636 4389 e6afe69fd18d9d551a93ea3dffd5ebd7 ""
+  "main.toc" 1718600776 3266 4644127dc20d1c7b703535e633ce3ccf "pdflatex"
   (generated)
   "main.aux"
   "main.log"
