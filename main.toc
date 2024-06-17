@@ -3,36 +3,36 @@
 \contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Problem Description}{4}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Motivation}{4}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Objectives}{4}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Genetal Objective}{4}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.4}Objectives}{5}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Genetal Objective}{5}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Specific Objectives}{5}{subsection.1.4.2}%
-\contentsline {section}{\numberline {1.5}Aportes}{5}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Theoretical Framework}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}E-commerce Product-related Databases}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Large Language Models (LLMs)}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Fine Tuning}{7}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Mathematical Framework}{7}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Operational Fine-Tunings}{7}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Sample Complexity and Generalization}{8}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Gradient-Based Fine-Tuning}{8}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Computational Efficiency}{8}{subsection.2.3.5}%
-\contentsline {section}{\numberline {2.4}JSON-Tuning}{8}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Evaluation Metrics}{9}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}BLEU (Bilingual Evaluation Understudy)}{9}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}ROUGE (Recall-Oriented Understudy for Gisting Evaluation)}{9}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}METEOR (Metric for Evaluation of Translation with Explicit ORdering)}{10}{subsection.2.5.3}%
-\contentsline {section}{\numberline {2.6}Hallucination in NLP}{10}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Types of Hallucinations}{11}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Calculating the Percentage of Hallucinations}{11}{subsection.2.6.2}%
-\contentsline {chapter}{\numberline {3}State of the Art}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Pretrained models}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Estructured data models}{13}{section.3.2}%
-\contentsline {section}{\numberline {3.3}E-commerce models}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Metrics for evaluation of performance in LLM models}{15}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Metodología}{16}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Descripción de la Metodología}{16}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Experimentaciones y Resultados}{17}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Experimentos y Resultados}{17}{section.5.1}%
-\contentsline {chapter}{\numberline {6}Conclusiones y Trabajos Futuros}{18}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{18}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Trabajos Futuros}{18}{section.6.2}%
+\contentsline {section}{\numberline {1.5}Aportes}{6}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Theoretical Framework}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}E-commerce Product-related Databases}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Large Language Models (LLMs)}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Fine Tuning}{8}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Mathematical Framework}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Operational Fine-Tunings}{8}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Sample Complexity and Generalization}{9}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Gradient-Based Fine-Tuning}{9}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Computational Efficiency}{9}{subsection.2.3.5}%
+\contentsline {section}{\numberline {2.4}JSON-Tuning}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Evaluation Metrics}{10}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}BLEU (Bilingual Evaluation Understudy)}{10}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}ROUGE (Recall-Oriented Understudy for Gisting Evaluation)}{10}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}METEOR (Metric for Evaluation of Translation with Explicit ORdering)}{11}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Hallucination in NLP}{11}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Types of Hallucinations}{12}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Calculating the Percentage of Hallucinations}{12}{subsection.2.6.2}%
+\contentsline {chapter}{\numberline {3}State of the Art}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Pretrained models}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Estructured data models}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}E-commerce models}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Metrics for evaluation of performance in LLM models}{16}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Metodología}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Descripción de la Metodología}{17}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Experimentaciones y Resultados}{18}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Experimentos y Resultados}{18}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Conclusiones y Trabajos Futuros}{19}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{19}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Trabajos Futuros}{19}{section.6.2}%

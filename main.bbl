@@ -53,8 +53,42 @@ A.~Singha, J.~Cambronero, S.~Gulwani, V.~Le, and C.~Parnin, ``Tabular representa
 \bibitem{gao2024jsontuning}
 C.~Gao, W.~Zhang, G.~Chen, and W.~Lam, ``Jsontuning: Towards generalizable, robust, and controllable instruction tuning,'' 2024.
 
+\bibitem{mumtaz2024llmshealthcare}
+U.~Mumtaz, A.~Ahmed, and S.~Mumtaz, ``Llms-healthcare : Current applications and challenges of large language models in various medical specialties,'' 2024.
+
+\bibitem{10.1093/bioinformatics/btz682}
+\BIBentryALTinterwordspacing
+J.~Lee, W.~Yoon, S.~Kim, D.~Kim, S.~Kim, C.~H. So, and J.~Kang, ``{BioBERT: a pre-trained biomedical language representation model for biomedical text mining},'' \emph{Bioinformatics}, vol.~36, no.~4, pp. 1234--1240, 09 2019. [Online]. Available: \url{https://doi.org/10.1093/bioinformatics/btz682}
+\BIBentrySTDinterwordspacing
+
+\bibitem{zhao2024revolutionizing}
+H.~Zhao, Z.~Liu, Z.~Wu, Y.~Li, T.~Yang, P.~Shu, S.~Xu, H.~Dai, L.~Zhao, G.~Mai, N.~Liu, and T.~Liu, ``Revolutionizing finance with llms: An overview of applications and insights,'' 2024.
+
 \bibitem{macková2023promap}
 K.~Macková and M.~Pilát, ``Promap: Datasets for product mapping in e-commerce,'' 2023.
+
+\bibitem{liu2019roberta}
+Y.~Liu, M.~Ott, N.~Goyal, J.~Du, M.~Joshi, D.~Chen, O.~Levy, M.~Lewis, L.~Zettlemoyer, and V.~Stoyanov, ``Roberta: A robustly optimized bert pretraining approach,'' 2019.
+
+\bibitem{rfc8259}
+\BIBentryALTinterwordspacing
+T.~Bray, ``{The JavaScript Object Notation (JSON) Data Interchange Format},'' RFC 8259, Dec. 2017. [Online]. Available: \url{https://www.rfc-editor.org/info/rfc8259}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ling2024domain}
+C.~Ling, X.~Zhao, J.~Lu, C.~Deng, C.~Zheng, J.~Wang, T.~Chowdhury, Y.~Li, H.~Cui, X.~Zhang, T.~Zhao, A.~Panalkar, D.~Mehta, S.~Pasquali, W.~Cheng, H.~Wang, Y.~Liu, Z.~Chen, H.~Chen, C.~White, Q.~Gu, J.~Pei, C.~Yang, and L.~Zhao, ``Domain specialization as the key to make large language models disruptive: A comprehensive survey,'' 2024.
+
+\bibitem{vaswani2023attention}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez, L.~Kaiser, and I.~Polosukhin, ``Attention is all you need,'' 2023.
+
+\bibitem{Wang2023Emotional}
+X.~Wang, X.~Li, Z.~Yin, Y.~Wu, L.~J.~D. of~PsychologyTsinghua Laboratory~of Brain, Intelligence, T.~University, D.~Psychology, and R.~University, ``Emotional intelligence of large language models,'' \emph{ArXiv}, vol. abs/2307.09042, 2023.
+
+\bibitem{Duong2023Analysis}
+D.~Duong and B.~D. Solomon, ``Analysis of large-language model versus human performance for genetics questions,'' \emph{medRxiv : the preprint server for health sciences}, 2023.
+
+\bibitem{Suri2023Do}
+G.~Suri, L.~R. Slater, A.~Ziaee, and M.~Nguyen, ``Do large language models show decision heuristics similar to humans? a case study using gpt-3.5,'' \emph{ArXiv}, vol. abs/2305.04400, 2023.
 
 \bibitem{Muntjir2016}
 \BIBentryALTinterwordspacing
