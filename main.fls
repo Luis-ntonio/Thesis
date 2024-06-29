@@ -1,8 +1,8 @@
-PWD c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez
+PWD c:/Users/lagg1/Documents/UTEC/2024-1/PFC2/Thesis
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main.tex
+INPUT c:/Users/lagg1/Documents/UTEC/2024-1/PFC2/Thesis/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/report.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/report.cls
@@ -480,15 +480,16 @@ INPUT ./Chapter4/4_1proposal.tex
 INPUT Chapter4/4_1proposal.tex
 INPUT ./Chapter4/4_1proposal.tex
 INPUT Chapter4/4_1proposal.tex
-INPUT ./Chapter4/4_2methodology.tex
-INPUT Chapter4/4_2methodology.tex
-INPUT ./Chapter4/4_2methodology.tex
-INPUT Chapter4/4_2methodology.tex
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./images/Methodology.jpg
 INPUT ./images/Methodology.jpg
 INPUT images/Methodology.jpg
 INPUT ./images/Methodology.jpg
 INPUT ./images/Methodology.jpg
+INPUT ./Chapter4/4_2methodology.tex
+INPUT Chapter4/4_2methodology.tex
+INPUT ./Chapter4/4_2methodology.tex
+INPUT Chapter4/4_2methodology.tex
 INPUT ./Chapter5/5_1experiments.tex
 INPUT Chapter5/5_1experiments.tex
 INPUT ./Chapter5/5_1experiments.tex
@@ -504,7 +505,6 @@ INPUT Chapter6/6_2futuros.tex
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
