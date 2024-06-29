@@ -296,6 +296,8 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/bbold/bbold.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/bbold/bbold.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -482,6 +484,11 @@ INPUT ./Chapter4/4_2methodology.tex
 INPUT Chapter4/4_2methodology.tex
 INPUT ./Chapter4/4_2methodology.tex
 INPUT Chapter4/4_2methodology.tex
+INPUT ./images/Methodology.jpg
+INPUT ./images/Methodology.jpg
+INPUT images/Methodology.jpg
+INPUT ./images/Methodology.jpg
+INPUT ./images/Methodology.jpg
 INPUT ./Chapter5/5_1experiments.tex
 INPUT Chapter5/5_1experiments.tex
 INPUT ./Chapter5/5_1experiments.tex
