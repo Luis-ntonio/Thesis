@@ -24,27 +24,30 @@
 \contentsline {section}{\numberline {2.6}Hallucination in NLP}{11}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Types of Hallucinations}{12}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}Calculating the Percentage of Hallucinations}{12}{subsection.2.6.2}%
-\contentsline {chapter}{\numberline {3}State of the Art}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Pretrained models}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Estructured data models}{14}{section.3.2}%
-\contentsline {section}{\numberline {3.3}E-commerce models}{15}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Metrics for evaluation of performance in LLM models}{16}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Metodología}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Methodology}{17}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Methodology Descripttion}{18}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Data Collection}{18}{subsection.4.2.1}%
-\contentsline {subsubsection}{Data Sources}{18}{section*.4}%
-\contentsline {subsubsection}{Data Format}{19}{section*.7}%
-\contentsline {subsubsection}{Data Cleaning Process}{21}{section*.8}%
-\contentsline {subsubsection}{Normalization}{21}{section*.9}%
-\contentsline {subsubsection}{Data Removal}{21}{section*.10}%
-\contentsline {subsubsection}{Split data}{22}{section*.11}%
-\contentsline {subsubsection}{Prompt structuration}{22}{section*.12}%
-\contentsline {subsection}{\numberline {4.2.2}Model Fine-Tuning}{23}{subsection.4.2.2}%
-\contentsline {subsubsection}{Hyperparameter Selection}{23}{section*.13}%
-\contentsline {subsection}{\numberline {4.2.3}Model Evaluation}{24}{subsection.4.2.3}%
-\contentsline {chapter}{\numberline {5}Experimentaciones y Resultados}{25}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Experimentos y Resultados}{25}{section.5.1}%
-\contentsline {chapter}{\numberline {6}Conclusiones y Trabajos Futuros}{26}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{26}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Trabajos Futuros}{26}{section.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Resume}{12}{subsection.2.6.3}%
+\contentsline {chapter}{\numberline {3}State of the Art}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Pretrained models}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Estructured data models}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}E-commerce models}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Metrics for evaluation of performance in LLM models}{17}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Resume}{17}{subsection.3.4.1}%
+\contentsline {chapter}{\numberline {4}Methodology}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Methodology}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Methodology Descripttion}{20}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}ETL Data}{20}{subsection.4.2.1}%
+\contentsline {subsubsection}{Data Sources}{20}{section*.4}%
+\contentsline {subsubsection}{Data Format}{21}{section*.7}%
+\contentsline {subsubsection}{Data Cleaning Process}{23}{section*.8}%
+\contentsline {paragraph}{Normalization}{23}{section*.9}%
+\contentsline {paragraph}{Data Removal}{23}{section*.10}%
+\contentsline {subsubsection}{Split data}{23}{section*.11}%
+\contentsline {subsubsection}{Prompt structuration}{24}{section*.12}%
+\contentsline {subsection}{\numberline {4.2.2}Model Fine-Tuning}{25}{subsection.4.2.2}%
+\contentsline {subsubsection}{Hyperparameter Selection}{25}{section*.13}%
+\contentsline {subsection}{\numberline {4.2.3}Model Evaluation}{25}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Resume}{26}{subsection.4.2.4}%
+\contentsline {chapter}{\numberline {5}Experimentaciones y Resultados}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Experimentos y Resultados}{27}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Conclusiones y Trabajos Futuros}{28}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{28}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Trabajos Futuros}{28}{section.6.2}%

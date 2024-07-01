@@ -483,7 +483,6 @@ INPUT ./Chapter4/4_1proposal.tex
 INPUT Chapter4/4_1proposal.tex
 INPUT ./Chapter4/4_1proposal.tex
 INPUT Chapter4/4_1proposal.tex
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./images/Methodology.jpg
 INPUT ./images/Methodology.jpg
 INPUT images/Methodology.jpg
@@ -507,6 +506,11 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT ./images/evaluation_structure.jpg
+INPUT ./images/evaluation_structure.jpg
+INPUT images/evaluation_structure.jpg
+INPUT ./images/evaluation_structure.jpg
+INPUT ./images/evaluation_structure.jpg
 INPUT ./Chapter5/5_1experiments.tex
 INPUT Chapter5/5_1experiments.tex
 INPUT ./Chapter5/5_1experiments.tex
@@ -522,6 +526,7 @@ INPUT Chapter6/6_2futuros.tex
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
