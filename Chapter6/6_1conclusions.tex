@@ -1,0 +1,16 @@
+\section{Conclusions}
+This research compares the efficiency of mobile product review generation among different language models. To assess the performance of the fine-tuned models, two methods of evaluation and comparison were proposed.
+\\\\
+The first experiment involved assessing the models' ability to generate mobile product reviews using commonly used metrics: BLEU, ROUGE, and METEOR. To achieve this, three language models were fine-tuned: Llama2, StructLM, and Mistral\_Instruct. The models were fine-tuned using a dataset of mobile product reviews generated from the pricebaba website.
+\\\\
+The first issue encountered was the Kaggle restriction on continuous GPU use, which limited the number of experiments that could be conducted. To address this issue, the size of the training and test dataset was limited to 1000 examples each.
+\\\\
+The results show that the trained Mistral\_Instruct model achieves the best results across all three metrics, followed by the trained StructLM model, and finally the trained Llama2 model. In all cases, it was observed that the fine-tuned models performed better than the base models. This is to be expected; however, it is important to highlight the significantly higher differences in the evaluation metrics between the base models and the fine-tuned models.
+\\\\
+The second method of evaluating the models involved assessing model hallucination. For this, three metrics were considered: key-value match, key match, and value match.
+\\\\
+The results show that the trained Mistral\_Instruct model performs best across the three metrics considered for hallucination, followed by the trained StructLM model and finally the trained Llama2 model. However, the results indicate that the hallucination levels of the models are high according to these values, which could suggest that the models do not generate mobile product reviews that are coherent with the given instructions.
+\\\\
+Nevertheless, a manual review of the generated reviews shows that the models produce reviews that are coherent with the given instructions. Therefore, it is concluded that hallucination metrics are not sufficient to evaluate the coherence of the generated reviews.
+\\\\
+In conclusion, it is hoped that the results of this research will be useful for future investigations in the field of natural language generation. Additionally, it is expected that the results will be useful for generating mobile product reviews and can be scalable to other products. With this in mind, possible future research directions based on the results of this research will be provided next.
