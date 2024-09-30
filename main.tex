@@ -82,6 +82,25 @@
       {[}{{{\color{orange}[}}}{1}
       {]}{{{\color{orange}]}}}{1},
 }
+\definecolor{softgreen}{RGB}{144,238,144} 
+\lstdefinestyle{python}{
+    language=Python,
+    basicstyle=\ttfamily\small,   % Font style and size
+    keywordstyle=\color{blue},    % Keywords in blue
+    commentstyle=\color{softgreen},   % Comments in green
+    stringstyle=\color{red},      % Strings in red
+    numberstyle=\tiny\color{gray}, % Line numbers in gray and tiny 
+    frame=single,                 % Adds a frame around the code
+    backgroundcolor=\color{white},% Background color
+    showspaces=false,             % Don't show spaces
+    showstringspaces=false,       % Don't show spaces in strings
+    showtabs=false,               % Don't show tabs
+    tabsize=1,                    % Tab size 
+    breaklines=true,              % Break long lines
+    breakatwhitespace=false,      % Break at whitespace if needed
+    escapeinside={\%*}{*)},       % Escape to LaTeX within the code
+    morekeywords={self}           % Additional keywords to highlight
+}
 
 \usepackage{amsmath, amssymb, latexsym}
 \usepackage{sidecap} 
@@ -169,7 +188,7 @@
 
         Lima - Perú
         \\
-        2023
+        2024
 
     \end{center}
 \end{titlepage}
@@ -240,12 +259,11 @@
 
 %---------- Capítulo  Conclusiones -----------------
 
-\chapter{Conclusiones y Trabajos Futuros}
+%\chapter{Conclusiones y Trabajos Futuros}
 %\import{}{Prevconclusions.tex}
 
- \import{}{Chapter6/6_1conclusions.tex}
-
- \import{}{Chapter6/6_2futuros.tex}
+ %\import{}{Chapter6/6_1conclusions.tex}
+% \import{}{Chapter6/6_2futuros.tex}
 
 %\hline
 %\LARGE

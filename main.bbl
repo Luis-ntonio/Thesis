@@ -155,20 +155,55 @@ K.~A. Ganesan, ``Rouge 2.0: Updated and improved measures for evaluation of summ
 \bibitem{Agarwal2008Meteor}
 A.~Agarwal and A.~Lavie, ``Meteor, m-bleu and m-ter: Evaluation metrics for high-correlation with human rankings of machine translation output,'' \emph{ArXiv}, pp. 115--118, 2008.
 
-\bibitem{venkit2024confidently}
-P.~N. Venkit, T.~Chakravorti, V.~Gupta, H.~Biggs, M.~Srinath, K.~Goswami, S.~Rajtmajer, and S.~Wilson, ``"confidently nonsensical?'': A critical survey on the perspectives and challenges of 'hallucinations' in nlp,'' 2024.
+\bibitem{lyu2024faithfulmodelexplanationnlp}
+\BIBentryALTinterwordspacing
+Q.~Lyu, M.~Apidianaki, and C.~Callison-Burch, ``Towards faithful model explanation in nlp: A survey,'' 2024. [Online]. Available: \url{https://arxiv.org/abs/2209.11326}
+\BIBentrySTDinterwordspacing
 
-\bibitem{agrawal2024language}
-A.~Agrawal, M.~Suzgun, L.~Mackey, and A.~T. Kalai, ``Do language models know when they're hallucinating references?'' 2024.
+\bibitem{madsen-etal-2022-evaluating}
+\BIBentryALTinterwordspacing
+A.~Madsen, N.~Meade, V.~Adlakha, and S.~Reddy, ``Evaluating the faithfulness of importance measures in {NLP} by recursively masking allegedly important tokens and retraining,'' in \emph{Findings of the Association for Computational Linguistics: EMNLP 2022}, Y.~Goldberg, Z.~Kozareva, and Y.~Zhang, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Abu Dhabi, United Arab Emirates: Association for Computational Linguistics, Dec. 2022, pp. 1731--1751. [Online]. Available: \url{https://aclanthology.org/2022.findings-emnlp.125}
+\BIBentrySTDinterwordspacing
 
-\bibitem{Ji2022Survey}
-Z.~Ji, N.~Lee, R.~Frieske, T.~Yu, D.~Su, Y.~Xu, E.~Ishii, Y.~Bang, W.~Dai, A.~Madotto, and P.~Fung, ``Survey of hallucination in natural language generation,'' \emph{ACM Computing Surveys}, vol.~55, pp. 1 -- 38, 2022.
+\bibitem{yin2022sensitivitystabilitymodelinterpretations}
+\BIBentryALTinterwordspacing
+F.~Yin, Z.~Shi, C.-J. Hsieh, and K.-W. Chang, ``On the sensitivity and stability of model interpretations in nlp,'' 2022. [Online]. Available: \url{https://arxiv.org/abs/2104.08782}
+\BIBentrySTDinterwordspacing
 
-\bibitem{Huang2023A}
-L.~Huang, W.~Yu, W.~Ma, W.~Zhong, Z.~Feng, H.~Wang, Q.~Chen, W.~Peng, X.~Feng, B.~Qin, and T.~Liu, ``A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions,'' \emph{ArXiv}, vol. abs/2311.05232, 2023.
+\bibitem{parcalabescu2024measuringfaithfulnessselfconsistencynatural}
+\BIBentryALTinterwordspacing
+L.~Parcalabescu and A.~Frank, ``On measuring faithfulness or self-consistency of natural language explanations,'' 2024. [Online]. Available: \url{https://arxiv.org/abs/2311.07466}
+\BIBentrySTDinterwordspacing
 
-\bibitem{Xiao2021On}
-Y.~Xiao and W.~Wang, ``On hallucination and predictive uncertainty in conditional language generation,'' \emph{ArXiv}, vol. abs/2103.15025, 2021.
+\bibitem{kim2024prometheus2opensource}
+\BIBentryALTinterwordspacing
+S.~Kim, J.~Suk, S.~Longpre, B.~Y. Lin, J.~Shin, S.~Welleck, G.~Neubig, M.~Lee, K.~Lee, and M.~Seo, ``Prometheus 2: An open source language model specialized in evaluating other language models,'' 2024. [Online]. Available: \url{https://arxiv.org/abs/2405.01535}
+\BIBentrySTDinterwordspacing
+
+\bibitem{gat2023faithfulexplanationsblackboxnlp}
+\BIBentryALTinterwordspacing
+Y.~Gat, N.~Calderon, A.~Feder, A.~Chapanin, A.~Sharma, and R.~Reichart, ``Faithful explanations of black-box nlp models using llm-generated counterfactuals,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2310.00603}
+\BIBentrySTDinterwordspacing
+
+\bibitem{jacovi-goldberg-2020-towards}
+\BIBentryALTinterwordspacing
+A.~Jacovi and Y.~Goldberg, ``Towards faithfully interpretable {NLP} systems: How should we define and evaluate faithfulness?'' in \emph{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}, D.~Jurafsky, J.~Chai, N.~Schluter, and J.~Tetreault, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Online: Association for Computational Linguistics, Jul. 2020, pp. 4198--4205. [Online]. Available: \url{https://aclanthology.org/2020.acl-main.386}
+\BIBentrySTDinterwordspacing
+
+\bibitem{yao2023predictinggeneralizationperformancecorrectness}
+\BIBentryALTinterwordspacing
+Y.~Yao and A.~Koller, ``Predicting generalization performance with correctness discriminators,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2311.09422}
+\BIBentrySTDinterwordspacing
+
+\bibitem{varshney-etal-2022-towards}
+\BIBentryALTinterwordspacing
+N.~Varshney, S.~Mishra, and C.~Baral, ``Towards improving selective prediction ability of {NLP} systems,'' in \emph{Proceedings of the 7th Workshop on Representation Learning for NLP}, S.~Gella, H.~He, B.~P. Majumder, B.~Can, E.~Giunchiglia, S.~Cahyawijaya, S.~Min, M.~Mozes, X.~L. Li, I.~Augenstein, A.~Rogers, K.~Cho, E.~Grefenstette, L.~Rimell, and C.~Dyer, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Dublin, Ireland: Association for Computational Linguistics, May 2022, pp. 221--226. [Online]. Available: \url{https://aclanthology.org/2022.repl4nlp-1.23}
+\BIBentrySTDinterwordspacing
+
+\bibitem{steen2023littlepushnlimodels}
+\BIBentryALTinterwordspacing
+J.~Steen, J.~Opitz, A.~Frank, and K.~Markert, ``With a little push, nli models can robustly and efficiently predict faithfulness,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2305.16819}
+\BIBentrySTDinterwordspacing
 
 \bibitem{chen-etal-2022-bert2bert}
 \BIBentryALTinterwordspacing

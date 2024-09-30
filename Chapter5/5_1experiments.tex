@@ -31,19 +31,13 @@ Table \ref{table:hyperparameters2} shows the hyperparameters used to train the m
 \end{table}
 
 \subsection{Issues Encountered with the Development Environment}
-During the training of the models, several issues were encountered with the development environment. Firstly, it was found that the \href{https://www.kaggle.com}{Kaggle} environment has a maximum continuous runtime of 12 hours per session, which limits the training time for the models. Secondly, it was found that the \href{https://colab.research.google.com}{Google Colab} environment has a memory limit of 12 GB, which restricts the size of the models that can be trained. As a result, the training data had to be reduced to 1000 examples to be able to train the models in the Kaggle environment. The selection of the examples was carried out as follows:
-
-\begin{enumerate}
-    \item \textbf{Training}: With the dataset sorted by the product's market release date, the data of the 1000 oldest products are chosen for training. That is, the products that were released to the market earlier.
-    \item \textbf{Testing}: With the dataset sorted by the product's market release date, the data of the 1000 most recent products are chosen for testing. That is, the products that were released to the market later.
-\end{enumerate}
-This data selection aims to prevent the models from already having the testing data in their memory due to their cutoff date, which could introduce bias in the model evaluation.
+During the training of the models, several issues were encountered with the development environment. Firstly, it was found that the Nvidia RTX 4070 Ti Super leaks in VRAM for the models if there where not quantizied. Secondly, the training time upscales 24h per model and more than 20h for testing each one. In order to find a solution for these problems it was necesary quantized the models to 4-bits.
 
 \section{Experiments}
 Tables \ref{table:results1}, \ref{table:results2}, and \ref{table:results3} show the results obtained by the trained models. In table \ref{table:results1}, the results obtained by the base LLAMA2 model vs. the trained one are shown. In table \ref{table:results2}, the results achieved by the base StructLM model vs. the trained one are shown. In table \ref{table:results3}, the results obtained by the base Mistral\_Instruct model vs. the trained one are shown.
 \begin{table}[H]
 \begin{tblr}{hline{1,2,Z} = 0.8pt, hline{3-Y} = 0.2pt, vlines,
-             colspec = {Q[c,m, 3.4em]
+             colspec = {Q[c,m, 5.4em]
                         Q[c,m, font=\fontfamily{qcr}]
                         X[c,m]},
              colsep  = 4pt,
@@ -54,22 +48,28 @@ Tables \ref{table:results1}, \ref{table:results2}, and \ref{table:results3} show
 
     &   LLAMA2 trained    &   LLAMA2 based\\
 \SetCell[r=1]{c}    
-Bleu &   37.21   &   0.99\\
+Bleu &   29.36\%   &    \\
 %
 \SetCell[r=1]{c}    
-Meteor &   156.56   &   29.45\\
+Meteor &   40.2\%   &   \\
 %
 \SetCell[r=1]{c}    
-Rouge-1 &   179.47   &   42.76\\
+Rouge-1 &   48.36\%   &   \\
 %
 \SetCell[r=1]{c}    
-Rouge-2 &   76.37   &   13.86\\
+Rouge-2 &   25.7\%   &   \\
 %
 \SetCell[r=1]{c}    
-Rouge-L &   133.70   &   35.84\\
+Rouge-L &   39.19\%   &   \\
 %
 \SetCell[r=1]{c}    
-RougeL-sum &   133.70   &   35.84\\
+RougeL-sum &   39.19\%   &   \\
+%
+\SetCell[r=1]{c}    
+Correctness &   61.53\%   &   \\
+%
+\SetCell[r=1]{c}    
+Faithfullness &   63.33\%   &   \\
 \end{tblr}
 \caption{Results of the LLAMA2 model base vs trained}
 \label{table:results1}
@@ -77,7 +77,7 @@ RougeL-sum &   133.70   &   35.84\\
 
 \begin{table}[H]
 \begin{tblr}{hline{1,2,Z} = 0.8pt, hline{3-Y} = 0.2pt, vlines,
-             colspec = {Q[c,m, 3.4em]
+             colspec = {Q[c,m, 5.4em]
                         Q[c,m, font=\fontfamily{qcr}]
                         X[c,m]},
              colsep  = 4pt,
@@ -88,22 +88,28 @@ RougeL-sum &   133.70   &   35.84\\
 
     &   StructLM trained    &   StructLM base\\
 \SetCell[r=1]{c}    
-Bleu &   45.11   &   3.73\\
+Bleu &   31.06\%   &   \\
 %
 \SetCell[r=1]{c}    
-Meteor &   239.99   &   59.52\\
+Meteor &   42.3\%   &   \\
 %
 \SetCell[r=1]{c}    
-Rouge-1 &   292.70   &   92.31\\
+Rouge-1 &   49.42\%   &   \\
 %
 \SetCell[r=1]{c}    
-Rouge-2 &   111.64   &   36.49\\
+Rouge-2 &   27.29\%   &   \\
 %
 \SetCell[r=1]{c}    
-Rouge-L &   221.54   &   71.81\\
+Rouge-L &   40.58\%   &   \\
 %
 \SetCell[r=1]{c}    
-RougeL-sum &   221.54   &   71.81\\
+RougeL-sum &   40.58\%   &   \\
+%
+\SetCell[r=1]{c}    
+Correctness &   69.71\%   &   \\
+%
+\SetCell[r=1]{c}    
+Faithfullness &   72.16\%   &   \\
 \end{tblr}
 \caption{Results of the StructLM model base vs trained}
 \label{table:results2}
@@ -111,7 +117,7 @@ RougeL-sum &   221.54   &   71.81\\
 
 \begin{table}[H]
 \begin{tblr}{hline{1,2,Z} = 0.8pt, hline{1-Y} = 0.2pt, vlines,
-             colspec = {Q[c,m, 3.4em]
+             colspec = {Q[c,m, 5.4em]
                         Q[c,m, font=\fontfamily{qcr}]
                         X[c,m]},
              colsep  = 4pt,
@@ -122,58 +128,36 @@ RougeL-sum &   221.54   &   71.81\\
 
     &   Mistral\_Instrcut trained    &   Mistral\_Instrcut base\\
 \SetCell[r=1]{c}    
-Bleu &   50.09   &   1.36\\
+Bleu &   38.89\%  &   \\
 %
 \SetCell[r=1]{c}    
-Meteor &   269.82   &   5.42\\
+Meteor &   49.43\%   &   \\
 %
 \SetCell[r=1]{c}    
-Rouge-1 &   306.23   &   8.55\\
+Rouge-1 &   56.64\%    &   \\
 %
 \SetCell[r=1]{c}    
-Rouge-2 &   124.34   &   4.05\\
+Rouge-2 &   35.51\%   &   \\
 %
 \SetCell[r=1]{c}    
-Rouge-L &   218.94   &   6.26\\
+Rouge-L &   48.32\%   &    \\
 %
 \SetCell[r=1]{c}    
-RougeL-sum &   218.93   &   6.26\\
+RougeL-sum &   48.32\%   &   \\
+%
+\SetCell[r=1]{c}    
+Correctness &   73.50\%   &   \\
+%
+\SetCell[r=1]{c}    
+Faithfullness &   76.92\%   &   \\
 \end{tblr}
 \caption{Results of the Mistral\_Instruct model base vs trained}
 \label{table:results3}
 \end{table}
-As can be seen in the results, the percentage performance of the trained models is superior to that of the base models. In the case of the LLAMA2 model, the performance of the trained model is 37.21 times superior to that of the base model. In the case of the StructLM model, the performance of the trained model is 45.11 times superior to that of the base model. Finally, in the case of the Mistral\_Instruct model, the performance of the trained model is 50.09 times superior to that of the base model. These results show that training the models with the consumer technology product dataset significantly improves their performance. Additionally, tables \ref{table:results4} show the percentage of hallucinations and omissions in the trained models.
-\begin{table}[H]
-    \begin{tblr}{hline{1,2,Z} = 0.8pt, hline{3-Y} = 0.2pt, vlines,
-                 colspec = {Q[c,m, 3.4em]
-                            Q[c,m, 8em]
-                            Q[c,m, font=\fontfamily{qcr}]
-                            Q[c,m, font=\fontfamily{qcr}]
-                            X[c,m, font=\fontfamily{qcr}]},
-                 colsep  = 4pt,
-                 row{1}  = {font=\bfseries, bg=gray!30},
-                 row{2-Z} = {1.5cm},
-                 }
-    
-    
-        &   Model   &   Key-values match    &   key-match & value match\\
-    \SetCell[r=3]{c}    
-    Train    &  LLAMA2               &   5.80\%       &   5.07\%    &   25.36\%\\
-            &  StructLM             &   7.59\%       &   3.16\%    &   24.05\%\\
-            &  Mistral\_Instruct    &   7.69\%       &   7.98\%    &   23.65\%\\
-    %
-    \SetCell[r=3]{c}    
-    Base    &  LLAMA2               &   TBD   &   TBD    &   TBD \\
-            &  StructLM             &   TBD   &   TBD    &   TBD \\
-            &  Mistral\_Instruct    &   TBD   &   TBD    &   TBD \\
-    \end{tblr}
-    \caption{Results of the Mistral\_Instruct model base vs trained}
-    \label{table:results4}
-\end{table}
-As can be seen, the matches of values and keys in the trained models are considerably low. Additionally, the matches of keys in the trained models are also low. However, the matches of values in the models are regular. The hallucinations in the base models have not yet been evaluated but are expected to be evaluated in future research. However, it is expected that hallucinations in the trained models will be less than in the base models in the same way that the evaluation metrics were better in the trained models than in the base models.
+As observed in the results, all the models demonstrate strong metrics for matching evaluation, particularly considering that their primary purpose is to generate human-like sentences. This characteristic complicates word-by-word evaluation. However, the metrics used to assess sentence responses faithfulness and correctness indicate favorable outcomes, with particularly strong performance from the Mistral\_Instruct model.
+%As can be seen in the results, the percentage performance of the trained models is superior to that of the base models. In the case of the LLAMA2 model, the performance of the trained model is 37.21 times superior to that of the base model. In the case of the StructLM model, the performance of the trained model is 45.11 times superior to that of the base model. Finally, in the case of the Mistral\_Instruct model, the performance of the trained model is 50.09 times superior to that of the base model. These results show that training the models with the consumer technology product dataset significantly improves their performance. 
 \subsection{Discussion}
-In the experiment, the performance of the trained models showed to be superior to that of the base models, especially the Mistral\_Instruct. However, the matches of keys and values in the trained models are lower than expected. This may be due to the amount of data with which the models were trained.
-\\\\
-The development environment presented problems with execution time and available memory. Therefore, the size of the training dataset had to be reduced. This may have affected the performance of the models. This idea is reinforced by the percentage of hallucination compared to the percentage of value matches.
+In the experiment, the trained models demonstrated partially positive results in generating reviews based on word-level metrics, with Mistral\_Instruct standing out. However, the model-based scores indicate that the LLMs successfully detected the key fields in the JSON specifications and generated accurate responses. Mistral\_Instruct outperformed the other models, particularly surpassing LLAMA2. This may be due to the fact that LLAMA2 was not initially designed for instruction-based queries.
+
 \subsection{Resume}
-This section outlines the experimental setup used to evaluate the proposed methodologies, including details about the hyperparameters and configurations of the trained models. The primary focus was to assess the performance differences between the base models and the specifically trained models using various metrics such as BLEU, METEOR, and ROUGE scores. The experiments demonstrated significant improvements in the trained models compared to the base models across all metrics, showcasing the effectiveness of the training process tailored to the consumer technology product dataset.
+This section outlines the experimental setup used to evaluate the proposed methodologies, including details about the hyperparameters and configurations of the trained models. The primary focus was to assess the performance differences between the base models and the specifically trained models using various metrics such as BLEU, METEOR, ROUGE, faithfullness and correctness scores. The experiments demonstrated significant improvements in the trained models all metrics, showcasing the effectiveness of the training process tailored to the consumer technology product dataset.
