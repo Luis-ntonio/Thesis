@@ -1,22 +1,22 @@
 # Fdb version 4
-["bibtex main"] 1727662547.52889 "main.aux" "main.bbl" "main" 1727662551.21175 0
+["bibtex main"] 1730872377.19791 "main.aux" "main.bbl" "main" 1730873115.66071 0
   "./references.bib" 1727661340 44315 7c0bc8f50e7c1805739fae406cd4d400 ""
   "c:/texlive/2024/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1715541997 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1727662550 15885 455189bdfd1d88594aa7d105015d8ad2 "pdflatex"
+  "main.aux" 1730873114 15885 a53f64f1616f3c080e3eeaae295ae1dd "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1727662547.9159 "c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main.tex" "main.pdf" "main" 1727662551.21249 0
+["pdflatex"] 1730873112.32238 "c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main.tex" "main.pdf" "main" 1730873115.66122 0
   "Chapter1/1_1Introduction.tex" 1718604204 2654 be13559c1ebc6db57f07eaa653d5c5ca ""
   "Chapter1/1_2Problem.tex" 1718603084 1945 e9df6bbc6dff34f497f2e1fab78f815c ""
   "Chapter1/1_3Justification.tex" 1727662492 1783 37bb0b7fbac0d844cb46b17ac3f1f341 ""
   "Chapter1/1_4Objetivos.tex" 1727654279 771 daa53f29d4ffb892bfacd712efcd5b72 ""
   "Chapter2_3/2_theoric.tex" 1727661336 15769 f63d81f49521fb0b63175c5ba5091690 ""
   "Chapter2_3/3_state_of_the_art.tex" 1727662435 12399 da61a0c8816318a010ecafc1b1d585bf ""
-  "Chapter4/4_1proposal.tex" 1727652173 1392 5f2498fa4cb8ba093fe860afe18c44e8 ""
+  "Chapter4/4_1proposal.tex" 1730873110 1390 5d843993235d72e0f295259c859c4aa0 ""
   "Chapter4/4_2methodology.tex" 1727659294 16561 736def5a56c6e3f00110cea6d3bf754b ""
-  "Chapter5/5_1experiments.tex" 1727659501 7479 17793fa08802d5fec1a558d28d2b5acd ""
+  "Chapter5/5_1experiments.tex" 1730868814 7636 acb27c33618960154a09d5486d211045 ""
   "c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main.tex" 1727662543 7503 11536e0feb00cdd69969487033e51506 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1715539437 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-rmm.enc" 1715546921 2434 8cf37f8d6de52317eb058102e1390ed0 ""
@@ -301,15 +301,15 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1715548942 5529302 90924f286bd62ce7380ad2a7c245cc29 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1715549137 8225107 cde4c0f032126121104b219ceae83f1c ""
   "c:/texlive/2024/texmf.cnf" 1715548924 713 e69b156964470283e0530f5060668171 ""
-  "images/Methodology.jpg" 1727652743 98905 2b91eed909d08349f0b08d2eed768f69 ""
+  "images/Methodology.jpg" 1730873006 115233 a6e0b14f8aa9d5037f6ac72ac5f87f79 ""
   "images/logo.png" 1715535914 6097 646162c1b5e32a1635c62354b7a757df ""
   "images/pricebaba_review_structure.png" 1719760528 83865 254baa3663fc449a11a4f2f4cb13c8e0 ""
   "images/pricebaba_spec_structure.png" 1719760917 81007 b4c484e3b74bf9d353f9c977953b8709 ""
-  "main.aux" 1727662550 15885 455189bdfd1d88594aa7d105015d8ad2 "pdflatex"
-  "main.bbl" 1727662547 19156 0d31feb7c0730ade3882db521337bdba "bibtex main"
-  "main.out" 1727662550 7272 58c8761fe3f0e07e38413e2885aabc5a "pdflatex"
+  "main.aux" 1730873114 15885 a53f64f1616f3c080e3eeaae295ae1dd "pdflatex"
+  "main.bbl" 1730872377 19156 0d31feb7c0730ade3882db521337bdba "bibtex main"
+  "main.out" 1730873114 7272 58c8761fe3f0e07e38413e2885aabc5a "pdflatex"
   "main.tex" 1727662543 7503 11536e0feb00cdd69969487033e51506 ""
-  "main.toc" 1727662550 4258 f076d7f8ea8d735d92aadb59380d1bd6 "pdflatex"
+  "main.toc" 1730873114 4258 f076d7f8ea8d735d92aadb59380d1bd6 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
