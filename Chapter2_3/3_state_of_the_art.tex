@@ -15,6 +15,25 @@ Moreover, the integration of synthetic data generation techniques using LLMs has
 \\\\
 Furthermore, the application of LLMs in structured data models extends beyond e-commerce, encompassing various domains such as job market analysis and resume classification. The use of LLMs for generating synthetic resume data has demonstrated their potential in rapidly creating high-quality training data, which is crucial for improving the performance of classification models in scenarios with limited real-world data \cite{skondras2023generating}. By leveraging LLMs' ability to understand and generate human-like text, these models can effectively extract and classify structured data, thereby enhancing the overall efficiency and accuracy of automated systems in various applications \cite{tang2024strucbench}.
 
+\section{Estructured datasets}
+In machine learning, structured datasets are crucial for tailoring large language models (LLMs). Datasets with structured formats like JSON, CSV, and TSV enable LLMs to efficiently handle and produce organized outputs, which is essential in applications that require precise data extraction, attribute recognition, and information structuring \cite{singha2023tabularrepresentationnoisyoperators}. JSON is particularly popular in these contexts due to its clear structure and compatibility with web-based applications, facilitating the management of complex data flows \cite{gao2024jsontuning}.
+
+Several structured datasets have been instrumental in advancing the field by providing well-organized data tailored to distinct applications:
+
+\begin{itemize}
+    \item \textbf{QTSUMM Dataset}: Created to support structured summarization and information retrieval, QTSUMM contains JSON-formatted entries organized in columns such as "table" (containing structured JSON data), "query" (specifying the data to retrieve), and "summary" (the desired output). The structure of QTSUMM enables LLMs to generate accurate summaries or responses based on structured input data, making it valuable for evaluating how well LLMs handle organized data \cite{zhao2023qtsummqueryfocusedsummarizationtabular}.
+    
+    \item \textbf{PROMAP Dataset}: Used for product attribute mapping in e-commerce, PROMAP is designed to standardize product details across different platforms. Its JSON entries help LLMs identify and generalize product attributes across various descriptions, improving interoperability on e-commerce sites \cite{macková2023promapdatasetsproductmapping}.
+    
+    \item \textbf{WikiTableT}: This dataset is specifically designed for table-based question-answering tasks, containing tabular data extracted from Wikipedia. It enables LLMs to process and respond to questions based on structured table inputs, a key capability for more complex knowledge retrieval tasks \cite{chen2021wikitabletlargescaledatatotextdataset}.
+    
+    \item \textbf{TabFact}: Structured for fact verification, TabFact pairs tables with statements that are either true or false, helping train models to verify factual accuracy based on structured data. This dataset is essential for tasks requiring high precision in information verification, helping reduce hallucinations in LLM outputs \cite{chen2020tabfactlargescaledatasettablebased}.
+\end{itemize}
+
+These structured datasets are particularly valuable in e-commerce applications, as they allow LLMs to extract and interpret product specifications, enhance search accuracy, and support recommendation systems by using JSON-formatted data to improve reviews, comparisons, and product recommendations. Additionally, synthetic data generation techniques have increased the versatility of structured datasets by addressing data scarcity and improving model generalization across a wider range of product attributes \cite{suri2023largelanguagemodelsdecision}.
+
+
+
 \section{E-commerce models}
 E-commerce recommendation systems and product description generation has advanced significantly with the integration of large language models (LLMs) such as BERT, LLAMA 2.0, and specialized adaptations like E-BERT, which have revolutionized natural language processing and artificial intelligence in this domain. Leveraging LLMs' capabilities, researchers have enhanced recommendation accuracy by incorporating user and item interactions, metadata, and multimodal signals, enabling better personalization and generalization across different recommendation scenarios \cite{xu2024emerging}. Specifically, E-BERT has shown promising results by incorporating phrase-level and product-level domain knowledge through techniques such as Adaptive Hybrid Masking and Neighbor Product Reconstruction, effectively improving tasks like review-based question answering, aspect extraction, and product classification \cite{zhang2021ebert}.
 \\\\

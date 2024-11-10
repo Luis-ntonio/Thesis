@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.12)  6 NOV 2024 12:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.13)  10 NOV 2024 15:34
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main.tex"
-(c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main.tex
+**c:/Users/lagg1/Documents/UTEC/2024-1/PFC2/Thesis/main.tex
+(c:/Users/lagg1/Documents/UTEC/2024-1/PFC2/Thesis/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
 (c:/texlive/2024/texmf-dist/tex/latex/base/report.cls
@@ -24,155 +24,6 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-)
-\lst@mode=\count198
-\lst@gtempboxa=\box51
-\lst@token=\toks18
-\lst@length=\count199
-\lst@currlwidth=\dimen141
-\lst@column=\count266
-\lst@pos=\count267
-\lst@lostspace=\dimen142
-\lst@width=\dimen143
-\lst@newlines=\count268
-\lst@lineno=\count269
-\lst@maxwidth=\dimen144
- (c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/03/11 1.10a (Carsten Heinz)
-) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
-\c@lstnumber=\count270
-\lst@skipnumbers=\count271
-\lst@framebox=\box52
-) (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/03/11 1.10a listings configuration
-))
-Package: listings 2024/03/11 1.10a (Carsten Heinz)
- (c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
-) (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/04/20 v24.4 The Babel package
-\babel@savecnt=\count272
-\U@D=\dimen145
-\l@unhyphenated=\language89
- (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count273
- (c:/texlive/2024/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language23). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language23). Reported on input line 108.
-)) (c:/texlive/2024/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 11.
-) (c:/texlive/2024/texmf-dist/tex/latex/import/import.sty
-Package: import 2020/04/01  v 6.2
-) (c:/texlive/2024/texmf-dist/tex/latex/tabularray/tabularray.sty (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-04-11 L3 programming layer (loader) 
- (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count274
-\l__pdf_internal_box=\box53
-))
-Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
-\l__tblr_a_int=\count275
-\l__tblr_c_int=\count276
-\l__tblr_r_int=\count277
-\l__tblr_d_dim=\dimen146
-\l__tblr_h_dim=\dimen147
-\l__tblr_o_dim=\dimen148
-\l__tblr_p_dim=\dimen149
-\l__tblr_q_dim=\dimen150
-\l__tblr_r_dim=\dimen151
-\l__tblr_s_dim=\dimen152
-\l__tblr_t_dim=\dimen153
-\l__tblr_v_dim=\dimen154
-\l__tblr_w_dim=\dimen155
-\l__tblr_a_box=\box54
-\l__tblr_b_box=\box55
-\l__tblr_c_box=\box56
-\l__tblr_d_box=\box57
-\g__tblr_table_count_int=\count278
-\c@rownum=\count279
-\c@colnum=\count280
-\c@rowcount=\count281
-\c@colcount=\count282
-\abovesep=\dimen156
-\belowsep=\dimen157
-\leftsep=\dimen158
-\rightsep=\dimen159
-\g_tblr_level_int=\count283
-\g__tblr_data_row_key_count_int=\count284
-\g__tblr_data_column_key_count_int=\count285
-\g__tblr_data_cell_key_count_int=\count286
-\g__tblr_array_int=\count287
-\l__tblr_key_count_int=\count288
-\l__tblr_key_quotient_int=\count289
-\l__tblr_key_quotient_two_int=\count290
-\l__tblr_key_remainder_int=\count291
-\g__tblr_data_str_value_count_int=\count292
-\rulewidth=\dimen160
-\l__tblr_strut_dp_dim=\dimen161
-\l__tblr_strut_ht_dim=\dimen162
-\g__tblr_cell_wd_dim=\dimen163
-\g__tblr_cell_ht_dim=\dimen164
-\g__tblr_cell_head_dim=\dimen165
-\g__tblr_cell_foot_dim=\dimen166
-\l__column_target_dim=\dimen167
-\l__tblr_caption_box=\box58
-\l__tblr_caption_left_box=\box59
-\l__tblr_row_head_box=\box60
-\l__tblr_row_foot_box=\box61
-\l__tblr_row_head_foot_dim=\dimen168
-\tablewidth=\dimen169
-\l__tblr_table_firsthead_box=\box62
-\l__tblr_table_middlehead_box=\box63
-\l__tblr_table_lasthead_box=\box64
-\l__tblr_table_firstfoot_box=\box65
-\l__tblr_table_middlefoot_box=\box66
-\l__tblr_table_lastfoot_box=\box67
-\l__tblr_remain_height_dim=\dimen170
-\l__tblr_long_from_int=\count293
-\l__tblr_long_to_int=\count294
-\l__tblr_curr_i_int=\count295
-\l__tblr_prev_i_int=\count296
-\l__tblr_table_page_int=\count297
-\l__tblr_table_head_box=\box68
-\l__tblr_table_foot_box=\box69
-\l__tblr_table_head_foot_dim=\dimen171
-\l__tblr_table_head_body_foot_dim=\dimen172
-\l__tblr_table_box=\box70
-\l__tblr_table_hlines_box=\box71
-\l__tblr_hline_box=\box72
-\l__tblr_row_box=\box73
-\l__tblr_col_o_wd_dim=\dimen173
-\l__tblr_col_b_wd_dim=\dimen174
-\l__tblr_hline_leftskip_dim=\dimen175
-\l__tblr_hline_rightskip_dim=\dimen176
-\l__tblr_row_ht_dim=\dimen177
-\l__tblr_row_dp_dim=\dimen178
-\l__tblr_row_abovesep_dim=\dimen179
-\l__tblr_row_belowsep_dim=\dimen180
-\l__tblr_row_vlines_box=\box74
-\l__tblr_vline_box=\box75
-\l__tblr_cell_box=\box76
-\l__row_upper_dim=\dimen181
-\l__row_lower_dim=\dimen182
-\l__row_vpace_dim=\dimen183
-\l__tblr_vline_aboveskip_dim=\dimen184
-\l__tblr_vline_belowskip_dim=\dimen185
-\l__tblr_cell_wd_dim=\dimen186
-\l__tblr_cell_ht_dim=\dimen187
-\l__tblr_diag_box=\box77
 ) (c:/texlive/2024/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
  (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
@@ -185,7 +36,10 @@ Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
 Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
  (c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrlogo.sty
 Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
-)))
+))) (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
 ) (c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -213,15 +67,23 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
  (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen188
-\Gin@req@width=\dimen189
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
 ) (c:/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
-)
-\c@svg@param@lastpage=\count298
-\svg@box=\box78
-\c@svg@param@currpage=\count299
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (c:/texlive/2024/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ (c:/texlive/2024/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
+\c@svg@param@lastpage=\count198
+\svg@box=\box51
+\c@svg@param@currpage=\count199
 ) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
  (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -245,41 +107,41 @@ Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color 
  (c:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ))) (c:/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks21
-\pgfutil@tempdima=\dimen190
-\pgfutil@tempdimb=\dimen191
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen143
+\pgfutil@tempdimb=\dimen144
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box79
+\pgfutil@abb=\box52
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 )) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks22
-\pgfkeys@temptoks=\toks23
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks24
+\pgfkeys@tmptoks=\toks21
 ))
-\pgf@x=\dimen192
-\pgf@y=\dimen193
-\pgf@xa=\dimen194
-\pgf@ya=\dimen195
-\pgf@xb=\dimen196
-\pgf@yb=\dimen197
-\pgf@xc=\dimen198
-\pgf@yc=\dimen199
-\pgf@xd=\dimen256
-\pgf@yd=\dimen257
+\pgf@x=\dimen145
+\pgf@y=\dimen146
+\pgf@xa=\dimen147
+\pgf@ya=\dimen148
+\pgf@xb=\dimen149
+\pgf@yb=\dimen150
+\pgf@xc=\dimen151
+\pgf@yc=\dimen152
+\pgf@xd=\dimen153
+\pgf@yd=\dimen154
 \w@pgf@writea=\write3
-\r@pgf@reada=\read3
-\c@pgf@counta=\count300
-\c@pgf@countb=\count301
-\c@pgf@countc=\count302
-\c@pgf@countd=\count303
-\t@pgf@toka=\toks25
-\t@pgf@tokb=\toks26
-\t@pgf@tokc=\toks27
-\pgf@sys@id@count=\count304
+\r@pgf@reada=\read2
+\c@pgf@counta=\count266
+\c@pgf@countb=\count267
+\c@pgf@countc=\count268
+\c@pgf@countd=\count269
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count270
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -290,11 +152,157 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count305
-\pgfsyssoftpath@bigbuffer@items=\count306
+\pgfsyssoftpath@smallbuffer@items=\count271
+\pgfsyssoftpath@bigbuffer@items=\count272
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+)) (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count273
+\lst@gtempboxa=\box53
+\lst@token=\toks25
+\lst@length=\count274
+\lst@currlwidth=\dimen155
+\lst@column=\count275
+\lst@pos=\count276
+\lst@lostspace=\dimen156
+\lst@width=\dimen157
+\lst@newlines=\count277
+\lst@lineno=\count278
+\lst@maxwidth=\dimen158
+ (c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/03/11 1.10a (Carsten Heinz)
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
+\c@lstnumber=\count279
+\lst@skipnumbers=\count280
+\lst@framebox=\box54
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/03/11 1.10a listings configuration
+))
+Package: listings 2024/03/11 1.10a (Carsten Heinz)
+ (c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+) (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/04/20 v24.4 The Babel package
+\babel@savecnt=\count281
+\U@D=\dimen159
+\l@unhyphenated=\language89
+ (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count282
+ (c:/texlive/2024/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language23). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language23). Reported on input line 108.
+)) (c:/texlive/2024/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (c:/texlive/2024/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+) (c:/texlive/2024/texmf-dist/tex/latex/tabularray/tabularray.sty (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-04-11 L3 programming layer (loader) 
+ (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count283
+\l__pdf_internal_box=\box55
+))
+Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count284
+\l__tblr_c_int=\count285
+\l__tblr_r_int=\count286
+\l__tblr_d_dim=\dimen160
+\l__tblr_h_dim=\dimen161
+\l__tblr_o_dim=\dimen162
+\l__tblr_p_dim=\dimen163
+\l__tblr_q_dim=\dimen164
+\l__tblr_r_dim=\dimen165
+\l__tblr_s_dim=\dimen166
+\l__tblr_t_dim=\dimen167
+\l__tblr_v_dim=\dimen168
+\l__tblr_w_dim=\dimen169
+\l__tblr_a_box=\box56
+\l__tblr_b_box=\box57
+\l__tblr_c_box=\box58
+\l__tblr_d_box=\box59
+\g__tblr_table_count_int=\count287
+\c@rownum=\count288
+\c@colnum=\count289
+\c@rowcount=\count290
+\c@colcount=\count291
+\abovesep=\dimen170
+\belowsep=\dimen171
+\leftsep=\dimen172
+\rightsep=\dimen173
+\g_tblr_level_int=\count292
+\g__tblr_data_row_key_count_int=\count293
+\g__tblr_data_column_key_count_int=\count294
+\g__tblr_data_cell_key_count_int=\count295
+\g__tblr_array_int=\count296
+\l__tblr_key_count_int=\count297
+\l__tblr_key_quotient_int=\count298
+\l__tblr_key_quotient_two_int=\count299
+\l__tblr_key_remainder_int=\count300
+\g__tblr_data_str_value_count_int=\count301
+\rulewidth=\dimen174
+\l__tblr_strut_dp_dim=\dimen175
+\l__tblr_strut_ht_dim=\dimen176
+\g__tblr_cell_wd_dim=\dimen177
+\g__tblr_cell_ht_dim=\dimen178
+\g__tblr_cell_head_dim=\dimen179
+\g__tblr_cell_foot_dim=\dimen180
+\l__column_target_dim=\dimen181
+\l__tblr_caption_box=\box60
+\l__tblr_caption_left_box=\box61
+\l__tblr_row_head_box=\box62
+\l__tblr_row_foot_box=\box63
+\l__tblr_row_head_foot_dim=\dimen182
+\tablewidth=\dimen183
+\l__tblr_table_firsthead_box=\box64
+\l__tblr_table_middlehead_box=\box65
+\l__tblr_table_lasthead_box=\box66
+\l__tblr_table_firstfoot_box=\box67
+\l__tblr_table_middlefoot_box=\box68
+\l__tblr_table_lastfoot_box=\box69
+\l__tblr_remain_height_dim=\dimen184
+\l__tblr_long_from_int=\count302
+\l__tblr_long_to_int=\count303
+\l__tblr_curr_i_int=\count304
+\l__tblr_prev_i_int=\count305
+\l__tblr_table_page_int=\count306
+\l__tblr_table_head_box=\box70
+\l__tblr_table_foot_box=\box71
+\l__tblr_table_head_foot_dim=\dimen185
+\l__tblr_table_head_body_foot_dim=\dimen186
+\l__tblr_table_box=\box72
+\l__tblr_table_hlines_box=\box73
+\l__tblr_hline_box=\box74
+\l__tblr_row_box=\box75
+\l__tblr_col_o_wd_dim=\dimen187
+\l__tblr_col_b_wd_dim=\dimen188
+\l__tblr_hline_leftskip_dim=\dimen189
+\l__tblr_hline_rightskip_dim=\dimen190
+\l__tblr_row_ht_dim=\dimen191
+\l__tblr_row_dp_dim=\dimen192
+\l__tblr_row_abovesep_dim=\dimen193
+\l__tblr_row_belowsep_dim=\dimen194
+\l__tblr_row_vlines_box=\box76
+\l__tblr_vline_box=\box77
+\l__tblr_cell_box=\box78
+\l__row_upper_dim=\dimen195
+\l__row_lower_dim=\dimen196
+\l__row_vpace_dim=\dimen197
+\l__tblr_vline_aboveskip_dim=\dimen198
+\l__tblr_vline_belowskip_dim=\dimen199
+\l__tblr_cell_wd_dim=\dimen256
+\l__tblr_cell_ht_dim=\dimen257
+\l__tblr_diag_box=\box79
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip50
 
@@ -862,49 +870,58 @@ LaTeX Warning: Label `code:prompt-structuration' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-\c@lstlisting=\count383
- (c:/texlive/2024/texmf-dist/tex/latex/ninecolors/ninecolors.sty
-Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
- (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-03-14 L3 Experimental document command parser
-)) (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count384
+\scratchcounter=\count383
 \scratchdimen=\dimen359
 \scratchbox=\box111
-\nofMPsegments=\count385
-\nofMParguments=\count386
+\nofMPsegments=\count384
+\nofMParguments=\count385
 \everyMPshowfont=\toks52
-\MPscratchCnt=\count387
+\MPscratchCnt=\count386
 \MPscratchDim=\dimen360
-\MPnumerator=\count388
-\makeMPintoPDFobject=\count389
+\MPnumerator=\count387
+\makeMPintoPDFobject=\count388
 \everyMPtoPDFconversion=\toks53
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (|'inkscape' -V )
+
+Package svg Warning: No version of Inkscape was detected by invoking
+(svg)                `inkscape -V'
+(svg)                so the Inkscape export will fail quite sure as the
+(svg)                command is probably unknown to your OS. You could set
+(svg)                `inkscapeversion=<version>' manually but this is very
+(svg)                unlikely to work on input line 150.
+
+\c@lstlisting=\count389
+(c:/texlive/2024/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
+ (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-03-14 L3 Experimental document command parser
 ))
-Package hyperref Info: Link coloring OFF on input line 149.
+Package hyperref Info: Link coloring OFF on input line 150.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -932,10 +949,10 @@ Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.11).
 
-<images/logo.png, id=252, 285.065pt x 178.6675pt>
+<images/logo.png, id=292, 285.065pt x 178.6675pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 163.
+Package pdftex.def Info: images/logo.png  used on input line 164.
 (pdftex.def)             Requested size: 184.94206pt x 115.91438pt.
 [1
 
@@ -974,56 +991,48 @@ Chapter 2.
 Chapter 3.
 (./Chapter2_3/3_state_of_the_art.tex [16
 
-] [17] [18] [19]) [20]
+] [17] [18] [19]) [20] [21]
 Chapter 4.
 (./Chapter4/4_1proposal.tex
-<images/Methodology.jpg, id=563, 827.09pt x 1217.54875pt>
+<images/Methodology.jpg, id=630, 563.10374pt x 574.145pt>
 File: images/Methodology.jpg Graphic file (type jpg)
 <use images/Methodology.jpg>
 Package pdftex.def Info: images/Methodology.jpg  used on input line 10.
-(pdftex.def)             Requested size: 369.88582pt x 544.51064pt.
+(pdftex.def)             Requested size: 284.52756pt x 290.10301pt.
+) [22
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 10--11
- [][] 
- []
-
-) [21
-
-]
-Overfull \vbox (16.51064pt too high) has occurred while \output is active []
-
- [22 <./images/Methodology.jpg>] (./Chapter4/4_2methodology.tex
-<images/pricebaba_review_structure.png, id=576, 755.07094pt x 446.41782pt>
+] (./Chapter4/4_2methodology.tex
+<images/pricebaba_review_structure.png, id=640, 755.07094pt x 446.41782pt>
 File: images/pricebaba_review_structure.png Graphic file (type png)
 <use images/pricebaba_review_structure.png>
-Package pdftex.def Info: images/pricebaba_review_structure.png  used on input line 9.
+Package pdftex.def Info: images/pricebaba_review_structure.png  used on input line 8.
 (pdftex.def)             Requested size: 341.43306pt x 201.86024pt.
-<images/pricebaba_spec_structure.png, id=579, 755.07094pt x 609.77812pt>
+<images/pricebaba_spec_structure.png, id=643, 755.07094pt x 609.77812pt>
 File: images/pricebaba_spec_structure.png Graphic file (type png)
 <use images/pricebaba_spec_structure.png>
-Package pdftex.def Info: images/pricebaba_spec_structure.png  used on input line 15.
+Package pdftex.def Info: images/pricebaba_spec_structure.png  used on input line 14.
 (pdftex.def)             Requested size: 341.43306pt x 275.72815pt.
- [23 <./images/pricebaba_review_structure.png>] [24 <./images/pricebaba_spec_structure.png>]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 24.
-LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 25.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 25.
+ [23 <./images/Methodology.jpg>] [24 <./images/pricebaba_review_structure.png> <./images/pricebaba_spec_structure.png>] [25]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 23.
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 24.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 24.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 25.
+(Font)              for symbol `textbraceleft' on input line 24.
 
-[25] [26]
-<images/qsumm_structure.png, id=675, 746.03719pt x 416.30531pt>
+[26] [27]
+<images/qsumm_structure.png, id=737, 746.03719pt x 416.30531pt>
 File: images/qsumm_structure.png Graphic file (type png)
 <use images/qsumm_structure.png>
-Package pdftex.def Info: images/qsumm_structure.png  used on input line 106.
+Package pdftex.def Info: images/qsumm_structure.png  used on input line 105.
 (pdftex.def)             Requested size: 341.43306pt x 190.5245pt.
- [27 <./images/qsumm_structure.png>] [28] [29] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+ [28 <./images/qsumm_structure.png>] [29] [30] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
-) [30] [31] [32] [33]) [34]
+) [31] [32] [33] [34]) [35]
 Chapter 5.
-(./Chapter5/5_1experiments.tex [35
+(./Chapter5/5_1experiments.tex [36
 
 ]
 > Step: init table outer spec.
@@ -1445,9 +1454,9 @@ Overfull \hbox (54.40034pt too wide) in paragraph at lines 60--61
 [][] 
  []
 
-[36{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-rmm.enc}]) (./main.bbl [37] [38
+[37{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-rmm.enc}]) (./main.bbl [38] [39
 
-] [39] [40] [41] [42] [43]) [44] (./main.aux)
+] [40] [41] [42] [43] [44]) [45] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -1460,21 +1469,21 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6B3CA62EFAB057F1537C3620194835C0;9093.
+(rerunfilecheck)             Checksum: F77722DD7994BADDFDE7F4E6CB9A29FE;10594.
  ) 
 Here is how much of TeX's memory you used:
- 45828 strings out of 474050
- 1079959 string characters out of 5746298
+ 45979 strings out of 474050
+ 1083418 string characters out of 5746298
  2344754 words of memory out of 5000000
- 67143 multiletter control sequences out of 15000+600000
+ 67270 multiletter control sequences out of 15000+600000
  567623 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,10n,117p,1328b,2354s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,10n,117p,1306b,2348s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qcrb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qcrr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (45 pages, 659333 bytes).
+Output written on main.pdf (46 pages, 592557 bytes).
 PDF statistics:
- 1071 PDF objects out of 1200 (max. 8388607)
- 938 compressed objects within 10 object streams
- 345 named destinations out of 1000 (max. 500000)
- 598 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1133 PDF objects out of 1200 (max. 8388607)
+ 999 compressed objects within 10 object streams
+ 351 named destinations out of 1000 (max. 500000)
+ 678 words of extra memory for PDF output out of 10000 (max. 10000000)
 

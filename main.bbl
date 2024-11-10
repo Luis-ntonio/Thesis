@@ -230,6 +230,36 @@ P.~Skondras, P.~Zervas, and G.~Tzimas, ``Generating synthetic resume data with l
 \bibitem{tang2024strucbench}
 X.~Tang, Y.~Zong, J.~Phang, Y.~Zhao, W.~Zhou, A.~Cohan, and M.~Gerstein, ``Struc-bench: Are large language models really good at generating complex structured data?'' 2024.
 
+\bibitem{singha2023tabularrepresentationnoisyoperators}
+\BIBentryALTinterwordspacing
+A.~Singha, J.~Cambronero, S.~Gulwani, V.~Le, and C.~Parnin, ``Tabular representation, noisy operators, and impacts on table structure understanding tasks in llms,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2310.10358}
+\BIBentrySTDinterwordspacing
+
+\bibitem{zhao2023qtsummqueryfocusedsummarizationtabular}
+\BIBentryALTinterwordspacing
+Y.~Zhao, Z.~Qi, L.~Nan, B.~Mi, Y.~Liu, W.~Zou, S.~Han, R.~Chen, X.~Tang, Y.~Xu, D.~Radev, and A.~Cohan, ``Qtsumm: Query-focused summarization over tabular data,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2305.14303}
+\BIBentrySTDinterwordspacing
+
+\bibitem{macková2023promapdatasetsproductmapping}
+\BIBentryALTinterwordspacing
+K.~Macková and M.~Pilát, ``Promap: Datasets for product mapping in e-commerce,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2309.06882}
+\BIBentrySTDinterwordspacing
+
+\bibitem{chen2021wikitabletlargescaledatatotextdataset}
+\BIBentryALTinterwordspacing
+M.~Chen, S.~Wiseman, and K.~Gimpel, ``Wikitablet: A large-scale data-to-text dataset for generating wikipedia article sections,'' 2021. [Online]. Available: \url{https://arxiv.org/abs/2012.14919}
+\BIBentrySTDinterwordspacing
+
+\bibitem{chen2020tabfactlargescaledatasettablebased}
+\BIBentryALTinterwordspacing
+W.~Chen, H.~Wang, J.~Chen, Y.~Zhang, H.~Wang, S.~Li, X.~Zhou, and W.~Y. Wang, ``Tabfact: A large-scale dataset for table-based fact verification,'' 2020. [Online]. Available: \url{https://arxiv.org/abs/1909.02164}
+\BIBentrySTDinterwordspacing
+
+\bibitem{suri2023largelanguagemodelsdecision}
+\BIBentryALTinterwordspacing
+G.~Suri, L.~R. Slater, A.~Ziaee, and M.~Nguyen, ``Do large language models show decision heuristics similar to humans? a case study using gpt-3.5,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2305.04400}
+\BIBentrySTDinterwordspacing
+
 \bibitem{xu2024emerging}
 X.~Xu, Y.~Wu, P.~Liang, Y.~He, and H.~Wang, ``Emerging synergies between large language models and machine learning in ecommerce recommendations,'' 2024.
 
@@ -262,11 +292,6 @@ S.~Minaee, T.~Mikolov, N.~Nikzad, M.~Chenaghlu, R.~Socher, X.~Amatriain, and J.~
 \bibitem{OnePlusNord35G2023}
 \BIBentryALTinterwordspacing
 Pricebaba.com, ``Oneplus nord 3 5g - specifications and reviews,'' 2023, accessed: 2023-07-13. [Online]. Available: \url{https://pricebaba.com/mobile/oneplus-nord-3-5g}
-\BIBentrySTDinterwordspacing
-
-\bibitem{zhao2023qtsummqueryfocusedsummarizationtabular}
-\BIBentryALTinterwordspacing
-Y.~Zhao, Z.~Qi, L.~Nan, B.~Mi, Y.~Liu, W.~Zou, S.~Han, R.~Chen, X.~Tang, Y.~Xu, D.~Radev, and A.~Cohan, ``Qtsumm: Query-focused summarization over tabular data,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2305.14303}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
