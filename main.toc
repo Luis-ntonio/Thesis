@@ -20,33 +20,44 @@
 \contentsline {subsection}{\numberline {2.5.1}BLEU (Bilingual Evaluation Understudy)}{10}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}ROUGE (Recall-Oriented Understudy for Gisting Evaluation)}{10}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}METEOR (Metric for Evaluation of Translation with Explicit ORdering)}{11}{subsection.2.5.3}%
-\contentsline {section}{\numberline {2.6}Faithfulness and Correctness in NLP}{11}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Faithfulness and Correctness in LLMs}{11}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Faithfulness}{12}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}Correctness}{12}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Resume}{13}{subsection.2.6.3}%
-\contentsline {chapter}{\numberline {3}State of the Art}{14}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Pretrained models}{14}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Estructured data models}{15}{section.3.2}%
-\contentsline {section}{\numberline {3.3}E-commerce models}{16}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Metrics for evaluation of performance in LLM models}{17}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Resume}{18}{subsection.3.4.1}%
-\contentsline {chapter}{\numberline {4}Methodology}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Methodology Descripttion}{21}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}ETL Data}{21}{subsection.4.1.1}%
-\contentsline {subsubsection}{Data Sources}{21}{section*.4}%
-\contentsline {subsubsection}{Data Format}{22}{section*.7}%
-\contentsline {subsubsection}{Data Cleaning Process}{24}{section*.8}%
-\contentsline {paragraph}{Normalization}{24}{section*.9}%
-\contentsline {paragraph}{Data Removal}{24}{section*.10}%
-\contentsline {subsubsection}{Split data}{24}{section*.11}%
-\contentsline {subsubsection}{Prompt structuration}{25}{section*.12}%
-\contentsline {subsection}{\numberline {4.1.2}Model Fine-Tuning}{25}{subsection.4.1.2}%
-\contentsline {subsubsection}{Hyperparameter Selection}{25}{section*.13}%
-\contentsline {subsection}{\numberline {4.1.3}Model Evaluation}{26}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Resume}{30}{subsection.4.1.4}%
-\contentsline {chapter}{\numberline {5}Experiments and Results}{31}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Hyperparameters}{31}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Issues Encountered with the Development Environment}{32}{subsection.5.1.1}%
-\contentsline {section}{\numberline {5.2}Experiments}{32}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Discussion}{36}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Resume}{36}{subsection.5.2.2}%
+\contentsline {section}{\numberline {2.7}Cross-Validation Evaluation}{13}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Cross-Validation with Alternate Datasets}{13}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Mathematical Formulation}{13}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Discussion of Cross-Dataset Validation Results}{14}{subsection.2.7.3}%
+\contentsline {section}{\numberline {2.8}Resume}{14}{section.2.8}%
+\contentsline {chapter}{\numberline {3}State of the Art}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Pretrained models}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Estructured data models}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}E-commerce models}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Metrics for evaluation of performance in LLM models}{19}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Resume}{20}{subsection.3.4.1}%
+\contentsline {chapter}{\numberline {4}Methodology}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Methodology Descripttion}{23}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}ETL Data for Dataset 1}{23}{subsection.4.1.1}%
+\contentsline {subsubsection}{Data Sources}{23}{section*.4}%
+\contentsline {subsubsection}{Data Format}{24}{section*.7}%
+\contentsline {subsubsection}{Data Normalization}{26}{section*.8}%
+\contentsline {subsubsection}{Merging Data}{26}{section*.9}%
+\contentsline {subsubsection}{Data Removal}{26}{section*.10}%
+\contentsline {subsubsection}{Split data}{27}{section*.11}%
+\contentsline {subsection}{\numberline {4.1.2}ETL Data for Dataset 2}{27}{subsection.4.1.2}%
+\contentsline {subsubsection}{Data Sources}{27}{section*.12}%
+\contentsline {subsection}{\numberline {4.1.3}Data formatting}{27}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Prompt structuration}{28}{subsection.4.1.4}%
+\contentsline {subsubsection}{Prompt structuration for Dataset 1}{28}{section*.14}%
+\contentsline {subsubsection}{Prompt structuration for Dataset 2}{28}{section*.15}%
+\contentsline {subsection}{\numberline {4.1.5}Model Fine-Tuning}{29}{subsection.4.1.5}%
+\contentsline {subsubsection}{Hyperparameter Selection}{29}{section*.16}%
+\contentsline {subsection}{\numberline {4.1.6}Fine-Tuning Process}{30}{subsection.4.1.6}%
+\contentsline {subsection}{\numberline {4.1.7}Model Evaluation}{30}{subsection.4.1.7}%
+\contentsline {subsection}{\numberline {4.1.8}Cross-Validation}{34}{subsection.4.1.8}%
+\contentsline {subsection}{\numberline {4.1.9}Resume}{34}{subsection.4.1.9}%
+\contentsline {chapter}{\numberline {5}Experiments and Results}{35}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Hyperparameters}{35}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Issues Encountered with the Development Environment}{36}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Experiments}{36}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Discussion}{37}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Resume}{37}{subsection.5.2.2}%

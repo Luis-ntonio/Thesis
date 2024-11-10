@@ -264,4 +264,9 @@ S.~Minaee, T.~Mikolov, N.~Nikzad, M.~Chenaghlu, R.~Socher, X.~Amatriain, and J.~
 Pricebaba.com, ``Oneplus nord 3 5g - specifications and reviews,'' 2023, accessed: 2023-07-13. [Online]. Available: \url{https://pricebaba.com/mobile/oneplus-nord-3-5g}
 \BIBentrySTDinterwordspacing
 
+\bibitem{zhao2023qtsummqueryfocusedsummarizationtabular}
+\BIBentryALTinterwordspacing
+Y.~Zhao, Z.~Qi, L.~Nan, B.~Mi, Y.~Liu, W.~Zou, S.~Han, R.~Chen, X.~Tang, Y.~Xu, D.~Radev, and A.~Cohan, ``Qtsumm: Query-focused summarization over tabular data,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2305.14303}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

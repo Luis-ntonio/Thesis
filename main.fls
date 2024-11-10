@@ -304,6 +304,8 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/changepage/changepage.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/changepage/changepage.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/dvipsnam.def
@@ -510,6 +512,11 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT ./images/qsumm_structure.png
+INPUT ./images/qsumm_structure.png
+INPUT images/qsumm_structure.png
+INPUT ./images/qsumm_structure.png
+INPUT ./images/qsumm_structure.png
 INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -527,13 +534,8 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/tex-gyre/ot1qcr.fd
 INPUT c:/texlive/2024/texmf-dist/tex/latex/tex-gyre/ot1qcr.fd
 INPUT c:/texlive/2024/texmf-dist/tex/latex/tex-gyre/ot1qcr.fd
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/tex-gyre/rm-qcrr.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/tex-gyre/rm-qcrb.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-rmm.enc
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
@@ -555,6 +557,8 @@ INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qcrb.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qcrr.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb

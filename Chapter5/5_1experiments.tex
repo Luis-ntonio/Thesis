@@ -34,126 +34,35 @@ Table \ref{table:hyperparameters2} shows the hyperparameters used to train the m
 During the training of the models, several issues were encountered with the development environment. Firstly, it was found that the Nvidia RTX 4070 Ti Super leaks in VRAM for the models if there where not quantizied. Secondly, the training time upscales 24h per model and more than 20h for testing each one. In order to find a solution for these problems it was necesary quantized the models to 4-bits.
 
 \section{Experiments}
-Tables \ref{table:results1}, \ref{table:results2}, and \ref{table:results3} show the results obtained by the trained models. In table \ref{table:results1}, the results obtained by the base LLAMA2 model vs. the trained one are shown. In table \ref{table:results2}, the results achieved by the base StructLM model vs. the trained one are shown. In table \ref{table:results3}, the results obtained by the base Mistral\_Instruct model vs. the trained one are shown.
+Table \ref{table:results} show the results obtained by the trained models. The results are presented in terms of BLEU, METEOR, ROUGE, faithfullness, and correctness scores. 
 \begin{table}[H]
-\begin{tblr}{hline{1,2,Z} = 0.8pt, hline{3-Y} = 0.2pt, vlines,
-             colspec = {Q[c,m, 5.4em]
-                        Q[c,m, font=\fontfamily{qcr}]
-                        X[c,m]},
-             colsep  = 4pt,
-             row{1}  = {font=\bfseries, bg=gray!30},
-             row{2-Z} = {1.5cm},
-             }
-
-
-    &   LLAMA2 trained    &   LLAMA2 based\\
-\SetCell[r=1]{c}    
-Bleu &   29.36\%   &    1.39\%\\
-%
-\SetCell[r=1]{c}    
-Meteor &   40.2\%   &   3.59\%\\
-%
-\SetCell[r=1]{c}    
-Rouge-1 &   48.36\%   &   5.57\%\\
-%
-\SetCell[r=1]{c}    
-Rouge-2 &   25.7\%   &   1.84\%\\
-%
-\SetCell[r=1]{c}    
-Rouge-L &   39.19\%   &   4.09\%\\
-%
-\SetCell[r=1]{c}    
-RougeL-sum &   39.19\%   &   4.09\%\\
-%
-\SetCell[r=1]{c}    
-Correctness &   61.53\%   &   33.18\%\\
-%
-\SetCell[r=1]{c}    
-Faithfullness &   63.33\%   &   33.67\%\\
-\end{tblr}
-\caption{Results of the LLAMA2 model base vs trained}
-\label{table:results1}
+    \begin{adjustwidth}{-7em}{}
+    \begin{tblr}{hline{1,2,Z} = 0.8pt, hline{3-Y} = 0.2pt, vlines,
+                 colspec = {Q[c,m, 3.5em] Q[c,m, 7em] Q[c,m, 3.5em, font=\fontfamily{qcr}] Q[c,m, 3.5em, font=\fontfamily{qcr}] Q[c,m, 3.5em, font=\fontfamily{qcr}] Q[c,m, 3.5em, font=\fontfamily{qcr}] Q[c,m, 3.5em, font=\fontfamily{qcr}] Q[c,m, 3.5em, font=\fontfamily{qcr}] Q[c,m, 3.5em, font=\fontfamily{qcr}] Q[c,m, 3.5em, font=\fontfamily{qcr}]},
+                 colsep  = 4pt,
+                 row{1}  = {font=\bfseries, bg=gray!30},
+                 row{2-Z} = {1.5cm},
+                 }
+    
+        Type & Model & Bleu & Meteor & Rouge-1 & Rouge-2 & Rouge-L & RougeL-sum & Correct\newline ness & Faith-\newline fulness \\
+    \SetCell[r=3]{c} Trained
+    & LLAMA2 & \textcolor{red}{\textbf{29.36\%}} & 40.2\% & 48.36\% & 25.7\% & 39.19\% & 39.19\% & 61.53\% & 63.33\% \\
+    %
+    & StructLM & 31.06\% & 42.3\% & 49.42\% & 27.29\% & 40.58\% & 40.58\% & 69.71\% & 72.16\% \\
+    %
+    & Mistral\_Instruct & 38.89\% & 49.43\% & 56.64\% & 35.51\% & 48.32\% & 48.32\% & 73.50\% & 76.92\% \\
+    \SetCell[r=3]{c} Base
+    & LLAMA2 & 1.39\% & 3.59\% & 5.57\% & 1.84\% & 4.09\% & 4.09\% & 33.18\% & 33.67\% \\
+    %
+    & StructLM & 6.21\% & 11.96\% & 20.09\% & 7.72\% & 15.34\% & 15.34\% & 65.14\% & 70.50\% \\
+    %
+    & Mistral\_Instruct & 4.19\% & 9.55\% & 25.64\% & 10.4\% & 18.99\% & 18.99\% & 77.96\% & 82.51\% \\
+    \end{tblr}
+    \end{adjustwidth}
+    \caption{Results of Trained vs. Base Models: LLAMA2, StructLM, and Mistral\_Instruct}
+    \label{table:results}
 \end{table}
-
-\begin{table}[H]
-\begin{tblr}{hline{1,2,Z} = 0.8pt, hline{3-Y} = 0.2pt, vlines,
-             colspec = {Q[c,m, 5.4em]
-                        Q[c,m, font=\fontfamily{qcr}]
-                        X[c,m]},
-             colsep  = 4pt,
-             row{1}  = {font=\bfseries, bg=gray!30},
-             row{2-Z} = {1.5cm},
-             }
-
-
-    &   StructLM trained    &   StructLM base\\
-\SetCell[r=1]{c}    
-Bleu &   31.06\%   &   6.21\%\\
-%
-\SetCell[r=1]{c}    
-Meteor &   42.3\%   &   11.96\%\\
-%
-\SetCell[r=1]{c}    
-Rouge-1 &   49.42\%   &   20.09\%\\
-%
-\SetCell[r=1]{c}    
-Rouge-2 &   27.29\%   &   7.72\%\\
-%
-\SetCell[r=1]{c}    
-Rouge-L &   40.58\%   &   15.34\%\\
-%
-\SetCell[r=1]{c}    
-RougeL-sum &   40.58\%   &   15.34\%\\
-%
-\SetCell[r=1]{c}    
-Correctness &   69.71\%   &   65.14\%\\
-%
-\SetCell[r=1]{c}    
-Faithfullness &   72.16\%   &   70.50\%\\
-\end{tblr}
-\caption{Results of the StructLM model base vs trained}
-\label{table:results2}
-\end{table}
-
-\begin{table}[H]
-\begin{tblr}{hline{1,2,Z} = 0.8pt, hline{1-Y} = 0.2pt, vlines,
-             colspec = {Q[c,m, 5.4em]
-                        Q[c,m, font=\fontfamily{qcr}]
-                        X[c,m]},
-             colsep  = 4pt,
-             row{1}  = {font=\bfseries, bg=gray!30},
-             row{2-Z} = {1.5cm},
-             }
-
-
-    &   Mistral\_Instrcut trained    &   Mistral\_Instrcut base\\
-\SetCell[r=1]{c}    
-Bleu &   38.89\%  &   4.19\%\\
-%
-\SetCell[r=1]{c}    
-Meteor &   49.43\%   &   9.55\%\\
-%
-\SetCell[r=1]{c}    
-Rouge-1 &   56.64\%    &   25.64\%\\
-%
-\SetCell[r=1]{c}    
-Rouge-2 &   35.51\%   &   10.4\%\\
-%
-\SetCell[r=1]{c}    
-Rouge-L &   48.32\%   &    18.99\%\\
-%
-\SetCell[r=1]{c}    
-RougeL-sum &   48.32\%   &   18.99\%\\
-%
-\SetCell[r=1]{c}    
-Correctness &   73.50\%   &   77.96\%\\
-%
-\SetCell[r=1]{c}    
-Faithfullness &   76.92\%   &   82.51\%\\
-\end{tblr}
-\caption{Results of the Mistral\_Instruct model base vs trained}
-\label{table:results3}
-\end{table}
+    
 As observed in the results, all the models demonstrate strong metrics for matching evaluation, particularly considering that their primary purpose is to generate human-like sentences. This characteristic complicates word-by-word evaluation. However, the metrics used to assess sentence responses faithfulness and correctness indicate favorable outcomes, with particularly strong performance from the Mistral\_Instruct model.
 %As can be seen in the results, the percentage performance of the trained models is superior to that of the base models. In the case of the LLAMA2 model, the performance of the trained model is 37.21 times superior to that of the base model. In the case of the StructLM model, the performance of the trained model is 45.11 times superior to that of the base model. Finally, in the case of the Mistral\_Instruct model, the performance of the trained model is 50.09 times superior to that of the base model. These results show that training the models with the consumer technology product dataset significantly improves their performance. 
 \subsection{Discussion}
