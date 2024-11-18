@@ -1,8 +1,8 @@
-PWD c:/Users/lagg1/Documents/UTEC/2024-1/PFC2/Thesis
+PWD c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/lagg1/Documents/UTEC/2024-1/PFC2/Thesis/main.tex
+INPUT c:/Users/lagg1/Documents/UTEC/Ciclo 2024-1/PFC2/Tesis Luis Gutierrez/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/report.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/report.cls
@@ -544,6 +544,9 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/tex-gyre/ot1qcr.fd
 INPUT c:/texlive/2024/texmf-dist/tex/latex/tex-gyre/ot1qcr.fd
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/tex-gyre/rm-qcrr.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/tex-gyre/rm-qcrb.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-rmm.enc
 INPUT ./main.bbl
 INPUT ./main.bbl
