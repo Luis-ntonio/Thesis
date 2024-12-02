@@ -20,75 +20,95 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{Reiter2018A}
+\BIBentryALTinterwordspacing
+E.~Reiter, ``A structured review of the validity of {BLEU},'' \emph{Computational Linguistics}, vol.~44, no.~3, pp. 393--401, Sep. 2018. [Online]. Available: \url{https://aclanthology.org/J18-3002}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Ganesan2015ROUGE}
+\BIBentryALTinterwordspacing
+K.~Ganesan, ``Rouge 2.0: Updated and improved measures for evaluation of summarization tasks,'' 2018. [Online]. Available: \url{https://arxiv.org/abs/1803.01937}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Dobre2015ACB}
+\BIBentryALTinterwordspacing
+I.~Dobre, ``A comparison between bleu and meteor metrics used for assessing students within an informatics discipline course,'' \emph{Procedia - Social and Behavioral Sciences}, vol. 180, pp. 305--312, 2015. [Online]. Available: \url{https://api.semanticscholar.org/CorpusID:60373804}
+\BIBentrySTDinterwordspacing
+
+\bibitem{zhang2020bertscoreevaluatingtextgeneration}
+\BIBentryALTinterwordspacing
+T.~Zhang*, V.~Kishore*, F.~Wu*, K.~Q. Weinberger, and Y.~Artzi, ``Bertscore: Evaluating text generation with bert,'' in \emph{International Conference on Learning Representations}, 2020. [Online]. Available: \url{https://openreview.net/forum?id=SkeHuCVFDr}
+\BIBentrySTDinterwordspacing
+
 \bibitem{he2023survey}
 K.~He, R.~Mao, Q.~Lin, Y.~Ruan, X.~Lan, M.~Feng, and E.~Cambria, ``A survey of large language models for healthcare: from data, technology, and applications to accountability and ethics,'' 2023.
-
-\bibitem{REDDY2023101304}
-\BIBentryALTinterwordspacing
-S.~Reddy, ``Evaluating large language models for use in healthcare: A framework for translational value assessment,'' \emph{Informatics in Medicine Unlocked}, vol.~41, p. 101304, 2023. [Online]. Available: \url{https://www.sciencedirect.com/science/article/pii/S2352914823001508}
-\BIBentrySTDinterwordspacing
 
 \bibitem{Varshney_2024}
 \BIBentryALTinterwordspacing
 T.~Varshney, ``Build an llm-powered data agent for data analysis,'' Feb 2024. [Online]. Available: \url{https://developer.nvidia.com/blog/build-an-llm-powered-data-agent-for-data-analysis/}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Bergmann_2024}
+\bibitem{macková2023promapdatasetsproductmapping}
 \BIBentryALTinterwordspacing
-D.~Bergmann, ``Build an llm-powered data agent for data analysis,'' March 2024. [Online]. Available: \url{https://www.ibm.com/topics/fine-tuning}
+K.~Mackov\'{a} and M.~Pil\'{a}t, ``Promap: Product mapping datasets,'' in \emph{Advances in Information Retrieval: 46th European Conference on Information Retrieval, ECIR 2024, Glasgow, UK, March 24–28, 2024, Proceedings, Part II}.\hskip 1em plus 0.5em minus 0.4em\relax Berlin, Heidelberg: Springer-Verlag, 2024, p. 159–172. [Online]. Available: \url{https://doi.org/10.1007/978-3-031-56060-6_11}
 \BIBentrySTDinterwordspacing
 
-\bibitem{touvron2023llama}
-H.~Touvron, L.~Martin, K.~Stone, P.~Albert, A.~Almahairi, Y.~Babaei, N.~Bashlykov, S.~Batra, P.~Bhargava, S.~Bhosale, D.~Bikel, L.~Blecher, C.~C. Ferrer, M.~Chen, G.~Cucurull, D.~Esiobu, J.~Fernandes, J.~Fu, W.~Fu, B.~Fuller, C.~Gao, V.~Goswami, N.~Goyal, A.~Hartshorn, S.~Hosseini, R.~Hou, H.~Inan, M.~Kardas, V.~Kerkez, M.~Khabsa, I.~Kloumann, A.~Korenev, P.~S. Koura, M.-A. Lachaux, T.~Lavril, J.~Lee, D.~Liskovich, Y.~Lu, Y.~Mao, X.~Martinet, T.~Mihaylov, P.~Mishra, I.~Molybog, Y.~Nie, A.~Poulton, J.~Reizenstein, R.~Rungta, K.~Saladi, A.~Schelten, R.~Silva, E.~M. Smith, R.~Subramanian, X.~E. Tan, B.~Tang, R.~Taylor, A.~Williams, J.~X. Kuan, P.~Xu, Z.~Yan, I.~Zarov, Y.~Zhang, A.~Fan, M.~Kambadur, S.~Narang, A.~Rodriguez, R.~Stojnic, S.~Edunov, and T.~Scialom, ``Llama 2: Open foundation and fine-tuned chat models,'' 2023.
+\bibitem{zhao2023qtsummqueryfocusedsummarizationtabular}
+\BIBentryALTinterwordspacing
+Y.~Zhao, Z.~Qi, L.~Nan, B.~Mi, Y.~Liu, W.~Zou, S.~Han, R.~Chen, X.~Tang, Y.~Xu, D.~Radev, and A.~Cohan, ``{QTS}umm: Query-focused summarization over tabular data,'' in \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, H.~Bouamor, J.~Pino, and K.~Bali, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Singapore: Association for Computational Linguistics, Dec. 2023, pp. 1157--1172. [Online]. Available: \url{https://aclanthology.org/2023.emnlp-main.74}
+\BIBentrySTDinterwordspacing
 
 \bibitem{jiang2023mistral}
 A.~Q. Jiang, A.~Sablayrolles, A.~Mensch, C.~Bamford, D.~S. Chaplot, D.~de~las Casas, F.~Bressand, G.~Lengyel, G.~Lample, L.~Saulnier, L.~R. Lavaud, M.-A. Lachaux, P.~Stock, T.~L. Scao, T.~Lavril, T.~Wang, T.~Lacroix, and W.~E. Sayed, ``Mistral 7b,'' 2023.
 
-\bibitem{zhuang2024structlm}
-A.~Zhuang, G.~Zhang, T.~Zheng, X.~Du, J.~Wang, W.~Ren, S.~W. Huang, J.~Fu, X.~Yue, and W.~Chen, ``Structlm: Towards building generalist models for structured knowledge grounding,'' 2024.
-
-\bibitem{singha2023tabular}
-A.~Singha, J.~Cambronero, S.~Gulwani, V.~Le, and C.~Parnin, ``Tabular representation, noisy operators, and impacts on table structure understanding tasks in llms,'' 2023.
-
 \bibitem{gao2024jsontuning}
 C.~Gao, W.~Zhang, G.~Chen, and W.~Lam, ``Jsontuning: Towards generalizable, robust, and controllable instruction tuning,'' 2024.
 
-\bibitem{mumtaz2024llmshealthcare}
-U.~Mumtaz, A.~Ahmed, and S.~Mumtaz, ``Llms-healthcare : Current applications and challenges of large language models in various medical specialties,'' 2024.
+\bibitem{touvron2023llama}
+H.~Touvron, L.~Martin, K.~Stone, P.~Albert, A.~Almahairi, Y.~Babaei, N.~Bashlykov, S.~Batra, P.~Bhargava, S.~Bhosale, D.~Bikel, L.~Blecher, C.~C. Ferrer, M.~Chen, G.~Cucurull, D.~Esiobu, J.~Fernandes, J.~Fu, W.~Fu, B.~Fuller, C.~Gao, V.~Goswami, N.~Goyal, A.~Hartshorn, S.~Hosseini, R.~Hou, H.~Inan, M.~Kardas, V.~Kerkez, M.~Khabsa, I.~Kloumann, A.~Korenev, P.~S. Koura, M.-A. Lachaux, T.~Lavril, J.~Lee, D.~Liskovich, Y.~Lu, Y.~Mao, X.~Martinet, T.~Mihaylov, P.~Mishra, I.~Molybog, Y.~Nie, A.~Poulton, J.~Reizenstein, R.~Rungta, K.~Saladi, A.~Schelten, R.~Silva, E.~M. Smith, R.~Subramanian, X.~E. Tan, B.~Tang, R.~Taylor, A.~Williams, J.~X. Kuan, P.~Xu, Z.~Yan, I.~Zarov, Y.~Zhang, A.~Fan, M.~Kambadur, S.~Narang, A.~Rodriguez, R.~Stojnic, S.~Edunov, and T.~Scialom, ``Llama 2: Open foundation and fine-tuned chat models,'' 2023.
 
-\bibitem{10.1093/bioinformatics/btz682}
+\bibitem{zhuang2024structlm}
 \BIBentryALTinterwordspacing
-J.~Lee, W.~Yoon, S.~Kim, D.~Kim, S.~Kim, C.~H. So, and J.~Kang, ``{BioBERT: a pre-trained biomedical language representation model for biomedical text mining},'' \emph{Bioinformatics}, vol.~36, no.~4, pp. 1234--1240, 09 2019. [Online]. Available: \url{https://doi.org/10.1093/bioinformatics/btz682}
+A.~Zhuang, G.~Zhang, T.~Zheng, X.~Du, J.~Wang, W.~Ren, W.~Huang, J.~Fu, X.~Yue, and W.~Chen, ``Struct{LM}: Towards building generalist models for structured knowledge grounding,'' in \emph{First Conference on Language Modeling}, 2024. [Online]. Available: \url{https://openreview.net/forum?id=EKBPn7no4y}
 \BIBentrySTDinterwordspacing
 
-\bibitem{zhao2024revolutionizing}
-H.~Zhao, Z.~Liu, Z.~Wu, Y.~Li, T.~Yang, P.~Shu, S.~Xu, H.~Dai, L.~Zhao, G.~Mai, N.~Liu, and T.~Liu, ``Revolutionizing finance with llms: An overview of applications and insights,'' 2024.
+\bibitem{wiseman2017challengesdatatodocumentgeneration}
+\BIBentryALTinterwordspacing
+S.~Wiseman, S.~Shieber, and A.~Rush, ``Challenges in data-to-document generation,'' in \emph{Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing}, M.~Palmer, R.~Hwa, and S.~Riedel, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Copenhagen, Denmark: Association for Computational Linguistics, Sep. 2017, pp. 2253--2263. [Online]. Available: \url{https://aclanthology.org/D17-1239}
+\BIBentrySTDinterwordspacing
+
+\bibitem{2019TabFactA}
+\BIBentryALTinterwordspacing
+W.~Chen, H.~Wang, J.~Chen, Y.~Zhang, H.~Wang, S.~Li, X.~Zhou, and W.~Y. Wang, ``Tabfact: A large-scale dataset for table-based fact verification,'' in \emph{International Conference on Learning Representations}, 2020. [Online]. Available: \url{https://openreview.net/forum?id=rkeJRhNYDH}
+\BIBentrySTDinterwordspacing
+
+\bibitem{chen2021wikitabletlargescaledatatotextdataset}
+\BIBentryALTinterwordspacing
+M.~Chen, S.~Wiseman, and K.~Gimpel, ``{W}iki{T}able{T}: A large-scale data-to-text dataset for generating {W}ikipedia article sections,'' in \emph{Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021}, C.~Zong, F.~Xia, W.~Li, and R.~Navigli, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Online: Association for Computational Linguistics, Aug. 2021, pp. 193--209. [Online]. Available: \url{https://aclanthology.org/2021.findings-acl.17}
+\BIBentrySTDinterwordspacing
+
+\bibitem{parikh2020tottocontrolledtabletotextgeneration}
+\BIBentryALTinterwordspacing
+A.~Parikh, X.~Wang, S.~Gehrmann, M.~Faruqui, B.~Dhingra, D.~Yang, and D.~Das, ``{ToTTo}: A controlled table-to-text generation dataset,'' in \emph{Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)}, B.~Webber, T.~Cohn, Y.~He, and Y.~Liu, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Online: Association for Computational Linguistics, Nov. 2020, pp. 1173--1186. [Online]. Available: \url{https://aclanthology.org/2020.emnlp-main.89}
+\BIBentrySTDinterwordspacing
+
+\bibitem{chen2020logicalnaturallanguagegeneration}
+\BIBentryALTinterwordspacing
+W.~Chen, J.~Chen, Y.~Su, Z.~Chen, and W.~Y. Wang, ``Logical natural language generation from open-domain tables,'' in \emph{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}, D.~Jurafsky, J.~Chai, N.~Schluter, and J.~Tetreault, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Online: Association for Computational Linguistics, Jul. 2020, pp. 7929--7942. [Online]. Available: \url{https://aclanthology.org/2020.acl-main.708}
+\BIBentrySTDinterwordspacing
+
+\bibitem{He2023ReviewOS}
+\BIBentryALTinterwordspacing
+A.~He and M.~B. Abisado, ``Review on sentiment analysis of e-commerce product comments,'' \emph{2023 IEEE 15th International Conference on Advanced Infocomm Technology (ICAIT)}, pp. 398--406, 2023. [Online]. Available: \url{https://api.semanticscholar.org/CorpusID:266601440}
+\BIBentrySTDinterwordspacing
 
 \bibitem{macková2023promap}
-K.~Macková and M.~Pilát, ``Promap: Datasets for product mapping in e-commerce,'' 2023.
-
-\bibitem{liu2019roberta}
-Y.~Liu, M.~Ott, N.~Goyal, J.~Du, M.~Joshi, D.~Chen, O.~Levy, M.~Lewis, L.~Zettlemoyer, and V.~Stoyanov, ``Roberta: A robustly optimized bert pretraining approach,'' 2019.
-
-\bibitem{rfc8259}
 \BIBentryALTinterwordspacing
-T.~Bray, ``{The JavaScript Object Notation (JSON) Data Interchange Format},'' RFC 8259, Dec. 2017. [Online]. Available: \url{https://www.rfc-editor.org/info/rfc8259}
+K.~Mackov\'{a} and M.~Pil\'{a}t, ``Promap: Product mapping datasets,'' in \emph{Advances in Information Retrieval: 46th European Conference on Information Retrieval, ECIR 2024, Glasgow, UK, March 24–28, 2024, Proceedings, Part II}.\hskip 1em plus 0.5em minus 0.4em\relax Berlin, Heidelberg: Springer-Verlag, 2024, p. 159–172. [Online]. Available: \url{https://doi.org/10.1007/978-3-031-56060-6_11}
 \BIBentrySTDinterwordspacing
-
-\bibitem{ling2024domain}
-C.~Ling, X.~Zhao, J.~Lu, C.~Deng, C.~Zheng, J.~Wang, T.~Chowdhury, Y.~Li, H.~Cui, X.~Zhang, T.~Zhao, A.~Panalkar, D.~Mehta, S.~Pasquali, W.~Cheng, H.~Wang, Y.~Liu, Z.~Chen, H.~Chen, C.~White, Q.~Gu, J.~Pei, C.~Yang, and L.~Zhao, ``Domain specialization as the key to make large language models disruptive: A comprehensive survey,'' 2024.
-
-\bibitem{vaswani2023attention}
-A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez, L.~Kaiser, and I.~Polosukhin, ``Attention is all you need,'' 2023.
 
 \bibitem{Wang2023Emotional}
 X.~Wang, X.~Li, Z.~Yin, Y.~Wu, L.~J.~D. of~PsychologyTsinghua Laboratory~of Brain, Intelligence, T.~University, D.~Psychology, and R.~University, ``Emotional intelligence of large language models,'' \emph{ArXiv}, vol. abs/2307.09042, 2023.
-
-\bibitem{Duong2023Analysis}
-D.~Duong and B.~D. Solomon, ``Analysis of large-language model versus human performance for genetics questions,'' \emph{medRxiv : the preprint server for health sciences}, 2023.
-
-\bibitem{Suri2023Do}
-G.~Suri, L.~R. Slater, A.~Ziaee, and M.~Nguyen, ``Do large language models show decision heuristics similar to humans? a case study using gpt-3.5,'' \emph{ArXiv}, vol. abs/2305.04400, 2023.
 
 \bibitem{Muntjir2016}
 \BIBentryALTinterwordspacing
@@ -111,14 +131,14 @@ G.~Ryali, S.~S, S.~Kaveri, and P.~M. Comar, ``Trendspotter: Forecasting e-commer
 \bibitem{zhao2023survey}
 W.~X. Zhao, K.~Zhou, J.~Li, T.~Tang, X.~Wang, Y.~Hou, Y.~Min, B.~Zhang, J.~Zhang, Z.~Dong, Y.~Du, C.~Yang, Y.~Chen, Z.~Chen, J.~Jiang, R.~Ren, Y.~Li, X.~Tang, Z.~Liu, P.~Liu, J.-Y. Nie, and J.-R. Wen, ``A survey of large language models,'' 2023.
 
-\bibitem{naveed2024comprehensive}
-H.~Naveed, A.~U. Khan, S.~Qiu, M.~Saqib, S.~Anwar, M.~Usman, N.~Akhtar, N.~Barnes, and A.~Mian, ``A comprehensive overview of large language models,'' 2024.
-
 \bibitem{10305960}
 M.~Debbah, ``Large language models for telecom,'' in \emph{2023 Eighth International Conference on Fog and Mobile Edge Computing (FMEC)}, 2023, pp. 3--4.
 
 \bibitem{fan2023fatellm}
-T.~Fan, Y.~Kang, G.~Ma, W.~Chen, W.~Wei, L.~Fan, and Q.~Yang, ``Fate-llm: A industrial grade federated learning framework for large language models,'' 2023.
+T.~Fan, Y.~Kang, G.~Ma, W.~Chen, W.~Wei, L.~Fan, and Q.~Yang, ``Fate-llm: A industrial grade federated learning framework for large language models,'' \emph{Symposium on Advances and Open Problems in Large Language Models (LLM@IJCAI'23)}, 2023.
+
+\bibitem{naveed2024comprehensive}
+H.~Naveed, A.~U. Khan, S.~Qiu, M.~Saqib, S.~Anwar, M.~Usman, N.~Akhtar, N.~Barnes, and A.~Mian, ``A comprehensive overview of large language models,'' 2024.
 
 \bibitem{Lalor2017Improving}
 J.~P. Lalor, H.~Wu, and H.~Yu, ``Improving machine learning ability with fine-tuning,'' \emph{ArXiv}, vol. abs/1702.08563, 2017.
@@ -126,63 +146,53 @@ J.~P. Lalor, H.~Wu, and H.~Yu, ``Improving machine learning ability with fine-tu
 \bibitem{Catani2020A}
 L.~Catani and M.~Leifer, ``A mathematical framework for operational fine tunings,'' \emph{Quantum}, vol.~7, p. 948, 2020.
 
+\bibitem{Xiao2023Offsite-Tuning:}
+G.~Xiao, J.~Lin, and S.~Han, ``Offsite-tuning: Transfer learning without full model,'' \emph{ArXiv}, vol. abs/2302.04870, 2023.
+
 \bibitem{Shachaf2021A}
-G.~Shachaf, A.~Brutzkus, and A.~Globerson, ``A theoretical analysis of fine-tuning with linear teachers,'' \emph{ArXiv}, 2021.
+\BIBentryALTinterwordspacing
+G.~Shachaf, A.~Brutzkus, and A.~Globerson, ``A theoretical analysis of fine-tuning with linear teachers,'' 2021. [Online]. Available: \url{https://arxiv.org/abs/2107.01641}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Vrbancic2020Transfer}
 G.~Vrbancic and V.~Podgorelec, ``Transfer learning with adaptive fine-tuning,'' \emph{IEEE Access}, vol.~8, pp. 196\,197--196\,211, 2020.
 
-\bibitem{Xiao2023Offsite-Tuning:}
-G.~Xiao, J.~Lin, and S.~Han, ``Offsite-tuning: Transfer learning without full model,'' \emph{ArXiv}, vol. abs/2302.04870, 2023.
-
 \bibitem{zheng2024llamafactory}
-Y.~Zheng, R.~Zhang, J.~Zhang, Y.~Ye, Z.~Luo, and Y.~Ma, ``Llamafactory: Unified efficient fine-tuning of 100+ language models,'' 2024.
+\BIBentryALTinterwordspacing
+Y.~Zheng, R.~Zhang, J.~Zhang, Y.~Ye, and Z.~Luo, ``{L}lama{F}actory: Unified efficient fine-tuning of 100+ language models,'' in \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)}, Y.~Cao, Y.~Feng, and D.~Xiong, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Bangkok, Thailand: Association for Computational Linguistics, Aug. 2024, pp. 400--410. [Online]. Available: \url{https://aclanthology.org/2024.acl-demos.38}
+\BIBentrySTDinterwordspacing
 
 \bibitem{zhu2024lift}
 \BIBentryALTinterwordspacing
 L.~Zhu, L.~Hu, J.~Lin, and S.~Han, ``{LIFT}: Efficient layer-wise fine-tuning for large model models,'' 2024. [Online]. Available: \url{https://openreview.net/forum?id=u0INlprg3U}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Reiter2018A}
-E.~Reiter, ``A structured review of the validity of bleu,'' \emph{Computational Linguistics}, vol. Just Accepted, pp. 1--8, 2018.
-
 \bibitem{Ng2015Better}
-J.-P. Ng and V.~Abrecht, ``Better summarization evaluation with word embeddings for rouge,'' \emph{ArXiv}, vol. abs/1508.06034, 2015.
+\BIBentryALTinterwordspacing
+J.-P. Ng and V.~Abrecht, ``Better summarization evaluation with word embeddings for {ROUGE},'' in \emph{Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing}, L.~M{\`a}rquez, C.~Callison-Burch, and J.~Su, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Lisbon, Portugal: Association for Computational Linguistics, Sep. 2015, pp. 1925--1930. [Online]. Available: \url{https://aclanthology.org/D15-1222}
+\BIBentrySTDinterwordspacing
 
-\bibitem{Ganesan2015ROUGE}
-K.~A. Ganesan, ``Rouge 2.0: Updated and improved measures for evaluation of summarization tasks,'' \emph{ArXiv}, vol. abs/1803.01937, 2015.
+\bibitem{Maples2017TheR}
+\BIBentryALTinterwordspacing
+S.~Maples, ``The rouge-ar : A proposed extension to the rouge evaluation metric for abstractive text summarization,'' 2017. [Online]. Available: \url{https://api.semanticscholar.org/CorpusID:34483154}
+\BIBentrySTDinterwordspacing
+
+\bibitem{lin-2004-rouge}
+\BIBentryALTinterwordspacing
+C.-Y. Lin, ``{ROUGE}: A package for automatic evaluation of summaries,'' in \emph{Text Summarization Branches Out}.\hskip 1em plus 0.5em minus 0.4em\relax Barcelona, Spain: Association for Computational Linguistics, Jul. 2004, pp. 74--81. [Online]. Available: \url{https://aclanthology.org/W04-1013}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Agarwal2008Meteor}
-A.~Agarwal and A.~Lavie, ``Meteor, m-bleu and m-ter: Evaluation metrics for high-correlation with human rankings of machine translation output,'' \emph{ArXiv}, pp. 115--118, 2008.
+A.~Agarwal and A.~Lavie, ``Meteor, m-bleu and m-ter: evaluation metrics for high-correlation with human rankings of machine translation output,'' in \emph{Proceedings of the Third Workshop on Statistical Machine Translation}, ser. StatMT '08.\hskip 1em plus 0.5em minus 0.4em\relax USA: Association for Computational Linguistics, 2008, p. 115–118.
+
+\bibitem{lavie-etal-2004-significance}
+\BIBentryALTinterwordspacing
+A.~Lavie, K.~Sagae, and S.~Jayaraman, ``The significance of recall in automatic metrics for {MT} evaluation,'' in \emph{Proceedings of the 6th Conference of the Association for Machine Translation in the Americas: Technical Papers}, R.~E. Frederking and K.~B. Taylor, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Washington, USA: Springer, Sep. 28 - Oct. 2 2004, pp. 134--143. [Online]. Available: \url{https://link.springer.com/chapter/10.1007/978-3-540-30194-3_16}
+\BIBentrySTDinterwordspacing
 
 \bibitem{lyu2024faithfulmodelexplanationnlp}
 \BIBentryALTinterwordspacing
-Q.~Lyu, M.~Apidianaki, and C.~Callison-Burch, ``Towards faithful model explanation in nlp: A survey,'' 2024. [Online]. Available: \url{https://arxiv.org/abs/2209.11326}
-\BIBentrySTDinterwordspacing
-
-\bibitem{madsen-etal-2022-evaluating}
-\BIBentryALTinterwordspacing
-A.~Madsen, N.~Meade, V.~Adlakha, and S.~Reddy, ``Evaluating the faithfulness of importance measures in {NLP} by recursively masking allegedly important tokens and retraining,'' in \emph{Findings of the Association for Computational Linguistics: EMNLP 2022}, Y.~Goldberg, Z.~Kozareva, and Y.~Zhang, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Abu Dhabi, United Arab Emirates: Association for Computational Linguistics, Dec. 2022, pp. 1731--1751. [Online]. Available: \url{https://aclanthology.org/2022.findings-emnlp.125}
-\BIBentrySTDinterwordspacing
-
-\bibitem{yin2022sensitivitystabilitymodelinterpretations}
-\BIBentryALTinterwordspacing
-F.~Yin, Z.~Shi, C.-J. Hsieh, and K.-W. Chang, ``On the sensitivity and stability of model interpretations in nlp,'' 2022. [Online]. Available: \url{https://arxiv.org/abs/2104.08782}
-\BIBentrySTDinterwordspacing
-
-\bibitem{parcalabescu2024measuringfaithfulnessselfconsistencynatural}
-\BIBentryALTinterwordspacing
-L.~Parcalabescu and A.~Frank, ``On measuring faithfulness or self-consistency of natural language explanations,'' 2024. [Online]. Available: \url{https://arxiv.org/abs/2311.07466}
-\BIBentrySTDinterwordspacing
-
-\bibitem{kim2024prometheus2opensource}
-\BIBentryALTinterwordspacing
-S.~Kim, J.~Suk, S.~Longpre, B.~Y. Lin, J.~Shin, S.~Welleck, G.~Neubig, M.~Lee, K.~Lee, and M.~Seo, ``Prometheus 2: An open source language model specialized in evaluating other language models,'' 2024. [Online]. Available: \url{https://arxiv.org/abs/2405.01535}
-\BIBentrySTDinterwordspacing
-
-\bibitem{gat2023faithfulexplanationsblackboxnlp}
-\BIBentryALTinterwordspacing
-Y.~Gat, N.~Calderon, A.~Feder, A.~Chapanin, A.~Sharma, and R.~Reichart, ``Faithful explanations of black-box nlp models using llm-generated counterfactuals,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2310.00603}
+Q.~Lyu, M.~Apidianaki, and C.~Callison-Burch, ``Towards faithful model explanation in {NLP}: A survey,'' \emph{Computational Linguistics}, vol.~50, no.~2, pp. 657--723, Jun. 2024. [Online]. Available: \url{https://aclanthology.org/2024.cl-2.6}
 \BIBentrySTDinterwordspacing
 
 \bibitem{jacovi-goldberg-2020-towards}
@@ -190,9 +200,19 @@ Y.~Gat, N.~Calderon, A.~Feder, A.~Chapanin, A.~Sharma, and R.~Reichart, ``Faithf
 A.~Jacovi and Y.~Goldberg, ``Towards faithfully interpretable {NLP} systems: How should we define and evaluate faithfulness?'' in \emph{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}, D.~Jurafsky, J.~Chai, N.~Schluter, and J.~Tetreault, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Online: Association for Computational Linguistics, Jul. 2020, pp. 4198--4205. [Online]. Available: \url{https://aclanthology.org/2020.acl-main.386}
 \BIBentrySTDinterwordspacing
 
-\bibitem{yao2023predictinggeneralizationperformancecorrectness}
+\bibitem{parcalabescu2024measuringfaithfulnessselfconsistencynatural}
 \BIBentryALTinterwordspacing
-Y.~Yao and A.~Koller, ``Predicting generalization performance with correctness discriminators,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2311.09422}
+L.~Parcalabescu and A.~Frank, ``On measuring faithfulness or self-consistency of natural language explanations,'' in \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, L.-W. Ku, A.~Martins, and V.~Srikumar, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Bangkok, Thailand: Association for Computational Linguistics, Aug. 2024, pp. 6048--6089. [Online]. Available: \url{https://aclanthology.org/2024.acl-long.329}
+\BIBentrySTDinterwordspacing
+
+\bibitem{kim2024prometheus2opensource}
+\BIBentryALTinterwordspacing
+S.~Kim, J.~Suk, S.~Longpre, B.~Y. Lin, J.~Shin, S.~Welleck, G.~Neubig, M.~Lee, K.~Lee, and M.~Seo, ``Prometheus 2: An open source language model specialized in evaluating other language models,'' in \emph{Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing}, Y.~Al-Onaizan, M.~Bansal, and Y.-N. Chen, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Miami, Florida, USA: Association for Computational Linguistics, Nov. 2024, pp. 4334--4353. [Online]. Available: \url{https://aclanthology.org/2024.emnlp-main.248}
+\BIBentrySTDinterwordspacing
+
+\bibitem{gat2023faithfulexplanationsblackboxnlp}
+\BIBentryALTinterwordspacing
+Y.~O. Gat, N.~Calderon, A.~Feder, A.~Chapanin, A.~Sharma, and R.~Reichart, ``Faithful explanations of black-box {NLP} models using {LLM}-generated counterfactuals,'' in \emph{The Twelfth International Conference on Learning Representations}, 2024. [Online]. Available: \url{https://openreview.net/forum?id=UMfcdRIotC}
 \BIBentrySTDinterwordspacing
 
 \bibitem{varshney-etal-2022-towards}
@@ -202,7 +222,31 @@ N.~Varshney, S.~Mishra, and C.~Baral, ``Towards improving selective prediction a
 
 \bibitem{steen2023littlepushnlimodels}
 \BIBentryALTinterwordspacing
-J.~Steen, J.~Opitz, A.~Frank, and K.~Markert, ``With a little push, nli models can robustly and efficiently predict faithfulness,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2305.16819}
+J.~Steen, J.~Opitz, A.~Frank, and K.~Markert, ``With a little push, {NLI} models can robustly and efficiently predict faithfulness,'' in \emph{Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)}, A.~Rogers, J.~Boyd-Graber, and N.~Okazaki, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Toronto, Canada: Association for Computational Linguistics, Jul. 2023, pp. 914--924. [Online]. Available: \url{https://aclanthology.org/2023.acl-short.79}
+\BIBentrySTDinterwordspacing
+
+\bibitem{yin2022sensitivitystabilitymodelinterpretations}
+\BIBentryALTinterwordspacing
+F.~Yin, Z.~Shi, C.-J. Hsieh, and K.-W. Chang, ``On the sensitivity and stability of model interpretations in {NLP},'' in \emph{Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, S.~Muresan, P.~Nakov, and A.~Villavicencio, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Dublin, Ireland: Association for Computational Linguistics, May 2022, pp. 2631--2647. [Online]. Available: \url{https://aclanthology.org/2022.acl-long.188}
+\BIBentrySTDinterwordspacing
+
+\bibitem{yao2023predictinggeneralizationperformancecorrectness}
+\BIBentryALTinterwordspacing
+Y.~Yao and A.~Koller, ``Predicting generalization performance with correctness discriminators,'' in \emph{Findings of the Association for Computational Linguistics: EMNLP 2024}, Y.~Al-Onaizan, M.~Bansal, and Y.-N. Chen, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Miami, Florida, USA: Association for Computational Linguistics, Nov. 2024, pp. 11\,725--11\,739. [Online]. Available: \url{https://aclanthology.org/2024.findings-emnlp.686}
+\BIBentrySTDinterwordspacing
+
+\bibitem{jiang2017markov}
+G.~Jiang and W.~Wang, ``Markov cross-validation for time series model evaluations,'' \emph{Inf. Sci.}, vol. 375, pp. 219--233, 2017.
+
+\bibitem{carmack2012generalised}
+P.~S. Carmack, J.~S. Spence, and W.~R. Schucany, ``Generalised correlated cross-validation,'' \emph{Journal of Nonparametric Statistics}, vol.~24, pp. 269 -- 282, 2012.
+
+\bibitem{Bergmeir2012On}
+C.~Bergmeir and J.~M. Benítez, ``On the use of cross-validation for time series predictor evaluation,'' \emph{Inf. Sci.}, vol. 191, pp. 192--213, 2012.
+
+\bibitem{Barratt2018OptimizingFG}
+\BIBentryALTinterwordspacing
+S.~T. Barratt and R.~Sharma, ``Optimizing for generalization in machine learning with cross-validation gradients,'' \emph{ArXiv}, vol. abs/1805.07072, 2018. [Online]. Available: \url{https://api.semanticscholar.org/CorpusID:29160606}
 \BIBentrySTDinterwordspacing
 
 \bibitem{chen-etal-2022-bert2bert}
@@ -211,48 +255,35 @@ C.~Chen, Y.~Yin, L.~Shang, X.~Jiang, Y.~Qin, F.~Wang, Z.~Wang, X.~Chen, Z.~Liu, 
 \BIBentrySTDinterwordspacing
 
 \bibitem{agrawal2022large}
-M.~Agrawal, S.~Hegselmann, H.~Lang, Y.~Kim, and D.~Sontag, ``Large language models are few-shot clinical information extractors,'' 2022.
+\BIBentryALTinterwordspacing
+M.~Agrawal, S.~Hegselmann, H.~Lang, Y.~Kim, and D.~Sontag, ``Large language models are few-shot clinical information extractors,'' in \emph{Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing}, Y.~Goldberg, Z.~Kozareva, and Y.~Zhang, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Abu Dhabi, United Arab Emirates: Association for Computational Linguistics, Dec. 2022, pp. 1998--2022. [Online]. Available: \url{https://aclanthology.org/2022.emnlp-main.130}
+\BIBentrySTDinterwordspacing
+
+\bibitem{brinkmann2024product}
+A.~Brinkmann, R.~Shraga, and C.~Bizer, ``Product attribute value extraction using large language models,'' 2024.
+
+\bibitem{skondras2023generating}
+P.~Skondras, P.~Zervas, and G.~Tzimas, ``Generating synthetic resume data with large language models for enhanced job description classification,'' \emph{Future Internet}, vol.~15, no.~11, p. 363, 2023.
 
 \bibitem{edunov-etal-2019-pre}
 \BIBentryALTinterwordspacing
 S.~Edunov, A.~Baevski, and M.~Auli, ``Pre-trained language model representations for language generation,'' in \emph{Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)}, J.~Burstein, C.~Doran, and T.~Solorio, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Minneapolis, Minnesota: Association for Computational Linguistics, Jun. 2019, pp. 4052--4059. [Online]. Available: \url{https://aclanthology.org/N19-1409}
 \BIBentrySTDinterwordspacing
 
-\bibitem{brinkmann2024product}
-A.~Brinkmann, R.~Shraga, and C.~Bizer, ``Product attribute value extraction using large language models,'' 2024.
+\bibitem{zhang2021ebert}
+D.~Zhang, Z.~Yuan, Y.~Liu, F.~Zhuang, H.~Chen, and H.~Xiong, ``E-bert: A phrase and product knowledge enhanced language model for e-commerce,'' 2021.
 
-\bibitem{labrak2024biomistral}
-Y.~Labrak, A.~Bazoge, E.~Morin, P.-A. Gourraud, M.~Rouvier, and R.~Dufour, ``Biomistral: A collection of open-source pretrained large language models for medical domains,'' 2024.
+\bibitem{zhou2023leveraging}
+\BIBentryALTinterwordspacing
+J.~Zhou, B.~Liu, J.~Acharya, Y.~Hong, K.-C. Lee, and M.~Wen, ``Leveraging large language models for enhanced product descriptions in e{C}ommerce,'' in \emph{Proceedings of the Third Workshop on Natural Language Generation, Evaluation, and Metrics (GEM)}, S.~Gehrmann, A.~Wang, J.~Sedoc, E.~Clark, K.~Dhole, K.~R. Chandu, E.~Santus, and H.~Sedghamiz, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Singapore: Association for Computational Linguistics, Dec. 2023, pp. 88--96. [Online]. Available: \url{https://aclanthology.org/2023.gem-1.8}
+\BIBentrySTDinterwordspacing
 
-\bibitem{skondras2023generating}
-P.~Skondras, P.~Zervas, and G.~Tzimas, ``Generating synthetic resume data with large language models for enhanced job description classification,'' \emph{Future Internet}, vol.~15, no.~11, p. 363, 2023.
-
-\bibitem{tang2024strucbench}
-X.~Tang, Y.~Zong, J.~Phang, Y.~Zhao, W.~Zhou, A.~Cohan, and M.~Gerstein, ``Struc-bench: Are large language models really good at generating complex structured data?'' 2024.
+\bibitem{xu2024emerging}
+X.~Xu, Y.~Wu, P.~Liang, Y.~He, and H.~Wang, ``Emerging synergies between large language models and machine learning in ecommerce recommendations,'' 2024.
 
 \bibitem{singha2023tabularrepresentationnoisyoperators}
 \BIBentryALTinterwordspacing
 A.~Singha, J.~Cambronero, S.~Gulwani, V.~Le, and C.~Parnin, ``Tabular representation, noisy operators, and impacts on table structure understanding tasks in llms,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2310.10358}
-\BIBentrySTDinterwordspacing
-
-\bibitem{zhao2023qtsummqueryfocusedsummarizationtabular}
-\BIBentryALTinterwordspacing
-Y.~Zhao, Z.~Qi, L.~Nan, B.~Mi, Y.~Liu, W.~Zou, S.~Han, R.~Chen, X.~Tang, Y.~Xu, D.~Radev, and A.~Cohan, ``Qtsumm: Query-focused summarization over tabular data,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2305.14303}
-\BIBentrySTDinterwordspacing
-
-\bibitem{macková2023promapdatasetsproductmapping}
-\BIBentryALTinterwordspacing
-K.~Macková and M.~Pilát, ``Promap: Datasets for product mapping in e-commerce,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2309.06882}
-\BIBentrySTDinterwordspacing
-
-\bibitem{chen2021wikitabletlargescaledatatotextdataset}
-\BIBentryALTinterwordspacing
-M.~Chen, S.~Wiseman, and K.~Gimpel, ``Wikitablet: A large-scale data-to-text dataset for generating wikipedia article sections,'' 2021. [Online]. Available: \url{https://arxiv.org/abs/2012.14919}
-\BIBentrySTDinterwordspacing
-
-\bibitem{chen2020tabfactlargescaledatasettablebased}
-\BIBentryALTinterwordspacing
-W.~Chen, H.~Wang, J.~Chen, Y.~Zhang, H.~Wang, S.~Li, X.~Zhou, and W.~Y. Wang, ``Tabfact: A large-scale dataset for table-based fact verification,'' 2020. [Online]. Available: \url{https://arxiv.org/abs/1909.02164}
 \BIBentrySTDinterwordspacing
 
 \bibitem{suri2023largelanguagemodelsdecision}
@@ -260,38 +291,78 @@ W.~Chen, H.~Wang, J.~Chen, Y.~Zhang, H.~Wang, S.~Li, X.~Zhou, and W.~Y. Wang, ``
 G.~Suri, L.~R. Slater, A.~Ziaee, and M.~Nguyen, ``Do large language models show decision heuristics similar to humans? a case study using gpt-3.5,'' 2023. [Online]. Available: \url{https://arxiv.org/abs/2305.04400}
 \BIBentrySTDinterwordspacing
 
-\bibitem{xu2024emerging}
-X.~Xu, Y.~Wu, P.~Liang, Y.~He, and H.~Wang, ``Emerging synergies between large language models and machine learning in ecommerce recommendations,'' 2024.
+\bibitem{chen2020tabfactlargescaledatasettablebased}
+\BIBentryALTinterwordspacing
+W.~Chen, H.~Wang, J.~Chen, Y.~Zhang, H.~Wang, S.~Li, X.~Zhou, and W.~Y. Wang, ``Tabfact: A large-scale dataset for table-based fact verification,'' 2020. [Online]. Available: \url{https://arxiv.org/abs/1909.02164}
+\BIBentrySTDinterwordspacing
 
-\bibitem{zhang2021ebert}
-D.~Zhang, Z.~Yuan, Y.~Liu, F.~Zhuang, H.~Chen, and H.~Xiong, ``E-bert: A phrase and product knowledge enhanced language model for e-commerce,'' 2021.
+\bibitem{cheng-etal-2022-hitab}
+\BIBentryALTinterwordspacing
+Z.~Cheng, H.~Dong, Z.~Wang, R.~Jia, J.~Guo, Y.~Gao, S.~Han, J.-G. Lou, and D.~Zhang, ``{H}i{T}ab: A hierarchical table dataset for question answering and natural language generation,'' in \emph{Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, S.~Muresan, P.~Nakov, and A.~Villavicencio, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Dublin, Ireland: Association for Computational Linguistics, May 2022, pp. 1094--1110. [Online]. Available: \url{https://aclanthology.org/2022.acl-long.78}
+\BIBentrySTDinterwordspacing
 
-\bibitem{zhou2023leveraging}
-J.~Zhou, B.~Liu, J.~N. A.~Y. Hong, K.~chih Lee, and M.~Wen, ``Leveraging large language models for enhanced product descriptions in ecommerce,'' 2023.
+\bibitem{moosavi2021scigen}
+\BIBentryALTinterwordspacing
+N.~S. Moosavi, A.~R{\"u}ckl{\'e}, D.~Roth, and I.~Gurevych, ``Scigen: a dataset for reasoning-aware text generation from scientific tables,'' in \emph{Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)}, 2021. [Online]. Available: \url{https://openreview.net/forum?id=Jul-uX7EV_I}
+\BIBentrySTDinterwordspacing
+
+\bibitem{suadaa-etal-2021-towards}
+\BIBentryALTinterwordspacing
+L.~H. Suadaa, H.~Kamigaito, K.~Funakoshi, M.~Okumura, and H.~Takamura, ``Towards table-to-text generation with numerical reasoning,'' in \emph{Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}, C.~Zong, F.~Xia, W.~Li, and R.~Navigli, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Online: Association for Computational Linguistics, Aug. 2021, pp. 1451--1465. [Online]. Available: \url{https://aclanthology.org/2021.acl-long.115}
+\BIBentrySTDinterwordspacing
+
+\bibitem{nan2021fetaqafreeformtablequestion}
+\BIBentryALTinterwordspacing
+L.~Nan, C.~Hsieh, Z.~Mao, X.~V. Lin, N.~Verma, R.~Zhang, W.~Kry{\'s}ci{\'n}ski, H.~Schoelkopf, R.~Kong, X.~Tang, M.~Mutuma, B.~Rosand, I.~Trindade, R.~Bandaru, J.~Cunningham, C.~Xiong, D.~Radev, and D.~Radev, ``{F}e{T}a{QA}: Free-form table question answering,'' \emph{Transactions of the Association for Computational Linguistics}, vol.~10, pp. 35--49, 2022. [Online]. Available: \url{https://aclanthology.org/2022.tacl-1.3}
+\BIBentrySTDinterwordspacing
 
 \bibitem{zhang2022opt}
 S.~Zhang, S.~Roller, N.~Goyal, M.~Artetxe, M.~Chen, S.~Chen, C.~Dewan, M.~Diab, X.~Li, X.~V. Lin, T.~Mihaylov, M.~Ott, S.~Shleifer, K.~Shuster, D.~Simig, P.~S. Koura, A.~Sridhar, T.~Wang, and L.~Zettlemoyer, ``Opt: Open pre-trained transformer language models,'' 2022.
 
-\bibitem{yuan2023scaling}
-Z.~Yuan, H.~Yuan, C.~Li, G.~Dong, K.~Lu, C.~Tan, C.~Zhou, and J.~Zhou, ``Scaling relationship on learning mathematical reasoning with large language models,'' 2023.
-
-\bibitem{creswell2022selectioninference}
-A.~Creswell, M.~Shanahan, and I.~Higgins, ``Selection-inference: Exploiting large language models for interpretable logical reasoning,'' 2022.
-
-\bibitem{zhou-etal-2023-inform}
+\bibitem{madsen-etal-2022-evaluating}
 \BIBentryALTinterwordspacing
-C.~Zhou, W.~You, J.~Li, J.~Ye, K.~Chen, and M.~Zhang, ``{INFORM} : Information e{N}tropy based multi-step reasoning {FOR} large language models,'' in \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, H.~Bouamor, J.~Pino, and K.~Bali, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Singapore: Association for Computational Linguistics, Dec. 2023, pp. 3565--3576. [Online]. Available: \url{https://aclanthology.org/2023.emnlp-main.216}
+A.~Madsen, N.~Meade, V.~Adlakha, and S.~Reddy, ``Evaluating the faithfulness of importance measures in {NLP} by recursively masking allegedly important tokens and retraining,'' in \emph{Findings of the Association for Computational Linguistics: EMNLP 2022}, Y.~Goldberg, Z.~Kozareva, and Y.~Zhang, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Abu Dhabi, United Arab Emirates: Association for Computational Linguistics, Dec. 2022, pp. 1731--1751. [Online]. Available: \url{https://aclanthology.org/2022.findings-emnlp.125}
 \BIBentrySTDinterwordspacing
-
-\bibitem{wang2024largescale}
-X.~Wang, G.~Chen, G.~Qian, P.~Gao, X.-Y. Wei, Y.~Wang, Y.~Tian, and W.~Gao, ``Large-scale multi-modal pre-trained models: A comprehensive survey,'' 2024.
-
-\bibitem{minaee2024large}
-S.~Minaee, T.~Mikolov, N.~Nikzad, M.~Chenaghlu, R.~Socher, X.~Amatriain, and J.~Gao, ``Large language models: A survey,'' 2024.
 
 \bibitem{OnePlusNord35G2023}
 \BIBentryALTinterwordspacing
 Pricebaba.com, ``Oneplus nord 3 5g - specifications and reviews,'' 2023, accessed: 2023-07-13. [Online]. Available: \url{https://pricebaba.com/mobile/oneplus-nord-3-5g}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Zhang2023InstructionTF}
+\BIBentryALTinterwordspacing
+S.~Zhang, L.~Dong, X.~Li, S.~Zhang, X.~Sun, S.~Wang, J.~Li, R.~Hu, T.~Zhang, F.~Wu, and G.~Wang, ``Instruction tuning for large language models: A survey,'' \emph{ArXiv}, vol. abs/2308.10792, 2023. [Online]. Available: \url{https://api.semanticscholar.org/CorpusID:261049152}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Chang2023ASO}
+\BIBentryALTinterwordspacing
+Y.~Chang, X.~Wang, J.~Wang, Y.~Wu, L.~Yang, K.~Zhu, H.~Chen, X.~Yi, C.~Wang, Y.~Wang, W.~Ye, Y.~Zhang, Y.~Chang, P.~S. Yu, Q.~Yang, and X.~Xie, ``A survey on evaluation of large language models,'' \emph{ACM Trans. Intell. Syst. Technol.}, vol.~15, no.~3, Mar. 2024. [Online]. Available: \url{https://doi.org/10.1145/3641289}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Papineni02bleu:a}
+K.~Papineni, S.~Roukos, T.~Ward, and W.~jing Zhu, ``Bleu: a method for automatic evaluation of machine translation,'' 2002, pp. 311--318.
+
+\bibitem{10.5555/1626355.1626389}
+A.~Lavie and A.~Agarwal, ``Meteor: an automatic metric for mt evaluation with high levels of correlation with human judgments,'' in \emph{Proceedings of the Second Workshop on Statistical Machine Translation}, ser. StatMT '07.\hskip 1em plus 0.5em minus 0.4em\relax USA: Association for Computational Linguistics, 2007, pp. 228--231.
+
+\bibitem{liu2024datasetslargelanguagemodels}
+\BIBentryALTinterwordspacing
+Y.~Liu, J.~Cao, C.~Liu, K.~Ding, and L.~Jin, ``Datasets for large language models: A comprehensive survey,'' 2024. [Online]. Available: \url{https://arxiv.org/abs/2402.18041}
+\BIBentrySTDinterwordspacing
+
+\bibitem{kim2024prometheusinducingfinegrainedevaluation}
+\BIBentryALTinterwordspacing
+S.~Kim, J.~Shin, Y.~Cho, J.~Jang, S.~Longpre, H.~Lee, S.~Yun, S.~Shin, S.~Kim, J.~Thorne, and M.~Seo, ``Prometheus: Inducing fine-grained evaluation capability in language models,'' in \emph{The Twelfth International Conference on Learning Representations}, 2024. [Online]. Available: \url{https://openreview.net/forum?id=8euJaTveKw}
+\BIBentrySTDinterwordspacing
+
+\bibitem{kim2024biggenbenchprincipledbenchmark}
+\BIBentryALTinterwordspacing
+S.~Kim, J.~Suk, J.~Y. Cho, S.~Longpre, C.~Kim, D.~Yoon, G.~Son, Y.~Cho, S.~Shafayat, J.~Baek, S.~H. Park, H.~Hwang, J.~Jo, H.~Cho, H.~Shin, S.~Lee, H.~Oh, N.~Lee, N.~Ho, S.~J. Joo, M.~Ko, Y.~Lee, H.~Chae, J.~Shin, J.~Jang, S.~Ye, B.~Y. Lin, S.~Welleck, G.~Neubig, M.~Lee, K.~Lee, and M.~Seo, ``The biggen bench: A principled benchmark for fine-grained evaluation of language models with language models,'' 2024. [Online]. Available: \url{https://arxiv.org/abs/2406.05761}
+\BIBentrySTDinterwordspacing
+
+\bibitem{liu2023gevalnlgevaluationusing}
+\BIBentryALTinterwordspacing
+Y.~Liu, D.~Iter, Y.~Xu, S.~Wang, R.~Xu, and C.~Zhu, ``{G}-eval: {NLG} evaluation using gpt-4 with better human alignment,'' in \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, H.~Bouamor, J.~Pino, and K.~Bali, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Singapore: Association for Computational Linguistics, Dec. 2023, pp. 2511--2522. [Online]. Available: \url{https://aclanthology.org/2023.emnlp-main.153}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

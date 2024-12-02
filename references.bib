@@ -66,13 +66,12 @@
   abstract = {The recent focus on Large Language Models (LLMs) has yielded unprecedented discussion of their potential use in various domains, including healthcare. While showing considerable potential in performing human-capable tasks, LLMs have also demonstrated significant drawbacks, including generating misinformation, falsifying data, and contributing to plagiarism. These aspects are generally concerning but can be more severe in the context of healthcare. As LLMs are explored for utility in healthcare, including generating discharge summaries, interpreting medical records and providing medical advice, it is necessary to ensure safeguards around their use in healthcare. Notably, there must be an evaluation process that assesses LLMs for their natural language processing performance and their translational value. Complementing this assessment, a governance layer can ensure accountability and public confidence in such models. Such an evaluation framework is discussed and presented in this paper.}
 }
 
-@misc{singha2023tabular,
-  title         = {Tabular Representation, Noisy Operators, and Impacts on Table Structure Understanding Tasks in LLMs},
-  author        = {Ananya Singha and José Cambronero and Sumit Gulwani and Vu Le and Chris Parnin},
-  year          = {2023},
-  eprint        = {2310.10358},
-  archiveprefix = {arXiv},
-  primaryclass  = {cs.CL}
+@inproceedings{singha2023tabular,
+title={Tabular Representation, Noisy Operators, and Impacts on Table Structure Understanding Tasks in {LLM}s},
+author={Ananya Singha and Jos{\'e} Cambronero and Sumit Gulwani and Vu Le and Chris Parnin},
+booktitle={NeurIPS 2023 Second Table Representation Learning Workshop},
+year={2023},
+url={https://openreview.net/forum?id=Ld5UCpiT07}
 }
 
 @misc{touvron2023llama,
@@ -111,22 +110,20 @@
   primaryclass  = {cs.CL}
 }
 
-@misc{zhuang2024structlm,
-  title         = {StructLM: Towards Building Generalist Models for Structured Knowledge Grounding},
-  author        = {Alex Zhuang and Ge Zhang and Tianyu Zheng and Xinrun Du and Junjie Wang and Weiming Ren and Stephen W. Huang and Jie Fu and Xiang Yue and Wenhu Chen},
-  year          = {2024},
-  eprint        = {2402.16671},
-  archiveprefix = {arXiv},
-  primaryclass  = {cs.CL}
+@inproceedings{zhuang2024structlm,
+title={Struct{LM}: Towards Building Generalist Models for Structured Knowledge Grounding},
+author={Alex Zhuang and Ge Zhang and Tianyu Zheng and Xinrun Du and Junjie Wang and Weiming Ren and Wenhao Huang and Jie Fu and Xiang Yue and Wenhu Chen},
+booktitle={First Conference on Language Modeling},
+year={2024},
+url={https://openreview.net/forum?id=EKBPn7no4y}
 }
 
-@misc{fan2023fatellm,
-      title={FATE-LLM: A Industrial Grade Federated Learning Framework for Large Language Models}, 
-      author={Tao Fan and Yan Kang and Guoqiang Ma and Weijing Chen and Wenbin Wei and Lixin Fan and Qiang Yang},
-      year={2023},
-      eprint={2310.10049},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+
+@article{fan2023fatellm,
+  title={Fate-llm: A industrial grade federated learning framework for large language models},
+  author={Fan, Tao and Kang, Yan and Ma, Guoqiang and Chen, Weijing and Wei, Wenbin and Fan, Lixin and Yang, Qiang},
+  journal={Symposium on Advances and Open Problems in Large Language Models (LLM@IJCAI'23)},
+  year={2023}
 }
 
 @INPROCEEDINGS{10305960,
@@ -173,22 +170,34 @@
       primaryClass={cs.CL}
 }
 
-@misc{yu2022differentially,
-      title={Differentially Private Fine-tuning of Language Models}, 
-      author={Da Yu and Saurabh Naik and Arturs Backurs and Sivakanth Gopi and Huseyin A. Inan and Gautam Kamath and Janardhan Kulkarni and Yin Tat Lee and Andre Manoel and Lukas Wutschitz and Sergey Yekhanin and Huishuai Zhang},
-      year={2022},
-      eprint={2110.06500},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{yu2022differentially,
+title={Differentially Private Fine-tuning of Language Models},
+author={Da Yu and Saurabh Naik and Arturs Backurs and Sivakanth Gopi and Huseyin A Inan and Gautam Kamath and Janardhan Kulkarni and Yin Tat Lee and Andre Manoel and Lukas Wutschitz and Sergey Yekhanin and Huishuai Zhang},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=Q42f0dfjECO}
 }
 
-@misc{zheng2024llamafactory,
-      title={LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models}, 
-      author={Yaowei Zheng and Richong Zhang and Junhao Zhang and Yanhan Ye and Zheyan Luo and Yongqiang Ma},
-      year={2024},
-      eprint={2403.13372},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+
+@inproceedings{zheng2024llamafactory,
+    title = "{L}lama{F}actory: Unified Efficient Fine-Tuning of 100+ Language Models",
+    author = "Zheng, Yaowei  and
+      Zhang, Richong  and
+      Zhang, Junhao  and
+      Ye, Yanhan  and
+      Luo, Zheyan",
+    editor = "Cao, Yixin  and
+      Feng, Yang  and
+      Xiong, Deyi",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-demos.38",
+    doi = "10.18653/v1/2024.acl-demos.38",
+    pages = "400--410",
+    abstract = "Efficient fine-tuning is vital for adapting large language models (LLMs) to downstream tasks. However, it requires non-trivial efforts to implement these methods on different models. We present LlamaFactory, a unified framework that integrates a suite of cutting-edge efficient training methods. It provides a solution for flexibly customizing the fine-tuning of 100+ LLMs without the need for coding through the built-in web UI LlamaBoard. We empirically validate the efficiency and effectiveness of our framework on language modeling and text generation tasks. It has been released at https://github.com/hiyouga/LLaMA-Factory and received over 25,000 stars and 3,000 forks.",
 }
 
 @misc{zhu2024lift,
@@ -198,13 +207,21 @@ year={2024},
 url={https://openreview.net/forum?id=u0INlprg3U}
 }
 
-@misc{macková2023promap,
-      title={ProMap: Datasets for Product Mapping in E-commerce}, 
-      author={Kateřina Macková and Martin Pilát},
-      year={2023},
-      eprint={2309.06882},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{macková2023promap,
+author = {Mackov\'{a}, Kate\v{r}ina and Pil\'{a}t, Martin},
+title = {ProMap: Product Mapping Datasets},
+year = {2024},
+isbn = {978-3-031-56059-0},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-031-56060-6_11},
+doi = {10.1007/978-3-031-56060-6_11},
+abstract = {The goal of product mapping is to decide, whether two listings from two different e-shops describe the same products. Existing datasets of matching and non-matching pairs of products, however, often suffer from incomplete product information or contain only very distant non-matching products. In this paper, we introduce two new datasets for product mapping: ProMapCz consisting of 1,495 Czech product pairs and ProMapEn consisting of 1,555 English product pairs of matching and non-matching products manually scraped from two pairs of e-shops. The datasets contain both images and textual descriptions of the products, including their specifications, making them one of the most complete datasets for product mapping. Additionally, we divide the non-matching products into two different categories – close non-matches and medium non-matches, based on how similar the products are to each other. Even the medium non-matches are, however, pairs of products that are much more similar than non-matches in other datasets – for example, they still need to have the same brand and similar name and price. Finally, we train a number of product matching models on these datasets to demonstrate the advantages of having these two types of non-matches for the analysis of these models.},
+booktitle = {Advances in Information Retrieval: 46th European Conference on Information Retrieval, ECIR 2024, Glasgow, UK, March 24–28, 2024, Proceedings, Part II},
+pages = {159–172},
+numpages = {14},
+keywords = {Product Mapping, Product Matching, Similarity Computation, Machine Learning},
+location = {Glasgow, United Kingdom}
 }
 
 @InProceedings{10.1007/978-3-319-20895-4_34,
@@ -293,13 +310,27 @@ author = {Mohd Muntjir and Ahmad Tasnim Siddiqui}
     abstract = "In recent years, researchers tend to pre-train ever-larger language models to explore the upper limit of deep models. However, large language model pre-training costs intensive computational resources, and most of the models are trained from scratch without reusing the existing pre-trained models, which is wasteful. In this paper, we propose bert2BERT, which can effectively transfer the knowledge of an existing smaller pre-trained model to a large model through parameter initialization and significantly improve the pre-training efficiency of the large model. Specifically, we extend the previous function-preserving method proposed in computer vision on the Transformer-based language model, and further improve it by proposing a novel method, advanced knowledge for large model{'}s initialization. In addition, a two-stage learning method is proposed to further accelerate the pre-training. We conduct extensive experiments on representative PLMs (e.g., BERT and GPT) and demonstrate that (1) our method can save a significant amount of training cost compared with baselines including learning from scratch, StackBERT and MSLT; (2) our method is generic and applicable to different types of pre-trained models. In particular, bert2BERT saves about 45{\%} and 47{\%} computational cost of pre-training BERT$_{\rm BASE}$ and GPT$_{\rm BASE}$ by reusing the models of almost their half sizes.",
 }
 
-@misc{agrawal2022large,
-      title={Large Language Models are Few-Shot Clinical Information Extractors}, 
-      author={Monica Agrawal and Stefan Hegselmann and Hunter Lang and Yoon Kim and David Sontag},
-      year={2022},
-      eprint={2205.12689},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+
+
+@inproceedings{agrawal2022large,
+    title = "Large language models are few-shot clinical information extractors",
+    author = "Agrawal, Monica  and
+      Hegselmann, Stefan  and
+      Lang, Hunter  and
+      Kim, Yoon  and
+      Sontag, David",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.130",
+    doi = "10.18653/v1/2022.emnlp-main.130",
+    pages = "1998--2022",
+    abstract = "A long-running goal of the clinical NLP community is the extraction of important variables trapped in clinical notes. However, roadblocks have included dataset shift from the general domain and a lack of public clinical corpora and annotations. In this work, we show that large language models, such as InstructGPT (Ouyang et al., 2022), perform well at zero- and few-shot information extraction from clinical text despite not being trained specifically for the clinical domain. Whereas text classification and generation performance have already been studied extensively in such models, here we additionally demonstrate how to leverage them to tackle a diverse set of NLP tasks which require more structured outputs, including span identification, token-level sequence classification, and relation extraction. Further, due to the dearth of available data to evaluate these systems, we introduce new datasets for benchmarking few-shot clinical information extraction based on a manual re-annotation of the CASI dataset (Moon et al., 2014) for new tasks. On the clinical extraction tasks we studied, the GPT-3 systems significantly outperform existing zero- and few-shot baselines.",
 }
 
 @inproceedings{edunov-etal-2019-pre,
@@ -330,13 +361,27 @@ author = {Mohd Muntjir and Ahmad Tasnim Siddiqui}
       primaryClass={cs.CL}
 }
 
-@misc{labrak2024biomistral,
-      title={BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains}, 
-      author={Yanis Labrak and Adrien Bazoge and Emmanuel Morin and Pierre-Antoine Gourraud and Mickael Rouvier and Richard Dufour},
-      year={2024},
-      eprint={2402.10373},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+
+@inproceedings{labrak2024biomistral,
+    title = "{B}io{M}istral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains",
+    author = "Labrak, Yanis  and
+      Bazoge, Adrien  and
+      Morin, Emmanuel  and
+      Gourraud, Pierre-Antoine  and
+      Rouvier, Mickael  and
+      Dufour, Richard",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.348",
+    doi = "10.18653/v1/2024.findings-acl.348",
+    pages = "5848--5864",
+    abstract = "Large Language Models (LLMs) have demonstrated remarkable versatility in recent years, offering potential applications across specialized domains such as healthcare and medicine. Despite the availability of various open-source LLMs tailored for health contexts, adapting general-purpose LLMs to the medical domain presents significant challenges.In this paper, we introduce BioMistral, an open-source LLM tailored for the biomedical domain, utilizing Mistral as its foundation model and further pre-trained on PubMed Central. We conduct a comprehensive evaluation of BioMistral on a benchmark comprising 10 established medical question-answering (QA) tasks in English. We also explore lightweight models obtained through quantization and model merging approaches. Our results demonstrate BioMistral{'}s superior performance compared to existing open-source medical models and its competitive edge against proprietary counterparts. Finally, to address the limited availability of data beyond English and to assess the multilingual generalization of medical LLMs, we automatically translated and evaluated this benchmark into 7 other languages. This marks the first large-scale multilingual evaluation of LLMs in the medical domain. Datasets, multilingual evaluation benchmarks, scripts, and all the models obtained during our experiments are freely released.",
 }
 
 @article{skondras2023generating,
@@ -350,13 +395,28 @@ author = {Mohd Muntjir and Ahmad Tasnim Siddiqui}
   publisher={MDPI}
 }
 
-@misc{tang2024strucbench,
-      title={Struc-Bench: Are Large Language Models Really Good at Generating Complex Structured Data?}, 
-      author={Xiangru Tang and Yiming Zong and Jason Phang and Yilun Zhao and Wangchunshu Zhou and Arman Cohan and Mark Gerstein},
-      year={2024},
-      eprint={2309.08963},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+
+@inproceedings{tang2024strucbench,
+    title = "Struc-Bench: Are Large Language Models Good at Generating Complex Structured Tabular Data?",
+    author = "Tang, Xiangru  and
+      Zong, Yiming  and
+      Phang, Jason  and
+      Zhao, Yilun  and
+      Zhou, Wangchunshu  and
+      Cohan, Arman  and
+      Gerstein, Mark",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-short.2",
+    doi = "10.18653/v1/2024.naacl-short.2",
+    pages = "12--34",
+    abstract = "Despite the remarkable capabilities of Large Language Models (LLMs) like GPT-4, producing complex, structured tabular data remains challenging. Our study assesses LLMs{'} proficiency in structuring tables and introduces a novel fine-tuning method, cognizant of data structures, to bolster their performance. We unveil Struc-Bench, a comprehensive benchmark featuring prominent LLMs (GPT-NeoX-20B, GPT-3.5, GPT-4, and Vicuna), which spans text tables, HTML, and LaTeX formats. Our proposed FormatCoT aids in crafting format-specific instructions from the intended outputs to populate this benchmark. Addressing the gap in task-centered evaluation, we propose two innovative metrics, P-Score (Prompting Score) and H-Score (Heuristical Score), to more accurately gauge LLM performance. Our experiments show that applying our structure-aware fine-tuning to LLaMA-7B leads to substantial performance gains, outshining its LLM counterparts across most measures. In-depth error analysis and creating an ability map across six dimensions, coverage, formatting, reasoning, comprehension, pragmatics, and hallucination, highlight areas for future enhancements and suggest forthcoming research trajectories. Our code and models can be found at https://github.com/gersteinlab/Struc-Bench.",
 }
 
 @misc{xu2024emerging,
@@ -377,13 +437,31 @@ author = {Mohd Muntjir and Ahmad Tasnim Siddiqui}
       primaryClass={cs.CL}
 }
 
-@misc{zhou2023leveraging,
-      title={Leveraging Large Language Models for Enhanced Product Descriptions in eCommerce}, 
-      author={Jianghong Zhou and Bo Liu and Jhalak Nilesh Acharya Yao Hong and Kuang-chih Lee and Musen Wen},
-      year={2023},
-      eprint={2310.18357},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+
+@inproceedings{zhou2023leveraging,
+    title = "Leveraging Large Language Models for Enhanced Product Descriptions in e{C}ommerce",
+    author = "Zhou, Jianghong  and
+      Liu, Bo  and
+      Acharya, Jhalak  and
+      Hong, Yao  and
+      Lee, Kuang-Chih  and
+      Wen, Musen",
+    editor = "Gehrmann, Sebastian  and
+      Wang, Alex  and
+      Sedoc, Jo{\~a}o  and
+      Clark, Elizabeth  and
+      Dhole, Kaustubh  and
+      Chandu, Khyathi Raghavi  and
+      Santus, Enrico  and
+      Sedghamiz, Hooman",
+    booktitle = "Proceedings of the Third Workshop on Natural Language Generation, Evaluation, and Metrics (GEM)",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.gem-1.8",
+    pages = "88--96",
+    abstract = "In the dynamic field of eCommerce, the quality and comprehensiveness of product descriptions are pivotal for enhancing search visibility and customer engagement. Effective product descriptions can address the {`}cold start{'} problem, align with market trends, and ultimately lead to increased click-through rates. Traditional methods for crafting these descriptions often involve significant human effort and may lack both consistency and scalability. This paper introduces a novel methodology for automating product description generation using the LLAMA 2.0 7B language model. We train the model on a dataset of authentic product descriptions from Walmart, one of the largest eCommerce platforms. The model is then fine-tuned for domain-specific language features and eCommerce nuances to enhance its utility in sales and user engagement. We employ multiple evaluation metrics{---}including NDCG, customer click-through rates, and human assessments{---}to validate the effectiveness of our approach. Our findings reveal that the system is not only scalable but also significantly reduces the human workload involved in creating product descriptions. This study underscores the considerable potential of large language models like LLAMA 2.0 7B in automating and optimizing various facets of eCommerce platforms, offering significant business impact, including improved search functionality and increased sales.",
 }
 
 @misc{yuan2023scaling,
@@ -404,13 +482,12 @@ author = {Mohd Muntjir and Ahmad Tasnim Siddiqui}
       primaryClass={cs.CL}
 }
 
-@misc{creswell2022selectioninference,
-      title={Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning}, 
-      author={Antonia Creswell and Murray Shanahan and Irina Higgins},
-      year={2022},
-      eprint={2205.09712},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
+@inproceedings{creswell2022selectioninference,
+title={Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning},
+author={Antonia Creswell and Murray Shanahan and Irina Higgins},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023},
+url={https://openreview.net/forum?id=3Pf3Wg6o-A4}
 }
 
 @inproceedings{zhou-etal-2023-inform,
@@ -472,12 +549,15 @@ pages={948},
 doi={10.22331/q-2023-03-16-948}
 }
 
-@article{Shachaf2021A,
-title={A Theoretical Analysis of Fine-tuning with Linear Teachers},
-author={Gal Shachaf and Alon Brutzkus and Amir Globerson},
-journal={ArXiv},
-year={2021},
-doi={}
+
+@misc{Shachaf2021A,
+      title={A Theoretical Analysis of Fine-tuning with Linear Teachers}, 
+      author={Gal Shachaf and Alon Brutzkus and Amir Globerson},
+      year={2021},
+      eprint={2107.01641},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2107.01641}, 
 }
 
 @article{Vrbancic2020Transfer,
@@ -499,87 +579,167 @@ volume={abs/2302.04870},
 doi={10.48550/arXiv.2302.04870}
 }
 
+
 @article{Reiter2018A,
-title={A Structured Review of the Validity of BLEU},
-author={Ehud Reiter},
-journal={Computational Linguistics},
-year={2018},
-volume={Just Accepted},
-pages={1-8},
-doi={10.1162/COLI_a_00322}
+    title = "A Structured Review of the Validity of {BLEU}",
+    author = "Reiter, Ehud",
+    journal = "Computational Linguistics",
+    volume = "44",
+    number = "3",
+    month = sep,
+    year = "2018",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/J18-3002",
+    doi = "10.1162/coli_a_00322",
+    pages = "393--401",
+    abstract = "The BLEU metric has been widely used in NLP for over 15 years to evaluate NLP systems, especially in machine translation and natural language generation. I present a structured review of the evidence on whether BLEU is a valid evaluation technique{---}in other words, whether BLEU scores correlate with real-world utility and user-satisfaction of NLP systems; this review covers 284 correlations reported in 34 papers. Overall, the evidence supports using BLEU for diagnostic evaluation of MT systems (which is what it was originally proposed for), but does not support using BLEU outside of MT, for evaluation of individual texts, or for scientific hypothesis testing.",
 }
 
-@article{Agarwal2008Meteor,
-title={Meteor, M-BLEU and M-TER: Evaluation Metrics for High-Correlation with Human Rankings of Machine Translation Output},
-author={Abhaya Agarwal and A. Lavie},
-journal={ArXiv},
-year={2008},
-pages={115-118},
-doi={10.3115/1626394.1626406}
+
+@inproceedings{Agarwal2008Meteor,
+author = {Agarwal, Abhaya and Lavie, Alon},
+title = {METEOR, M-BLEU and M-TER: evaluation metrics for high-correlation with human rankings of machine translation output},
+year = {2008},
+isbn = {9781932432091},
+publisher = {Association for Computational Linguistics},
+address = {USA},
+abstract = {This paper describes our submissions to the machine translation evaluation shared task in ACL WMT-08. Our primary submission is the Meteor metric tuned for optimizing correlation with human rankings of translation hypotheses. We show significant improvement in correlation as compared to the earlier version of metric which was tuned to optimized correlation with traditional adequacy and fluency judgments. We also describe m-bleu and m-ter, enhanced versions of two other widely used metrics bleu and ter respectively, which extend the exact word matching used in these metrics with the flexible matching based on stemming and Wordnet in Meteor.},
+booktitle = {Proceedings of the Third Workshop on Statistical Machine Translation},
+pages = {115–118},
+numpages = {4},
+location = {Columbus, Ohio},
+series = {StatMT '08}
 }
 
-@article{Ganesan2015ROUGE,
-title={ROUGE 2.0: Updated and Improved Measures for Evaluation of Summarization Tasks},
-author={Kavita A. Ganesan},
-journal={ArXiv},
-year={2015},
-volume={abs/1803.01937},
-doi={}
+
+@misc{Ganesan2015ROUGE,
+      title={ROUGE 2.0: Updated and Improved Measures for Evaluation of Summarization Tasks}, 
+      author={Kavita Ganesan},
+      year={2018},
+      eprint={1803.01937},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/1803.01937}, 
 }
 
-@article{Ng2015Better,
-title={Better Summarization Evaluation with Word Embeddings for ROUGE},
-author={Jun-Ping Ng and Viktoria Abrecht},
-journal={ArXiv},
-year={2015},
-volume={abs/1508.06034},
-doi={10.18653/v1/D15-1222}
+
+@inproceedings{Ng2015Better,
+    title = "Better Summarization Evaluation with Word Embeddings for {ROUGE}",
+    author = "Ng, Jun-Ping  and
+      Abrecht, Viktoria",
+    editor = "M{\`a}rquez, Llu{\'\i}s  and
+      Callison-Burch, Chris  and
+      Su, Jian",
+    booktitle = "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing",
+    month = sep,
+    year = "2015",
+    address = "Lisbon, Portugal",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D15-1222",
+    doi = "10.18653/v1/D15-1222",
+    pages = "1925--1930",
 }
+
 
 @article{Ji2022Survey,
-title={Survey of Hallucination in Natural Language Generation},
-author={Ziwei Ji and Nayeon Lee and Rita Frieske and Tiezheng Yu and D. Su and Yan Xu and Etsuko Ishii and Yejin Bang and Wenliang Dai and Andrea Madotto and Pascale Fung},
-journal={ACM Computing Surveys},
-year={2022},
-volume={55},
-pages={1 - 38},
-doi={10.1145/3571730}
+author = {Ji, Ziwei and Lee, Nayeon and Frieske, Rita and Yu, Tiezheng and Su, Dan and Xu, Yan and Ishii, Etsuko and Bang, Ye Jin and Madotto, Andrea and Fung, Pascale},
+title = {Survey of Hallucination in Natural Language Generation},
+year = {2023},
+issue_date = {December 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {55},
+number = {12},
+issn = {0360-0300},
+url = {https://doi.org/10.1145/3571730},
+doi = {10.1145/3571730},
+abstract = {Natural Language Generation (NLG) has improved exponentially in recent years thanks to the development of sequence-to-sequence deep learning technologies such as Transformer-based language models. This advancement has led to more fluent and coherent NLG, leading to improved development in downstream tasks such as abstractive summarization, dialogue generation, and data-to-text generation. However, it is also apparent that deep learning based generation is prone to hallucinate unintended text, which degrades the system performance and fails to meet user expectations in many real-world scenarios. To address this issue, many studies have been presented in measuring and mitigating hallucinated texts, but these have never been reviewed in a comprehensive manner before.In this survey, we thus provide a broad overview of the research progress and challenges in the hallucination problem in NLG. The survey is organized into two parts: (1) a general overview of metrics, mitigation methods, and future directions, and (2) an overview of task-specific research progress on hallucinations in the following downstream tasks, namely abstractive summarization, dialogue generation, generative question answering, data-to-text generation, and machine translation. This survey serves to facilitate collaborative efforts among researchers in tackling the challenge of hallucinated texts in NLG.},
+journal = {ACM Comput. Surv.},
+month = mar,
+articleno = {248},
+numpages = {38},
+keywords = {Hallucination, intrinsic hallucination, extrinsic hallucination, faithfulness in NLG, factuality in NLG, consistency in NLG}
 }
+
 
 @article{Huang2023A,
-title={A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions},
-author={Lei Huang and Weijiang Yu and Weitao Ma and Weihong Zhong and Zhangyin Feng and Haotian Wang and Qianglong Chen and Weihua Peng and Xiaocheng Feng and Bing Qin and Ting Liu},
-journal={ArXiv},
-year={2023},
-volume={abs/2311.05232},
-doi={10.48550/arXiv.2311.05232}
+author = {Huang, Lei and Yu, Weijiang and Ma, Weitao and Zhong, Weihong and Feng, Zhangyin and Wang, Haotian and Chen, Qianglong and Peng, Weihua and Feng, Xiaocheng and Qin, Bing and Liu, Ting},
+title = {A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions},
+year = {2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1046-8188},
+url = {https://doi.org/10.1145/3703155},
+doi = {10.1145/3703155},
+abstract = {The emergence of large language models (LLMs) has marked a significant breakthrough in natural language processing (NLP), fueling a paradigm shift in information acquisition. Nevertheless, LLMs are prone to hallucination, generating plausible yet nonfactual content. This phenomenon raises significant concerns over the reliability of LLMs in real-world information retrieval (IR) systems and has attracted intensive research to detect and mitigate such hallucinations. Given the open-ended general-purpose attributes inherent to LLMs, LLM hallucinations present distinct challenges that diverge from prior task-specific models. This divergence highlights the urgency for a nuanced understanding and comprehensive overview of recent advances in LLM hallucinations. In this survey, we begin with an innovative taxonomy of hallucination in the era of LLM and then delve into the factors contributing to hallucinations. Subsequently, we present a thorough overview of hallucination detection methods and benchmarks. Our discussion then transfers to representative methodologies for mitigating LLM hallucinations. Additionally, we delve into the current limitations faced by retrieval-augmented LLMs in combating hallucinations, offering insights for developing more robust IR systems. Finally, we highlight the promising research directions on LLM hallucinations, including hallucination in large vision-language models and understanding of knowledge boundaries in LLM hallucinations.},
+note = {Just Accepted},
+journal = {ACM Trans. Inf. Syst.},
+month = nov,
+keywords = {Large Language Models, Hallucination, Factuality, Faithfulness}
 }
 
-@article{Xiao2021On,
-title={On Hallucination and Predictive Uncertainty in Conditional Language Generation},
-author={Yijun Xiao and W. Wang},
-journal={ArXiv},
-year={2021},
-volume={abs/2103.15025},
-doi={10.18653/v1/2021.eacl-main.236}
+
+@inproceedings{Xiao2021On,
+    title = "On Hallucination and Predictive Uncertainty in Conditional Language Generation",
+    author = "Xiao, Yijun  and
+      Wang, William Yang",
+    editor = "Merlo, Paola  and
+      Tiedemann, Jorg  and
+      Tsarfaty, Reut",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+    month = apr,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.eacl-main.236",
+    doi = "10.18653/v1/2021.eacl-main.236",
+    pages = "2734--2744",
+    abstract = "Despite improvements in performances on different natural language generation tasks, deep neural models are prone to hallucinating facts that are incorrect or nonexistent. Different hypotheses are proposed and examined separately for different tasks, but no systematic explanations are available across these tasks. In this study, we draw connections between hallucinations and predictive uncertainty in conditional language generation. We investigate their relationship in both image captioning and data-to-text generation and propose a simple extension to beam search to reduce hallucination. Our analysis shows that higher predictive uncertainty corresponds to a higher chance of hallucination. Epistemic uncertainty is more indicative of hallucination than aleatoric or total uncertainties. It helps to achieve better results of trading performance in standard metric for less hallucination with the proposed beam search variant.",
 }
 
-@misc{venkit2024confidently,
-      title={"Confidently Nonsensical?'': A Critical Survey on the Perspectives and Challenges of 'Hallucinations' in NLP}, 
-      author={Pranav Narayanan Venkit and Tatiana Chakravorti and Vipul Gupta and Heidi Biggs and Mukund Srinath and Koustava Goswami and Sarah Rajtmajer and Shomir Wilson},
-      year={2024},
-      eprint={2404.07461},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+
+@inproceedings{venkit2024confidently,
+    title = "An Audit on the Perspectives and Challenges of Hallucinations in {NLP}",
+    author = "Narayanan Venkit, Pranav  and
+      Chakravorti, Tatiana  and
+      Gupta, Vipul  and
+      Biggs, Heidi  and
+      Srinath, Mukund  and
+      Goswami, Koustava  and
+      Rajtmajer, Sarah  and
+      Wilson, Shomir",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.375",
+    doi = "10.18653/v1/2024.emnlp-main.375",
+    pages = "6528--6548",
+    abstract = "We audit how hallucination in large language models (LLMs) is characterized in peer-reviewed literature, using a critical examination of 103 publications across NLP research. Through the examination of the literature, we identify a lack of agreement with the term {`}hallucination{'} in the field of NLP. Additionally, to compliment our audit, we conduct a survey with 171 practitioners from the field of NLP and AI to capture varying perspectives on hallucination. Our analysis calls for the necessity of explicit definitions and frameworks outlining hallucination within NLP, highlighting potential challenges, and our survey inputs provide a thematic understanding of the influence and ramifications of hallucination in society.",
 }
 
-@misc{agrawal2024language,
-      title={Do Language Models Know When They're Hallucinating References?}, 
-      author={Ayush Agrawal and Mirac Suzgun and Lester Mackey and Adam Tauman Kalai},
-      year={2024},
-      eprint={2305.18248},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+
+@inproceedings{agrawal2024language,
+    title = "Do Language Models Know When They{'}re Hallucinating References?",
+    author = "Agrawal, Ayush  and
+      Suzgun, Mirac  and
+      Mackey, Lester  and
+      Kalai, Adam",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2024",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-eacl.62",
+    pages = "912--928",
+    abstract = "State-of-the-art language models (LMs) are notoriously susceptible to generating hallucinated information. Such inaccurate outputs not only undermine the reliability of these models but also limit their use and raise serious concerns about misinformation and propaganda. In this work, we focus on hallucinated book and article references and present them as the {``}model organism{''} of language model hallucination research, due to their frequent and easy-to-discern nature. We posit that if a language model cites a particular reference in its output, then it should ideally possess sufficient information about its authors and content, among other relevant details. Using this basic insight, we illustrate that one can identify hallucinated references without ever consulting any external resources, by asking a set of direct or indirect queries to the language model about the references. These queries can be considered as {``}consistency checks.{''} Our findings highlight that while LMs, including GPT-4, often produce inconsistent author lists for hallucinated references, they also often accurately recall the authors of real references. In this sense, the LM can be said to {``}know{''} when it is hallucinating references. Furthermore, these findings show how hallucinated references can be dissected to shed light on their nature.",
 }
 
 @misc{mumtaz2024llmshealthcare,
@@ -645,13 +805,20 @@ doi={10.18653/v1/2021.eacl-main.236}
       primaryClass={id='cs.CL' full_name='Computation and Language' is_active=True alt_name='cmp-lg' in_archive='cs' is_general=False description='Covers natural language processing. Roughly includes material in ACM Subject Class I.2.7. Note that work on artificial languages (programming languages, logics, formal systems) that does not explicitly address natural-language issues broadly construed (natural-language processing, computational linguistics, speech, text retrieval, etc.) is not appropriate for this area.'}
 }
 
-@misc{vaswani2023attention,
-      title={Attention Is All You Need}, 
-      author={Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N. Gomez and Lukasz Kaiser and Illia Polosukhin},
-      year={2023},
-      eprint={1706.03762},
-      archivePrefix={arXiv},
-      primaryClass={id='cs.CL' full_name='Computation and Language' is_active=True alt_name='cmp-lg' in_archive='cs' is_general=False description='Covers natural language processing. Roughly includes material in ACM Subject Class I.2.7. Note that work on artificial languages (programming languages, logics, formal systems) that does not explicitly address natural-language issues broadly construed (natural-language processing, computational linguistics, speech, text retrieval, etc.) is not appropriate for this area.'}
+
+@inproceedings{vaswani2023attention,
+author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, \L{}ukasz and Polosukhin, Illia},
+title = {Attention is all you need},
+year = {2017},
+isbn = {9781510860964},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.},
+booktitle = {Proceedings of the 31st International Conference on Neural Information Processing Systems},
+pages = {6000–6010},
+numpages = {11},
+location = {Long Beach, California, USA},
+series = {NIPS'17}
 }
 
 @misc{liu2019roberta,
@@ -697,24 +864,50 @@ doi={10.48550/arXiv.2305.04400}
   note = {Accessed: 2023-07-13}
 }
 
-@misc{kim2024prometheus2opensource,
-      title={Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models}, 
-      author={Seungone Kim and Juyoung Suk and Shayne Longpre and Bill Yuchen Lin and Jamin Shin and Sean Welleck and Graham Neubig and Moontae Lee and Kyungjae Lee and Minjoon Seo},
-      year={2024},
-      eprint={2405.01535},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2405.01535}, 
+
+@inproceedings{kim2024prometheus2opensource,
+    title = "Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models",
+    author = "Kim, Seungone  and
+      Suk, Juyoung  and
+      Longpre, Shayne  and
+      Lin, Bill Yuchen  and
+      Shin, Jamin  and
+      Welleck, Sean  and
+      Neubig, Graham  and
+      Lee, Moontae  and
+      Lee, Kyungjae  and
+      Seo, Minjoon",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.248",
+    doi = "10.18653/v1/2024.emnlp-main.248",
+    pages = "4334--4353",
+    abstract = "Proprietary LMs such as GPT-4 are often employed to assess the quality of responses from various LMs. However, concerns including transparency, controllability, and affordability strongly motivate the development of open-source LMs specialized in evaluations. On the other hand, existing open evaluator LMs exhibit critical shortcomings: 1) they issue scores that significantly diverge from those assigned by humans, and 2) they lack the flexibility to perform both direct assessment and pairwise ranking, the two most prevalent forms of assessment. Additionally, they do not possess the ability to evaluate based on custom evaluation criteria, focusing instead on general attributes like helpfulness and harmlessness. To address these issues, we introduce Prometheus 2, a more powerful evaluator LM than its predecessor that closely mirrors human and GPT-4 judgements. Moreover, it is capable of processing both direct assessment and pair-wise ranking formats grouped with a user-defined evaluation criteria. On four direct assessment benchmarks and four pairwise ranking benchmarks, Prometheus 2 scores the highest correlation and agreement with humans and proprietary LM judges among all tested open evaluator LMs. Our models, code, and data are all publicly available.",
 }
 
-@misc{lyu2024faithfulmodelexplanationnlp,
-      title={Towards Faithful Model Explanation in NLP: A Survey}, 
-      author={Qing Lyu and Marianna Apidianaki and Chris Callison-Burch},
-      year={2024},
-      eprint={2209.11326},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2209.11326}, 
+
+@article{lyu2024faithfulmodelexplanationnlp,
+    title = "Towards Faithful Model Explanation in {NLP}: A Survey",
+    author = "Lyu, Qing  and
+      Apidianaki, Marianna  and
+      Callison-Burch, Chris",
+    journal = "Computational Linguistics",
+    volume = "50",
+    number = "2",
+    month = jun,
+    year = "2024",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2024.cl-2.6",
+    doi = "10.1162/coli_a_00511",
+    pages = "657--723",
+    abstract = "End-to-end neural Natural Language Processing (NLP) models are notoriously difficult to understand. This has given rise to numerous efforts towards model explainability in recent years. One desideratum of model explanation is faithfulness, that is, an explanation should accurately represent the reasoning process behind the model{'}s prediction. In this survey, we review over 110 model explanation methods in NLP through the lens of faithfulness. We first discuss the definition and evaluation of faithfulness, as well as its significance for explainability. We then introduce recent advances in faithful explanation, grouping existing approaches into five categories: similarity-based methods, analysis of model-internal structures, backpropagation-based methods, counterfactual intervention, and self-explanatory models. For each category, we synthesize its representative studies, strengths, and weaknesses. Finally, we summarize their common virtues and remaining challenges, and reflect on future work directions towards faithful explainability in NLP.",
 }
 
 @inproceedings{madsen-etal-2022-evaluating,
@@ -735,33 +928,56 @@ doi={10.48550/arXiv.2305.04400}
     doi = "10.18653/v1/2022.findings-emnlp.125",
     pages = "1731--1751",
 }
-@misc{yin2022sensitivitystabilitymodelinterpretations,
-      title={On the Sensitivity and Stability of Model Interpretations in NLP}, 
-      author={Fan Yin and Zhouxing Shi and Cho-Jui Hsieh and Kai-Wei Chang},
-      year={2022},
-      eprint={2104.08782},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2104.08782}, 
+
+@inproceedings{yin2022sensitivitystabilitymodelinterpretations,
+    title = "On the Sensitivity and Stability of Model Interpretations in {NLP}",
+    author = "Yin, Fan  and
+      Shi, Zhouxing  and
+      Hsieh, Cho-Jui  and
+      Chang, Kai-Wei",
+    editor = "Muresan, Smaranda  and
+      Nakov, Preslav  and
+      Villavicencio, Aline",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.188",
+    doi = "10.18653/v1/2022.acl-long.188",
+    pages = "2631--2647",
+    abstract = "Recent years have witnessed the emergence of a variety of post-hoc interpretations that aim to uncover how natural language processing (NLP) models make predictions. Despite the surge of new interpretation methods, it remains an open problem how to define and quantitatively measure the faithfulness of interpretations, i.e., to what extent interpretations reflect the reasoning process by a model. We propose two new criteria, sensitivity and stability, that provide complementary notions of faithfulness to the existed removal-based criteria. Our results show that the conclusion for how faithful interpretations are could vary substantially based on different notions. Motivated by the desiderata of sensitivity and stability, we introduce a new class of interpretation methods that adopt techniques from adversarial robustness. Empirical results show that our proposed methods are effective under the new criteria and overcome limitations of gradient-based methods on removal-based criteria. Besides text classification, we also apply interpretation methods and metrics to dependency parsing. Our results shed light on understanding the diverse set of interpretations.",
 }
-@misc{parcalabescu2024measuringfaithfulnessselfconsistencynatural,
-      title={On Measuring Faithfulness or Self-consistency of Natural Language Explanations}, 
-      author={Letitia Parcalabescu and Anette Frank},
-      year={2024},
-      eprint={2311.07466},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2311.07466}, 
+
+
+@inproceedings{parcalabescu2024measuringfaithfulnessselfconsistencynatural,
+    title = "On Measuring Faithfulness or Self-consistency of Natural Language Explanations",
+    author = "Parcalabescu, Letitia  and
+      Frank, Anette",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.329",
+    doi = "10.18653/v1/2024.acl-long.329",
+    pages = "6048--6089",
+    abstract = "Large language models (LLMs) can explain their predictions through post-hoc or Chain-of-Thought (CoT) explanations. But an LLM could make up reasonably sounding explanations that are unfaithful to its underlying reasoning. Recent work has designed tests that aim to judge the faithfulness of post-hoc or CoT explanations. In this work we argue that these faithfulness tests do not measure faithfulness to the models{'} inner workings {--} but rather their self-consistency at output level.Our contributions are three-fold: i) We clarify the status of faithfulness tests in view of model explainability, characterising them as self-consistency tests instead. This assessment we underline by ii) constructing a Comparative Consistency Bank for self-consistency tests that for the first time compares existing tests on a common suite of 11 open LLMs and 5 tasks {--} including iii) our new self-consistency measure CC-SHAP. CC-SHAP is a fine-grained measure (not a test) of LLM self-consistency. It compares how a model{'}s input contributes to the predicted answer and to generating the explanation. Our fine-grained CC-SHAP metric allows us iii) to compare LLM behaviour when making predictions and to analyse the effect of other consistency tests at a deeper level, which takes us one step further towards measuring faithfulness by bringing us closer to the internals of the model than strictly surface output-oriented tests.",
 }
-@misc{gat2023faithfulexplanationsblackboxnlp,
-      title={Faithful Explanations of Black-box NLP Models Using LLM-generated Counterfactuals}, 
-      author={Yair Gat and Nitay Calderon and Amir Feder and Alexander Chapanin and Amit Sharma and Roi Reichart},
-      year={2023},
-      eprint={2310.00603},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2310.00603}, 
+
+
+@inproceedings{gat2023faithfulexplanationsblackboxnlp,
+title={Faithful Explanations of Black-box {NLP} Models Using {LLM}-generated Counterfactuals},
+author={Yair Ori Gat and Nitay Calderon and Amir Feder and Alexander Chapanin and Amit Sharma and Roi Reichart},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=UMfcdRIotC}
 }
+
+
 @inproceedings{jacovi-goldberg-2020-towards,
     title = "Towards Faithfully Interpretable {NLP} Systems: How Should We Define and Evaluate Faithfulness?",
     author = "Jacovi, Alon  and
@@ -779,15 +995,26 @@ doi={10.48550/arXiv.2305.04400}
     doi = "10.18653/v1/2020.acl-main.386",
     pages = "4198--4205",
 }
-@misc{yao2023predictinggeneralizationperformancecorrectness,
-      title={Predicting generalization performance with correctness discriminators}, 
-      author={Yuekun Yao and Alexander Koller},
-      year={2023},
-      eprint={2311.09422},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2311.09422}, 
+
+
+@inproceedings{yao2023predictinggeneralizationperformancecorrectness,
+    title = "Predicting generalization performance with correctness discriminators",
+    author = "Yao, Yuekun  and
+      Koller, Alexander",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.686",
+    doi = "10.18653/v1/2024.findings-emnlp.686",
+    pages = "11725--11739",
+    abstract = "The ability to predict an NLP model{'}s accuracy on unseen, potentially out-of-distribution data is a prerequisite for trustworthiness. We present a novel model that establishes upper and lower bounds on the accuracy, without requiring gold labels for the unseen data. We achieve this by training a *discriminator* which predicts whether the output of a given sequence-to-sequence model is correct or not. We show across a variety of tagging, parsing, and semantic parsing tasks that the gold accuracy is reliably between the predicted upper and lower bounds, and that these bounds are remarkably close together.",
 }
+
 @inproceedings{varshney-etal-2022-towards,
     title = "Towards Improving Selective Prediction Ability of {NLP} Systems",
     author = "Varshney, Neeraj  and
@@ -817,24 +1044,55 @@ doi={10.48550/arXiv.2305.04400}
     doi = "10.18653/v1/2022.repl4nlp-1.23",
     pages = "221--226",
 }
-@misc{steen2023littlepushnlimodels,
-      title={With a Little Push, NLI Models can Robustly and Efficiently Predict Faithfulness}, 
-      author={Julius Steen and Juri Opitz and Anette Frank and Katja Markert},
-      year={2023},
-      eprint={2305.16819},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2305.16819}, 
+
+
+@inproceedings{steen2023littlepushnlimodels,
+    title = "With a Little Push, {NLI} Models can Robustly and Efficiently Predict Faithfulness",
+    author = "Steen, Julius  and
+      Opitz, Juri  and
+      Frank, Anette  and
+      Markert, Katja",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-short.79",
+    doi = "10.18653/v1/2023.acl-short.79",
+    pages = "914--924",
+    abstract = "Conditional language models still generate unfaithful output that is not supported by their input. These unfaithful generations jeopardize trust in real-world applications such as summarization or human-machine interaction, motivating a need for automatic faithfulness metrics. To implement such metrics, NLI models seem attractive, since they solve a strongly related task that comes with a wealth of prior research and data. But recent research suggests that NLI models require costly additional machinery to perform reliably across datasets, e.g., by running inference on a cartesian product of input and generated sentences, or supporting them with a question-generation/answering step. In this work we show that pure NLI models {\_}can{\_} outperform more complex metrics when combining task-adaptive data augmentation with robust inference procedures. We propose: (1) Augmenting NLI training data toadapt NL inferences to the specificities of faithfulness prediction in dialogue;(2) Making use of both entailment and contradiction probabilities in NLI, and(3) Using Monte-Carlo dropout during inference. Applied to the TRUE benchmark, which combines faithfulness datasets across diverse domains and tasks, our approach strongly improves a vanilla NLI model and significantly outperforms previous work, while showing favourable computational cost.",
 }
 
-@misc{zhao2023qtsummqueryfocusedsummarizationtabular,
-      title={QTSumm: Query-Focused Summarization over Tabular Data}, 
-      author={Yilun Zhao and Zhenting Qi and Linyong Nan and Boyu Mi and Yixin Liu and Weijin Zou and Simeng Han and Ruizhe Chen and Xiangru Tang and Yumo Xu and Dragomir Radev and Arman Cohan},
-      year={2023},
-      eprint={2305.14303},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2305.14303}, 
+
+@inproceedings{zhao2023qtsummqueryfocusedsummarizationtabular,
+    title = "{QTS}umm: Query-Focused Summarization over Tabular Data",
+    author = "Zhao, Yilun  and
+      Qi, Zhenting  and
+      Nan, Linyong  and
+      Mi, Boyu  and
+      Liu, Yixin  and
+      Zou, Weijin  and
+      Han, Simeng  and
+      Chen, Ruizhe  and
+      Tang, Xiangru  and
+      Xu, Yumo  and
+      Radev, Dragomir  and
+      Cohan, Arman",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.74",
+    doi = "10.18653/v1/2023.emnlp-main.74",
+    pages = "1157--1172",
+    abstract = "People primarily consult tables to conduct data analysis or answer specific questions. Text generation systems that can provide accurate table summaries tailored to users{'} information needs can facilitate more efficient access to relevant data insights. Motivated by this, we define a new query-focused table summarization task, where text generation models have to perform human-like reasoning and analysis over the given table to generate a tailored summary. We introduce a new benchmark named QTSumm for this task, which contains 7,111 human-annotated query-summary pairs over 2,934 tables covering diverse topics. We investigate a set of strong baselines on QTSumm, including text generation, table-to-text generation, and large language models. Experimental results and manual analysis reveal that the new task presents significant challenges in table-to-text generation for future research. Moreover, we propose a new approach named ReFactor, to retrieve and reason over query-relevant information from tabular data to generate several natural language facts. Experimental results demonstrate that ReFactor can bring effective improvements to baselines by concatenating the generated facts to the model input. Our data and code are publicly available at https://github.com/yale-nlp/QTSumm.",
 }
 
 @misc{singha2023tabularrepresentationnoisyoperators,
@@ -847,33 +1105,483 @@ doi={10.48550/arXiv.2305.04400}
       url={https://arxiv.org/abs/2310.10358}, 
 }
 
-@misc{macková2023promapdatasetsproductmapping,
-      title={ProMap: Datasets for Product Mapping in E-commerce}, 
-      author={Kateřina Macková and Martin Pilát},
-      year={2023},
-      eprint={2309.06882},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2309.06882}, 
+
+@inproceedings{macková2023promapdatasetsproductmapping,
+author = {Mackov\'{a}, Kate\v{r}ina and Pil\'{a}t, Martin},
+title = {ProMap: Product Mapping Datasets},
+year = {2024},
+isbn = {978-3-031-56059-0},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-031-56060-6_11},
+doi = {10.1007/978-3-031-56060-6_11},
+abstract = {The goal of product mapping is to decide, whether two listings from two different e-shops describe the same products. Existing datasets of matching and non-matching pairs of products, however, often suffer from incomplete product information or contain only very distant non-matching products. In this paper, we introduce two new datasets for product mapping: ProMapCz consisting of 1,495 Czech product pairs and ProMapEn consisting of 1,555 English product pairs of matching and non-matching products manually scraped from two pairs of e-shops. The datasets contain both images and textual descriptions of the products, including their specifications, making them one of the most complete datasets for product mapping. Additionally, we divide the non-matching products into two different categories – close non-matches and medium non-matches, based on how similar the products are to each other. Even the medium non-matches are, however, pairs of products that are much more similar than non-matches in other datasets – for example, they still need to have the same brand and similar name and price. Finally, we train a number of product matching models on these datasets to demonstrate the advantages of having these two types of non-matches for the analysis of these models.},
+booktitle = {Advances in Information Retrieval: 46th European Conference on Information Retrieval, ECIR 2024, Glasgow, UK, March 24–28, 2024, Proceedings, Part II},
+pages = {159–172},
+numpages = {14},
+keywords = {Product Mapping, Product Matching, Similarity Computation, Machine Learning},
+location = {Glasgow, United Kingdom}
 }
 
-@misc{chen2021wikitabletlargescaledatatotextdataset,
-      title={WikiTableT: A Large-Scale Data-to-Text Dataset for Generating Wikipedia Article Sections}, 
-      author={Mingda Chen and Sam Wiseman and Kevin Gimpel},
-      year={2021},
-      eprint={2012.14919},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2012.14919}, 
+
+@inproceedings{chen2021wikitabletlargescaledatatotextdataset,
+    title = "{W}iki{T}able{T}: A Large-Scale Data-to-Text Dataset for Generating {W}ikipedia Article Sections",
+    author = "Chen, Mingda  and
+      Wiseman, Sam  and
+      Gimpel, Kevin",
+    editor = "Zong, Chengqing  and
+      Xia, Fei  and
+      Li, Wenjie  and
+      Navigli, Roberto",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-acl.17",
+    doi = "10.18653/v1/2021.findings-acl.17",
+    pages = "193--209",
 }
+
 
 @inproceedings{2019TabFactA,
-  title={TabFact : A Large-scale Dataset for Table-based Fact Verification},
-  author={Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang, Shiyang Li, Xiyou Zhou and William Yang Wang},
-  booktitle = {International Conference on Learning Representations (ICLR)},
-  address = {Addis Ababa, Ethiopia},
-  month = {April},
-  year = {2020}
+title={TabFact: A Large-scale Dataset for Table-based Fact Verification},
+author={Wenhu Chen and Hongmin Wang and Jianshu Chen and Yunkai Zhang and Hong Wang and Shiyang Li and Xiyou Zhou and William Yang Wang},
+booktitle={International Conference on Learning Representations},
+year={2020},
+url={https://openreview.net/forum?id=rkeJRhNYDH}
+}
+
+
+
+@misc{suri2023largelanguagemodelsdecision,
+      title={Do Large Language Models Show Decision Heuristics Similar to Humans? A Case Study Using GPT-3.5}, 
+      author={Gaurav Suri and Lily R. Slater and Ali Ziaee and Morgan Nguyen},
+      year={2023},
+      eprint={2305.04400},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2305.04400}, 
+}
+
+@misc{liu2024datasetslargelanguagemodels,
+      title={Datasets for Large Language Models: A Comprehensive Survey}, 
+      author={Yang Liu and Jiahuan Cao and Chongyu Liu and Kai Ding and Lianwen Jin},
+      year={2024},
+      eprint={2402.18041},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2402.18041}, 
+}
+
+@misc{kim2024biggenbenchprincipledbenchmark,
+      title={The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models}, 
+      author={Seungone Kim and Juyoung Suk and Ji Yong Cho and Shayne Longpre and Chaeeun Kim and Dongkeun Yoon and Guijin Son and Yejin Cho and Sheikh Shafayat and Jinheon Baek and Sue Hyun Park and Hyeonbin Hwang and Jinkyung Jo and Hyowon Cho and Haebin Shin and Seongyun Lee and Hanseok Oh and Noah Lee and Namgyu Ho and Se June Joo and Miyoung Ko and Yoonjoo Lee and Hyungjoo Chae and Jamin Shin and Joel Jang and Seonghyeon Ye and Bill Yuchen Lin and Sean Welleck and Graham Neubig and Moontae Lee and Kyungjae Lee and Minjoon Seo},
+      year={2024},
+      eprint={2406.05761},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2406.05761}, 
+}
+
+
+@inproceedings{goyal2023faithfulmodelevaluationmodelbased,
+    title = "Faithful Model Evaluation for Model-Based Metrics",
+    author = "Hu, Qian  and
+      Goyal, Palash  and
+      Gupta, Rahul",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.464",
+    doi = "10.18653/v1/2023.emnlp-main.464",
+    pages = "7484--7489",
+    abstract = "Statistical significance testing is used in natural language processing (NLP) to determine whether the results of a study or experiment are likely to be due to chance or if they reflect a genuine relationship. A key step in significance testing is the estimation of confidence interval which is a function of sample variance. Sample variance calculation is straightforward when evaluating against ground truth. However, in many cases, a metric model is often used for evaluation. For example, to compare toxicity of two large language models, a toxicity classifier is used for evaluation. Existing works usually do not consider the variance change due to metric model errors, which can lead to wrong conclusions. In this work, we establish the mathematical foundation of significance testing for model-based metrics. With experiments on public benchmark datasets and a production system, we show that considering metric model errors to calculate sample variances for model-based metrics changes the conclusions in certain experiments.",
+}
+
+
+@inproceedings{kim2024prometheusinducingfinegrainedevaluation,
+title={Prometheus: Inducing Fine-Grained Evaluation Capability in Language Models},
+author={Seungone Kim and Jamin Shin and Yejin Cho and Joel Jang and Shayne Longpre and Hwaran Lee and Sangdoo Yun and Seongjin Shin and Sungdong Kim and James Thorne and Minjoon Seo},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=8euJaTveKw}
+}
+
+
+@Article{Li2022TextMO,
+AUTHOR = {Li, Shugang and Liu, Fang and Zhang, Yuqi and Zhu, Boyi and Zhu, He and Yu, Zhaoxu},
+TITLE = {Text Mining of User-Generated Content (UGC) for Business Applications in E-Commerce: A Systematic Review},
+JOURNAL = {Mathematics},
+VOLUME = {10},
+YEAR = {2022},
+NUMBER = {19},
+ARTICLE-NUMBER = {3554},
+URL = {https://www.mdpi.com/2227-7390/10/19/3554},
+ISSN = {2227-7390},
+ABSTRACT = {In the Web2.0 era, user-generated content (UGC) provides a valuable source of data to aid in understanding consumers and driving intelligent business. Text mining techniques, such as semantic analysis and sentiment analysis, help to extract meaningful information embedded in UGC. However, research on text mining of UGC for e-commerce business applications involves interdisciplinary knowledge, and few studies have systematically summarized the research framework and application directions of related research in this field. First, based on e-commerce practice, in this study, we derive a general framework to summarize the mainstream research in this field. Second, widely used text mining techniques are introduced, including semantic and sentiment analysis. Furthermore, we analyze the development status of semantic analysis in terms of text representation and semantic understanding. Then, the definition, development, and technical classification of sentiment analysis techniques are introduced. Third, we discuss mainstream directions of text mining for business applications, ranging from high-quality UGC detection and consumer profiling, to product enhancement and marketing. Finally, research gaps with respect to these efforts are emphasized, and suggestions are provided for future work. We also provide prospective directions for future research.},
+DOI = {10.3390/math10193554}
+}
+
+
+@inproceedings{Elbattah2021TheRO,
+  title={The Role of Text Analytics in Healthcare: A Review of Recent Developments and Applications},
+  author={Mahmoud Elbattah and {\'E}milien Arnaud and Maxime Gignon and Gilles Dequen},
+  booktitle={International Conference on Health Informatics},
+  year={2021},
+  url={https://api.semanticscholar.org/CorpusID:232094056}
+}
+
+
+@article{Luque2019AnAR,
+  title={An advanced review on text mining in medicine},
+  author={Carmen Luque and Jos{\'e} Mar{\'i}a Luna and Mar{\'i}a Luque and Sebasti{\'a}n Ventura},
+  journal={Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery},
+  year={2019},
+  volume={9},
+  url={https://api.semanticscholar.org/CorpusID:86373507}
+}
+
+@article{Gupta2020ComprehensiveRO,
+  title={Comprehensive review of text-mining applications in finance},
+  author={Aaryan Gupta and Vinya Dengre and Hamza Abubakar Kheruwala and Manan Shah},
+  journal={Financial Innovation},
+  year={2020},
+  volume={6},
+  url={https://api.semanticscholar.org/CorpusID:226951077}
+}
+
+@article{Wang2021GeneralizingTU,
+  title={Generalizing to Unseen Domains: A Survey on Domain Generalization},
+  author={Jindong Wang and Cuiling Lan and Chang Liu and Yidong Ouyang and Tao Qin},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2021},
+  volume={35},
+  pages={8052-8072},
+  url={https://api.semanticscholar.org/CorpusID:232110832}
+}
+
+@article{Yu2020ASO,
+  title={A Survey of Knowledge-enhanced Text Generation},
+  author={W. Yu and Wenhao Yu and Chenguang Zhu and Zaitang Li and Zhiting Hu and Qingyun Wang and Heng Ji and Meng Jiang},
+  journal={ACM Computing Surveys},
+  year={2020},
+  volume={54},
+  pages={1 - 38},
+  url={https://api.semanticscholar.org/CorpusID:222272210}
+}
+
+@article{Liu2021PretrainPA,
+  title={Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing},
+  author={Pengfei Liu and Weizhe Yuan and Jinlan Fu and Zhengbao Jiang and Hiroaki Hayashi and Graham Neubig},
+  journal={ACM Computing Surveys},
+  year={2021},
+  volume={55},
+  pages={1 - 35},
+  url={https://api.semanticscholar.org/CorpusID:236493269}
+}
+
+@article{Jin2023LargeLM,
+  title={Large Language Models on Graphs: A Comprehensive Survey},
+  author={Bowen Jin and Gang Liu and Chi Han and Meng Jiang and Heng Ji and Jiawei Han},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2023},
+  volume={36},
+  pages={8622-8642},
+  url={https://api.semanticscholar.org/CorpusID:265659184}
+}
+
+@article{He2023ReviewOS,
+  title={Review on Sentiment Analysis of E-commerce Product Comments},
+  author={Aixiang He and Mideth B. Abisado},
+  journal={2023 IEEE 15th International Conference on Advanced Infocomm Technology (ICAIT)},
+  year={2023},
+  pages={398-406},
+  url={https://api.semanticscholar.org/CorpusID:266601440}
+}
+
+
+@inproceedings{wiseman2017challengesdatatodocumentgeneration,
+    title = "Challenges in Data-to-Document Generation",
+    author = "Wiseman, Sam  and
+      Shieber, Stuart  and
+      Rush, Alexander",
+    editor = "Palmer, Martha  and
+      Hwa, Rebecca  and
+      Riedel, Sebastian",
+    booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+    month = sep,
+    year = "2017",
+    address = "Copenhagen, Denmark",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D17-1239",
+    doi = "10.18653/v1/D17-1239",
+    pages = "2253--2263",
+    abstract = "Recent neural models have shown significant progress on the problem of generating short descriptive texts conditioned on a small number of database records. In this work, we suggest a slightly more difficult data-to-text generation task, and investigate how effective current approaches are on this task. In particular, we introduce a new, large-scale corpus of data records paired with descriptive documents, propose a series of extractive evaluation methods for analyzing performance, and obtain baseline results using current neural generation methods. Experiments show that these models produce fluent text, but fail to convincingly approximate human-generated documents. Moreover, even templated baselines exceed the performance of these neural models on some metrics, though copy- and reconstruction-based extensions lead to noticeable improvements.",
+}
+
+
+@inproceedings{chen2020logicalnaturallanguagegeneration,
+    title = "Logical Natural Language Generation from Open-Domain Tables",
+    author = "Chen, Wenhu  and
+      Chen, Jianshu  and
+      Su, Yu  and
+      Chen, Zhiyu  and
+      Wang, William Yang",
+    editor = "Jurafsky, Dan  and
+      Chai, Joyce  and
+      Schluter, Natalie  and
+      Tetreault, Joel",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.708",
+    doi = "10.18653/v1/2020.acl-main.708",
+    pages = "7929--7942",
+    abstract = "Neural natural language generation (NLG) models have recently shown remarkable progress in fluency and coherence. However, existing studies on neural NLG are primarily focused on surface-level realizations with limited emphasis on logical inference, an important aspect of human thinking and language. In this paper, we suggest a new NLG task where a model is tasked with generating natural language statements that can be \textit{logically entailed} by the facts in an open-domain semi-structured table. To facilitate the study of the proposed logical NLG problem, we use the existing TabFact dataset{\textasciitilde}(CITATION) featured with a wide range of logical/symbolic inferences as our testbed, and propose new automatic metrics to evaluate the fidelity of generation models w.r.t. logical inference. The new task poses challenges to the existing monotonic generation frameworks due to the mismatch between sequence order and logical order. In our experiments, we comprehensively survey different generation architectures (LSTM, Transformer, Pre-Trained LM) trained with different algorithms (RL, Adversarial Training, Coarse-to-Fine) on the dataset and made following observations: 1) Pre-Trained LM can significantly boost both the fluency and logical fidelity metrics, 2) RL and Adversarial Training are trading fluency for fidelity, 3) Coarse-to-Fine generation can help partially alleviate the fidelity issue while maintaining high language fluency. The code and data are available at \url{https://github.com/wenhuchen/LogicNLG}.",
+}
+
+
+@inproceedings{parikh2020tottocontrolledtabletotextgeneration,
+    title = "{ToTTo}: A Controlled Table-To-Text Generation Dataset",
+    author = "Parikh, Ankur  and
+      Wang, Xuezhi  and
+      Gehrmann, Sebastian  and
+      Faruqui, Manaal  and
+      Dhingra, Bhuwan  and
+      Yang, Diyi  and
+      Das, Dipanjan",
+    editor = "Webber, Bonnie  and
+      Cohn, Trevor  and
+      He, Yulan  and
+      Liu, Yang",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.89",
+    doi = "10.18653/v1/2020.emnlp-main.89",
+    pages = "1173--1186",
+    abstract = "We present ToTTo, an open-domain English table-to-text dataset with over 120,000 training examples that proposes a controlled generation task: given a Wikipedia table and a set of highlighted table cells, produce a one-sentence description. To obtain generated targets that are natural but also faithful to the source table, we introduce a dataset construction process where annotators directly revise existing candidate sentences from Wikipedia. We present systematic analyses of our dataset and annotation process as well as results achieved by several state-of-the-art baselines. While usually fluent, existing methods often hallucinate phrases that are not supported by the table, suggesting that this dataset can serve as a useful research benchmark for high-precision conditional text generation.",
+}
+
+@inproceedings{cheng-etal-2022-hitab,
+    title = "{H}i{T}ab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation",
+    author = "Cheng, Zhoujun  and
+      Dong, Haoyu  and
+      Wang, Zhiruo  and
+      Jia, Ran  and
+      Guo, Jiaqi  and
+      Gao, Yan  and
+      Han, Shi  and
+      Lou, Jian-Guang  and
+      Zhang, Dongmei",
+    editor = "Muresan, Smaranda  and
+      Nakov, Preslav  and
+      Villavicencio, Aline",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.78",
+    doi = "10.18653/v1/2022.acl-long.78",
+    pages = "1094--1110",
+    abstract = "Tables are often created with hierarchies, but existing works on table reasoning mainly focus on flat tables and neglect hierarchical tables. Hierarchical tables challenge numerical reasoning by complex hierarchical indexing, as well as implicit relationships of calculation and semantics. We present a new dataset, HiTab, to study question answering (QA) and natural language generation (NLG) over hierarchical tables. HiTab is a cross-domain dataset constructed from a wealth of statistical reports and Wikipedia pages, and has unique characteristics: (1) nearly all tables are hierarchical, and (2) QA pairs are not proposed by annotators from scratch, but are revised from real and meaningful sentences authored by analysts. (3) to reveal complex numerical reasoning in statistical reports, we provide fine-grained annotations of quantity and entity alignment. Experiments suggest that this HiTab presents a strong challenge for existing baselines and a valuable benchmark for future research. Targeting hierarchical structure, we devise a hierarchy-aware logical form for symbolic reasoning over tables, which shows high effectiveness. Targeting table reasoning, we leverage entity and quantity alignment to explore partially supervised training in QA and conditional generation in NLG, and largely reduce spurious predictions in QA and produce better descriptions in NLG.",
+}
+
+@inproceedings{moosavi2021scigen,
+title={SciGen: a Dataset for Reasoning-Aware Text Generation from Scientific Tables},
+author={Nafise Sadat Moosavi and Andreas R{\"u}ckl{\'e} and Dan Roth and Iryna Gurevych},
+booktitle={Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)},
+year={2021},
+url={https://openreview.net/forum?id=Jul-uX7EV_I}
+}
+
+@inproceedings{suadaa-etal-2021-towards,
+    title = "Towards Table-to-Text Generation with Numerical Reasoning",
+    author = "Suadaa, Lya Hulliyyatus  and
+      Kamigaito, Hidetaka  and
+      Funakoshi, Kotaro  and
+      Okumura, Manabu  and
+      Takamura, Hiroya",
+    editor = "Zong, Chengqing  and
+      Xia, Fei  and
+      Li, Wenjie  and
+      Navigli, Roberto",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.115",
+    doi = "10.18653/v1/2021.acl-long.115",
+    pages = "1451--1465",
+    abstract = "Recent neural text generation models have shown significant improvement in generating descriptive text from structured data such as table formats. One of the remaining important challenges is generating more analytical descriptions that can be inferred from facts in a data source. The use of a template-based generator and a pointer-generator is among the potential alternatives for table-to-text generators. In this paper, we propose a framework consisting of a pre-trained model and a copy mechanism. The pre-trained models are fine-tuned to produce fluent text that is enriched with numerical reasoning. However, it still lacks fidelity to the table contents. The copy mechanism is incorporated in the fine-tuning step by using general placeholders to avoid producing hallucinated phrases that are not supported by a table while preserving high fluency. In summary, our contributions are (1) a new dataset for numerical table-to-text generation using pairs of a table and a paragraph of a table description with richer inference from scientific papers, and (2) a table-to-text generation framework enriched with numerical reasoning.",
+}
+
+
+@article{nan2021fetaqafreeformtablequestion,
+    title = "{F}e{T}a{QA}: Free-form Table Question Answering",
+    author = "Nan, Linyong  and
+      Hsieh, Chiachun  and
+      Mao, Ziming  and
+      Lin, Xi Victoria  and
+      Verma, Neha  and
+      Zhang, Rui  and
+      Kry{\'s}ci{\'n}ski, Wojciech  and
+      Schoelkopf, Hailey  and
+      Kong, Riley  and
+      Tang, Xiangru  and
+      Mutuma, Mutethia  and
+      Rosand, Ben  and
+      Trindade, Isabel  and
+      Bandaru, Renusree  and
+      Cunningham, Jacob  and
+      Xiong, Caiming  and
+      Radev, Dragomir  and
+      Radev, Dragomir",
+    editor = "Roark, Brian  and
+      Nenkova, Ani",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "10",
+    year = "2022",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2022.tacl-1.3",
+    doi = "10.1162/tacl_a_00446",
+    pages = "35--49",
+    abstract = "Existing table question answering datasets contain abundant factual questions that primarily evaluate a QA system{'}s comprehension of query and tabular data. However, restricted by their short-form answers, these datasets fail to include question{--}answer interactions that represent more advanced and naturally occurring information needs: questions that ask for reasoning and integration of information pieces retrieved from a structured knowledge source. To complement the existing datasets and to reveal the challenging nature of the table-based question answering task, we introduce FeTaQA, a new dataset with 10K Wikipedia-based table, question, free-form answer, supporting table cells pairs. FeTaQA is collected from noteworthy descriptions of Wikipedia tables that contain information people tend to seek; generation of these descriptions requires advanced processing that humans perform on a daily basis: Understand the question and table, retrieve, integrate, infer, and conduct text planning and surface realization to generate an answer. We provide two benchmark methods for the proposed task: a pipeline method based on semantic parsing-based QA systems and an end-to-end method based on large pretrained text generation models, and show that FeTaQA poses a challenge for both methods.",
+}
+
+@article{Zhang2023InstructionTF,
+  title={Instruction Tuning for Large Language Models: A Survey},
+  author={Shengyu Zhang and Linfeng Dong and Xiaoya Li and Sen Zhang and Xiaofei Sun and Shuhe Wang and Jiwei Li and Runyi Hu and Tianwei Zhang and Fei Wu and Guoyin Wang},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2308.10792},
+  url={https://api.semanticscholar.org/CorpusID:261049152}
+}
+
+
+@article{Chang2023ASO,
+author = {Chang, Yupeng and Wang, Xu and Wang, Jindong and Wu, Yuan and Yang, Linyi and Zhu, Kaijie and Chen, Hao and Yi, Xiaoyuan and Wang, Cunxiang and Wang, Yidong and Ye, Wei and Zhang, Yue and Chang, Yi and Yu, Philip S. and Yang, Qiang and Xie, Xing},
+title = {A Survey on Evaluation of Large Language Models},
+year = {2024},
+issue_date = {June 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {15},
+number = {3},
+issn = {2157-6904},
+url = {https://doi.org/10.1145/3641289},
+doi = {10.1145/3641289},
+abstract = {Large language models (LLMs) are gaining increasing popularity in both academia and industry, owing to their unprecedented performance in various applications. As LLMs continue to play a vital role in both research and daily use, their evaluation becomes increasingly critical, not only at the task level, but also at the society level for better understanding of their potential risks. Over the past years, significant efforts have been made to examine LLMs from various perspectives. This paper presents a comprehensive review of these evaluation methods for LLMs, focusing on three key dimensions: what to evaluate, where to evaluate, and how to evaluate. Firstly, we provide an overview from the perspective of evaluation tasks, encompassing general natural language processing tasks, reasoning, medical usage, ethics, education, natural and social sciences, agent applications, and other areas. Secondly, we answer the ‘where’ and ‘how’ questions by diving into the evaluation methods and benchmarks, which serve as crucial components in assessing the performance of LLMs. Then, we summarize the success and failure cases of LLMs in different tasks. Finally, we shed light on several future challenges that lie ahead in LLMs evaluation. Our aim is to offer invaluable insights to researchers in the realm of LLMs evaluation, thereby aiding the development of more proficient LLMs. Our key point is that evaluation should be treated as an essential discipline to better assist the development of LLMs. We consistently maintain the related open-source materials at:},
+journal = {ACM Trans. Intell. Syst. Technol.},
+month = mar,
+articleno = {39},
+numpages = {45},
+keywords = {Large language models, evaluation, model assessment, benchmark}
+}
+
+
+@inproceedings{Agrawal2023CanKG,
+    title = "Can Knowledge Graphs Reduce Hallucinations in {LLM}s? : A Survey",
+    author = "Agrawal, Garima  and
+      Kumarage, Tharindu  and
+      Alghamdi, Zeyad  and
+      Liu, Huan",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.219",
+    doi = "10.18653/v1/2024.naacl-long.219",
+    pages = "3947--3960",
+    abstract = "The contemporary LLMs are prone to producing hallucinations, stemming mainly from the knowledge gaps within the models. To address this critical limitation, researchers employ diverse strategies to augment the LLMs by incorporating external knowledge, aiming to reduce hallucinations and enhance reasoning accuracy. Among these strategies, leveraging knowledge graphs as a source of external information has demonstrated promising results. In this survey, we comprehensively review these knowledge-graph-based augmentation techniques in LLMs, focusing on their efficacy in mitigating hallucinations. We systematically categorize these methods into three overarching groups, offering methodological comparisons and performance evaluations. Lastly, this survey explores the current trends and challenges associated with these techniques and outlines potential avenues for future research in this emerging field.",
+}
+
+
+
+
+@Article{Lee2023ASO,
+AUTHOR = {Lee, Seungjun and Lee, Jungseob and Moon, Hyeonseok and Park, Chanjun and Seo, Jaehyung and Eo, Sugyeong and Koo, Seonmin and Lim, Heuiseok},
+TITLE = {A Survey on Evaluation Metrics for Machine Translation},
+JOURNAL = {Mathematics},
+VOLUME = {11},
+YEAR = {2023},
+NUMBER = {4},
+ARTICLE-NUMBER = {1006},
+URL = {https://www.mdpi.com/2227-7390/11/4/1006},
+ISSN = {2227-7390},
+ABSTRACT = {The success of Transformer architecture has seen increased interest in machine translation (MT). The translation quality of neural network-based MT transcends that of translations derived using statistical methods. This growth in MT research has entailed the development of accurate automatic evaluation metrics that allow us to track the performance of MT. However, automatically evaluating and comparing MT systems is a challenging task. Several studies have shown that traditional metrics (e.g., BLEU, TER) show poor performance in capturing semantic similarity between MT outputs and human reference translations. To date, to improve performance, various evaluation metrics have been proposed using the Transformer architecture. However, a systematic and comprehensive literature review on these metrics is still missing. Therefore, it is necessary to survey the existing automatic evaluation metrics of MT to enable both established and new researchers to quickly understand the trend of MT evaluation over the past few years. In this survey, we present the trend of automatic evaluation metrics. To better understand the developments in the field, we provide the taxonomy of the automatic evaluation metrics. Then, we explain the key contributions and shortcomings of the metrics. In addition, we select the representative metrics from the taxonomy, and conduct experiments to analyze related problems. Finally, we discuss the limitation of the current automatic metric studies through the experimentation and our suggestions for further research to improve the automatic evaluation metrics.},
+DOI = {10.3390/math11041006}
+}
+
+
+
+
+
+@article{Dobre2015ACB,
+  title={A Comparison Between BLEU and METEOR Metrics Used for Assessing Students within an Informatics Discipline Course},
+  author={Iuliana Dobre},
+  journal={Procedia - Social and Behavioral Sciences},
+  year={2015},
+  volume={180},
+  pages={305-312},
+  url={https://api.semanticscholar.org/CorpusID:60373804}
+}
+
+
+@inproceedings{liu2023gevalnlgevaluationusing,
+    title = "{G}-Eval: {NLG} Evaluation using Gpt-4 with Better Human Alignment",
+    author = "Liu, Yang  and
+      Iter, Dan  and
+      Xu, Yichong  and
+      Wang, Shuohang  and
+      Xu, Ruochen  and
+      Zhu, Chenguang",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.153",
+    doi = "10.18653/v1/2023.emnlp-main.153",
+    pages = "2511--2522",
+    abstract = "The quality of texts generated by natural language generation (NLG) systems is hard to measure automatically. Conventional reference-based metrics, such as BLEU and ROUGE, have been shown to have relatively low correlation with human judgments, especially for tasks that require creativity and diversity. Recent studies suggest using large language models (LLMs) as reference-free metrics for NLG evaluation, which have the benefit of being applicable to new tasks that lack human references. However, these LLM-based evaluators still have lower human correspondence than medium-size neural evaluators. In this work, we present G-Eval, a framework of using large language models with chain-of-thoughts (CoT) and a form-filling paradigm, to assess the quality of NLG outputs. We experiment with two generation tasks, text summarization and dialogue generation. We show that G-Eval with GPT-4 as the backbone model achieves a Spearman correlation of 0.514 with human on summarization task, outperforming all previous methods by a large margin. We also propose analysis on the behavior of LLM-based evaluators, and highlight the potential concern of LLM-based evaluators having a bias towards the LLM-generated texts.",
+}
+
+@inproceedings{loshchilov2018decoupled,
+title={Decoupled Weight Decay Regularization},
+author={Ilya Loshchilov and Frank Hutter},
+booktitle={International Conference on Learning Representations},
+year={2019},
+url={https://openreview.net/forum?id=Bkg6RiCqY7},
+}
+
+
+@inproceedings{zhang2020bertscoreevaluatingtextgeneration,
+title={BERTScore: Evaluating Text Generation with BERT},
+author={Tianyi Zhang* and Varsha Kishore* and Felix Wu* and Kilian Q. Weinberger and Yoav Artzi},
+booktitle={International Conference on Learning Representations},
+year={2020},
+url={https://openreview.net/forum?id=SkeHuCVFDr}
 }
 
 @misc{chen2020tabfactlargescaledatasettablebased,
@@ -885,12 +1593,100 @@ doi={10.48550/arXiv.2305.04400}
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/1909.02164}, 
 }
-@misc{suri2023largelanguagemodelsdecision,
-      title={Do Large Language Models Show Decision Heuristics Similar to Humans? A Case Study Using GPT-3.5}, 
-      author={Gaurav Suri and Lily R. Slater and Ali Ziaee and Morgan Nguyen},
-      year={2023},
-      eprint={2305.04400},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2305.04400}, 
+
+@inproceedings{Maples2017TheR,
+  title={The ROUGE-AR : A Proposed Extension to the ROUGE Evaluation Metric for Abstractive Text Summarization},
+  author={Sydney Maples},
+  year={2017},
+  url={https://api.semanticscholar.org/CorpusID:34483154}
+}
+
+@inproceedings{lin-2004-rouge,
+    title = "{ROUGE}: A Package for Automatic Evaluation of Summaries",
+    author = "Lin, Chin-Yew",
+    booktitle = "Text Summarization Branches Out",
+    month = jul,
+    year = "2004",
+    address = "Barcelona, Spain",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W04-1013",
+    pages = "74--81",
+}
+
+@inproceedings{lavie-etal-2004-significance,
+    title = "The significance of recall in automatic metrics for {MT} evaluation",
+    author = "Lavie, Alon  and
+      Sagae, Kenji  and
+      Jayaraman, Shyamsundar",
+    editor = "Frederking, Robert E.  and
+      Taylor, Kathryn B.",
+    booktitle = "Proceedings of the 6th Conference of the Association for Machine Translation in the Americas: Technical Papers",
+    month = sep # " 28 - " # oct # " 2",
+    year = "2004",
+    address = "Washington, USA",
+    publisher = "Springer",
+    url = "https://link.springer.com/chapter/10.1007/978-3-540-30194-3_16",
+    pages = "134--143",
+    abstract = "Recent research has shown that a balanced harmonic mean (F1 measure) of unigram precision and recall outperforms the widely used BLEU and NIST metrics for Machine Translation evaluation in terms of correlation with human judgments of translation quality. We show that significantly better correlations can be achieved by placing more weight on recall than on precision. While this may seem unexpected, since BLEU and NIST focus on n-gram precision and disregard recall, our experiments show that correlation with human judgments is highest when almost all of the weight is assigned to recall. We also show that stemming is significantly beneficial not just to simpler unigram precision and recall based metrics, but also to BLEU and NIST.",
+}
+
+@INPROCEEDINGS{Papineni02bleu:a,
+    author = {Kishore Papineni and Salim Roukos and Todd Ward and Wei-jing Zhu},
+    title = {BLEU: a Method for Automatic Evaluation of Machine Translation},
+    booktitle = {},
+    year = {2002},
+    pages = {311--318}
+}
+
+@inproceedings{10.5555/1626355.1626389,
+author = {Lavie, Alon and Agarwal, Abhaya},
+title = {Meteor: an automatic metric for MT evaluation with high levels of correlation with human judgments},
+year = {2007},
+publisher = {Association for Computational Linguistics},
+address = {USA},
+abstract = {Meteor is an automatic metric for Machine Translation evaluation which has been demonstrated to have high levels of correlation with human judgments of translation quality, significantly outperforming the more commonly used Bleu metric. It is one of several automatic metrics used in this year's shared task within the ACL WMT-07 workshop. This paper recaps the technical details underlying the metric and describes recent improvements in the metric. The latest release includes improved metric parameters and extends the metric to support evaluation of MT output in Spanish, French and German, in addition to English.},
+booktitle = {Proceedings of the Second Workshop on Statistical Machine Translation},
+pages = {228-231},
+numpages = {4},
+location = {Prague, Czech Republic},
+series = {StatMT '07}
+}
+
+@article{Jiang2017Markov,
+title={Markov cross-validation for time series model evaluations},
+author={Gaoxia Jiang and Wenjian Wang},
+journal={Inf. Sci.},
+year={2017},
+volume={375},
+pages={219-233},
+doi={10.1016/j.ins.2016.09.061}
+}
+
+@article{Carmack2012Generalised,
+title={Generalised correlated cross-validation},
+author={Patrick S. Carmack and Jeffrey S. Spence and W. R. Schucany},
+journal={Journal of Nonparametric Statistics},
+year={2012},
+volume={24},
+pages={269 - 282},
+doi={10.1080/10485252.2012.655733}
+}
+
+@article{Bergmeir2012On,
+title={On the use of cross-validation for time series predictor evaluation},
+author={C. Bergmeir and J. M. Benítez},
+journal={Inf. Sci.},
+year={2012},
+volume={191},
+pages={192-213},
+doi={10.1016/j.ins.2011.12.028}
+}
+
+@article{Barratt2018OptimizingFG,
+  title={Optimizing for Generalization in Machine Learning with Cross-Validation Gradients},
+  author={Shane T. Barratt and Rishi Sharma},
+  journal={ArXiv},
+  year={2018},
+  volume={abs/1805.07072},
+  url={https://api.semanticscholar.org/CorpusID:29160606}
 }

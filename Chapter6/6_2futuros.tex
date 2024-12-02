@@ -1,8 +1,8 @@
-\section{Future Work}
-Based on the results of this research, some possible directions for future work include:
-\begin{itemize}
-    \item Enhance language models using a larger dataset. Due to constraints imposed by Kaggle, the training and testing dataset was limited to 1000 examples each. Using a larger dataset could potentially yield better results.
-    \item Refine language models with a dataset of mobile product reviews from various sources. This diversification could enhance the models' ability to generalize.
-    \item Improve language models with product review data across different categories. Expanding the dataset to include varied product categories could also enhance model generalization.
-    \item Develop alternative methods to assess the coherence of generated reviews. Manual review of generated content is not scalable, and the metrics currently used to assess model hallucination may not be effective. Implementing new methods could lead to a more accurate evaluation of the models.
-\end{itemize}
+\section{Limitations and Future Work}
+This study faced several system and resource constraints that influenced the methodology and evaluation process. First, the VRAM limitations necessitated capping the maximum token length at 900 for the Mistral\_Instruct model to ensure uniform hyperparameter settings across all models. While this standardization allowed for consistent comparisons, it may have constrained the ability of some models to generate longer, potentially more nuanced outputs.
+
+Second, the evaluation relied on open-source methods, which, although competitive with closed-source approaches, may not fully capture all facets of model performance. Closed-source evaluation tools such as G-Eval\cite{liu2023gevalnlgevaluationusing} could provide complementary insights and a more comprehensive understanding of the models' capabilities in future studies. Incorporating such tools would strengthen the robustness of the evaluation process.
+
+Additionally, due to hardware limitations, the Llama2-chat model was employed for evaluation instead of more advanced models like Llama3, which require significantly higher VRAM for deployment. This choice, while practical, highlights the need for further exploration using state-of-the-art models to better assess eC-Tab2Text's full potential. Future research can expand on this work by leveraging newer LLM architectures and enhanced computational resources to validate and further refine the dataset's performance.
+
+These limitations underscore the need for continued advancements in computational infrastructure and access to cutting-edge tools to unlock the complete potential of domain-specific datasets like eC-Tab2Text.
