@@ -13,13 +13,13 @@ Figures \ref{fig:pricebaba-review-structure} and \ref{fig:pricebaba-spec-structu
 \begin{figure}[H]
     \centering
     \includegraphics[width=12cm]{images/pricebaba_review_structure.png}
-    \caption{pricebaba reviews structure \cite{OnePlusNord35G2023}}
+    \caption{pricebaba reviews structure \citep{OnePlusNord35G2023}}
     \label{fig:pricebaba-review-structure}
 \end{figure}
 \begin{figure}[H]
     \centering
     \includegraphics[width=12cm]{images/pricebaba_spec_structure.png}
-    \caption{pricebaba specifications structure \cite{OnePlusNord35G2023}}
+    \caption{pricebaba specifications structure \citep{OnePlusNord35G2023}}
     \label{fig:pricebaba-spec-structure}
 \end{figure}
 
@@ -151,12 +151,12 @@ With these combinations of keys for generating instructions, from the original 7
 \end{table}
 
 \subsection{Prompts for Dataset 2 (QTSUMM)}
-This dataset will be use to applied a cross-validation technique to evaluate the models. The data will be obtained for an existing dataset that is not product-based, but it is focused on structured data in JSON format. The dataset is QTSUMM \cite{zhao2023qtsummqueryfocusedsummarizationtabular}, which contains the columns: table, which contains JSON format data; query, which is the `keys' the model will use to generate the output; and summary, the expected output. The dataset is structured as shown in Figure \ref{fig:qsumm-structure}, where each object contains the columns especified before. This dataset will be used to generate prompts for the models to evaluate their performance.
+This dataset will be use to applied a cross-validation technique to evaluate the models. The data will be obtained for an existing dataset that is not product-based, but it is focused on structured data in JSON format. The dataset is QTSUMM \citep{zhao2023qtsummqueryfocusedsummarizationtabular}, which contains the columns: table, which contains JSON format data; query, which is the `keys' the model will use to generate the output; and summary, the expected output. The dataset is structured as shown in Figure \ref{fig:qsumm-structure}, where each object contains the columns especified before. This dataset will be used to generate prompts for the models to evaluate their performance.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=12cm]{images/qsumm_structure.png} 
-    \caption{QTSUMM dataset structure \cite{zhao2023qtsummqueryfocusedsummarizationtabular}}
+    \caption{QTSUMM dataset structure \citep{zhao2023qtsummqueryfocusedsummarizationtabular}}
     \label{fig:qsumm-structure}
 \end{figure}
 
@@ -182,12 +182,12 @@ The eC-Tab2Text dataset provides a diverse and robust set of inputs and outputs,
 \paragraph{Model Fine-Tuning.} To evaluate the effectiveness of the eC-Tab2Text dataset, three state-of-the-art Large Language Models (LLMs) were fine-tuned:
 
 \begin{itemize} 
-    \item \textbf{Llama2-chat 7B}: This model is specifically designed for interactive tasks and demonstrates advanced conversational capabilities through fine-tuning on instruction-based datasets \cite{touvron2023llama}. 
-    \item \textbf{StructLM 7B}: A pre-trained model optimized for structured text processing and table-to-text generation, StructLM uses a transformer architecture with enhancements for structured data encoding, showcasing its robustness in domain-specific text generation tasks \cite{zhuang2024structlm}. 
-    \item \textbf{Mistral\_Instruct 7B}: Known for its high adaptability, this model leverages supervised fine-tuning with diverse instruction-following datasets, achieving state-of-the-art performance in multi-modal and domain-adapted text generation \cite{jiang2023mistral}. 
+    \item \textbf{Llama2-chat 7B}: This model is specifically designed for interactive tasks and demonstrates advanced conversational capabilities through fine-tuning on instruction-based datasets \citep{touvron2023llama}. 
+    \item \textbf{StructLM 7B}: A pre-trained model optimized for structured text processing and table-to-text generation, StructLM uses a transformer architecture with enhancements for structured data encoding, showcasing its robustness in domain-specific text generation tasks \citep{zhuang2024structlm}. 
+    \item \textbf{Mistral\_Instruct 7B}: Known for its high adaptability, this model leverages supervised fine-tuning with diverse instruction-following datasets, achieving state-of-the-art performance in multi-modal and domain-adapted text generation \citep{jiang2023mistral}. 
 \end{itemize}
 
-The fine-tuning process involved training the models with eC-Tab2Text's curated dataset to assess their capabilities in generating high-quality, contextually accurate outputs tailored to e-commerce applications. By aligning with studies emphasizing the importance of instruction tuning and domain-specific dataset alignment to enhance LLM performance \cite{Zhang2023InstructionTF, Chang2023ASO}, the models were configured with parameters optimized for computational efficiency, as detailed in Table~\ref{table:hyperparameters}. The fine-tuning focused on adapting the models to handle the domain-specific tasks of generating detailed and attribute-focused product reviews.
+The fine-tuning process involved training the models with eC-Tab2Text's curated dataset to assess their capabilities in generating high-quality, contextually accurate outputs tailored to e-commerce applications. By aligning with studies emphasizing the importance of instruction tuning and domain-specific dataset alignment to enhance LLM performance \citep{Zhang2023InstructionTF, Chang2023ASO}, the models were configured with parameters optimized for computational efficiency, as detailed in Table~\ref{table:hyperparameters}. The fine-tuning focused on adapting the models to handle the domain-specific tasks of generating detailed and attribute-focused product reviews.
 
 \begin{table}[ht]
     \centering
@@ -227,25 +227,25 @@ Furthermore, the `BitsAndBytesConfig` library from Hugging Face's `transformers`
 \paragraph{Metrics.} Evaluation metrics are essential for assessing the quality of text generation models. The most widely used metrics include: 
 
 \begin{itemize} 
-    \item \textbf{BLEU (Bilingual Evaluation Understudy)} \cite{Papineni02bleu:a}: Commonly used in machine translation and natural language generation, BLEU measures the overlap of n-grams between generated and reference texts. Despite its popularity, BLEU has limitations, particularly in capturing semantic similarity and evaluating beyond exact matches \cite{Reiter2018A}. 
-    \item \textbf{ROUGE (Recall-Oriented Understudy for Gisting Evaluation)} \cite{lin-2004-rouge}: Focuses on recall-oriented evaluation by comparing the overlap of n-grams, word sequences, and word pairs between generated summaries and reference texts. It is highly effective for summarization tasks \cite{Ganesan2015ROUGE}.
-    \item \textbf{METEOR (Metric for Evaluation of Translation with Explicit ORdering)}\cite{10.5555/1626355.1626389}: Incorporates stemming, synonymy, and flexible matching, providing a more nuanced evaluation than BLEU. It strongly correlates with human judgments, especially in translation tasks \cite{Dobre2015ACB}. 
-    \item \textbf{BERTScore} \cite{zhang2020bertscoreevaluatingtextgeneration}: Leverages contextual embeddings from pre-trained transformer models to measure semantic similarity between generated and reference texts. Unlike n-gram-based metrics, BERTScore captures meaning and context, offering a robust evaluation for text generation tasks \cite{zhang2020bertscoreevaluatingtextgeneration}.
+    \item \textbf{BLEU (Bilingual Evaluation Understudy)} \citep{Papineni02bleu:a}: Commonly used in machine translation and natural language generation, BLEU measures the overlap of n-grams between generated and reference texts. Despite its popularity, BLEU has limitations, particularly in capturing semantic similarity and evaluating beyond exact matches \citep{Reiter2018A}. 
+    \item \textbf{ROUGE (Recall-Oriented Understudy for Gisting Evaluation)} \citep{lin-2004-rouge}: Focuses on recall-oriented evaluation by comparing the overlap of n-grams, word sequences, and word pairs between generated summaries and reference texts. It is highly effective for summarization tasks \citep{Ganesan2015ROUGE}.
+    \item \textbf{METEOR (Metric for Evaluation of Translation with Explicit ORdering)}\citep{10.5555/1626355.1626389}: Incorporates stemming, synonymy, and flexible matching, providing a more nuanced evaluation than BLEU. It strongly correlates with human judgments, especially in translation tasks \citep{Dobre2015ACB}. 
+    \item \textbf{BERTScore} \citep{zhang2020bertscoreevaluatingtextgeneration}: Leverages contextual embeddings from pre-trained transformer models to measure semantic similarity between generated and reference texts. Unlike n-gram-based metrics, BERTScore captures meaning and context, offering a robust evaluation for text generation tasks \citep{zhang2020bertscoreevaluatingtextgeneration}.
 \end{itemize}
 
 \paragraph{Prometheus Evaluation (Hallucination)} 
 \label{appendix:Prometheus}
 
-To evaluate model-based metrics, the Prometheus framework \cite{kim2024prometheus2opensource} was employed, utilizing structured prompts for three key evaluation criteria: fluency, correctness, and faithfulness \footnote{https://github.com/prometheus-eval/prometheus-eval}. The primary framework leverages an Absolute System Prompt, which defines the role of the evaluator and ensures objective, consistent assessments based on established rubrics. This Absolute System Prompt, shown in Listing\ref{code:ABS-System-Prompt}, forms the foundation for all evaluations across metrics.
+To evaluate model-based metrics, the Prometheus framework \citep{kim2024prometheus2opensource} was employed, utilizing structured prompts for three key evaluation criteria: fluency, correctness, and faithfulness \footnote{https://github.com/prometheus-eval/prometheus-eval}. The primary framework leverages an Absolute System Prompt, which defines the role of the evaluator and ensures objective, consistent assessments based on established rubrics. This Absolute System Prompt, shown in Listing\ref{code:ABS-System-Prompt}, forms the foundation for all evaluations across metrics.
 
-\begin{lstlisting}[style=textstyle, frame = single, caption=Absolute System Prompt \cite{kim2024prometheus2opensource}, label=code:ABS-System-Prompt]
+\begin{lstlisting}[style=textstyle, frame = single, caption=Absolute System Prompt \citep{kim2024prometheus2opensource}, label=code:ABS-System-Prompt]
 You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
 \end{lstlisting}
 The task descriptions for evaluating fluency, correctness, and faithfulness share a similar structure, as shown in Listing\ref{code:Task-description-Faithfulness},\ref{code:Task-description-fluency-correctness}. These instructions define the evaluation process, requiring detailed feedback and a score between 1 and 5, strictly adhering to a given rubric.
 
 \vspace{15pt}
 
-\begin{lstlisting}[style=textstyle, frame = single, caption=Task description used for evaluation of faithfulness \cite{kim2024prometheus2opensource}, label=code:Task-description-Faithfulness]
+\begin{lstlisting}[style=textstyle, frame = single, caption=Task description used for evaluation of faithfulness \citep{kim2024prometheus2opensource}, label=code:Task-description-Faithfulness]
 ###Task Description:
 An instruction (might include an Input inside it), a response to evaluate, a reference answer that gets a score of 5, and a score rubric representing a evaluation criteria are given.
 1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
@@ -255,7 +255,7 @@ An instruction (might include an Input inside it), a response to evaluate, a ref
 5. Only evaluate on common things between generated answer and reference answer. Don't evaluate on things which are present in reference answer but not in generated answer.
 \end{lstlisting}
 
-\begin{lstlisting}[style=textstyle, frame = single, caption=Task description used for evaluation of fluency and correctness \cite{kim2024prometheus2opensource}, label=code:Task-description-fluency-correctness]
+\begin{lstlisting}[style=textstyle, frame = single, caption=Task description used for evaluation of fluency and correctness \citep{kim2024prometheus2opensource}, label=code:Task-description-fluency-correctness]
 ###Task Description:
 An instruction (might include an Input inside it), a response to evaluate, a reference answer that gets a score of 5, and a score rubric representing a evaluation criteria are given.
 1. Write a detailed feedback that assess the quality of the response strictly based on the given score rubric, not evaluating in general.
@@ -271,7 +271,7 @@ Prometheus prompts are customized for each evaluation metric. Below are the spec
 \paragraph{Faithfulness}
 This metric ensures the generated response aligns with both the provided context and reference answers. The evaluation structure incorporates specific rubrics for relevance and information consistency.
 
-\begin{lstlisting}[style=textstyle, frame = single, caption=Prompt structured correctness \cite{kim2024prometheus2opensource}, label=code:estructured-faithfulness]
+\begin{lstlisting}[style=textstyle, frame = single, caption=Prompt structured correctness \citep{kim2024prometheus2opensource}, label=code:estructured-faithfulness]
 ###The instruction to evaluate:
 Evaluate the fluency of the generated JSON answer.
 ###Context:
@@ -292,7 +292,7 @@ Evaluate the fluency of the generated JSON answer.
 \paragraph{Fluency}
 This metric evaluates the grammatical accuracy and readability of the generated response.
 
-\begin{lstlisting}[style=textstyle, frame = single, caption=Prompt structured fluency \cite{kim2024prometheus2opensource}, label=code:estructured-fluency]
+\begin{lstlisting}[style=textstyle, frame = single, caption=Prompt structured fluency \citep{kim2024prometheus2opensource}, label=code:estructured-fluency]
 ###The instruction to evaluate: Evaluate 
 the fluency of the generated JSON answer
 ###Response to evaluate: {response}
@@ -310,7 +310,7 @@ the fluency of the generated JSON answer
 \paragraph{Correctness}
 This metric assesses the logical accuracy and coherence of the generated response compared to the reference.
 
-\begin{lstlisting}[style=textstyle, frame = single, caption=Prompt estructured correctness \cite{kim2024prometheus2opensource}, label=code:estructured-correctness]
+\begin{lstlisting}[style=textstyle, frame = single, caption=Prompt estructured correctness \citep{kim2024prometheus2opensource}, label=code:estructured-correctness]
 ###The instruction to evaluate:
 Your task is to evaluate the generated answer and reference answer for the query: {Prompt}
 ###Response to evaluate:
@@ -328,8 +328,8 @@ Your task is to evaluate the generated answer and reference answer for the query
 ###Feedback: 
 \end{lstlisting}
 
-\paragraph{Cross-Validation.} Performed to validate the robustness and generalizability of the fine-tuned models by testing them across distinct datasets. This process ensured the models could adapt effectively to different structured data scenarios while maintaining high performance. Specifically, the same three models fine-tuned on the eC-Tab2Text dataset (\textbf{Llama2-chat 7B}, \textbf{StructLM 7B}, and \textbf{Mistral\_Instruct 7B}) were trained and evaluated on the QTSumm dataset \cite{zhao2023qtsummqueryfocusedsummarizationtabular}, using identical hyperparameters as detailed in Section~\ref{sec:evaluation}.
-\paragraph{\textit{QTSumm Dataset.}\label{par:Prompt QTSumm}\cite{zhao2023qtsummqueryfocusedsummarizationtabular}} Designed for query-focused summarization tasks, it includes structured JSON data, queries, and summaries. This dataset provided an ideal contrast to eC-Tab2Text, as its focus lies on general-purpose summarization rather than product-specific reviews. The models were trained using prompts structured similarly to those used with the eC-Tab2Text dataset. The key distinction in the QTSumm setup was the row-level content included in the prompts, as outlined in \ref{code:Prompt Dataset 2}. This alignment ensured training consistency while leveraging the QTSumm dataset's unique characteristics.
+\paragraph{Cross-Validation.} Performed to validate the robustness and generalizability of the fine-tuned models by testing them across distinct datasets. This process ensured the models could adapt effectively to different structured data scenarios while maintaining high performance. Specifically, the same three models fine-tuned on the eC-Tab2Text dataset (\textbf{Llama2-chat 7B}, \textbf{StructLM 7B}, and \textbf{Mistral\_Instruct 7B}) were trained and evaluated on the QTSumm dataset \citep{zhao2023qtsummqueryfocusedsummarizationtabular}, using identical hyperparameters as detailed in Section~\ref{sec:evaluation}.
+\paragraph{\textit{QTSumm Dataset.}\label{par:Prompt QTSumm}\citep{zhao2023qtsummqueryfocusedsummarizationtabular}} Designed for query-focused summarization tasks, it includes structured JSON data, queries, and summaries. This dataset provided an ideal contrast to eC-Tab2Text, as its focus lies on general-purpose summarization rather than product-specific reviews. The models were trained using prompts structured similarly to those used with the eC-Tab2Text dataset. The key distinction in the QTSumm setup was the row-level content included in the prompts, as outlined in \ref{code:Prompt Dataset 2}. This alignment ensured training consistency while leveraging the QTSumm dataset's unique characteristics.
 
 \begin{lstlisting}[style=textstyle, frame = single, caption=Prompt structuration for QTSumm, label=code:Prompt Dataset 2]
     "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the structure on Keys to write the Output: 
@@ -340,5 +340,6 @@ Your task is to evaluate the generated answer and reference answer for the query
 
 \section{Resume}
 This section provides a detailed overview of the methodology used for generating product reviews on e-commerce platforms using Large Language Models (LLMs). It describes the entire process from data collection and preparation, where data was generated from scratch, meticulously cleaned, and structured for further processing.
-\\\\
+\\
+
 The section continues by detailing the model tuning techniques, including the selection of hyperparameters and optimization methods, tailored to match the computational limits of the hardware. This phase was essential for adapting the models to produce relevant product reviews. The effectiveness of these fine-tuned models was then measured using evaluation metrics such as BLEU, METEOR, and ROUGE to assess the quality of generated reviews against actual product reviews.

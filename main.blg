@@ -1,60 +1,49 @@
 This is BibTeX, Version 0.99d (TeX Live 2024)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-The style file: IEEEtran.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+The style file: plainnat.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "peng2024ecellmgeneralizinglargelanguage"
--- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
--- http://www.michaelshell.org/tex/ieeetran/bibtex/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty booktitle in Maples2017TheR
 Warning--empty booktitle in Papineni02bleu:a
-
-Done.
-You've used 79 entries,
-            4087 wiz_defined-function locations,
-            1298 strings with 30822 characters,
-and the built_in function-call counts, 71428 in all, are:
-= -- 5126
-> -- 2776
-< -- 390
-+ -- 1418
-- -- 602
-* -- 3661
-:= -- 10078
-add.period$ -- 188
-call.type$ -- 79
-change.case$ -- 128
-chr.to.int$ -- 966
-cite$ -- 81
-duplicate$ -- 5030
-empty$ -- 5749
-format.name$ -- 684
-if$ -- 16620
-int.to.chr$ -- 0
-int.to.str$ -- 79
-missing$ -- 1148
-newline$ -- 368
-num.names$ -- 127
-pop$ -- 3085
+You've used 86 entries,
+            2773 wiz_defined-function locations,
+            1151 strings with 36007 characters,
+and the built_in function-call counts, 74924 in all, are:
+= -- 6038
+> -- 7818
+< -- 61
++ -- 2604
+- -- 2510
+* -- 7150
+:= -- 12036
+add.period$ -- 371
+call.type$ -- 86
+change.case$ -- 1064
+chr.to.int$ -- 78
+cite$ -- 174
+duplicate$ -- 2156
+empty$ -- 3635
+format.name$ -- 2630
+if$ -- 15251
+int.to.chr$ -- 9
+int.to.str$ -- 1
+missing$ -- 63
+newline$ -- 521
+num.names$ -- 392
+pop$ -- 2183
 preamble$ -- 1
-purify$ -- 0
-quote$ -- 2
-skip$ -- 5143
+purify$ -- 978
+quote$ -- 0
+skip$ -- 2350
 stack$ -- 0
-substring$ -- 2467
-swap$ -- 4057
-text.length$ -- 68
+substring$ -- 1553
+swap$ -- 520
+text.length$ -- 35
 text.prefix$ -- 0
-top$ -- 5
-type$ -- 79
+top$ -- 0
+type$ -- 946
 warning$ -- 2
-while$ -- 250
-width$ -- 81
-write$ -- 890
-(There were 3 warnings)
+while$ -- 388
+width$ -- 0
+write$ -- 1320
+(There were 2 warnings)

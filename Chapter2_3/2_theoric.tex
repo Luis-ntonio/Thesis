@@ -1,57 +1,58 @@
 \section{E-commerce Product-related Databases}
+E-commerce is a vast industry that continues to grow rapidly, managing large amount of product data, users, reviews and transactions. To mantain the performance and the user experience, platforms integrated databases with advanced queries and big data techniques. Studies have shown that incorporating these types of queries into e-commerce systems can streamline the search process, making it more user-friendly overall \citep{Muntjir2016}. Big data tools, like Hadoop \citep{5496972} or MPP distributed databases, are also being used to analyze customer reviews and buying habits. This helps businesses optimize product selection and create a better shopping experience for customers \citep{Liang_2020}.
+\\
 
-In today's fast-changing world of e-commerce, managing product-related databases has become much more sophisticated than it used to be. Platforms are now integrating advanced database queries and big data technologies to make product searches faster, easier, and more accurate. Studies have shown that incorporating these types of queries into e-commerce systems can streamline the search process, making it more user-friendly overall \cite{Muntjir2016}. Big data tools, like Hadoop or MPP distributed databases, are also being used to analyze customer reviews and buying habits. This helps businesses optimize product selection and create a better shopping experience for customers \cite{Liang_2020}.
-
-What's even more interesting is how new database frameworks have emerged to handle complex data formats. These frameworks are helping e-commerce platforms run more efficiently. For instance, cloud-based systems like Productpedia allow sellers to maintain a centralized product catalog, making it easier to sync data across platforms and share rich product information \cite{10.1007/978-3-319-20895-4_34}. Another example is the use of machine learning tools, like TrendSpotter, which can predict trending products by analyzing customer behavior in real time. This is a significant advancement for businesses trying to keep up with the ever-changing market \cite{10.1145/3583780.3615503}.
+Due the problem of handling complex data formats, different frameworks has emerged. These frameworks are helping e-commerce platforms run more efficiently. Cloud-based systems like \footnote{\url{https://www.theproductfolks.com/productpedia-product-management-glossary}} allow sellers to maintain a centralized product catalog, making it easier to sync data across platforms and share rich product information \citep{10.1007/978-3-319-20895-4_34}. Machine learning tools also presents alternatives to handle complex data, like TrendSpotter \citep{10.1145/3583780.3615503}, which can predict trending products by analyzing customer behavior in real time. This is a significant advancement for businesses trying to keep up with the ever-changing market.
 
 
 \section{Large Language Models (LLMs)} %falta hablar desde el punto de vista computacional
-Large language models (LLMs) are a major leap forward in natural language processing (NLP). These systems, with millions or even billions of parameters \cite{zhao2023survey}, have been trained on enormous amounts of text, enabling them to perform tasks like translation, summarization, and sentiment analysis with remarkable accuracy. LLMs are versatile and applicable across various fields, including smarter recommendation systems, robotics, and telecommunications \cite{10305960, fan2023fatellm}.
+Large language models (LLMs) are a big step forward in natural language processing (NLP). These models, which have millions or even billions of settings \citep{zhao2023survey}, are trained on huge amounts of text. This allows them to handle tasks like translation, summarization, and sentiment analysis with impressive accuracy. LLMs are very flexible and can be used in many areas, such as improving recommendation systems, robotics, and telecommunications \citep{10305960, fan2023fatellm}.
+\\
 
-What makes LLMs so powerful is their ability to learn from minimal data. They can tackle tasks they've never explicitly been trained on—a capability known as “zero-shot” or “few-shot” learning \cite{naveed2024comprehensive}. This flexibility makes them increasingly valuable even outside traditional NLP applications.
+LLMs are so powerful because their ability to learn from minimal data. They can tackle tasks they have never explicitly been trained on—a capability known as `zero-shot' or `few-shot' learning \citep{naveed2024comprehensive}. This flexibility makes them increasingly valuable even outside traditional NLP applications.
 
 \section{Fine Tuning} %especifcar como se realiza el fine tuning de forma teorica
-Fine-tuning involves taking a pre-trained model and tailoring it for a specific task. For instance, a general-purpose language model can be fine-tuned on a smaller, domain-specific dataset to analyze e-commerce reviews more effectively.
+Fine-tuning is a technique of taking a pre-trained model and tailoring it for a specific task \citep{Zhang2022Fine-Tuning}. A general-purpose language model can be fine-tuned on a smaller, domain-specific dataset to analyze e-commerce reviews more effectively.
 
 \subsection{The Basics}
-The process adjusts the model's parameters to minimize a loss function \(L\) on a smaller dataset \(D'\), leveraging the knowledge the model has already learned \cite{Lalor2017Improving}. The key is to make incremental changes to the model's weights without erasing its general-purpose capabilities.
+The process adjusts the model's parameters to minimize a loss function \(L\) on a smaller dataset \(D'\), leveraging the knowledge the model has already learned \citep{Lalor2017Improving}. The key is to make incremental changes to the model's weights without erasing its general-purpose capabilities.
 
 \subsection{Practical Fine-Tuning}
-Fine-tuning often employs gradient-based methods like Stochastic Gradient Descent (SGD). However, care must be taken to avoid overfitting, which can degrade the model's performance on general tasks \cite{Catani2020A}.
+Fine-tuning often employs gradient-based methods like Stochastic Gradient Descent (SGD). However, the low variability of some datasets may lead in overfitting problems which can degrade the model's performance on general tasks \citep{Catani2020A}.
 
 \subsection{Why It's Efficient}
-Fine-tuning is faster and requires less data compared to training a model from scratch, making it ideal for scenarios with limited computational resources \cite{Xiao2023Offsite-Tuning:}.
+The main advantage of fine-tuning models is that is faster and requires less data compared to training a model from scratch, making it ideal for scenarios with limited computational resources \citep{Xiao2023Offsite-Tuning:}.
 
 \subsection{Mathematical Framework}
-Fine-tuning leverages the pre-existing knowledge embedded in the model parameters from the initial training on a large dataset. Mathematically, this involves optimizing a loss function $L$ with respect to the model parameters $\theta$, which have been pre-trained on a large-scale dataset $D$. The fine-tuning process then adjusts these parameters using a smaller dataset $D'$ specific to the new task. The objective can be expressed as:
+Fine-tuning continue increasing the knowledge the model already learned during its initial training on a large dataset. In simple terms, this process involves adjusting the model's parameters ($\theta$) to improve its performance on a specific task. The model starts with what it learned from the large dataset ($D$) and is then updated using a smaller, task-specific dataset ($D'$). This adjustment is guided by optimizing a loss function ($L$), which measures how well the model is doing \citep{Liu2023Improving}. The objective can be expressed as:
 
 \[
 \min_{\theta} L_{D'}(\theta)
 \]
-where $L_{D'}$ represents the loss on the fine-tuning dataset. This optimization typically uses gradient-based methods to adjust the pre-trained weights minimally but effectively to improve performance on the new task \cite{Lalor2017Improving}.
+where $L_{D'}$ represents the loss on the fine-tuning dataset. Gradient-based methods are used to adjust the pre-trained weights minimally but effectively to improve performance on the new task \citep{Lalor2017Improving}.
 
 \subsection{Operational Fine-Tunings}
-In a more abstract sense, fine-tuning can be seen as an operational fine-tuning where the changes made to the model parameters are tailored to the specifics of the new task. This concept extends beyond traditional parameter optimization, embedding domain-specific knowledge and constraints into the model adjustments. Operational fine-tunings often require ensuring that the adjustments do not lead to significant deviations from the model's prior capabilities, ensuring stability and performance consistency \cite{Catani2020A}.
+Fine-tuning tries to making specific adjustments to the model so it can handle a new task better. It finds to add knowledge and rules related to the specific domain. The key is to make these changes without disrupting what the model already knows, so it stays stable and works consistently \citep{Catani2020A}.
 
 \subsection{Sample Complexity and Generalization}
-The effectiveness of fine-tuning is influenced by the similarity between the pre-training and fine-tuning tasks. The sample complexity, which is the number of training examples required to achieve a certain level of performance, is significantly reduced when fine-tuning is applied. This reduction occurs because the pre-trained model already captures a broad set of features relevant to many tasks. Fine-tuning adjusts these features to better fit the new task, often requiring fewer samples to achieve high accuracy. This relationship can be formalized by analyzing the changes in the generalization bounds of the model after fine-tuning \cite{Shachaf2021A}.
+Fine-tuning depends on how similar the pre-training task is to the new one to achieve a good performance in the new task. Fine-tuning can significantly reduce the number of examples needed to train a model (called sample complexity), this is because the general data features the pre-trained model already knows for different task. Fine-tuning simply tweaks these features to suit the new task, often achieving good accuracy with fewer examples. This idea can be better understood by looking at how the model's ability to generalize improves after fine-tuning \citep{Shachaf2021A}.
 
 \subsection{Gradient-Based Fine-Tuning}
-Fine-tuning often involves gradient-based optimization techniques. For deep neural networks, this means leveraging algorithms like Stochastic Gradient Descent (SGD) to iteratively adjust the weights. The process can be sensitive to the initial learning rate and other hyperparameters, which need to be carefully chosen to avoid large deviations from the pre-trained weights and ensure convergence to a new, optimal set of parameters for the fine-tuning task \cite{Vrbancic2020Transfer}.
+Fine-tuning often involves gradient-based optimization techniques. Stochastic Gradient Descent (SGD) in mostly cases is used to iteratively adjust the weights. The process can be sensitive to the initial learning rate and other hyperparameters \citep{Vrbancic2020Transfer}. However, for LLMs fine-tuning optimizers like AdamW \citep{loshchilov2019decoupledweightdecayregularization} are often preferred due to their efficiency and stability.
 
 \subsection{Computational Efficiency}
-Fine-tuning is computationally efficient compared to training a model from scratch. By starting with a pre-trained model, the number of training epochs and the amount of data required are significantly reduced. This efficiency is particularly beneficial for large-scale models where the computational cost of full training is prohibitive. Fine-tuning allows for the practical deployment of advanced models in resource-constrained environments by focusing computational resources on the most impactful aspects of training \cite{Xiao2023Offsite-Tuning:}.
+In computational focus, apply fine-tuning methods are efficient compared to training a model from scratch. By starting with a pre-trained model, the number of training epochs and the amount of data required are significantly reduced. This reduce of amount of data and number of training epochs leads to less computational requirements that, in some cases, permit to execute and train models locally \citep{Shi2023Towards}. Fine-tuning allows for the practical deployment of advanced models in resource-constrained environments by focusing computational resources on the most impactful aspects of training \citep{Xiao2023Offsite-Tuning:}.
 
 \section{JSON-Tuning}
 
-JSON-Tuning is a novel approach that leverages JSON (JavaScript Object Notation) to structure training data for large language models. This method improves accuracy and efficiency by taking advantage of JSON's hierarchical format, which streamlines how data is fed into the model and reduces the workload during fine-tuning \cite{zheng2024llamafactory}.
+JSON-Tuning is an approach that taking advantage of JSON (JavaScript Object Notation) data structure to training LLMs with a more comprehensive and consistent data. This method improves accuracy and efficiency which agilize how data is fed into the model and reduces the workload during fine-tuning \citep{zheng2024llamafactory}.
 
-One of the key benefits of JSON-Tuning is its ability to reduce redundancy and simplify data management. This is particularly useful for real-time applications, where speed and precision are critical. Additionally, JSON's widespread use in APIs and data pipelines makes it easy to integrate into existing workflows \cite{zhu2024lift}.
+One of the key benefits of JSON-Tuning is its ability to reduce redundancy and simplify data management. This allows the models to reduce time in inference and training having more consistency in the contexts they are learining \citep{gao2024jsontuning}. 
 
 \section{Evaluation Metrics}
-\subsection{BLEU (Bilingual Evaluation Understudy)\cite{Reiter2018A}}
+\subsection{BLEU (Bilingual Evaluation Understudy)}
 
-Measures n-gram overlap between machine-generated and reference text \cite{Reiter2018A}. Mathematically, the BLEU score is calculated using the formula:
+Measures n-gram overlap between machine-generated and reference text \citep{Reiter2018A}. Mathematically, the BLEU score is calculated using the formula:
 \[
 \text{BLEU} = BP \cdot \exp \left( \sum_{n=1}^{N} w_n \log p_n \right)
 \]
@@ -70,33 +71,33 @@ BP =
 e^{(1-\frac{r}{c})} & \text{if } c \leq r 
 \end{cases}
 \]
-where \( c \) is the length of the candidate translation and \( r \) is the length of the reference translation \cite{Reiter2018A}.
+where \( c \) is the length of the candidate translation and \( r \) is the length of the reference translation \citep{Reiter2018A}.
 
-\subsection{ROUGE (Recall-Oriented Understudy for Gisting Evaluation) \cite{Ganesan2015ROUGE}} 
+\subsection{ROUGE (Recall-Oriented Understudy for Gisting Evaluation)} 
 
-Focuses on recall, measuring the overlap of reference text in generated output \cite{Ng2015Better}.
+Focuses on recall, measuring the overlap of reference text in generated output \citep{Ng2015Better}.
 
 \begin{enumerate}
-    \item \textbf{ROUGE-N \cite{Maples2017TheR}}: Measures the n-gram recall between the candidate and reference summaries.
+    \item \textbf{ROUGE-N \citep{Maples2017TheR}}: Measures the n-gram recall between the candidate and reference summaries.
     \[
     \text{ROUGE-N} = \frac{\sum_{S \in \text{RefSummaries}} \sum_{gram_n \in S} \text{Count}_{match}(gram_n)}{\sum_{S \in \text{RefSummaries}} \sum_{gram_n \in S} \text{Count}(gram_n)}
     \]
     where \( gram_n \) is any n-gram, and \( \text{Count}_{match}(gram_n) \) is the maximum number of n-grams co-occurring in a candidate and reference summary.
 
-    \item \textbf{ROUGE-L \cite{lin-2004-rouge}}: Measures the longest common subsequence (LCS) based statistics, capturing sentence-level structure similarity.
+    \item \textbf{ROUGE-L \citep{lin-2004-rouge}}: Measures the longest common subsequence (LCS) based statistics, capturing sentence-level structure similarity.
     \[
     \text{ROUGE-L} = \frac{LCS(C, R)}{\text{length}(R)}
     \]
-    where \( LCS(C, R) \) is the length of the longest common subsequence between candidate \( C \) and reference \( R \) \cite{Ng2015Better}.
+    where \( LCS(C, R) \) is the length of the longest common subsequence between candidate \( C \) and reference \( R \) \citep{Ng2015Better}.
 
-    \item \textbf{ROUGE-1 and ROUGE-2}: Specifically measure the overlap of unigrams and bigrams, respectively, between the candidate and reference summaries \cite{Ganesan2015ROUGE}.
+    \item \textbf{ROUGE-1 and ROUGE-2}: Specifically measure the overlap of unigrams and bigrams, respectively, between the candidate and reference summaries \citep{Ganesan2015ROUGE}.
 \end{enumerate}
 
-\subsection{METEOR (Metric for Evaluation of Translation with Explicit ORdering) \cite{Dobre2015ACB}}
+\subsection{METEOR (Metric for Evaluation of Translation with Explicit ORdering)}
 
-Incorporates synonyms and paraphrases for evaluating translations \cite{Agarwal2008Meteor}. The final score is a harmonic mean of unigram precision and recall, favoring recall:
+Incorporates synonyms and paraphrases for evaluating translations \citep{Agarwal2008Meteor}. The final score is a harmonic mean of unigram precision and recall, favoring recall:
 \[
-\text{METEOR \cite{lavie-etal-2004-significance}} = \frac{10 \cdot P \cdot R}{9 \cdot P + R}
+\text{METEOR \citep{lavie-etal-2004-significance}} = \frac{10 \cdot P \cdot R}{9 \cdot P + R}
 \]
 where:
 \begin{itemize}
@@ -104,100 +105,109 @@ where:
     \item \( R \) is the recall of unigrams.
 \end{itemize}
 
-This metric also incorporates a penalty function for longer alignment chunks to address issues of word ordering \cite{Agarwal2008Meteor}.
+This metric also incorporates a penalty function for longer alignment chunks to address issues of word ordering \citep{Agarwal2008Meteor}.
 
-\subsection{BERTScore \cite{zhang2020bertscoreevaluatingtextgeneration}}
+\subsection{BERTScore}
 
-Uses contextual embeddings to assess semantic similarity between generated and reference texts \cite{zhang2020bertscoreevaluatingtextgeneration}.
+Uses contextual embeddings to assess semantic similarity between generated and reference texts \citep{zhang2020bertscoreevaluatingtextgeneration}.
 
-Mathematically, BERTScore is computed as follows:
+The mathematical formulation is the following:
 \[
-F_{\text{BERT \cite{zhang2020bertscoreevaluatingtextgeneration}}} = 2 \cdot \frac{P_{\text{BERT}} \cdot R_{\text{BERT}}}{P_{\text{BERT}} + R_{\text{BERT}}}.
+F_{\text{BERT \citep{zhang2020bertscoreevaluatingtextgeneration}}} = 2 \cdot \frac{P_{\text{BERT}} \cdot R_{\text{BERT}}}{P_{\text{BERT}} + R_{\text{BERT}}}.
 \]
 
-According with the Hugginface space \footnote{https://huggingface.co/spaces/evaluate-metric/bertscore} and \cite{zhang2020bertscoreevaluatingtextgeneration}, BERTScore can produce three different metrics based on precision, recall, and F1-score:
+According with the Hugginface space \footnote{https://huggingface.co/spaces/evaluate-metric/bertscore} and \citep{zhang2020bertscoreevaluatingtextgeneration}, BERTScore can produce three different metrics:
 \begin{itemize}
-    \item \textbf{Precision}: Measures how well the candidate tokens align with the most similar tokens in the reference text.
-    \item \textbf{Recall}: Measures how well the reference tokens are covered by the most similar tokens in the candidate text.
-    \item \textbf{F1-score}: A harmonic mean of precision and recall, representing the overall similarity.
+    \item \textbf{Precision}: The fraction of correctly labeled positive examples out of all of the examples that were labeled as positive.
+    \item \textbf{Recall}: The fraction of the positive examples that were correctly labeled by the model as positive.
+    \item \textbf{F1-score}: The harmonic mean of the precision and recall.
 \end{itemize}
 
 \section{Faithfulness, Fluency and Correctness in LLMs}
 
-Faithfulness, fluency and correctness are critical metrics in the evaluation of large language models (LLM) systems, especially when these systems generate or summarize content. These two aspects are essential to ensuring the reliability and utility of LLM models, particularly for tasks that require accurate and truthful information \cite{lyu2024faithfulmodelexplanationnlp}.
+Faithfulness, fluency and correctness are metrics usually used in the evaluation of large language models (LLM) systems as model-based metrics. Using these metrics it is possible to evaluate the performance of the output generated capturing the context of all the text instead of the words-metrics \citep{lyu2024faithfulmodelexplanationnlp}.
 
 
 \subsection{Faithfulness}
-Faithfulness ensures that the model output aligns with the input data without introducing extraneous information. This is vital for tasks like summarization and question answering, where factual accuracy is paramount \cite{jacovi-goldberg-2020-towards}.
+Faithfulness evaluate the model ability of creating outputs using factual infromation given by the context avoiding generating information that its origin is unknown  \citep{jacovi-goldberg-2020-towards}.
 
-Faithfulness can be evaluated through various means, including: \begin{itemize} \item Reference-based evaluation: Comparing the generated output to a reference or ground truth text. If the model's response remains true to the source text, it is considered faithful \cite{parcalabescu2024measuringfaithfulnessselfconsistencynatural}. \item Model-based evaluation: Utilizing models designed to assess factual consistency, such as Prometheus \cite{kim2024prometheus2opensource}, which can detect whether the generated output deviates from the input \cite{gat2023faithfulexplanationsblackboxnlp}. \item Human evaluation: Asking human evaluators to manually assess whether the information in the output is a faithful representation of the input, often resulting in subjective ratings of factual accuracy \cite{jacovi-goldberg-2020-towards}. \end{itemize}
+Faithfulness can be measured in a few ways: 
+\begin{itemize}
+    \item \textbf{Reference-based evaluation}: This compares the model's output to a reference or correct answer. If the output matches the source text, it is considered faithful \citep{parcalabescu2024measuringfaithfulnessselfconsistencynatural}.  
+    \item \textbf{Model-based evaluation}: Specialized models like Prometheus \citep{kim2024prometheus2opensource} or G-eval \cite{liu2023gevalnlgevaluationusing} check if the output is consistent with the input and spot any deviations \citep{gat2023faithfulexplanationsblackboxnlp}.  
+    \item \textbf{Human evaluation}: People manually review the output to see if it accurately represents the input. This method often involves subjective scoring of factual accuracy \citep{jacovi-goldberg-2020-towards}.  
+\end{itemize}
+
 
 \subsection{Correctness}
-Correctness focuses on grammatical accuracy and logical coherence, ensuring that the text is clear and well-structured \cite{varshney-etal-2022-towards}.
+Correctness metric especially evaluate the structure of the output, if the syntaxis is correct, follows grammar rules and mantaining some coherence in the text \citep{varshney-etal-2022-towards}.
 
-Correctness can be evaluated by: \begin{itemize} \item Linguistic accuracy: Ensuring that the generated text follows the proper syntactic structure and grammar rules of the language \cite{varshney-etal-2022-towards}. \item Semantic accuracy: Evaluating whether the output is meaningful and coherent within the context of the task \cite{steen2023littlepushnlimodels}. \item Automatic metrics: Utilizing metrics such as BLEU, ROUGE, or METEOR to measure how closely the generated output matches the reference text in terms of word overlap, sequence structure, and linguistic integrity \cite{gat2023faithfulexplanationsblackboxnlp}. \item Model-based evaluation: As faithfulness, correctness can be evaluated with Prometheus too\cite{kim2024prometheus2opensource}.\end{itemize}
-
-In LLM tasks where both factual accuracy and linguistic quality are important, faithfulness and correctness complement each other, ensuring that the output is both reliable in terms of content and clear in its presentation \cite{jacovi-goldberg-2020-towards}.
+Correctness can be evaluated by: 
+\begin{itemize} 
+    \item Linguistic accuracy: Focused on the gramar and context of the text \citep{varshney-etal-2022-towards}. 
+    \item Semantic accuracy: Evaluate if the output is meaningful and coherent within the context of the task \citep{steen2023littlepushnlimodels}. 
+    \item Automatic metrics: Metrics such as BLEU, ROUGE, or METEOR can be used too to measure how closely the generated output matches the reference text in terms of word overlap, sequence structure, and linguistic integrity \citep{gat2023faithfulexplanationsblackboxnlp}. 
+    \item Model-based evaluation: Correctness can be evaluated with Prometheus or G-eval too\citep{kim2024prometheus2opensource}.\end{itemize}
 
 \subsection{Fluency}
-
-Fluency refers to the degree to which the generated text is natural, smooth, and easy to read, resembling human-written language. It encompasses the quality of the language used, ensuring that the sentences flow logically and adhere to the grammatical and stylistic norms of the target language. Fluency is a critical metric for evaluating LLM outputs in tasks such as conversational agents, creative writing, and summarization, where readability and user engagement are paramount \cite{yin2022sensitivitystabilitymodelinterpretations}.
+Fluency evaluate how nmatural the text generated is, focuse on the smoothness, easy-reading, and how much the text is human-like. Evaluate the sentences too check the logical flow of the text. Fluency is a critical metric for evaluating LLM outputs in tasks such as conversational agents, creative writing, and summarization, where readability and user engagement are paramount \citep{yin2022sensitivitystabilitymodelinterpretations}.
 
 Fluency can be evaluated through various approaches:
 \begin{itemize}
-    \item \textbf{Linguistic coherence}: Assessing the logical progression and connectivity of sentences in the generated text, ensuring that the output is cohesive and makes sense within the context \cite{gat2023faithfulexplanationsblackboxnlp}.
-    \item \textbf{Grammatical accuracy}: Ensuring that the text adheres to the grammatical rules of the language, avoiding errors such as verb tense inconsistencies, incorrect prepositions, or sentence fragments \cite{varshney-etal-2022-towards}.
-    \item \textbf{Stylistic consistency}: Evaluating whether the tone, formality, and vocabulary are consistent with the intended style of the task \cite{yao2023predictinggeneralizationperformancecorrectness}.
-    \item \textbf{Human evaluation}: Asking human raters to score the text's fluency based on readability and naturalness, often providing insights that complement automatic metrics \cite{jacovi-goldberg-2020-towards}.
-    \item \textbf{Model-based evaluation}: Employing models or tools like Prometheus to assess linguistic quality and stylistic alignment \cite{kim2024prometheus2opensource}.
+    \item \textbf{Linguistic coherence}: Assessing the logical progression and connectivity of sentences in the generated text, ensuring that the output is cohesive and makes sense within the context \citep{gat2023faithfulexplanationsblackboxnlp}.
+    \item \textbf{Grammatical accuracy}: Evaluate the gramatical errors that may involved in reducing the fluemcy of the reading \citep{varshney-etal-2022-towards}.
+    \item \textbf{Stylistic consistency}: Focuse on the tone, formality, and vocabulary of the outputs are consistent with the intended style of the task \citep{yao2023predictinggeneralizationperformancecorrectness}.
+    \item \textbf{Human evaluation}: It is possible to ask human to score the text's fluency based on readability and naturalness, often providing insights that complement automatic metrics \citep{jacovi-goldberg-2020-towards}.
+    \item \textbf{Model-based evaluation}: Employing models or tools like Prometheus to assess linguistic quality and stylistic alignment \citep{kim2024prometheus2opensource}.
 \end{itemize}
 
-Fluency is particularly relevant in applications requiring user interaction, as poor fluency can lead to misunderstandings, reduced trust, and disengagement. Combined with other metrics like faithfulness and correctness, fluency ensures that the output is not only accurate but also appealing and easy to comprehend \cite{jacovi-goldberg-2020-towards}.
+Fluency is particularly relevant in applications requiring user interaction, if the fluency is poor it can lead to misunderstandings, reduced trust, and disengagement of the users. Fluency ensures that the output is not only accurate but also appealing and easy to comprehend \citep{jacovi-goldberg-2020-towards}.
 
 \section{Cross-Validation Evaluation}
 
-To assess the robustness and generalization ability of the models, we apply a cross-validation evaluation methodology. Cross-validation is a powerful technique commonly used to measure a model's predictive performance on unseen data by partitioning the data into multiple subsets (folds) and iteratively training and testing the model on different folds \cite{jiang2017markov, carmack2012generalised, Bergmeir2012On}. In this study, we employ a specific variant of cross-validation designed to test the robustness of models by evaluating their performance on alternate datasets \cite{Barratt2018OptimizingFG}.
+To check how well our models can generalize and handle new data, we use a cross-validation approach. Cross-validation is a widely used technique that splits the data into multiple subsets (folds) and alternates between training and testing on these folds \citep{jiang2017markov, carmack2012generalised, Bergmeir2012On}. This helps measure the model's performance on unseen data. In this study, we take it a step further by using a variant of cross-validation that tests model robustness on completely different datasets \citep{Barratt2018OptimizingFG}.
 
 \subsection{Cross-Validation with Alternate Datasets}
 
-We perform a cross-validation process using two distinct datasets, $A$ and $B$, to verify the robustness of our trained models. This approach involves training a model on one dataset and testing it on the other, ensuring that the model generalizes well across different data distributions. Specifically:
+To ensure the robustness of a model or dataset to fine-tune an LLM, we perform cross-validation using two separate datasets, $A$ and $B$. The idea is to train a model on one dataset and test it on the other, making sure the model works well across different types of data. Specifically:
 
 \begin{itemize}
-    \item Train the model, denoted by $M_A$, on dataset $A$ and evaluate it on dataset $B$.
-    \item Train another model, denoted by $M_B$, on dataset $B$ and evaluate it on dataset $A$.
+    \item Train a model, $M_A$, on dataset $A$ and test it on dataset $B$.
+    \item Train another model, $M_B$, on dataset $B$ and test it on dataset $A$.
 \end{itemize}
 
-This process, often referred to as cross-dataset validation, provides insight into the models' robustness and generalizability, as a high performance on the alternate dataset implies that the model has learned meaningful patterns rather than overfitting to specific characteristics of its training data.
+If the models perform well on the alternate datasets, it means they have learned meaningful patterns rather than just memorizing the training data.
 
 \subsection{Mathematical Formulation}
 
-Let $\mathcal{D}_A = \{(x_i^A, y_i^A)\}_{i=1}^{n_A}$ and $\mathcal{D}_B = \{(x_i^B, y_i^B)\}_{i=1}^{n_B}$ represent the two datasets with $n_A$ and $n_B$ samples, respectively. The cross-validation evaluation involves the following steps:
+Let $\mathcal{D}_A = \{(x_i^A, y_i^A)\}_{i=1}^{n_A}$ and $\mathcal{D}_B = \{(x_i^B, y_i^B)\}_{i=1}^{n_B}$ represent two datasets with $n_A$ and $n_B$ samples. The cross-validation process involves:
 
-1. \b{Training Models}: 
+1. \textbf{Training Models}: 
    \begin{align}
        M_A &= \text{train}(\mathcal{D}_A), \\
        M_B &= \text{train}(\mathcal{D}_B).
    \end{align}
 
-2. \b{Cross-Dataset Testing}: 
-   - Evaluate $M_A$ on $\mathcal{D}_B$, resulting in an error metric $E(M_A, \mathcal{D}_B)$.
-   - Evaluate $M_B$ on $\mathcal{D}_A$, resulting in an error metric $E(M_B, \mathcal{D}_A)$.
+2. \textbf{Cross-Dataset Testing}: 
+   - Test $M_A$ on $\mathcal{D}_B$ to calculate the error $E(M_A, \mathcal{D}_B)$.
+   - Test $M_B$ on $\mathcal{D}_A$ to calculate the error $E(M_B, \mathcal{D}_A)$.
 
-3. \b{Performance Metrics}: 
-   The performance of each model on the alternate dataset is calculated using evaluation metrics such as accuracy, precision, recall, or mean squared error (MSE), depending on the model's purpose. For instance, if mean squared error is used:
+3. \textbf{Performance Metrics}: 
+   We evaluate each model's performance on the alternate dataset using metrics like accuracy, precision, recall, or mean squared error (MSE). For example, if we use MSE:
    \begin{align}
        \text{MSE}_{M_A \rightarrow B} &= \frac{1}{n_B} \sum_{i=1}^{n_B} \left(y_i^B - M_A(x_i^B)\right)^2, \\
        \text{MSE}_{M_B \rightarrow A} &= \frac{1}{n_A} \sum_{i=1}^{n_A} \left(y_i^A - M_B(x_i^A)\right)^2.
    \end{align}
 
-The robustness of the models can be inferred by comparing $E(M_A, \mathcal{D}_A)$ and $E(M_A, \mathcal{D}_B)$ for $M_A$, and similarly, $E(M_B, \mathcal{D}_A)$ and $E(M_B, \mathcal{D}_B)$ for $M_B$. Consistent performance across both in-domain and out-of-domain evaluations suggests that the models have captured patterns that generalize well beyond the specific characteristics of their training data.
+By comparing errors from in-domain and out-of-domain tests (e.g., $E(M_A, \mathcal{D}_A)$ vs. $E(M_A, \mathcal{D}_B)$), we can assess if the models generalize well or are overfitting to specific data patterns.
 
 \subsection{Discussion of Cross-Dataset Validation Results}
 
-By examining the cross-dataset performance of $M_A$ and $M_B$, we can validate the models' robustness and assess their ability to generalize across different datasets. This evaluation helps verify the model's capability to transfer learned representations and minimize dataset-specific biases, thereby enhancing the credibility of the model for broader applications.
+Analyzing the cross-dataset performance of $M_A$ and $M_B$ helps us understand how robust and adaptable these models are. If they perform consistently across datasets, it shows they can transfer what they have learned and aren not overly biased toward any specific dataset. This makes the models more reliable for broader applications.
 
 \section{Summary}
 
-This chapter examines how advanced database systems and machine learning techniques are transforming e-commerce. From optimizing product searches with big data to predicting trends with machine learning, these innovations enhance the shopping experience.
+This chapter explores how machine learning and advanced data systems are transforming e-commerce. From improving search results using big data to predicting trends with machine learning, these technologies enhance the shopping experience.
+\\
 
-It also highlights the impact of large language models in NLP, emphasizing their adaptability through fine-tuning and JSON-Tuning for domain-specific applications. Lastly, the chapter discusses the importance of evaluation metrics and validation techniques in ensuring model accuracy and reliability in real-world scenarios.
+It also highlights the role of large language models in NLP, showing how fine-tuning and techniques like JSON-Tuning make them adaptable to specific domains. Finally, it emphasizes the importance of evaluation metrics and validation techniques for ensuring models are accurate and reliable in real-world scenarios with word-based metrics and model-based ones.

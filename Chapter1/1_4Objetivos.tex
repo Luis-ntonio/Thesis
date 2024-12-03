@@ -1,11 +1,10 @@
 \subsection{General Objective}
-using the \textbf{eC-Tab2Text} dataset to refine Large Language Models (LLMs) in order to provide precise, attribute-specific product reviews from tabular data that is structured.
+Present a dataset for domain-specific in e-commerce applications, \textbf{eC-Tab2Text}, to enhance the performance of Large Language Models (LLMs) in generating accurate and product reviews.
 
 \subsection{Specific Objectives}
 \begin{itemize}
-    \item Create the \textbf{eC-Tab2Text} dataset, paying particular attention to capture user-centric searches and comprehensive product attributes.
-    Use the \textbf{eC-Tab2Text} dataset to fine-tune LLMs, such as LLama2-chat, Mistral Instruct, and StructLM.
-    \item Use metrics like BLEU, ROUGE, and METEOR, together with fidelity and accuracy, to assess the refined models.
-    \item To evaluate the models' resilience across several datasets, including QTSUMM and \textbf{eC-Tab2Text}, do cross-validation.
-    \item Showcase notable enhancements in the models' capacity to process and produce text that is pertinent to the context of e-commerce applications.
+    \item Recolect data of product specifications and reviews from pricebaba\footnote{\url{https://pricebaba.com/}} to create the \textbf{eC-Tab2Text} dataset.
+    \item Use the \textbf{eC-Tab2Text} dataset to fine-tune open-source LLMs: LLama2-chat, Mistral Instruct, and StructLM.
+    \item Use text-based metrics (BLEU, METEOR, ROUGE-1, ROUGE-L, BERTScore) and model-based metrics (Faithfulness, fluency, correctness) to evaluate the performance of the fine-tune models 
+    \item To evaluate the models' robustness across several datasets, do cross-validation with QTSUMM dataset.
 \end{itemize}
