@@ -1,4 +1,4 @@
-\begin{thebibliography}{86}
+\begin{thebibliography}{88}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -81,17 +81,18 @@ Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang, Shiyang Li, Xiy
 \newblock In \emph{International Conference on Learning Representations}, 2020{\natexlab{b}}.
 \newblock URL \url{https://openreview.net/forum?id=rkeJRhNYDH}.
 
-\bibitem[Chen et~al.(2020{\natexlab{c}})Chen, Wang, Chen, Zhang, Wang, Li, Zhou, and Wang]{chen2020tabfactlargescaledatasettablebased}
-Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang, Shiyang Li, Xiyou Zhou, and William~Yang Wang.
-\newblock Tabfact: A large-scale dataset for table-based fact verification, 2020{\natexlab{c}}.
-\newblock URL \url{https://arxiv.org/abs/1909.02164}.
-
 \bibitem[Cheng et~al.(2022)Cheng, Dong, Wang, Jia, Guo, Gao, Han, Lou, and Zhang]{cheng-etal-2022-hitab}
 Zhoujun Cheng, Haoyu Dong, Zhiruo Wang, Ran Jia, Jiaqi Guo, Yan Gao, Shi Han, Jian-Guang Lou, and Dongmei Zhang.
 \newblock {H}i{T}ab: A hierarchical table dataset for question answering and natural language generation.
 \newblock In Smaranda Muresan, Preslav Nakov, and Aline Villavicencio, editors, \emph{Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 1094--1110, Dublin, Ireland, May 2022. Association for Computational Linguistics.
 \newblock \doi{10.18653/v1/2022.acl-long.78}.
 \newblock URL \url{https://aclanthology.org/2022.acl-long.78}.
+
+\bibitem[Dang(2006)]{dang-2006-duc}
+Hoa~Trang Dang.
+\newblock {DUC} 2005: Evaluation of question-focused summarization systems.
+\newblock In Tat-Seng Chua, Jade Goldstein, Simone Teufel, and Lucy Vanderwende, editors, \emph{Proceedings of the Workshop on Task-Focused Summarization and Question Answering}, pages 48--55, Sydney, Australia, July 2006. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/W06-0707}.
 
 \bibitem[Debbah(2023)]{10305960}
 Mérouane Debbah.
@@ -136,6 +137,13 @@ Yair~Ori Gat, Nitay Calderon, Amir Feder, Alexander Chapanin, Amit Sharma, and R
 \newblock Faithful explanations of black-box {NLP} models using {LLM}-generated counterfactuals.
 \newblock In \emph{The Twelfth International Conference on Learning Representations}, 2024.
 \newblock URL \url{https://openreview.net/forum?id=UMfcdRIotC}.
+
+\bibitem[Giorgi et~al.(2023)Giorgi, Soldaini, Wang, Bader, Lo, Wang, and Cohan]{giorgi-etal-2023-open}
+John Giorgi, Luca Soldaini, Bo~Wang, Gary Bader, Kyle Lo, Lucy Wang, and Arman Cohan.
+\newblock Open domain multi-document summarization: A comprehensive study of model brittleness under retrieval.
+\newblock In Houda Bouamor, Juan Pino, and Kalika Bali, editors, \emph{Findings of the Association for Computational Linguistics: EMNLP 2023}, pages 8177--8199, Singapore, December 2023. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.findings-emnlp.549}.
+\newblock URL \url{https://aclanthology.org/2023.findings-emnlp.549}.
 
 \bibitem[He and Abisado(2023)]{He2023ReviewOS}
 Aixiang He and Mideth~B. Abisado.
@@ -198,6 +206,14 @@ Alon Lavie, Kenji Sagae, and Shyamsundar Jayaraman.
 \newblock In Robert~E. Frederking and Kathryn~B. Taylor, editors, \emph{Proceedings of the 6th Conference of the Association for Machine Translation in the Americas: Technical Papers}, pages 134--143, Washington, USA, September 28 - October 2 2004. Springer.
 \newblock URL \url{https://link.springer.com/chapter/10.1007/978-3-540-30194-3_16}.
 
+\bibitem[Lee et~al.(2023)Lee, Lee, Moon, Park, Seo, Eo, Koo, and Lim]{Lee2023ASO}
+Seungjun Lee, Jungseob Lee, Hyeonseok Moon, Chanjun Park, Jaehyung Seo, Sugyeong Eo, Seonmin Koo, and Heuiseok Lim.
+\newblock A survey on evaluation metrics for machine translation.
+\newblock \emph{Mathematics}, 11\penalty0 (4), 2023.
+\newblock ISSN 2227-7390.
+\newblock \doi{10.3390/math11041006}.
+\newblock URL \url{https://www.mdpi.com/2227-7390/11/4/1006}.
+
 \bibitem[Liang(2020)]{Liang_2020}
 Jia-Hui Liang.
 \newblock Application of big data technology in product selection on cross-border e-commerce platforms.
@@ -229,9 +245,15 @@ Yang Liu, Jiahuan Cao, Chongyu Liu, Kai Ding, and Lianwen Jin.
 \newblock Datasets for large language models: A comprehensive survey, 2024.
 \newblock URL \url{https://arxiv.org/abs/2402.18041}.
 
-\bibitem[Loshchilov and Hutter(2019)]{loshchilov2019decoupledweightdecayregularization}
+\bibitem[Loshchilov and Hutter(2019{\natexlab{a}})]{loshchilov2018decoupled}
 Ilya Loshchilov and Frank Hutter.
-\newblock Decoupled weight decay regularization, 2019.
+\newblock Decoupled weight decay regularization.
+\newblock In \emph{International Conference on Learning Representations}, 2019{\natexlab{a}}.
+\newblock URL \url{https://openreview.net/forum?id=Bkg6RiCqY7}.
+
+\bibitem[Loshchilov and Hutter(2019{\natexlab{b}})]{loshchilov2019decoupledweightdecayregularization}
+Ilya Loshchilov and Frank Hutter.
+\newblock Decoupled weight decay regularization, 2019{\natexlab{b}}.
 \newblock URL \url{https://arxiv.org/abs/1711.05101}.
 
 \bibitem[Lyu et~al.(2024)Lyu, Apidianaki, and Callison-Burch]{lyu2024faithfulmodelexplanationnlp}
@@ -368,11 +390,6 @@ Konstantin Shvachko, Hairong Kuang, Sanjay Radia, and Robert Chansler.
 \newblock In \emph{2010 IEEE 26th Symposium on Mass Storage Systems and Technologies (MSST)}, pages 1--10, 2010.
 \newblock \doi{10.1109/MSST.2010.5496972}.
 
-\bibitem[Singha et~al.(2023)Singha, Cambronero, Gulwani, Le, and Parnin]{singha2023tabularrepresentationnoisyoperators}
-Ananya Singha, José Cambronero, Sumit Gulwani, Vu~Le, and Chris Parnin.
-\newblock Tabular representation, noisy operators, and impacts on table structure understanding tasks in llms, 2023.
-\newblock URL \url{https://arxiv.org/abs/2310.10358}.
-
 \bibitem[Skondras et~al.(2023)Skondras, Zervas, and Tzimas]{skondras2023generating}
 Panagiotis Skondras, Panagiotis Zervas, and Giannis Tzimas.
 \newblock Generating synthetic resume data with large language models for enhanced job description classification.
@@ -391,11 +408,6 @@ Lya~Hulliyyatus Suadaa, Hidetaka Kamigaito, Kotaro Funakoshi, Manabu Okumura, an
 \newblock In Chengqing Zong, Fei Xia, Wenjie Li, and Roberto Navigli, editors, \emph{Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}, pages 1451--1465, Online, August 2021. Association for Computational Linguistics.
 \newblock \doi{10.18653/v1/2021.acl-long.115}.
 \newblock URL \url{https://aclanthology.org/2021.acl-long.115}.
-
-\bibitem[Suri et~al.(2023)Suri, Slater, Ziaee, and Nguyen]{suri2023largelanguagemodelsdecision}
-Gaurav Suri, Lily~R. Slater, Ali Ziaee, and Morgan Nguyen.
-\newblock Do large language models show decision heuristics similar to humans? a case study using gpt-3.5, 2023.
-\newblock URL \url{https://arxiv.org/abs/2305.04400}.
 
 \bibitem[Tan and Teo(2015)]{10.1007/978-3-319-20895-4_34}
 Wee-Kek Tan and Hock-Hai Teo.
@@ -444,6 +456,11 @@ Guangxuan Xiao, Ji~Lin, and Song Han.
 \newblock \emph{ArXiv}, abs/2302.04870, 2023.
 \newblock \doi{10.48550/arXiv.2302.04870}.
 
+\bibitem[Xie et~al.(2022)Xie, Wu, Shi, Zhong, Scholak, Yasunaga, Wu, Zhong, Yin, Wang, Zhong, Wang, Li, Boyle, Ni, Yao, Radev, Xiong, Kong, Zhang, Smith, Zettlemoyer, and Yu]{xie2022unifiedskgunifyingmultitaskingstructured}
+Tianbao Xie, Chen~Henry Wu, Peng Shi, Ruiqi Zhong, Torsten Scholak, Michihiro Yasunaga, Chien-Sheng Wu, Ming Zhong, Pengcheng Yin, Sida~I. Wang, Victor Zhong, Bailin Wang, Chengzu Li, Connor Boyle, Ansong Ni, Ziyu Yao, Dragomir Radev, Caiming Xiong, Lingpeng Kong, Rui Zhang, Noah~A. Smith, Luke Zettlemoyer, and Tao Yu.
+\newblock Unifiedskg: Unifying and multi-tasking structured knowledge grounding with text-to-text language models, 2022.
+\newblock URL \url{https://arxiv.org/abs/2201.05966}.
+
 \bibitem[Xu et~al.(2024)Xu, Wu, Liang, He, and Wang]{xu2024emerging}
 Xiaonan Xu, Yichao Wu, Penghao Liang, Yuhang He, and Han Wang.
 \newblock Emerging synergies between large language models and machine learning in ecommerce recommendations, 2024.
@@ -454,13 +471,6 @@ Yuekun Yao and Alexander Koller.
 \newblock In Yaser Al-Onaizan, Mohit Bansal, and Yun-Nung Chen, editors, \emph{Findings of the Association for Computational Linguistics: EMNLP 2024}, pages 11725--11739, Miami, Florida, USA, November 2024. Association for Computational Linguistics.
 \newblock \doi{10.18653/v1/2024.findings-emnlp.686}.
 \newblock URL \url{https://aclanthology.org/2024.findings-emnlp.686}.
-
-\bibitem[Yin et~al.(2022)Yin, Shi, Hsieh, and Chang]{yin2022sensitivitystabilitymodelinterpretations}
-Fan Yin, Zhouxing Shi, Cho-Jui Hsieh, and Kai-Wei Chang.
-\newblock On the sensitivity and stability of model interpretations in {NLP}.
-\newblock In Smaranda Muresan, Preslav Nakov, and Aline Villavicencio, editors, \emph{Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 2631--2647, Dublin, Ireland, May 2022. Association for Computational Linguistics.
-\newblock \doi{10.18653/v1/2022.acl-long.188}.
-\newblock URL \url{https://aclanthology.org/2022.acl-long.188}.
 
 \bibitem[Zhang et~al.(2021)Zhang, Yuan, Liu, Zhuang, Chen, and Xiong]{zhang2021ebert}
 Denghui Zhang, Zixuan Yuan, Yanchi Liu, Fuzhen Zhuang, Haifeng Chen, and Hui Xiong.
@@ -505,6 +515,13 @@ Yaowei Zheng, Richong Zhang, Junhao Zhang, Yanhan Ye, and Zheyan Luo.
 \newblock In Yixin Cao, Yang Feng, and Deyi Xiong, editors, \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)}, pages 400--410, Bangkok, Thailand, August 2024. Association for Computational Linguistics.
 \newblock \doi{10.18653/v1/2024.acl-demos.38}.
 \newblock URL \url{https://aclanthology.org/2024.acl-demos.38}.
+
+\bibitem[Zhong et~al.(2021)Zhong, Yin, Yu, Zaidi, Mutuma, Jha, Awadallah, Celikyilmaz, Liu, Qiu, and Radev]{zhong-etal-2021-qmsum}
+Ming Zhong, Da~Yin, Tao Yu, Ahmad Zaidi, Mutethia Mutuma, Rahul Jha, Ahmed~Hassan Awadallah, Asli Celikyilmaz, Yang Liu, Xipeng Qiu, and Dragomir Radev.
+\newblock {QMS}um: A new benchmark for query-based multi-domain meeting summarization.
+\newblock In Kristina Toutanova, Anna Rumshisky, Luke Zettlemoyer, Dilek Hakkani-Tur, Iz~Beltagy, Steven Bethard, Ryan Cotterell, Tanmoy Chakraborty, and Yichao Zhou, editors, \emph{Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies}, pages 5905--5921, Online, June 2021. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2021.naacl-main.472}.
+\newblock URL \url{https://aclanthology.org/2021.naacl-main.472}.
 
 \bibitem[Zhou et~al.(2023)Zhou, Liu, Acharya, Hong, Lee, and Wen]{zhou2023leveraging}
 Jianghong Zhou, Bo~Liu, Jhalak Acharya, Yao Hong, Kuang-Chih Lee, and Musen Wen.

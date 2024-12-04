@@ -1,27 +1,18 @@
 \section{E-commerce Product-related Databases}
-E-commerce is a vast industry that continues to grow rapidly, managing large amount of product data, users, reviews and transactions. To mantain the performance and the user experience, platforms integrated databases with advanced queries and big data techniques. Studies have shown that incorporating these types of queries into e-commerce systems can streamline the search process, making it more user-friendly overall \citep{Muntjir2016}. Big data tools, like Hadoop \citep{5496972} or MPP distributed databases, are also being used to analyze customer reviews and buying habits. This helps businesses optimize product selection and create a better shopping experience for customers \citep{Liang_2020}.
+Large amount of data in the field of e-commerce is procured and recorded over the years. Data regarding sales and distribution of products, reviews by users, transactions amongst other activities are integrated into databases which will have to start learning how to integrate the bulk of information \cite{Muntjir2016}. On the same line, attempts have been made through various researches to find out how to work with this data, and such include the Hadoop or MPP distributed databases \citep{5496972}. These are meant for scanning customer reviews and buying patterns, which enable businesses to make appropriate choices of the products and enhance customer experience when buying products \citep{Liang_2020}.
 \\
 
-Due the problem of handling complex data formats, different frameworks has emerged. These frameworks are helping e-commerce platforms run more efficiently. Cloud-based systems like \footnote{\url{https://www.theproductfolks.com/productpedia-product-management-glossary}} allow sellers to maintain a centralized product catalog, making it easier to sync data across platforms and share rich product information \citep{10.1007/978-3-319-20895-4_34}. Machine learning tools also presents alternatives to handle complex data, like TrendSpotter \citep{10.1145/3583780.3615503}, which can predict trending products by analyzing customer behavior in real time. This is a significant advancement for businesses trying to keep up with the ever-changing market.
+Also in line with the progress of data management tools and frameworks, inclusion of this methodologies have emerged in the frameworks. These frameworks are adding to e-commerce platform productivity. Productpedia\footnote{\url{https://www.theproductfolks.com/productpedia-product-management-glossary}} is an example that allows one seller to setup a unified product catalog and thus making it easier to share the product information and synchronize data across the platforms \citep{10.1007/978-3-319-20895-4_34}. Other tools also provide alternatives to deal with the bulk of data and case in point is TrendSpotter, which on a real-time basis analyzes customer behavior and suggests things that people would likely want to buy where a trend has been made \citep{10.1145/3583780.3615503}. This is a significant advancement for businesses trying to keep up with the ever-changing market.
 
 
-\section{Large Language Models (LLMs)} %falta hablar desde el punto de vista computacional
-Large language models (LLMs) are a big step forward in natural language processing (NLP). These models, which have millions or even billions of settings \citep{zhao2023survey}, are trained on huge amounts of text. This allows them to handle tasks like translation, summarization, and sentiment analysis with impressive accuracy. LLMs are very flexible and can be used in many areas, such as improving recommendation systems, robotics, and telecommunications \citep{10305960, fan2023fatellm}.
+\section{Large Language Models (LLMs)} 
+Large Language models are the next step of NLP architectures. These models can have millions or even billions of tokens \citep{zhao2023survey} that are trained on huge amounts of text. This allows them to handle tasks like translation, summarization, and sentiment analysis with high-confidence accuracy. LLMs are very flexible and can be used in many areas, such as improving recommendation systems, robotics, and telecommunications \citep{10305960, fan2023fatellm}.
 \\
 
 LLMs are so powerful because their ability to learn from minimal data. They can tackle tasks they have never explicitly been trained on—a capability known as `zero-shot' or `few-shot' learning \citep{naveed2024comprehensive}. This flexibility makes them increasingly valuable even outside traditional NLP applications.
 
-\section{Fine Tuning} %especifcar como se realiza el fine tuning de forma teorica
-Fine-tuning is a technique of taking a pre-trained model and tailoring it for a specific task \citep{Zhang2022Fine-Tuning}. A general-purpose language model can be fine-tuned on a smaller, domain-specific dataset to analyze e-commerce reviews more effectively.
-
-\subsection{The Basics}
-The process adjusts the model's parameters to minimize a loss function \(L\) on a smaller dataset \(D'\), leveraging the knowledge the model has already learned \citep{Lalor2017Improving}. The key is to make incremental changes to the model's weights without erasing its general-purpose capabilities.
-
-\subsection{Practical Fine-Tuning}
-Fine-tuning often employs gradient-based methods like Stochastic Gradient Descent (SGD). However, the low variability of some datasets may lead in overfitting problems which can degrade the model's performance on general tasks \citep{Catani2020A}.
-
-\subsection{Why It's Efficient}
-The main advantage of fine-tuning models is that is faster and requires less data compared to training a model from scratch, making it ideal for scenarios with limited computational resources \citep{Xiao2023Offsite-Tuning:}.
+\section{Fine Tuning}
+Fine-tuning is a technique of taking a pre-trained model and with the use of different datasets train the model increasing its knowledge and its capacity to complete new tasks \citep{Zhang2022Fine-Tuning}. This techniques allows to improve the robustness of the models in different domains and task \citep{Lalor2017Improving}. One of the advantage of fine-tuning models is that is faster to train due to the need of less data compared to training a model from scratch, making it possible to reduce computational costs and the capacity to execute some processes locally \citep{Xiao2023Offsite-Tuning:}.
 
 \subsection{Mathematical Framework}
 Fine-tuning continue increasing the knowledge the model already learned during its initial training on a large dataset. In simple terms, this process involves adjusting the model's parameters ($\theta$) to improve its performance on a specific task. The model starts with what it learned from the large dataset ($D$) and is then updated using a smaller, task-specific dataset ($D'$). This adjustment is guided by optimizing a loss function ($L$), which measures how well the model is doing \citep{Liu2023Improving}. The objective can be expressed as:
@@ -49,7 +40,7 @@ JSON-Tuning is an approach that taking advantage of JSON (JavaScript Object Nota
 
 One of the key benefits of JSON-Tuning is its ability to reduce redundancy and simplify data management. This allows the models to reduce time in inference and training having more consistency in the contexts they are learining \citep{gao2024jsontuning}. 
 
-\section{Evaluation Metrics}
+\section{Evaluation Metrics} \label{sec:evaluation-metrics}
 \subsection{BLEU (Bilingual Evaluation Understudy)}
 
 Measures n-gram overlap between machine-generated and reference text \citep{Reiter2018A}. Mathematically, the BLEU score is calculated using the formula:
@@ -109,7 +100,7 @@ This metric also incorporates a penalty function for longer alignment chunks to 
 
 \subsection{BERTScore}
 
-Uses contextual embeddings to assess semantic similarity between generated and reference texts \citep{zhang2020bertscoreevaluatingtextgeneration}.
+Leverages contextual embeddings from pre-trained transformer models to measure semantic similarity between generated and reference texts. Unlike n-gram-based metrics, BERTScore captures meaning and context, offering a robust evaluation for text generation tasks \cite{zhang2020bertscoreevaluatingtextgeneration}.
 
 The mathematical formulation is the following:
 \[
@@ -118,9 +109,9 @@ F_{\text{BERT \citep{zhang2020bertscoreevaluatingtextgeneration}}} = 2 \cdot \fr
 
 According with the Hugginface space \footnote{https://huggingface.co/spaces/evaluate-metric/bertscore} and \citep{zhang2020bertscoreevaluatingtextgeneration}, BERTScore can produce three different metrics:
 \begin{itemize}
-    \item \textbf{Precision}: The fraction of correctly labeled positive examples out of all of the examples that were labeled as positive.
-    \item \textbf{Recall}: The fraction of the positive examples that were correctly labeled by the model as positive.
-    \item \textbf{F1-score}: The harmonic mean of the precision and recall.
+    \item \textbf{Precision}: Focuse on the fraction of correctly labeled positive examples out of all of the examples that were labeled as positive \footnote{\url{https://huggingface.co/spaces/evaluate-metric/precision}}.
+    \item \textbf{Recall}: The fraction of the positive examples that were correctly labeled by the model as positive \footnote{\url{https://huggingface.co/spaces/evaluate-metric/recall}}.
+    \item \textbf{F1-score}: The harmonic mean of the precision and recall \footnote{\url{https://huggingface.co/spaces/evaluate-metric/f1}}.
 \end{itemize}
 
 \section{Faithfulness, Fluency and Correctness in LLMs}
@@ -150,26 +141,26 @@ Correctness can be evaluated by:
     \item Model-based evaluation: Correctness can be evaluated with Prometheus or G-eval too\citep{kim2024prometheus2opensource}.\end{itemize}
 
 \subsection{Fluency}
-Fluency evaluate how nmatural the text generated is, focuse on the smoothness, easy-reading, and how much the text is human-like. Evaluate the sentences too check the logical flow of the text. Fluency is a critical metric for evaluating LLM outputs in tasks such as conversational agents, creative writing, and summarization, where readability and user engagement are paramount \citep{yin2022sensitivitystabilitymodelinterpretations}.
+Evaluates the readability and linguistic quality of the text, ensuring it adheres to natural language norms \cite{suadaa-etal-2021-towards, Lee2023ASO}.
 
-Fluency can be evaluated through various approaches:
+Fluency can be evaluated through various approaches which includes the following:
 \begin{itemize}
-    \item \textbf{Linguistic coherence}: Assessing the logical progression and connectivity of sentences in the generated text, ensuring that the output is cohesive and makes sense within the context \citep{gat2023faithfulexplanationsblackboxnlp}.
-    \item \textbf{Grammatical accuracy}: Evaluate the gramatical errors that may involved in reducing the fluemcy of the reading \citep{varshney-etal-2022-towards}.
-    \item \textbf{Stylistic consistency}: Focuse on the tone, formality, and vocabulary of the outputs are consistent with the intended style of the task \citep{yao2023predictinggeneralizationperformancecorrectness}.
-    \item \textbf{Human evaluation}: It is possible to ask human to score the text's fluency based on readability and naturalness, often providing insights that complement automatic metrics \citep{jacovi-goldberg-2020-towards}.
-    \item \textbf{Model-based evaluation}: Employing models or tools like Prometheus to assess linguistic quality and stylistic alignment \citep{kim2024prometheus2opensource}.
+    \item \textbf{Linguistic coherence}: Evaluating the generated text's logical flow and sentence connections to make sure the final product is coherent and makes sense in its context \citep{gat2023faithfulexplanationsblackboxnlp}.
+    \item \textbf{Grammatical accuracy}: Examine the grammatical mistakes that can be causing the reading to be less fluent. \citep{varshney-etal-2022-towards}.
+    \item \textbf{Stylistic consistency}: Pay attention to the outputs' vocabulary, formality, and tone, and assess them using the task's intended style. \citep{yao2023predictinggeneralizationperformancecorrectness}.
+    \item \textbf{Human evaluation}: Based on many attributes that the advisers provide, a human can rate the text's fluency, frequently offering insights that supplement automated measures. \citep{jacovi-goldberg-2020-towards}.
+    \item \textbf{Model-based evaluation}: Using models like Prometheus to assess linguistic quality and stylistic alignment \citep{kim2024prometheus2opensource}.
 \end{itemize}
 
 Fluency is particularly relevant in applications requiring user interaction, if the fluency is poor it can lead to misunderstandings, reduced trust, and disengagement of the users. Fluency ensures that the output is not only accurate but also appealing and easy to comprehend \citep{jacovi-goldberg-2020-towards}.
 
 \section{Cross-Validation Evaluation}
 
-To check how well our models can generalize and handle new data, we use a cross-validation approach. Cross-validation is a widely used technique that splits the data into multiple subsets (folds) and alternates between training and testing on these folds \citep{jiang2017markov, carmack2012generalised, Bergmeir2012On}. This helps measure the model's performance on unseen data. In this study, we take it a step further by using a variant of cross-validation that tests model robustness on completely different datasets \citep{Barratt2018OptimizingFG}.
+To check how well our models can generalize and handle new data, we use a cross-validation approach. Cross-validation is a widely used technique that splits the data into multiple subsets (folds) and alternates between training and testing on these folds \citep{jiang2017markov, carmack2012generalised, Bergmeir2012On}. This helps measure the model's performance on unseen data. To increase the valuability of the research, we implemented cross-validation that tests model robustness on different dataset \citep{Barratt2018OptimizingFG}.
 
 \subsection{Cross-Validation with Alternate Datasets}
 
-To ensure the robustness of a model or dataset to fine-tune an LLM, we perform cross-validation using two separate datasets, $A$ and $B$. The idea is to train a model on one dataset and test it on the other, making sure the model works well across different types of data. Specifically:
+Two distinct datasets, $A$ and $B$, can be used to test the robustness of a model or dataset in order to fine-tune an LLM. To ensure that a model performs well across several data types, it is intended to be trained on one dataset and tested on another. In other words:
 
 \begin{itemize}
     \item Train a model, $M_A$, on dataset $A$ and test it on dataset $B$.
@@ -180,34 +171,28 @@ If the models perform well on the alternate datasets, it means they have learned
 
 \subsection{Mathematical Formulation}
 
-Let $\mathcal{D}_A = \{(x_i^A, y_i^A)\}_{i=1}^{n_A}$ and $\mathcal{D}_B = \{(x_i^B, y_i^B)\}_{i=1}^{n_B}$ represent two datasets with $n_A$ and $n_B$ samples. The cross-validation process involves:
+To explain Mathematically how cross-validation will be applied on the research, let $\mathcal{D}_A = \{(x_i^A, y_i^A)\}_{i=1}^{n_A}$ and $\mathcal{D}_B = \{(x_i^B, y_i^B)\}_{i=1}^{n_B}$ represent two datasets with $n_A$ and $n_B$ samples. The cross-validation process involves:
 
-1. \textbf{Training Models}: 
+\begin{enumerate}
+    \item \textbf{Training Models}: 
    \begin{align}
        M_A &= \text{train}(\mathcal{D}_A), \\
        M_B &= \text{train}(\mathcal{D}_B).
    \end{align}
 
-2. \textbf{Cross-Dataset Testing}: 
-   - Test $M_A$ on $\mathcal{D}_B$ to calculate the error $E(M_A, \mathcal{D}_B)$.
-   - Test $M_B$ on $\mathcal{D}_A$ to calculate the error $E(M_B, \mathcal{D}_A)$.
+    \item \textbf{Cross-Dataset Testing}: 
+   \begin{itemize}
+    \item Test $M_A$ on $\mathcal{D}_B$ to calculate the error $E(M_A, \mathcal{D}_B)$.
+    \item Test $M_B$ on $\mathcal{D}_A$ to calculate the error $E(M_B, \mathcal{D}_A)$.
+   \end{itemize} 
 
-3. \textbf{Performance Metrics}: 
-   We evaluate each model's performance on the alternate dataset using metrics like accuracy, precision, recall, or mean squared error (MSE). For example, if we use MSE:
-   \begin{align}
-       \text{MSE}_{M_A \rightarrow B} &= \frac{1}{n_B} \sum_{i=1}^{n_B} \left(y_i^B - M_A(x_i^B)\right)^2, \\
-       \text{MSE}_{M_B \rightarrow A} &= \frac{1}{n_A} \sum_{i=1}^{n_A} \left(y_i^A - M_B(x_i^A)\right)^2.
-   \end{align}
-
-By comparing errors from in-domain and out-of-domain tests (e.g., $E(M_A, \mathcal{D}_A)$ vs. $E(M_A, \mathcal{D}_B)$), we can assess if the models generalize well or are overfitting to specific data patterns.
-
-\subsection{Discussion of Cross-Dataset Validation Results}
-
-Analyzing the cross-dataset performance of $M_A$ and $M_B$ helps us understand how robust and adaptable these models are. If they perform consistently across datasets, it shows they can transfer what they have learned and aren not overly biased toward any specific dataset. This makes the models more reliable for broader applications.
+    \item \textbf{Performance Metrics}: To evaluate the performance of the models we applied metrics based on text and  model as explained on section \ref{sec:evaluation-metrics}:
+\end{enumerate}
+Comparing the metrics of in-dataset and cross-dataset testing helps us understand how well the models can generalize and adapt to new data.
 
 \section{Summary}
 
 This chapter explores how machine learning and advanced data systems are transforming e-commerce. From improving search results using big data to predicting trends with machine learning, these technologies enhance the shopping experience.
 \\
 
-It also highlights the role of large language models in NLP, showing how fine-tuning and techniques like JSON-Tuning make them adaptable to specific domains. Finally, it emphasizes the importance of evaluation metrics and validation techniques for ensuring models are accurate and reliable in real-world scenarios with word-based metrics and model-based ones.
+It also remarks the role of large language models in NLP, showing how fine-tuning and techniques like JSON-Tuning make them adaptable to specific domains. Finally, it focus in the importance of evaluation metrics and validation techniques for ensuring models are accurate and reliable in real-world scenarios with word-based metrics and model-based ones.

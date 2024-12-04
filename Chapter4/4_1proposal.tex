@@ -1,8 +1,11 @@
-The methodology will outline the systematic process used to create and evaluate the \textbf{eC-Tab2Text dataset}, which is designed to enhance the performance of Large Language Models (LLMs) in generating accurate and meaningful product reviews for e-commerce applications.
-\\
+To address the gap in table-to-text generation for user-specific aspects or queries, such as ``Camera'' and ``Design \& Display'' (as illustrated in Figure \ref{fig:task-def}), we developed the \textbf{eC-Tab2Text} dataset. This dataset comprises e-commerce product tables and is designed to facilitate aspect-based text generation by fine-tuning LLMs on our dataset. The pipeline for creating \textbf{eC-Tab2Text} is outlined in Figure \ref{fig:data-pipeline} and described in detail below.
 
-This process spans from the initial data acquisition and preparation to the fine-tuning and evaluation of LLMs. Each stage is essential to ensuring that the dataset effectively bridges the gap between structured product data and user-centric textual reviews.
-\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{images/eC-Tab2Text.pdf}
+    \caption{eC-Tab2Text Dataset Pipeline}
+    \label{fig:data-pipeline}
+\end{figure}
 
 The methodology is summarized in a flowchart (Figure \ref{fig:MethodologyFlowchart}). This structured approach guarantees a comprehensive and reproducible pathway for leveraging LLMs to transform structured product data into human-readable reviews while addressing challenges such as data sparsity and domain-specific needs.
 \begin{figure}[H]

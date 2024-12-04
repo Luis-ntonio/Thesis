@@ -1,14 +1,9 @@
 \section{Dataset Preparation}
 \subsection{Data Sources}
-The eC-Tab2Text dataset was constructed using product reviews and specifications extracted from the \href{https://pricebaba.com/}{Pricebaba} website. This source provides detailed information on electronic devices, such as mobile phones and laptops, including expert reviews and structured product attributes. The study focused exclusively on mobile phone data due to the richness of the descriptions and expert evaluations. Each review contained sections on pros and cons and feature-specific details, such as camera performance, battery life, and display quality.
+The dataset was constructed using product reviews and specifications (i.e., tables) extracted from the Pricebaba website\footnote{\url{https://pricebaba.com}, last accessed August 2024.}. Pricebaba provides comprehensive information on electronic products, including mobile phones and laptops. For this study, the focus was exclusively on mobile phone data due to the richness of product specifications (attribute-value pairs) and the availability of detailed expert reviews as summaries. Additionally, the number of samples available for mobile phones is significantly larger than for laptops. Each sample includes feature-specific details such as camera performance, battery life, and display quality.
 
 \subsection{Data Extraction and Format}
-Data was extracted using web scraping techniques and stored in JSON format to maintain structure and compatibility with modern data processing workflows. Two JSON files were created:
-\begin{itemize}
-    \item \textbf{Reviews JSON:} Captures attributes like pros, cons, and detailed textual descriptions.
-    \item \textbf{Specifications JSON:} Contains key-value pairs for both key specifications and full technical details.
-\end{itemize}
-Figures \ref{fig:pricebaba-review-structure} and \ref{fig:pricebaba-spec-structure} illustrate the data structures.
+Data extraction was performed using web scraping techniques, with the extracted data stored in JSON format to serialize the table structure and to ensure compatibility with modern data processing workflows. Two JSON files were generated \ref{code:json-data-format}, \ref{code:json-review-format}: one containing aspect-based product reviews and the other containing product specifications. The review JSON file captures user aspects alongside their associated textual descriptions collected from the ``Quick Review'' section of the website, while the specifications JSON file stores key-value pairs for both key specifications and full technical details. The structures of the sample inputs and outputs are depicted in Figures \ref{fig:pricebaba-review-structure} and \ref{fig:pricebaba-spec-structure}.
 
 \begin{figure}[H]
     \centering
@@ -23,8 +18,6 @@ Figures \ref{fig:pricebaba-review-structure} and \ref{fig:pricebaba-spec-structu
     \label{fig:pricebaba-spec-structure}
 \end{figure}
 
-\subsection{Data Format}
-The chosen format for data representation is JSON, as this format allows for structured and easy-to-process data representation. Two JSON files will be used to represent the data: one for the reviews and another for the product specifications. This last one will contains two parts per product: the key values, which means the most important data of the product, and the full specifications. Each JSON file will contain an array of objects, where each object will represent a product along with its respective reviews or specifications. The structure of the JSON files is outlined below:
 \newpage
 \begin{lstlisting}[style=jsonstyle, frame = single, caption=JSON Data Format Product specification, label=code:json-data-format]
 {
@@ -68,7 +61,7 @@ The chosen format for data representation is JSON, as this format allows for str
 }
 \end{lstlisting}
 \newpage
-\begin{lstlisting}[style=jsonstyle, frame = single, caption=JSON Data Format reviews, label=code:json-data-format]
+\begin{lstlisting}[style=jsonstyle, frame = single, caption=JSON Data Format reviews, label=code:json-review-format]
 {
     "url": {
         "text": {
@@ -179,15 +172,15 @@ The eC-Tab2Text dataset provides a diverse and robust set of inputs and outputs,
 \subsection{eC-Tab2Text Evaluation} 
 \label{sec:evaluation}
 
-\paragraph{Model Fine-Tuning.} To evaluate the effectiveness of the eC-Tab2Text dataset, three state-of-the-art Large Language Models (LLMs) were fine-tuned:
+\paragraph{Model Selection and Characteristics} To evaluate the effectiveness of the eC-Tab2Text dataset, we fine-tuned three open-source LLMs: \textbf{LLaMA 2-Chat 7B} \cite{touvron2023llama}, \textbf{Mistral 7B-Instruct} \cite{jiang2023mistral}, and \textbf{StructLM 7B} \cite{zhuang2024structlm}. These models were selected due to their distinct pretraining paradigms, which address diverse data modalities and tasks. Detailed descriptions of these models are provided in Appendix \ref{sec:fine-tuning-models}.
 
-\begin{itemize} 
-    \item \textbf{Llama2-chat 7B}: This model is specifically designed for interactive tasks and demonstrates advanced conversational capabilities through fine-tuning on instruction-based datasets \citep{touvron2023llama}. 
-    \item \textbf{StructLM 7B}: A pre-trained model optimized for structured text processing and table-to-text generation, StructLM uses a transformer architecture with enhancements for structured data encoding, showcasing its robustness in domain-specific text generation tasks \citep{zhuang2024structlm}. 
-    \item \textbf{Mistral\_Instruct 7B}: Known for its high adaptability, this model leverages supervised fine-tuning with diverse instruction-following datasets, achieving state-of-the-art performance in multi-modal and domain-adapted text generation \citep{jiang2023mistral}. 
+\begin{itemize}
+    \item \textbf{LLaMA 2-Chat 7B}: This model, pretrained on 2 trillion tokens of publicly available text data, is fine-tuned on over one million human-annotated examples. It excels in general-purpose conversational and language understanding tasks \cite{touvron2023llama}.
+    \item \textbf{Mistral 7B-Instruct}: Leveraging a mix of text and code during training, this model demonstrates strong performance in tasks that require natural language understanding and programming-related reasoning \cite{jiang2023mistral}.
+    \item \textbf{StructLM 7B}: Pretrained on structured data, including databases, tables, and knowledge graphs, StructLM is optimized for structured knowledge grounding, making it particularly effective for domain-specific tasks \cite{zhuang2024structlm}.
 \end{itemize}
 
-The fine-tuning process involved training the models with eC-Tab2Text's curated dataset to assess their capabilities in generating high-quality, contextually accurate outputs tailored to e-commerce applications. By aligning with studies emphasizing the importance of instruction tuning and domain-specific dataset alignment to enhance LLM performance \citep{Zhang2023InstructionTF, Chang2023ASO}, the models were configured with parameters optimized for computational efficiency, as detailed in Table~\ref{table:hyperparameters}. The fine-tuning focused on adapting the models to handle the domain-specific tasks of generating detailed and attribute-focused product reviews.
+The fine-tuning process adapts these models to the e-commerce domain using the eC-Tab2Text dataset. This dataset focuses on attribute-specific and context-aware text generation tailored to user queries, such as detailed reviews of ``Camera'' or ``Design \& Display.'' The fine-tuning process follows best practices in instruction tuning and domain-specific dataset alignment \cite{Zhang2023InstructionTF, Chang2023ASO}. Optimization of hyperparameters ensured computational efficiency while maintaining high-quality performance, as detailed in Appendix Table~\ref{table:hyperparameters}.
 
 \begin{table}[ht]
     \centering
@@ -235,8 +228,7 @@ Furthermore, the `BitsAndBytesConfig` library from Hugging Face's `transformers`
 
 \paragraph{Prometheus Evaluation (Hallucination)} 
 \label{appendix:Prometheus}
-
-To evaluate model-based metrics, the Prometheus framework \citep{kim2024prometheus2opensource} was employed, utilizing structured prompts for three key evaluation criteria: fluency, correctness, and faithfulness \footnote{https://github.com/prometheus-eval/prometheus-eval}. The primary framework leverages an Absolute System Prompt, which defines the role of the evaluator and ensures objective, consistent assessments based on established rubrics. This Absolute System Prompt, shown in Listing\ref{code:ABS-System-Prompt}, forms the foundation for all evaluations across metrics.
+To evaluate model-based metrics, the Prometheus framework \citep{kim2024prometheus2opensource} was employed and an open-source LLM-based evaluator as an alternative to the closed-source G-Eval \cite{liu2023gevalnlgevaluationusing}. This evaluation was made utilizing structured prompts for three key evaluation criteria: fluency, correctness, and faithfulness \footnote{https://github.com/prometheus-eval/prometheus-eval}. The primary framework leverages an Absolute System Prompt, which defines the role of the evaluator and ensures objective, consistent assessments based on established rubrics. This Absolute System Prompt, shown in Listing\ref{code:ABS-System-Prompt}, forms the foundation for all evaluations across metrics. Our objective is to benchmark the performance of various LLMs under both zero-shot and fine-tuned settings using the proposed eC-Tab2Text dataset. 
 
 \begin{lstlisting}[style=textstyle, frame = single, caption=Absolute System Prompt \citep{kim2024prometheus2opensource}, label=code:ABS-System-Prompt]
 You are a fair judge assistant tasked with providing clear, objective feedback based on specific criteria, ensuring each assessment reflects the absolute standards set for performance.
@@ -264,12 +256,7 @@ An instruction (might include an Input inside it), a response to evaluate, a ref
 4. Please do not generate any other opening, closing, and explanations.
 \end{lstlisting}
 
-\paragraph{Instructions for Evaluation}
-
-Prometheus prompts are customized for each evaluation metric. Below are the specialized structures and rubrics for fluency, faithfulness, and correctness.
-
-\paragraph{Faithfulness}
-This metric ensures the generated response aligns with both the provided context and reference answers. The evaluation structure incorporates specific rubrics for relevance and information consistency.
+\paragraph{Faithfulness prompt for model-based evaluation}
 
 \begin{lstlisting}[style=textstyle, frame = single, caption=Prompt structured correctness \citep{kim2024prometheus2opensource}, label=code:estructured-faithfulness]
 ###The instruction to evaluate:
@@ -289,8 +276,7 @@ Evaluate the fluency of the generated JSON answer.
 ###Feedback:
 \end{lstlisting}
 
-\paragraph{Fluency}
-This metric evaluates the grammatical accuracy and readability of the generated response.
+\paragraph{Fluency prompt for model-based evaluation}
 
 \begin{lstlisting}[style=textstyle, frame = single, caption=Prompt structured fluency \citep{kim2024prometheus2opensource}, label=code:estructured-fluency]
 ###The instruction to evaluate: Evaluate 
@@ -307,8 +293,7 @@ the fluency of the generated JSON answer
 ###Feedback:
 \end{lstlisting}
 
-\paragraph{Correctness}
-This metric assesses the logical accuracy and coherence of the generated response compared to the reference.
+\paragraph{Correctness prompt for model-based evaluation}
 
 \begin{lstlisting}[style=textstyle, frame = single, caption=Prompt estructured correctness \citep{kim2024prometheus2opensource}, label=code:estructured-correctness]
 ###The instruction to evaluate:
@@ -328,8 +313,8 @@ Your task is to evaluate the generated answer and reference answer for the query
 ###Feedback: 
 \end{lstlisting}
 
-\paragraph{Cross-Validation.} Performed to validate the robustness and generalizability of the fine-tuned models by testing them across distinct datasets. This process ensured the models could adapt effectively to different structured data scenarios while maintaining high performance. Specifically, the same three models fine-tuned on the eC-Tab2Text dataset (\textbf{Llama2-chat 7B}, \textbf{StructLM 7B}, and \textbf{Mistral\_Instruct 7B}) were trained and evaluated on the QTSumm dataset \citep{zhao2023qtsummqueryfocusedsummarizationtabular}, using identical hyperparameters as detailed in Section~\ref{sec:evaluation}.
-\paragraph{\textit{QTSumm Dataset.}\label{par:Prompt QTSumm}\citep{zhao2023qtsummqueryfocusedsummarizationtabular}} Designed for query-focused summarization tasks, it includes structured JSON data, queries, and summaries. This dataset provided an ideal contrast to eC-Tab2Text, as its focus lies on general-purpose summarization rather than product-specific reviews. The models were trained using prompts structured similarly to those used with the eC-Tab2Text dataset. The key distinction in the QTSumm setup was the row-level content included in the prompts, as outlined in \ref{code:Prompt Dataset 2}. This alignment ensured training consistency while leveraging the QTSumm dataset's unique characteristics.
+The goal to apply cross-validation is to evaluate the robustness and generalizability of the fine-tuned models by testing them across distinct datasets. To achieve this, the same architectures trained with \textbf{eC-Tab2Text} dataset were evaluated on the \textbf{QTSumm} dataset \citep{zhao2023qtsummqueryfocusedsummarizationtabular}(\textbf{Llama2-chat 7B}, \textbf{StructLM 7B}, and \textbf{Mistral\_Instruct 7B}), using identical hyperparameters as detailed in Section~\ref{sec:evaluation}.
+\paragraph{\textit{QTSumm Dataset.}\label{par:Prompt QTSumm}\citep{zhao2023qtsummqueryfocusedsummarizationtabular}} This dataset was design for query-focused summarization tasks, it includes structured tabular data, queries, and summaries over 2934 tables. This dataset in comparison to eC-Tab2Text, is focus on general-purpose summarization rather than product-specific reviews. The prompts uses to train the models with QTSumm dataset, has the same structure as the ones used to \textbf{eC-Tab2Text}. The difference lies in the QTSumm setup was the row-level content included in the prompts, as outlined in \ref{code:Prompt Dataset 2}.
 
 \begin{lstlisting}[style=textstyle, frame = single, caption=Prompt structuration for QTSumm, label=code:Prompt Dataset 2]
     "Given following json that contains specifications of a product, generate a review of the key characteristics with json format. Follow the structure on Keys to write the Output: 

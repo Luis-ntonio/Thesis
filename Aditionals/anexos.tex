@@ -1,3 +1,157 @@
-\addcontentsline{toc}{chapter}{Anexos} % Add section name in index
+\appendix
 
-En este apartado, el lector puede colocar información adicional que sirva como complemento a la información colocada en la tesis. Por ejemplo, algunos conceptos adicionales, tablas complementarias, demostraciones, etc.
+\section{Training Environment}
+\label{sec:training-env}
+
+The fine-tuning process was conducted on a NVIDIA RTX 4070 Ti Super GPU with 16GB of VRAM, ensuring efficient training while managing memory-intensive operations. The AdamW optimizer \cite{loshchilov2018decoupled} was configured with a learning rate of $2\times 10^{-4}$, chosen for its effectiveness in maintaining stability and convergence during training.
+
+To optimize resource usage, the \textit{bitsandbytes} library\footnote{\url{https://github.com/bitsandbytes-foundation/bitsandbytes}} was employed for 4-bit quantization, reducing VRAM requirements without significant performance loss. Table~\ref{tab:eC-Tab2Text Aditional parameters} outlines the key parameters used, including `\texttt{float16}' for computation data type and `\texttt{nf4}' for quantization type. The `\texttt{use\_nested\_quant}' option was set to `False' to ensure compatibility across models. 
+
+\begin{table}[ht]
+    \centering
+    \footnotesize
+    \begin{tabular}{|c|c|}
+    \hline
+    \textbf{Hyperparameter} & \textbf{Value} \\
+    \hline
+    Learning Rate & $2 \times 10^{-4}$ \\
+    Batch Size & 2 \\
+    Epochs & 1 \\
+    Gradient Accumulation Steps & 1 \\
+    Weight Decay & 0.001 \\
+    Max Sequence Length & 900 \\
+    \hline
+    \end{tabular}
+    \caption{Hyperparameter settings for fine-tuning.}
+    \label{table:hyperparameters-2}
+\end{table}
+
+\begin{table}[h!]
+        \footnotesize
+        \centering
+        \begin{tblr}{hline{1,2,Z} = 0.8pt, hline{3-Y} = 0.2pt,
+                     colspec = {Q[c,m, 14em] Q[c,m, 6em]},
+                     colsep  = 4pt,
+                     row{1}  = {0.6cm, font=\bfseries, bg=gray!30},
+                     row{2-Z} = {0.3cm},
+                     }
+    
+    \textbf{Hyperparameter} & \textbf{Value}      \\
+    \texttt{bnb\_4bit\_compute\_dtype}       & float16  \\
+    \texttt{bnb\_4bit\_quant\_type} & nf4               \\
+    \texttt{use\_nested\_quant}       & False           \\
+        \end{tblr}
+        \caption{Quantization settings used for fine-tuning with the bitsandbytes library.}
+        \label{tab:eC-Tab2Text Aditional parameters}
+\end{table}
+
+\section{Fine-tuning Models}
+\label{sec:fine-tuning-models}
+
+\begin{itemize}
+    \item \textbf{LLaMA 2-Chat 7B} \cite{touvron2023llama}: LLaMA 2-Chat 7B is a fine-tuned variant of the LLaMA 2 series, optimized for dialogue applications. It employs an autoregressive transformer architecture and has been trained on a diverse dataset comprising 2 trillion tokens from publicly available sources. The fine-tuning process incorporates over one million human-annotated examples to enhance its conversational capabilities and alignment with human preferences for helpfulness and safety.
+
+    \item \textbf{StructLM 7B} \cite{zhuang2024structlm}: StructLM 7B is a large language model fine-tuned specifically for structured knowledge grounding tasks. It utilizes the CodeLlama-Instruct model as its base and is trained on the SKGInstruct dataset, which encompasses a mixture of 19 structured knowledge grounding tasks. This specialized training enables StructLM to effectively process and generate text from structured data sources such as tables, databases, and knowledge graphs, making it robust in domain-specific text generation tasks.
+
+    \item \textbf{Mistral 7B-Instruct} \cite{jiang2023mistral}: Mistral 7B-Instruct is an instruction fine-tuned version of the Mistral 7B model, designed to handle a wide array of tasks by following diverse instructions. It features a 32k context window and employs a Rope-theta of 1e6, without utilizing sliding-window attention. This configuration allows Mistral 7B-Instruct to perform effectively in multi-modal and domain-adapted text generation scenarios, achieving state-of-the-art performance in various benchmarks.
+\end{itemize}
+
+\begin{figure*}[ht]
+    \begin{lstlisting}[style=reviews, frame = single, caption=Output generated with Mistral Instruct trained with eC-Tab2Text., label=code:JSON-Mistral-eC-Tab2Text]
+    {
+        "Software and Connectivity": "Tecno Spark Go 2020 will run Android Go UI on top of Android 10 out of the box. For the connectivity, the smartphone will support features like Dual sim VoLTE (Micro-Micro), Wi-Fi 802.11, b/g/n, 3.5mm jack, Bluetooth 4.2, 10-pin charging, GPS, and USB 2.0.",
+        "Design and Display": "The Tecno Spark Go 2020 will reportedly showcase a 6.52 inch TFTdisplay with a resolution of 720 x 1600 pixelsand a pixel density of 269ppi. The display will supposedly have a waterdrop notch with minimum bezels.",
+        "Battery and Performance": "The Tecno Spark Go 2020 will be embedded with a MediaTek Helio A20 chipset and PowerVR GE8300 GPU. The device will come with 2GB RAM and 32GB of internal memory, which can be expanded up to 256GB. Fuelling the device will be a huge 5000mAh battery."
+    }
+    \end{lstlisting}
+    \end{figure*}
+    \begin{figure*}
+    \begin{lstlisting}[style=reviews, frame = single, caption=Output generated with Gemini1.5-flash., label=code:JSON-Gemini]
+    {
+        "Cameras": {
+            "Main Camera": {
+                "Description": "Single 13 MP main camera with LED flash, Auto Flash, and Auto Focus. Offers digital zoom.",
+                "Video": "Specifications not provided."
+            },
+            "Front Camera": {
+                "Description": "Single 8 MP main camera.",
+                "Video": "Specifications not provided."
+            }
+        },
+        "Battery and Performance": {
+            "Battery": {
+                "Capacity": "4000 mAh Li-ion battery",
+                "Charging": "No fast charging or wireless charging."
+            },
+            "Performance": {
+                "Processor": "Quad-core 1.3GHz processor.  Specific chipset and GPU information not provided.",
+                "RAM": "4GB RAM",
+                "Storage": "64GB internal storage, expandable up to 64GB via microSD card."
+            }
+        },
+        "Design and Display": {
+            "Display": {
+                "Size": "6.53 inches (16.59 cm) IPS LCD with 720 x 1560 pixels resolution (263 ppi).",
+                "Design": "Waterdrop notch display."
+            },
+            "Other": {
+                "Colors": "Available in Blue and Purple.",
+                "Fingerprint Sensor": "No fingerprint sensor."
+            }
+        }
+    }
+    \end{lstlisting}
+    \end{figure*}
+    \begin{figure*}[ht]
+    \begin{lstlisting}[style=reviews, frame = single, caption=Output generated with GPT-4o-mini., label=code:JSON-GPT4]
+    {
+        "Software and Connectivity": {
+            "Operating System": "Android 10 (Q) with Android Go custom UI",
+            "Network Compatibility": "Supports 2G, 3G, and 4G networks, making it suitable for use across various locations",
+            "SIM Slots": "Dual SIM (Nano + Nano), allowing for flexible connectivity options",
+            "Wi-Fi and Bluetooth": "Equipped with Wi-Fi 802.11 b/g/n and Bluetooth 4.2 for seamless wireless connections",
+            "GPS": "Includes A-GPS and Glonass for accurate location tracking",
+            "FM Radio and Charging Port": "Features FM Radio and uses a microUSB 2.0 charging port"
+        },
+        "Design and Display": {
+            "Dimensions": "165.6mm x 76.3mm x 9.1mm, making it a reasonably sized smartphone",
+            "Weight": "193g, providing a solid feel without being overly heavy",
+            "Display Size": "6.52 inches with a TFT display that offers a resolution of 720 x 1600 pixels",
+            "Pixel Density": "269ppi, delivering decent clarity for everyday usage",
+            "Design": "Waterdrop notch design adds a modern touch; available in colour options of Aqua Blue and Ice Jadeite"
+        },
+        "Battery and Performance": {
+            "Battery Capacity": "5000 mAh, ensuring long-lasting performance between charges",
+            "Battery Type": "Li-ion, which is standard for smartphones in this range",
+            "Charging Options": "No wireless charging and no fast charging feature, but provides adequate battery life throughout the day",
+            "Hardware": {
+                "Chipset": "MediaTek Helio A20",
+                "RAM": "2 GB, sufficient for basic tasks and everyday applications",
+                "Internal Storage": "32 GB, expandable up to 256 GB via microSD card, allowing for additional storage for apps and media"
+            }
+        }
+    }
+    \end{lstlisting}
+    \end{figure*}
+    
+    \begin{figure*}[ht]
+    \begin{lstlisting}[style=reviews, frame = single, caption=Output generated with StructLM trained with eC-Tab2Text., label=code:JSON-StructLM]
+    {
+        "Software and Connectivity": "Tecno Spark Go 2020 will run on Android Go UI on top of Android 10 out of the box. The smartphone will offer connectivity options like Dual SIM VoLTE, Wi-Fi 802.11, b/g/n, GPS, and Bluetooth 4.2. The device will also come with a rear-mounted fingerprint sensor and a 3.5mm headphone jack.",
+        "Design and Display": "The Tecno Spark Go 2020 is expected to feature a 6.52 inch (16.56 cm) display with a screen resolution of 720 x 1600 pixels. The display will come with a waterdrop notch design and a screen-to-body ratio of 40.97 %. The device will come in Aqua Blue and Ice Jade colors.",
+        "Battery and Performance": "The Tecno Spark Go 2020 will be powered by a MediaTek Helio A20 processor clocked at 2GHz and a PowerVR GE8300 GPU. The device will come armed with 2GB RAM and an internal storage capacity of 32GB, which can be expanded upto 256GB via a microSD card."
+    }
+    \end{lstlisting}
+    \end{figure*}
+    
+    
+    \begin{figure*}[ht]
+    \begin{lstlisting}[style=reviews, frame = single, caption=Output generated with Llama2 trained with eC-Tab2Text., label=code:JSON-Llama2]
+    {
+        "Battery and Performance": "The Tecno Spark Go 2020 is anticipated to be powered by MediaTek\u2019s latest entry-level Helio A20quad-core chipset coupled with a PowerVR GE8300 GPU. That will again reportedly be paired with 2 GB RAM and an internal storage capacity of only 32 GB, which can further be expanded up to 256GB. Further, the device will reportedly pack in a 5000mAh Li-ion battery but won\u2019t support fast charging.",
+        "Cameras": "The Tecno Spark Go 2020 is expected to house a dual-camera setup on the back with a 13MP (Digital Zoom) camera as the primary sensor. Besides, there will also be a 2MP depth sensor onboard. On the front, the smartphone will supposedly feature an 8MP selfie shooter. There will also likely be a bunch of camera features such as Artificial Intelligence,Auto Flash,Auto Focus,Bokeh Effect,Continuos Shooting,Exposure compensation,Face detection,Geo tagging,High Dynamic Range mode (HDR),ISO control,Touch to focus,White balance presets.",
+        "Design and Display": "The Tecno Spark Go 2020 will reportedly feature a 6.52 inch TFT panel tipped with a resolution of 720 x 1600 pixels. The pixel density will supposedly max out at 269ppi. The bezel-less display is further anticipated to boast a waterdrop notch design to furnish an immersive viewing experience."
+    }
+    \end{lstlisting}
+    \end{figure*}
+    

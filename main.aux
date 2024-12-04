@@ -16,6 +16,8 @@
 \@writefile{toc}{\contentsline {section}{\numberline {1.1}Introduction}{4}{section.1.1}\protected@file@percent }
 \citation{jiang2023mistral}
 \citation{gao2024jsontuning}
+\citation{zhuang2024structlm}
+\citation{xie2022unifiedskgunifyingmultitaskingstructured}
 \citation{openai2024gpt4technicalreport,devlin2019bertpretrainingdeepbidirectional}
 \citation{wiseman2017challengesdatatodocumentgeneration}
 \citation{2019TabFactA}
@@ -60,43 +62,41 @@
 \citation{naveed2024comprehensive}
 \citation{Zhang2022Fine-Tuning}
 \citation{Lalor2017Improving}
-\citation{Catani2020A}
 \citation{Xiao2023Offsite-Tuning:}
 \citation{Liu2023Improving}
 \citation{Lalor2017Improving}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}Fine Tuning}{10}{section.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}The Basics}{10}{subsection.2.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Practical Fine-Tuning}{10}{subsection.2.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Why It's Efficient}{10}{subsection.2.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.4}Mathematical Framework}{10}{subsection.2.3.4}\protected@file@percent }
 \citation{Catani2020A}
 \citation{Shachaf2021A}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Fine Tuning}{10}{section.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Mathematical Framework}{10}{subsection.2.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Operational Fine-Tunings}{10}{subsection.2.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Sample Complexity and Generalization}{10}{subsection.2.3.3}\protected@file@percent }
 \citation{Vrbancic2020Transfer}
 \citation{loshchilov2019decoupledweightdecayregularization}
 \citation{Shi2023Towards}
 \citation{Xiao2023Offsite-Tuning:}
 \citation{zheng2024llamafactory}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.5}Operational Fine-Tunings}{11}{subsection.2.3.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.6}Sample Complexity and Generalization}{11}{subsection.2.3.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.7}Gradient-Based Fine-Tuning}{11}{subsection.2.3.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.8}Computational Efficiency}{11}{subsection.2.3.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}JSON-Tuning}{11}{section.2.4}\protected@file@percent }
 \citation{gao2024jsontuning}
 \citation{Reiter2018A}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.4}Gradient-Based Fine-Tuning}{11}{subsection.2.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.5}Computational Efficiency}{11}{subsection.2.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}JSON-Tuning}{11}{section.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}Evaluation Metrics}{11}{section.2.5}\protected@file@percent }
+\newlabel{sec:evaluation-metrics}{{2.5}{11}{Evaluation Metrics}{section.2.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}BLEU (Bilingual Evaluation Understudy)}{11}{subsection.2.5.1}\protected@file@percent }
 \citation{Reiter2018A}
 \citation{Ng2015Better}
 \citation{Maples2017TheR}
 \citation{lin-2004-rouge}
 \citation{Ng2015Better}
-\@writefile{toc}{\contentsline {section}{\numberline {2.5}Evaluation Metrics}{12}{section.2.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}BLEU (Bilingual Evaluation Understudy)}{12}{subsection.2.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}ROUGE (Recall-Oriented Understudy for Gisting Evaluation)}{12}{subsection.2.5.2}\protected@file@percent }
 \citation{Ganesan2015ROUGE}
 \citation{Agarwal2008Meteor}
 \citation{lavie-etal-2004-significance}
 \citation{lavie-etal-2004-significance}
 \citation{lavie-etal-2004-significance}
 \citation{lavie-etal-2004-significance}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}ROUGE (Recall-Oriented Understudy for Gisting Evaluation)}{12}{subsection.2.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.3}METEOR (Metric for Evaluation of Translation with Explicit ORdering)}{12}{subsection.2.5.3}\protected@file@percent }
 \citation{Agarwal2008Meteor}
 \citation{zhang2020bertscoreevaluatingtextgeneration}
 \citation{zhang2020bertscoreevaluatingtextgeneration}
@@ -105,69 +105,67 @@
 \citation{zhang2020bertscoreevaluatingtextgeneration}
 \citation{zhang2020bertscoreevaluatingtextgeneration}
 \citation{lyu2024faithfulmodelexplanationnlp}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.3}METEOR (Metric for Evaluation of Translation with Explicit ORdering)}{13}{subsection.2.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.4}BERTScore}{13}{subsection.2.5.4}\protected@file@percent }
 \citation{jacovi-goldberg-2020-towards}
 \citation{parcalabescu2024measuringfaithfulnessselfconsistencynatural}
 \citation{kim2024prometheus2opensource}
 \citation{liu2023gevalnlgevaluationusing}
 \citation{gat2023faithfulexplanationsblackboxnlp}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.4}BERTScore}{13}{subsection.2.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.6}Faithfulness, Fluency and Correctness in LLMs}{13}{section.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.1}Faithfulness}{13}{subsection.2.6.1}\protected@file@percent }
 \citation{jacovi-goldberg-2020-towards}
 \citation{varshney-etal-2022-towards}
 \citation{varshney-etal-2022-towards}
 \citation{steen2023littlepushnlimodels}
 \citation{gat2023faithfulexplanationsblackboxnlp}
 \citation{kim2024prometheus2opensource}
-\citation{yin2022sensitivitystabilitymodelinterpretations}
-\@writefile{toc}{\contentsline {section}{\numberline {2.6}Faithfulness, Fluency and Correctness in LLMs}{14}{section.2.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.1}Faithfulness}{14}{subsection.2.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.2}Correctness}{14}{subsection.2.6.2}\protected@file@percent }
+\citation{suadaa-etal-2021-towards,Lee2023ASO}
 \citation{gat2023faithfulexplanationsblackboxnlp}
 \citation{varshney-etal-2022-towards}
 \citation{yao2023predictinggeneralizationperformancecorrectness}
 \citation{jacovi-goldberg-2020-towards}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.2}Correctness}{14}{subsection.2.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.3}Fluency}{14}{subsection.2.6.3}\protected@file@percent }
 \citation{kim2024prometheus2opensource}
 \citation{jacovi-goldberg-2020-towards}
 \citation{jiang2017markov,carmack2012generalised,Bergmeir2012On}
 \citation{Barratt2018OptimizingFG}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.3}Fluency}{15}{subsection.2.6.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.7}Cross-Validation Evaluation}{15}{section.2.7}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.7.1}Cross-Validation with Alternate Datasets}{15}{subsection.2.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.2}Mathematical Formulation}{16}{subsection.2.7.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.3}Discussion of Cross-Dataset Validation Results}{16}{subsection.2.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.2}Mathematical Formulation}{15}{subsection.2.7.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.8}Summary}{16}{section.2.8}\protected@file@percent }
+\citation{dang-2006-duc}
+\citation{giorgi-etal-2023-open}
+\citation{zhong-etal-2021-qmsum}
+\citation{zhao2023qtsummqueryfocusedsummarizationtabular}
 \citation{chen-etal-2022-bert2bert}
 \citation{chen-etal-2022-bert2bert}
 \citation{agrawal2022large}
 \citation{brinkmann2024product}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}State of the Art}{17}{chapter.3}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Query-Focused Summarization (QFS)}{17}{section.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Pretrained Models and Their Applications}{17}{section.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Applications in Specialized Fields}{17}{subsection.3.2.1}\protected@file@percent }
 \citation{brinkmann2024product}
 \citation{brinkmann2024product}
 \citation{skondras2023generating}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}State of the Art}{18}{chapter.3}\protected@file@percent }
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Pretrained Models and Their Applications}{18}{section.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Applications in Specialized Fields}{18}{subsection.3.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Advancements in Structured Data Models}{18}{subsection.3.1.2}\protected@file@percent }
 \citation{edunov-etal-2019-pre}
 \citation{zhang2021ebert}
 \citation{zhou2023leveraging}
 \citation{xu2024emerging}
-\citation{singha2023tabularrepresentationnoisyoperators}
 \citation{zhao2023qtsummqueryfocusedsummarizationtabular}
-\citation{macková2023promapdatasetsproductmapping}
-\citation{2019TabFactA}
-\citation{parikh2020tottocontrolledtabletotextgeneration}
-\citation{chen2020logicalnaturallanguagegeneration}
-\citation{suri2023largelanguagemodelsdecision}
-\citation{zhao2023qtsummqueryfocusedsummarizationtabular}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Sequence-to-Sequence Architectures}{19}{subsection.3.1.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.4}E-commerce Systems and Personalized Solutions}{19}{subsection.3.1.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Structured Datasets and Their Importance}{19}{section.3.2}\protected@file@percent }
-\citation{macková2023promapdatasetsproductmapping}
 \citation{chen2021wikitabletlargescaledatatotextdataset}
-\citation{chen2020tabfactlargescaledatasettablebased}
-\citation{zhao2023qtsummqueryfocusedsummarizationtabular}
+\citation{2019TabFactA}
+\citation{wiseman2017challengesdatatodocumentgeneration}
+\citation{chen2020logicalnaturallanguagegeneration}
+\citation{parikh2020tottocontrolledtabletotextgeneration}
+\citation{cheng-etal-2022-hitab}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Advancements in Structured Data Models}{18}{subsection.3.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Sequence-to-Sequence Architectures}{18}{subsection.3.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}E-commerce Systems and Personalized Solutions}{18}{subsection.3.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Table-to-Text Generation}{18}{section.3.3}\protected@file@percent }
 \citation{zhao2023qtsummqueryfocusedsummarizationtabular}
 \citation{zhao2023qtsummqueryfocusedsummarizationtabular}
 \citation{parikh2020tottocontrolledtabletotextgeneration}
@@ -195,63 +193,66 @@
 \citation{nan2021fetaqafreeformtablequestion}
 \citation{zhao2023qtsummqueryfocusedsummarizationtabular}
 \citation{skondras2023generating}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Notable Structured Datasets}{20}{subsection.3.2.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Comparison between eC-Tab2Text and existing table-to-text generation datasets. \small  {Adapted from \citep  {zhao2023qtsummqueryfocusedsummarizationtabular}}}}{20}{table.caption.5}\protected@file@percent }
-\newlabel{tab:datasets}{{3.1}{20}{Comparison between eC-Tab2Text and existing table-to-text generation datasets. \small {Adapted from \citep {zhao2023qtsummqueryfocusedsummarizationtabular}}}{table.caption.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Advancements Through Synthetic Data Generation}{20}{subsection.3.2.2}\protected@file@percent }
 \citation{zhang2022opt}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Comparison between eC-Tab2Text and existing table-to-text generation datasets. \small  {Adapted from \citep  {zhao2023qtsummqueryfocusedsummarizationtabular}}}}{19}{table.caption.5}\protected@file@percent }
+\newlabel{tab:datasets}{{3.1}{19}{Comparison between eC-Tab2Text and existing table-to-text generation datasets. \small {Adapted from \citep {zhao2023qtsummqueryfocusedsummarizationtabular}}}{table.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Advancements Through Synthetic Data Generation}{19}{subsection.3.3.1}\protected@file@percent }
 \citation{madsen-etal-2022-evaluating}
 \citation{yao2023predictinggeneralizationperformancecorrectness}
 \citation{kim2024prometheus2opensource}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Evaluation Metrics for LLMs}{21}{section.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Faithfulness and Correctness}{21}{subsection.3.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Methodology}{22}{chapter.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Evaluation Metrics for LLMs}{20}{section.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Faithfulness and Correctness}{20}{subsection.3.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Methodology}{21}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Methodology Flowchart}}{23}{figure.caption.6}\protected@file@percent }
-\newlabel{fig:MethodologyFlowchart}{{4.1}{23}{Methodology Flowchart}{figure.caption.6}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Dataset Preparation}{23}{section.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Data Sources}{23}{subsection.4.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Data Extraction and Format}{23}{subsection.4.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces eC-Tab2Text Dataset Pipeline}}{21}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:data-pipeline}{{4.1}{21}{eC-Tab2Text Dataset Pipeline}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Methodology Flowchart}}{22}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:MethodologyFlowchart}{{4.2}{22}{Methodology Flowchart}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Dataset Preparation}{22}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Data Sources}{22}{subsection.4.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Data Extraction and Format}{22}{subsection.4.1.2}\protected@file@percent }
 \citation{OnePlusNord35G2023}
 \citation{OnePlusNord35G2023}
 \citation{OnePlusNord35G2023}
 \citation{OnePlusNord35G2023}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces pricebaba reviews structure \citep  {OnePlusNord35G2023}}}{24}{figure.caption.7}\protected@file@percent }
-\newlabel{fig:pricebaba-review-structure}{{4.2}{24}{pricebaba reviews structure \citep {OnePlusNord35G2023}}{figure.caption.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces pricebaba specifications structure \citep  {OnePlusNord35G2023}}}{25}{figure.caption.8}\protected@file@percent }
-\newlabel{fig:pricebaba-spec-structure}{{4.3}{25}{pricebaba specifications structure \citep {OnePlusNord35G2023}}{figure.caption.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Data Format}{25}{subsection.4.1.3}\protected@file@percent }
-\newlabel{code:json-data-format}{{4.1}{26}{JSON Data Format Product specification}{lstlisting.4.1}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.1}{\ignorespaces JSON Data Format Product specification}}{26}{lstlisting.4.1}\protected@file@percent }
-\newlabel{code:json-data-format}{{4.2}{27}{JSON Data Format reviews}{lstlisting.4.2}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.2}{\ignorespaces JSON Data Format reviews}}{27}{lstlisting.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.4}Data Cleaning and Normalization}{27}{subsection.4.1.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.5}Data Integration}{27}{subsection.4.1.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.6}Data Filtering}{27}{subsection.4.1.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces pricebaba reviews structure \citep  {OnePlusNord35G2023}}}{23}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:pricebaba-review-structure}{{4.3}{23}{pricebaba reviews structure \citep {OnePlusNord35G2023}}{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces pricebaba specifications structure \citep  {OnePlusNord35G2023}}}{24}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:pricebaba-spec-structure}{{4.4}{24}{pricebaba specifications structure \citep {OnePlusNord35G2023}}{figure.caption.9}{}}
+\newlabel{code:json-data-format}{{4.1}{25}{JSON Data Format Product specification}{lstlisting.4.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.1}{\ignorespaces JSON Data Format Product specification}}{25}{lstlisting.4.1}\protected@file@percent }
+\newlabel{code:json-review-format}{{4.2}{26}{JSON Data Format reviews}{lstlisting.4.2}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.2}{\ignorespaces JSON Data Format reviews}}{26}{lstlisting.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Data Cleaning and Normalization}{26}{subsection.4.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.4}Data Integration}{26}{subsection.4.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.5}Data Filtering}{26}{subsection.4.1.5}\protected@file@percent }
 \citation{zhao2023qtsummqueryfocusedsummarizationtabular}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.7}Data Splitting}{28}{subsection.4.1.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Prompt Structuration}{28}{section.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Prompts for Dataset 1 (eC-Tab2Text)}{28}{subsection.4.2.1}\protected@file@percent }
-\newlabel{code:prompt-structuration}{{4.3}{28}{Prompt structuration}{lstlisting.4.3}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.3}{\ignorespaces Prompt structuration}}{28}{lstlisting.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Prompts for Dataset 2 (QTSUMM)}{28}{subsection.4.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.6}Data Splitting}{27}{subsection.4.1.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Prompt Structuration}{27}{section.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Prompts for Dataset 1 (eC-Tab2Text)}{27}{subsection.4.2.1}\protected@file@percent }
+\newlabel{code:prompt-structuration}{{4.3}{27}{Prompt structuration}{lstlisting.4.3}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.3}{\ignorespaces Prompt structuration}}{27}{lstlisting.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Prompts for Dataset 2 (QTSUMM)}{27}{subsection.4.2.2}\protected@file@percent }
 \citation{zhao2023qtsummqueryfocusedsummarizationtabular}
 \citation{zhao2023qtsummqueryfocusedsummarizationtabular}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Statistics of eC-Tab2Text dataset}}{29}{table.caption.9}\protected@file@percent }
-\newlabel{table:eC-Tab2Text-statistics}{{4.1}{29}{Statistics of eC-Tab2Text dataset}{table.caption.9}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces QTSUMM dataset structure \citep  {zhao2023qtsummqueryfocusedsummarizationtabular}}}{29}{figure.caption.10}\protected@file@percent }
-\newlabel{fig:qsumm-structure}{{4.4}{29}{QTSUMM dataset structure \citep {zhao2023qtsummqueryfocusedsummarizationtabular}}{figure.caption.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Statistics of eC-Tab2Text dataset}}{28}{table.caption.10}\protected@file@percent }
+\newlabel{table:eC-Tab2Text-statistics}{{4.1}{28}{Statistics of eC-Tab2Text dataset}{table.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces QTSUMM dataset structure \citep  {zhao2023qtsummqueryfocusedsummarizationtabular}}}{28}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:qsumm-structure}{{4.5}{28}{QTSUMM dataset structure \citep {zhao2023qtsummqueryfocusedsummarizationtabular}}{figure.caption.11}{}}
 \citation{touvron2023llama}
-\citation{zhuang2024structlm}
 \citation{jiang2023mistral}
+\citation{zhuang2024structlm}
+\citation{touvron2023llama}
+\citation{jiang2023mistral}
+\citation{zhuang2024structlm}
 \citation{Zhang2023InstructionTF,Chang2023ASO}
-\newlabel{code:prompt-structuration}{{4.4}{30}{Prompt structuration}{lstlisting.4.4}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.4}{\ignorespaces Prompt structuration}}{30}{lstlisting.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Model Fine-Tuning}{30}{section.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}eC-Tab2Text Evaluation}{30}{subsection.4.3.1}\protected@file@percent }
-\newlabel{sec:evaluation}{{4.3.1}{30}{eC-Tab2Text Evaluation}{subsection.4.3.1}{}}
-\@writefile{toc}{\contentsline {paragraph}{Model Fine-Tuning.}{30}{section*.11}\protected@file@percent }
+\newlabel{code:prompt-structuration}{{4.4}{29}{Prompt structuration}{lstlisting.4.4}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.4}{\ignorespaces Prompt structuration}}{29}{lstlisting.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Model Fine-Tuning}{29}{section.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}eC-Tab2Text Evaluation}{29}{subsection.4.3.1}\protected@file@percent }
+\newlabel{sec:evaluation}{{4.3.1}{29}{eC-Tab2Text Evaluation}{subsection.4.3.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Model Selection and Characteristics}{29}{section*.12}\protected@file@percent }
 \citation{Papineni02bleu:a}
 \citation{Reiter2018A}
 \citation{lin-2004-rouge}
@@ -261,73 +262,71 @@
 \citation{zhang2020bertscoreevaluatingtextgeneration}
 \citation{zhang2020bertscoreevaluatingtextgeneration}
 \citation{kim2024prometheus2opensource}
-\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Hyperparameter settings for fine-tuning.}}{31}{table.caption.12}\protected@file@percent }
-\newlabel{table:hyperparameters}{{4.2}{31}{Hyperparameter settings for fine-tuning}{table.caption.12}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Hyperparameters Selection BitsAndBytes}}{31}{table.caption.13}\protected@file@percent }
-\newlabel{table:hyperparameters-bitsandbytes}{{4.3}{31}{Hyperparameters Selection BitsAndBytes}{table.caption.13}{}}
-\@writefile{toc}{\contentsline {paragraph}{Metrics.}{31}{section*.14}\protected@file@percent }
+\citation{liu2023gevalnlgevaluationusing}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Hyperparameter settings for fine-tuning.}}{30}{table.caption.13}\protected@file@percent }
+\newlabel{table:hyperparameters}{{4.2}{30}{Hyperparameter settings for fine-tuning}{table.caption.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Hyperparameters Selection BitsAndBytes}}{30}{table.caption.14}\protected@file@percent }
+\newlabel{table:hyperparameters-bitsandbytes}{{4.3}{30}{Hyperparameters Selection BitsAndBytes}{table.caption.14}{}}
+\@writefile{toc}{\contentsline {paragraph}{Metrics.}{30}{section*.15}\protected@file@percent }
 \citation{kim2024prometheus2opensource}
 \citation{kim2024prometheus2opensource}
 \citation{kim2024prometheus2opensource}
 \citation{kim2024prometheus2opensource}
 \citation{kim2024prometheus2opensource}
 \citation{kim2024prometheus2opensource}
-\newlabel{appendix:Prometheus}{{4.3.1}{32}{Prometheus Evaluation (Hallucination)}{section*.15}{}}
-\@writefile{toc}{\contentsline {paragraph}{Prometheus Evaluation (Hallucination)}{32}{section*.15}\protected@file@percent }
-\newlabel{code:ABS-System-Prompt}{{4.5}{32}{Absolute System Prompt \citep {kim2024prometheus2opensource}}{lstlisting.4.5}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.5}{\ignorespaces Absolute System Prompt \citep  {kim2024prometheus2opensource}}}{32}{lstlisting.4.5}\protected@file@percent }
-\newlabel{code:Task-description-Faithfulness}{{4.6}{32}{Task description used for evaluation of faithfulness \citep {kim2024prometheus2opensource}}{lstlisting.4.6}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.6}{\ignorespaces Task description used for evaluation of faithfulness \citep  {kim2024prometheus2opensource}}}{32}{lstlisting.4.6}\protected@file@percent }
-\newlabel{code:Task-description-fluency-correctness}{{4.7}{32}{Task description used for evaluation of fluency and correctness \citep {kim2024prometheus2opensource}}{lstlisting.4.7}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.7}{\ignorespaces Task description used for evaluation of fluency and correctness \citep  {kim2024prometheus2opensource}}}{32}{lstlisting.4.7}\protected@file@percent }
+\newlabel{appendix:Prometheus}{{4.3.1}{31}{Prometheus Evaluation (Hallucination)}{section*.16}{}}
+\@writefile{toc}{\contentsline {paragraph}{Prometheus Evaluation (Hallucination)}{31}{section*.16}\protected@file@percent }
+\newlabel{code:ABS-System-Prompt}{{4.5}{31}{Absolute System Prompt \citep {kim2024prometheus2opensource}}{lstlisting.4.5}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.5}{\ignorespaces Absolute System Prompt \citep  {kim2024prometheus2opensource}}}{31}{lstlisting.4.5}\protected@file@percent }
+\newlabel{code:Task-description-Faithfulness}{{4.6}{31}{Task description used for evaluation of faithfulness \citep {kim2024prometheus2opensource}}{lstlisting.4.6}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.6}{\ignorespaces Task description used for evaluation of faithfulness \citep  {kim2024prometheus2opensource}}}{31}{lstlisting.4.6}\protected@file@percent }
+\newlabel{code:Task-description-fluency-correctness}{{4.7}{31}{Task description used for evaluation of fluency and correctness \citep {kim2024prometheus2opensource}}{lstlisting.4.7}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.7}{\ignorespaces Task description used for evaluation of fluency and correctness \citep  {kim2024prometheus2opensource}}}{31}{lstlisting.4.7}\protected@file@percent }
 \citation{kim2024prometheus2opensource}
 \citation{kim2024prometheus2opensource}
 \citation{kim2024prometheus2opensource}
 \citation{kim2024prometheus2opensource}
-\@writefile{toc}{\contentsline {paragraph}{Instructions for Evaluation}{33}{section*.16}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Faithfulness}{33}{section*.17}\protected@file@percent }
-\newlabel{code:estructured-faithfulness}{{4.8}{33}{Prompt structured correctness \citep {kim2024prometheus2opensource}}{lstlisting.4.8}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.8}{\ignorespaces Prompt structured correctness \citep  {kim2024prometheus2opensource}}}{33}{lstlisting.4.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Fluency}{33}{section*.18}\protected@file@percent }
-\newlabel{code:estructured-fluency}{{4.9}{33}{Prompt structured fluency \citep {kim2024prometheus2opensource}}{lstlisting.4.9}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.9}{\ignorespaces Prompt structured fluency \citep  {kim2024prometheus2opensource}}}{33}{lstlisting.4.9}\protected@file@percent }
+\newlabel{code:estructured-faithfulness}{{4.8}{32}{Prompt structured correctness \citep {kim2024prometheus2opensource}}{lstlisting.4.8}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.8}{\ignorespaces Prompt structured correctness \citep  {kim2024prometheus2opensource}}}{32}{lstlisting.4.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Faithfulness prompt for model-based evaluation}{32}{lstlisting.4.8}\protected@file@percent }
+\newlabel{code:estructured-fluency}{{4.9}{32}{Prompt structured fluency \citep {kim2024prometheus2opensource}}{lstlisting.4.9}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.9}{\ignorespaces Prompt structured fluency \citep  {kim2024prometheus2opensource}}}{32}{lstlisting.4.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Fluency prompt for model-based evaluation}{32}{lstlisting.4.9}\protected@file@percent }
 \citation{kim2024prometheus2opensource}
 \citation{kim2024prometheus2opensource}
 \citation{zhao2023qtsummqueryfocusedsummarizationtabular}
 \citation{zhao2023qtsummqueryfocusedsummarizationtabular}
-\@writefile{toc}{\contentsline {paragraph}{Correctness}{34}{section*.19}\protected@file@percent }
-\newlabel{code:estructured-correctness}{{4.10}{34}{Prompt estructured correctness \citep {kim2024prometheus2opensource}}{lstlisting.4.10}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.10}{\ignorespaces Prompt estructured correctness \citep  {kim2024prometheus2opensource}}}{34}{lstlisting.4.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Cross-Validation.}{34}{section*.20}\protected@file@percent }
-\newlabel{par:Prompt QTSumm}{{4.3.1}{34}{\textit {QTSumm Dataset.}\citep {zhao2023qtsummqueryfocusedsummarizationtabular}}{section*.21}{}}
-\@writefile{toc}{\contentsline {paragraph}{\textit  {QTSumm Dataset.}\citep  {zhao2023qtsummqueryfocusedsummarizationtabular}}{34}{section*.21}\protected@file@percent }
-\newlabel{code:Prompt Dataset 2}{{4.11}{35}{Prompt structuration for QTSumm}{lstlisting.4.11}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.11}{\ignorespaces Prompt structuration for QTSumm}}{35}{lstlisting.4.11}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Resume}{35}{section.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Experiments and Results}{36}{chapter.5}\protected@file@percent }
+\newlabel{code:estructured-correctness}{{4.10}{33}{Prompt estructured correctness \citep {kim2024prometheus2opensource}}{lstlisting.4.10}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.10}{\ignorespaces Prompt estructured correctness \citep  {kim2024prometheus2opensource}}}{33}{lstlisting.4.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Correctness prompt for model-based evaluation}{33}{lstlisting.4.10}\protected@file@percent }
+\newlabel{par:Prompt QTSumm}{{4.3.1}{33}{\textit {QTSumm Dataset.}\citep {zhao2023qtsummqueryfocusedsummarizationtabular}}{section*.20}{}}
+\@writefile{toc}{\contentsline {paragraph}{\textit  {QTSumm Dataset.}\citep  {zhao2023qtsummqueryfocusedsummarizationtabular}}{33}{section*.20}\protected@file@percent }
+\newlabel{code:Prompt Dataset 2}{{4.11}{33}{Prompt structuration for QTSumm}{lstlisting.4.11}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.11}{\ignorespaces Prompt structuration for QTSumm}}{33}{lstlisting.4.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Resume}{34}{section.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Experiments and Results}{35}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Hyperparameters}{36}{section.5.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Hyperparameters Selection}}{36}{table.caption.22}\protected@file@percent }
-\newlabel{table:hyperparameters2}{{5.1}{36}{Hyperparameters Selection}{table.caption.22}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Hyperparameters}{35}{section.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Hyperparameters Selection}}{35}{table.caption.21}\protected@file@percent }
+\newlabel{table:hyperparameters2}{{5.1}{35}{Hyperparameters Selection}{table.caption.21}{}}
 \citation{liu2024datasetslargelanguagemodels}
 \citation{kim2024prometheusinducingfinegrainedevaluation}
 \citation{kim2024prometheus2opensource}
 \citation{kim2024biggenbenchprincipledbenchmark}
-\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Results of Trained vs. Base Models: LLAMA2, StructLM, and Mistral\_Instruct}}{37}{table.caption.23}\protected@file@percent }
-\newlabel{table:results1}{{5.2}{37}{Results of Trained vs. Base Models: LLAMA2, StructLM, and Mistral\_Instruct}{table.caption.23}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces Results of Trained vs. Base Models: LLAMA2, StructLM, and Mistral\_Instruct}}{37}{table.caption.24}\protected@file@percent }
-\newlabel{table:results}{{5.3}{37}{Results of Trained vs. Base Models: LLAMA2, StructLM, and Mistral\_Instruct}{table.caption.24}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Issues Encountered with the Development Environment}{37}{subsection.5.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Experiments}{37}{section.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Discussion}{38}{section.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Resume}{38}{section.5.4}\protected@file@percent }
-\citation{liu2023gevalnlgevaluationusing}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusiones y Trabajos Futuros}{39}{chapter.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Results of Trained vs. Base Models: LLAMA2, StructLM, and Mistral\_Instruct}}{36}{table.caption.22}\protected@file@percent }
+\newlabel{table:results1}{{5.2}{36}{Results of Trained vs. Base Models: LLAMA2, StructLM, and Mistral\_Instruct}{table.caption.22}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces Results of Trained vs. Base Models: LLAMA2, StructLM, and Mistral\_Instruct}}{36}{table.caption.23}\protected@file@percent }
+\newlabel{table:results}{{5.3}{36}{Results of Trained vs. Base Models: LLAMA2, StructLM, and Mistral\_Instruct}{table.caption.23}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Issues Encountered with the Development Environment}{36}{subsection.5.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Experiments}{36}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Discussion}{37}{section.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Resume}{37}{section.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusiones y Trabajos Futuros}{38}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Conclusions}{39}{section.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Limitations and Future Work}{39}{section.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Conclusions}{38}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Limitations and Future Work}{38}{section.6.2}\protected@file@percent }
 \bibstyle{plainnat}
 \bibdata{references.bib}
 \bibcite{Agarwal2008Meteor}{{1}{2008}{{Agarwal and Lavie}}{{}}}
@@ -342,8 +341,8 @@
 \bibcite{chen2021wikitabletlargescaledatatotextdataset}{{10}{2021}{{Chen et~al.}}{{Chen, Wiseman, and Gimpel}}}
 \bibcite{chen2020logicalnaturallanguagegeneration}{{11}{2020{a}}{{Chen et~al.}}{{Chen, Chen, Su, Chen, and Wang}}}
 \bibcite{2019TabFactA}{{12}{2020{b}}{{Chen et~al.}}{{Chen, Wang, Chen, Zhang, Wang, Li, Zhou, and Wang}}}
-\bibcite{chen2020tabfactlargescaledatasettablebased}{{13}{2020{c}}{{Chen et~al.}}{{Chen, Wang, Chen, Zhang, Wang, Li, Zhou, and Wang}}}
-\bibcite{cheng-etal-2022-hitab}{{14}{2022}{{Cheng et~al.}}{{Cheng, Dong, Wang, Jia, Guo, Gao, Han, Lou, and Zhang}}}
+\bibcite{cheng-etal-2022-hitab}{{13}{2022}{{Cheng et~al.}}{{Cheng, Dong, Wang, Jia, Guo, Gao, Han, Lou, and Zhang}}}
+\bibcite{dang-2006-duc}{{14}{2006}{{Dang}}{{}}}
 \bibcite{10305960}{{15}{2023}{{Debbah}}{{}}}
 \bibcite{devlin2019bertpretrainingdeepbidirectional}{{16}{2019}{{Devlin et~al.}}{{Devlin, Chang, Lee, and Toutanova}}}
 \bibcite{Dobre2015ACB}{{17}{2015}{{Dobre}}{{}}}
@@ -352,69 +351,93 @@
 \bibcite{Ganesan2015ROUGE}{{20}{2018}{{Ganesan}}{{}}}
 \bibcite{gao2024jsontuning}{{21}{2024}{{Gao et~al.}}{{Gao, Zhang, Chen, and Lam}}}
 \bibcite{gat2023faithfulexplanationsblackboxnlp}{{22}{2024}{{Gat et~al.}}{{Gat, Calderon, Feder, Chapanin, Sharma, and Reichart}}}
-\bibcite{He2023ReviewOS}{{23}{2023}{{He and Abisado}}{{}}}
-\bibcite{he2023survey}{{24}{2023}{{He et~al.}}{{He, Mao, Lin, Ruan, Lan, Feng, and Cambria}}}
-\bibcite{jacovi-goldberg-2020-towards}{{25}{2020}{{Jacovi and Goldberg}}{{}}}
-\bibcite{jiang2023mistral}{{26}{2023}{{Jiang et~al.}}{{Jiang, Sablayrolles, Mensch, Bamford, Chaplot, de~las Casas, Bressand, Lengyel, Lample, Saulnier, Lavaud, Lachaux, Stock, Scao, Lavril, Wang, Lacroix, and Sayed}}}
-\bibcite{jiang2017markov}{{27}{2017}{{Jiang and Wang}}{{}}}
-\bibcite{kim2024prometheusinducingfinegrainedevaluation}{{28}{2024{a}}{{Kim et~al.}}{{Kim, Shin, Cho, Jang, Longpre, Lee, Yun, Shin, Kim, Thorne, and Seo}}}
-\bibcite{kim2024biggenbenchprincipledbenchmark}{{29}{2024{b}}{{Kim et~al.}}{{Kim, Suk, Cho, Longpre, Kim, Yoon, Son, Cho, Shafayat, Baek, Park, Hwang, Jo, Cho, Shin, Lee, Oh, Lee, Ho, Joo, Ko, Lee, Chae, Shin, Jang, Ye, Lin, Welleck, Neubig, Lee, Lee, and Seo}}}
-\bibcite{kim2024prometheus2opensource}{{30}{2024{c}}{{Kim et~al.}}{{Kim, Suk, Longpre, Lin, Shin, Welleck, Neubig, Lee, Lee, and Seo}}}
-\bibcite{Lalor2017Improving}{{31}{2017}{{Lalor et~al.}}{{Lalor, Wu, and Yu}}}
-\bibcite{10.5555/1626355.1626389}{{32}{2007}{{Lavie and Agarwal}}{{}}}
-\bibcite{lavie-etal-2004-significance}{{33}{2004}{{Lavie et~al.}}{{Lavie, Sagae, and Jayaraman}}}
-\bibcite{Liang_2020}{{34}{2020}{{Liang}}{{}}}
-\bibcite{lin-2004-rouge}{{35}{2004}{{Lin}}{{}}}
-\bibcite{Liu2023Improving}{{36}{2023{a}}{{Liu et~al.}}{{Liu, Sha, and Peng}}}
-\bibcite{liu2023gevalnlgevaluationusing}{{37}{2023{b}}{{Liu et~al.}}{{Liu, Iter, Xu, Wang, Xu, and Zhu}}}
-\bibcite{liu2024datasetslargelanguagemodels}{{38}{2024}{{Liu et~al.}}{{Liu, Cao, Liu, Ding, and Jin}}}
-\bibcite{loshchilov2019decoupledweightdecayregularization}{{39}{2019}{{Loshchilov and Hutter}}{{}}}
-\bibcite{lyu2024faithfulmodelexplanationnlp}{{40}{2024}{{Lyu et~al.}}{{Lyu, Apidianaki, and Callison-Burch}}}
-\bibcite{macková2023promap}{{41}{2024{a}}{{Mackov\'{a} and Pil\'{a}t}}{{}}}
-\bibcite{macková2023promapdatasetsproductmapping}{{42}{2024{b}}{{Mackov\'{a} and Pil\'{a}t}}{{}}}
-\bibcite{madsen-etal-2022-evaluating}{{43}{2022}{{Madsen et~al.}}{{Madsen, Meade, Adlakha, and Reddy}}}
-\bibcite{Maples2017TheR}{{44}{2017}{{Maples}}{{}}}
-\bibcite{moosavi2021scigen}{{45}{2021}{{Moosavi et~al.}}{{Moosavi, R{\"u}ckl{\'e}, Roth, and Gurevych}}}
-\bibcite{Muntjir2016}{{46}{2016}{{Muntjir and Siddiqui}}{{}}}
-\bibcite{nan2021fetaqafreeformtablequestion}{{47}{2022}{{Nan et~al.}}{{Nan, Hsieh, Mao, Lin, Verma, Zhang, Kry{\'s}ci{\'n}ski, Schoelkopf, Kong, Tang, Mutuma, Rosand, Trindade, Bandaru, Cunningham, Xiong, Radev, and Radev}}}
-\bibcite{naveed2024comprehensive}{{48}{2024}{{Naveed et~al.}}{{Naveed, Khan, Qiu, Saqib, Anwar, Usman, Akhtar, Barnes, and Mian}}}
-\bibcite{Ng2015Better}{{49}{2015}{{Ng and Abrecht}}{{}}}
-\bibcite{openai2024gpt4technicalreport}{{50}{2024}{{OpenAI et~al.}}{{OpenAI, Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman, Almeida, Altenschmidt, Altman, Anadkat, Avila, Babuschkin, Balaji, Balcom, Baltescu, Bao, Bavarian, Belgum, Bello, Berdine, Bernadett-Shapiro, Berner, Bogdonoff, Boiko, Boyd, Brakman, Brockman, Brooks, Brundage, Button, Cai, Campbell, Cann, Carey, Carlson, Carmichael, Chan, Chang, Chantzis, Chen, Chen, Chen, Chen, Chen, Chess, Cho, Chu, Chung, Cummings, Currier, Dai, Decareaux, Degry, Deutsch, Deville, Dhar, Dohan, Dowling, Dunning, Ecoffet, Eleti, Eloundou, Farhi, Fedus, Felix, Fishman, Forte, Fulford, Gao, Georges, Gibson, Goel, Gogineni, Goh, Gontijo-Lopes, Gordon, Grafstein, Gray, Greene, Gross, Gu, Guo, Hallacy, Han, Harris, He, Heaton, Heidecke, Hesse, Hickey, Hickey, Hoeschele, Houghton, Hsu, Hu, Hu, Huizinga, Jain, Jain, Jang, Jiang, Jiang, Jin, Jin, Jomoto, Jonn, Jun, Kaftan, Łukasz Kaiser, Kamali, Kanitscheider, Keskar, Khan, Kilpatrick, Kim, Kim, Kim, Kirchner, Kiros, Knight, Kokotajlo, Łukasz Kondraciuk, Kondrich, Konstantinidis, Kosic, Krueger, Kuo, Lampe, Lan, Lee, Leike, Leung, Levy, Li, Lim, Lin, Lin, Litwin, Lopez, Lowe, Lue, Makanju, Malfacini, Manning, Markov, Markovski, Martin, Mayer, Mayne, McGrew, McKinney, McLeavey, McMillan, McNeil, Medina, Mehta, Menick, Metz, Mishchenko, Mishkin, Monaco, Morikawa, Mossing, Mu, Murati, Murk, Mély, Nair, Nakano, Nayak, Neelakantan, Ngo, Noh, Ouyang, O'Keefe, Pachocki, Paino, Palermo, Pantuliano, Parascandolo, Parish, Parparita, Passos, Pavlov, Peng, Perelman, de~Avila Belbute~Peres, Petrov, de~Oliveira~Pinto, Michael, Pokorny, Pokrass, Pong, Powell, Power, Power, Proehl, Puri, Radford, Rae, Ramesh, Raymond, Real, Rimbach, Ross, Rotsted, Roussez, Ryder, Saltarelli, Sanders, Santurkar, Sastry, Schmidt, Schnurr, Schulman, Selsam, Sheppard, Sherbakov, Shieh, Shoker, Shyam, Sidor, Sigler, Simens, Sitkin, Slama, Sohl, Sokolowsky, Song, Staudacher, Such, Summers, Sutskever, Tang, Tezak, Thompson, Tillet, Tootoonchian, Tseng, Tuggle, Turley, Tworek, Uribe, Vallone, Vijayvergiya, Voss, Wainwright, Wang, Wang, Wang, Ward, Wei, Weinmann, Welihinda, Welinder, Weng, Weng, Wiethoff, Willner, Winter, Wolrich, Wong, Workman, Wu, Wu, Wu, Xiao, Xu, Yoo, Yu, Yuan, Zaremba, Zellers, Zhang, Zhang, Zhao, Zheng, Zhuang, Zhuk, and Zoph}}}
-\bibcite{Papineni02bleu:a}{{51}{2002}{{Papineni et~al.}}{{Papineni, Roukos, Ward, and jing Zhu}}}
-\bibcite{parcalabescu2024measuringfaithfulnessselfconsistencynatural}{{52}{2024}{{Parcalabescu and Frank}}{{}}}
-\bibcite{parikh2020tottocontrolledtabletotextgeneration}{{53}{2020}{{Parikh et~al.}}{{Parikh, Wang, Gehrmann, Faruqui, Dhingra, Yang, and Das}}}
-\bibcite{peng2024ecellmgeneralizinglargelanguage}{{54}{2024}{{Peng et~al.}}{{Peng, Ling, Chen, Sun, and Ning}}}
-\bibcite{OnePlusNord35G2023}{{55}{2023}{{Pricebaba.com}}{{}}}
-\bibcite{Reiter2018A}{{56}{2018}{{Reiter}}{{}}}
-\bibcite{10.1145/3583780.3615503}{{57}{2023}{{Ryali et~al.}}{{Ryali, S, Kaveri, and Comar}}}
-\bibcite{Shachaf2021A}{{58}{2021}{{Shachaf et~al.}}{{Shachaf, Brutzkus, and Globerson}}}
-\bibcite{Shi2023Towards}{{59}{2023}{{Shi et~al.}}{{Shi, Wang, Zhang, Du, Han, Zhang, and Sun}}}
-\bibcite{5496972}{{60}{2010}{{Shvachko et~al.}}{{Shvachko, Kuang, Radia, and Chansler}}}
-\bibcite{singha2023tabularrepresentationnoisyoperators}{{61}{2023}{{Singha et~al.}}{{Singha, Cambronero, Gulwani, Le, and Parnin}}}
-\bibcite{skondras2023generating}{{62}{2023}{{Skondras et~al.}}{{Skondras, Zervas, and Tzimas}}}
-\bibcite{steen2023littlepushnlimodels}{{63}{2023}{{Steen et~al.}}{{Steen, Opitz, Frank, and Markert}}}
-\bibcite{suadaa-etal-2021-towards}{{64}{2021}{{Suadaa et~al.}}{{Suadaa, Kamigaito, Funakoshi, Okumura, and Takamura}}}
-\bibcite{suri2023largelanguagemodelsdecision}{{65}{2023}{{Suri et~al.}}{{Suri, Slater, Ziaee, and Nguyen}}}
-\bibcite{10.1007/978-3-319-20895-4_34}{{66}{2015}{{Tan and Teo}}{{}}}
-\bibcite{touvron2023llama}{{67}{2023}{{Touvron et~al.}}{{Touvron, Martin, Stone, Albert, Almahairi, Babaei, Bashlykov, Batra, Bhargava, Bhosale, Bikel, Blecher, Ferrer, Chen, Cucurull, Esiobu, Fernandes, Fu, Fu, Fuller, Gao, Goswami, Goyal, Hartshorn, Hosseini, Hou, Inan, Kardas, Kerkez, Khabsa, Kloumann, Korenev, Koura, Lachaux, Lavril, Lee, Liskovich, Lu, Mao, Martinet, Mihaylov, Mishra, Molybog, Nie, Poulton, Reizenstein, Rungta, Saladi, Schelten, Silva, Smith, Subramanian, Tan, Tang, Taylor, Williams, Kuan, Xu, Yan, Zarov, Zhang, Fan, Kambadur, Narang, Rodriguez, Stojnic, Edunov, and Scialom}}}
-\bibcite{varshney-etal-2022-towards}{{68}{2022}{{Varshney et~al.}}{{Varshney, Mishra, and Baral}}}
-\bibcite{Varshney_2024}{{69}{2024}{{Varshney}}{{}}}
-\bibcite{Vrbancic2020Transfer}{{70}{2020}{{Vrbancic and Podgorelec}}{{}}}
-\bibcite{Wang2023Emotional}{{71}{2023}{{Wang et~al.}}{{Wang, Li, Yin, Wu, of~PsychologyTsinghua Laboratory~of Brain, Intelligence, University, Psychology, and University}}}
-\bibcite{wiseman2017challengesdatatodocumentgeneration}{{72}{2017}{{Wiseman et~al.}}{{Wiseman, Shieber, and Rush}}}
-\bibcite{Xiao2023Offsite-Tuning:}{{73}{2023}{{Xiao et~al.}}{{Xiao, Lin, and Han}}}
-\bibcite{xu2024emerging}{{74}{2024}{{Xu et~al.}}{{Xu, Wu, Liang, He, and Wang}}}
-\bibcite{yao2023predictinggeneralizationperformancecorrectness}{{75}{2024}{{Yao and Koller}}{{}}}
-\bibcite{yin2022sensitivitystabilitymodelinterpretations}{{76}{2022}{{Yin et~al.}}{{Yin, Shi, Hsieh, and Chang}}}
-\bibcite{zhang2021ebert}{{77}{2021}{{Zhang et~al.}}{{Zhang, Yuan, Liu, Zhuang, Chen, and Xiong}}}
-\bibcite{Zhang2022Fine-Tuning}{{78}{2022{a}}{{Zhang et~al.}}{{Zhang, Li, Li, Zhang, Zhu, and Jin}}}
-\bibcite{Zhang2023InstructionTF}{{79}{2023}{{Zhang et~al.}}{{Zhang, Dong, Li, Zhang, Sun, Wang, Li, Hu, Zhang, Wu, and Wang}}}
-\bibcite{zhang2022opt}{{80}{2022{b}}{{Zhang et~al.}}{{Zhang, Roller, Goyal, Artetxe, Chen, Chen, Dewan, Diab, Li, Lin, Mihaylov, Ott, Shleifer, Shuster, Simig, Koura, Sridhar, Wang, and Zettlemoyer}}}
-\bibcite{zhang2020bertscoreevaluatingtextgeneration}{{81}{2020}{{Zhang* et~al.}}{{Zhang*, Kishore*, Wu*, Weinberger, and Artzi}}}
-\bibcite{zhao2023survey}{{82}{2023{a}}{{Zhao et~al.}}{{Zhao, Zhou, Li, Tang, Wang, Hou, Min, Zhang, Zhang, Dong, Du, Yang, Chen, Chen, Jiang, Ren, Li, Tang, Liu, Liu, Nie, and Wen}}}
-\bibcite{zhao2023qtsummqueryfocusedsummarizationtabular}{{83}{2023{b}}{{Zhao et~al.}}{{Zhao, Qi, Nan, Mi, Liu, Zou, Han, Chen, Tang, Xu, Radev, and Cohan}}}
-\bibcite{zheng2024llamafactory}{{84}{2024}{{Zheng et~al.}}{{Zheng, Zhang, Zhang, Ye, and Luo}}}
-\bibcite{zhou2023leveraging}{{85}{2023}{{Zhou et~al.}}{{Zhou, Liu, Acharya, Hong, Lee, and Wen}}}
-\bibcite{zhuang2024structlm}{{86}{2024}{{Zhuang et~al.}}{{Zhuang, Zhang, Zheng, Du, Wang, Ren, Huang, Fu, Yue, and Chen}}}
+\bibcite{giorgi-etal-2023-open}{{23}{2023}{{Giorgi et~al.}}{{Giorgi, Soldaini, Wang, Bader, Lo, Wang, and Cohan}}}
+\bibcite{He2023ReviewOS}{{24}{2023}{{He and Abisado}}{{}}}
+\bibcite{he2023survey}{{25}{2023}{{He et~al.}}{{He, Mao, Lin, Ruan, Lan, Feng, and Cambria}}}
+\bibcite{jacovi-goldberg-2020-towards}{{26}{2020}{{Jacovi and Goldberg}}{{}}}
+\bibcite{jiang2023mistral}{{27}{2023}{{Jiang et~al.}}{{Jiang, Sablayrolles, Mensch, Bamford, Chaplot, de~las Casas, Bressand, Lengyel, Lample, Saulnier, Lavaud, Lachaux, Stock, Scao, Lavril, Wang, Lacroix, and Sayed}}}
+\bibcite{jiang2017markov}{{28}{2017}{{Jiang and Wang}}{{}}}
+\bibcite{kim2024prometheusinducingfinegrainedevaluation}{{29}{2024{a}}{{Kim et~al.}}{{Kim, Shin, Cho, Jang, Longpre, Lee, Yun, Shin, Kim, Thorne, and Seo}}}
+\bibcite{kim2024biggenbenchprincipledbenchmark}{{30}{2024{b}}{{Kim et~al.}}{{Kim, Suk, Cho, Longpre, Kim, Yoon, Son, Cho, Shafayat, Baek, Park, Hwang, Jo, Cho, Shin, Lee, Oh, Lee, Ho, Joo, Ko, Lee, Chae, Shin, Jang, Ye, Lin, Welleck, Neubig, Lee, Lee, and Seo}}}
+\bibcite{kim2024prometheus2opensource}{{31}{2024{c}}{{Kim et~al.}}{{Kim, Suk, Longpre, Lin, Shin, Welleck, Neubig, Lee, Lee, and Seo}}}
+\bibcite{Lalor2017Improving}{{32}{2017}{{Lalor et~al.}}{{Lalor, Wu, and Yu}}}
+\bibcite{10.5555/1626355.1626389}{{33}{2007}{{Lavie and Agarwal}}{{}}}
+\bibcite{lavie-etal-2004-significance}{{34}{2004}{{Lavie et~al.}}{{Lavie, Sagae, and Jayaraman}}}
+\bibcite{Lee2023ASO}{{35}{2023}{{Lee et~al.}}{{Lee, Lee, Moon, Park, Seo, Eo, Koo, and Lim}}}
+\bibcite{Liang_2020}{{36}{2020}{{Liang}}{{}}}
+\bibcite{lin-2004-rouge}{{37}{2004}{{Lin}}{{}}}
+\bibcite{Liu2023Improving}{{38}{2023{a}}{{Liu et~al.}}{{Liu, Sha, and Peng}}}
+\bibcite{liu2023gevalnlgevaluationusing}{{39}{2023{b}}{{Liu et~al.}}{{Liu, Iter, Xu, Wang, Xu, and Zhu}}}
+\bibcite{liu2024datasetslargelanguagemodels}{{40}{2024}{{Liu et~al.}}{{Liu, Cao, Liu, Ding, and Jin}}}
+\bibcite{loshchilov2018decoupled}{{41}{2019{a}}{{Loshchilov and Hutter}}{{}}}
+\bibcite{loshchilov2019decoupledweightdecayregularization}{{42}{2019{b}}{{Loshchilov and Hutter}}{{}}}
+\bibcite{lyu2024faithfulmodelexplanationnlp}{{43}{2024}{{Lyu et~al.}}{{Lyu, Apidianaki, and Callison-Burch}}}
+\bibcite{macková2023promap}{{44}{2024{a}}{{Mackov\'{a} and Pil\'{a}t}}{{}}}
+\bibcite{macková2023promapdatasetsproductmapping}{{45}{2024{b}}{{Mackov\'{a} and Pil\'{a}t}}{{}}}
+\bibcite{madsen-etal-2022-evaluating}{{46}{2022}{{Madsen et~al.}}{{Madsen, Meade, Adlakha, and Reddy}}}
+\bibcite{Maples2017TheR}{{47}{2017}{{Maples}}{{}}}
+\bibcite{moosavi2021scigen}{{48}{2021}{{Moosavi et~al.}}{{Moosavi, R{\"u}ckl{\'e}, Roth, and Gurevych}}}
+\bibcite{Muntjir2016}{{49}{2016}{{Muntjir and Siddiqui}}{{}}}
+\bibcite{nan2021fetaqafreeformtablequestion}{{50}{2022}{{Nan et~al.}}{{Nan, Hsieh, Mao, Lin, Verma, Zhang, Kry{\'s}ci{\'n}ski, Schoelkopf, Kong, Tang, Mutuma, Rosand, Trindade, Bandaru, Cunningham, Xiong, Radev, and Radev}}}
+\bibcite{naveed2024comprehensive}{{51}{2024}{{Naveed et~al.}}{{Naveed, Khan, Qiu, Saqib, Anwar, Usman, Akhtar, Barnes, and Mian}}}
+\bibcite{Ng2015Better}{{52}{2015}{{Ng and Abrecht}}{{}}}
+\bibcite{openai2024gpt4technicalreport}{{53}{2024}{{OpenAI et~al.}}{{OpenAI, Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman, Almeida, Altenschmidt, Altman, Anadkat, Avila, Babuschkin, Balaji, Balcom, Baltescu, Bao, Bavarian, Belgum, Bello, Berdine, Bernadett-Shapiro, Berner, Bogdonoff, Boiko, Boyd, Brakman, Brockman, Brooks, Brundage, Button, Cai, Campbell, Cann, Carey, Carlson, Carmichael, Chan, Chang, Chantzis, Chen, Chen, Chen, Chen, Chen, Chess, Cho, Chu, Chung, Cummings, Currier, Dai, Decareaux, Degry, Deutsch, Deville, Dhar, Dohan, Dowling, Dunning, Ecoffet, Eleti, Eloundou, Farhi, Fedus, Felix, Fishman, Forte, Fulford, Gao, Georges, Gibson, Goel, Gogineni, Goh, Gontijo-Lopes, Gordon, Grafstein, Gray, Greene, Gross, Gu, Guo, Hallacy, Han, Harris, He, Heaton, Heidecke, Hesse, Hickey, Hickey, Hoeschele, Houghton, Hsu, Hu, Hu, Huizinga, Jain, Jain, Jang, Jiang, Jiang, Jin, Jin, Jomoto, Jonn, Jun, Kaftan, Łukasz Kaiser, Kamali, Kanitscheider, Keskar, Khan, Kilpatrick, Kim, Kim, Kim, Kirchner, Kiros, Knight, Kokotajlo, Łukasz Kondraciuk, Kondrich, Konstantinidis, Kosic, Krueger, Kuo, Lampe, Lan, Lee, Leike, Leung, Levy, Li, Lim, Lin, Lin, Litwin, Lopez, Lowe, Lue, Makanju, Malfacini, Manning, Markov, Markovski, Martin, Mayer, Mayne, McGrew, McKinney, McLeavey, McMillan, McNeil, Medina, Mehta, Menick, Metz, Mishchenko, Mishkin, Monaco, Morikawa, Mossing, Mu, Murati, Murk, Mély, Nair, Nakano, Nayak, Neelakantan, Ngo, Noh, Ouyang, O'Keefe, Pachocki, Paino, Palermo, Pantuliano, Parascandolo, Parish, Parparita, Passos, Pavlov, Peng, Perelman, de~Avila Belbute~Peres, Petrov, de~Oliveira~Pinto, Michael, Pokorny, Pokrass, Pong, Powell, Power, Power, Proehl, Puri, Radford, Rae, Ramesh, Raymond, Real, Rimbach, Ross, Rotsted, Roussez, Ryder, Saltarelli, Sanders, Santurkar, Sastry, Schmidt, Schnurr, Schulman, Selsam, Sheppard, Sherbakov, Shieh, Shoker, Shyam, Sidor, Sigler, Simens, Sitkin, Slama, Sohl, Sokolowsky, Song, Staudacher, Such, Summers, Sutskever, Tang, Tezak, Thompson, Tillet, Tootoonchian, Tseng, Tuggle, Turley, Tworek, Uribe, Vallone, Vijayvergiya, Voss, Wainwright, Wang, Wang, Wang, Ward, Wei, Weinmann, Welihinda, Welinder, Weng, Weng, Wiethoff, Willner, Winter, Wolrich, Wong, Workman, Wu, Wu, Wu, Xiao, Xu, Yoo, Yu, Yuan, Zaremba, Zellers, Zhang, Zhang, Zhao, Zheng, Zhuang, Zhuk, and Zoph}}}
+\bibcite{Papineni02bleu:a}{{54}{2002}{{Papineni et~al.}}{{Papineni, Roukos, Ward, and jing Zhu}}}
+\bibcite{parcalabescu2024measuringfaithfulnessselfconsistencynatural}{{55}{2024}{{Parcalabescu and Frank}}{{}}}
+\bibcite{parikh2020tottocontrolledtabletotextgeneration}{{56}{2020}{{Parikh et~al.}}{{Parikh, Wang, Gehrmann, Faruqui, Dhingra, Yang, and Das}}}
+\bibcite{peng2024ecellmgeneralizinglargelanguage}{{57}{2024}{{Peng et~al.}}{{Peng, Ling, Chen, Sun, and Ning}}}
+\bibcite{OnePlusNord35G2023}{{58}{2023}{{Pricebaba.com}}{{}}}
+\bibcite{Reiter2018A}{{59}{2018}{{Reiter}}{{}}}
+\bibcite{10.1145/3583780.3615503}{{60}{2023}{{Ryali et~al.}}{{Ryali, S, Kaveri, and Comar}}}
+\bibcite{Shachaf2021A}{{61}{2021}{{Shachaf et~al.}}{{Shachaf, Brutzkus, and Globerson}}}
+\bibcite{Shi2023Towards}{{62}{2023}{{Shi et~al.}}{{Shi, Wang, Zhang, Du, Han, Zhang, and Sun}}}
+\bibcite{5496972}{{63}{2010}{{Shvachko et~al.}}{{Shvachko, Kuang, Radia, and Chansler}}}
+\bibcite{skondras2023generating}{{64}{2023}{{Skondras et~al.}}{{Skondras, Zervas, and Tzimas}}}
+\bibcite{steen2023littlepushnlimodels}{{65}{2023}{{Steen et~al.}}{{Steen, Opitz, Frank, and Markert}}}
+\bibcite{suadaa-etal-2021-towards}{{66}{2021}{{Suadaa et~al.}}{{Suadaa, Kamigaito, Funakoshi, Okumura, and Takamura}}}
+\bibcite{10.1007/978-3-319-20895-4_34}{{67}{2015}{{Tan and Teo}}{{}}}
+\bibcite{touvron2023llama}{{68}{2023}{{Touvron et~al.}}{{Touvron, Martin, Stone, Albert, Almahairi, Babaei, Bashlykov, Batra, Bhargava, Bhosale, Bikel, Blecher, Ferrer, Chen, Cucurull, Esiobu, Fernandes, Fu, Fu, Fuller, Gao, Goswami, Goyal, Hartshorn, Hosseini, Hou, Inan, Kardas, Kerkez, Khabsa, Kloumann, Korenev, Koura, Lachaux, Lavril, Lee, Liskovich, Lu, Mao, Martinet, Mihaylov, Mishra, Molybog, Nie, Poulton, Reizenstein, Rungta, Saladi, Schelten, Silva, Smith, Subramanian, Tan, Tang, Taylor, Williams, Kuan, Xu, Yan, Zarov, Zhang, Fan, Kambadur, Narang, Rodriguez, Stojnic, Edunov, and Scialom}}}
+\bibcite{varshney-etal-2022-towards}{{69}{2022}{{Varshney et~al.}}{{Varshney, Mishra, and Baral}}}
+\bibcite{Varshney_2024}{{70}{2024}{{Varshney}}{{}}}
+\bibcite{Vrbancic2020Transfer}{{71}{2020}{{Vrbancic and Podgorelec}}{{}}}
+\bibcite{Wang2023Emotional}{{72}{2023}{{Wang et~al.}}{{Wang, Li, Yin, Wu, of~PsychologyTsinghua Laboratory~of Brain, Intelligence, University, Psychology, and University}}}
+\bibcite{wiseman2017challengesdatatodocumentgeneration}{{73}{2017}{{Wiseman et~al.}}{{Wiseman, Shieber, and Rush}}}
+\bibcite{Xiao2023Offsite-Tuning:}{{74}{2023}{{Xiao et~al.}}{{Xiao, Lin, and Han}}}
+\bibcite{xie2022unifiedskgunifyingmultitaskingstructured}{{75}{2022}{{Xie et~al.}}{{Xie, Wu, Shi, Zhong, Scholak, Yasunaga, Wu, Zhong, Yin, Wang, Zhong, Wang, Li, Boyle, Ni, Yao, Radev, Xiong, Kong, Zhang, Smith, Zettlemoyer, and Yu}}}
+\bibcite{xu2024emerging}{{76}{2024}{{Xu et~al.}}{{Xu, Wu, Liang, He, and Wang}}}
+\bibcite{yao2023predictinggeneralizationperformancecorrectness}{{77}{2024}{{Yao and Koller}}{{}}}
+\bibcite{zhang2021ebert}{{78}{2021}{{Zhang et~al.}}{{Zhang, Yuan, Liu, Zhuang, Chen, and Xiong}}}
+\bibcite{Zhang2022Fine-Tuning}{{79}{2022{a}}{{Zhang et~al.}}{{Zhang, Li, Li, Zhang, Zhu, and Jin}}}
+\bibcite{Zhang2023InstructionTF}{{80}{2023}{{Zhang et~al.}}{{Zhang, Dong, Li, Zhang, Sun, Wang, Li, Hu, Zhang, Wu, and Wang}}}
+\bibcite{zhang2022opt}{{81}{2022{b}}{{Zhang et~al.}}{{Zhang, Roller, Goyal, Artetxe, Chen, Chen, Dewan, Diab, Li, Lin, Mihaylov, Ott, Shleifer, Shuster, Simig, Koura, Sridhar, Wang, and Zettlemoyer}}}
+\bibcite{zhang2020bertscoreevaluatingtextgeneration}{{82}{2020}{{Zhang* et~al.}}{{Zhang*, Kishore*, Wu*, Weinberger, and Artzi}}}
+\bibcite{zhao2023survey}{{83}{2023{a}}{{Zhao et~al.}}{{Zhao, Zhou, Li, Tang, Wang, Hou, Min, Zhang, Zhang, Dong, Du, Yang, Chen, Chen, Jiang, Ren, Li, Tang, Liu, Liu, Nie, and Wen}}}
+\bibcite{zhao2023qtsummqueryfocusedsummarizationtabular}{{84}{2023{b}}{{Zhao et~al.}}{{Zhao, Qi, Nan, Mi, Liu, Zou, Han, Chen, Tang, Xu, Radev, and Cohan}}}
+\bibcite{zheng2024llamafactory}{{85}{2024}{{Zheng et~al.}}{{Zheng, Zhang, Zhang, Ye, and Luo}}}
+\bibcite{zhong-etal-2021-qmsum}{{86}{2021}{{Zhong et~al.}}{{Zhong, Yin, Yu, Zaidi, Mutuma, Jha, Awadallah, Celikyilmaz, Liu, Qiu, and Radev}}}
+\bibcite{zhou2023leveraging}{{87}{2023}{{Zhou et~al.}}{{Zhou, Liu, Acharya, Hong, Lee, and Wen}}}
+\bibcite{zhuang2024structlm}{{88}{2024}{{Zhuang et~al.}}{{Zhuang, Zhang, Zheng, Du, Wang, Ren, Huang, Fu, Yue, and Chen}}}
+\citation{loshchilov2018decoupled}
+\citation{touvron2023llama}
+\@writefile{toc}{\contentsline {section}{\numberline {.1}Training Environment}{52}{section.Alph0.1}\protected@file@percent }
+\newlabel{sec:training-env}{{.1}{52}{Training Environment}{section.Alph0.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Hyperparameter settings for fine-tuning.}}{52}{table.caption.26}\protected@file@percent }
+\newlabel{table:hyperparameters-2}{{1}{52}{Hyperparameter settings for fine-tuning}{table.caption.26}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Quantization settings used for fine-tuning with the bitsandbytes library.}}{52}{table.caption.27}\protected@file@percent }
+\newlabel{tab:eC-Tab2Text Aditional parameters}{{2}{52}{Quantization settings used for fine-tuning with the bitsandbytes library}{table.caption.27}{}}
+\citation{zhuang2024structlm}
+\citation{jiang2023mistral}
+\@writefile{toc}{\contentsline {section}{\numberline {.2}Fine-tuning Models}{53}{section.Alph0.2}\protected@file@percent }
+\newlabel{sec:fine-tuning-models}{{.2}{53}{Fine-tuning Models}{section.Alph0.2}{}}
+\newlabel{code:JSON-Mistral-eC-Tab2Text}{{1}{53}{Output generated with Mistral Instruct trained with eC-Tab2Text}{lstlisting.Alph0.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}{\ignorespaces Output generated with Mistral Instruct trained with eC-Tab2Text.}}{53}{lstlisting.Alph0.1}\protected@file@percent }
+\newlabel{code:JSON-Gemini}{{2}{54}{Output generated with Gemini1.5-flash}{lstlisting.Alph0.2}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}{\ignorespaces Output generated with Gemini1.5-flash.}}{54}{lstlisting.Alph0.2}\protected@file@percent }
+\newlabel{code:JSON-GPT4}{{3}{55}{Output generated with GPT-4o-mini}{lstlisting.Alph0.3}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}{\ignorespaces Output generated with GPT-4o-mini.}}{55}{lstlisting.Alph0.3}\protected@file@percent }
+\newlabel{code:JSON-StructLM}{{4}{56}{Output generated with StructLM trained with eC-Tab2Text}{lstlisting.Alph0.4}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}{\ignorespaces Output generated with StructLM trained with eC-Tab2Text.}}{56}{lstlisting.Alph0.4}\protected@file@percent }
+\newlabel{code:JSON-Llama2}{{5}{56}{Output generated with Llama2 trained with eC-Tab2Text}{lstlisting.Alph0.5}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5}{\ignorespaces Output generated with Llama2 trained with eC-Tab2Text.}}{56}{lstlisting.Alph0.5}\protected@file@percent }
 \gdef\svg@ink@ver@settings{{\m@ne }{inkscape}{\m@ne }}
-\gdef \@abspage@last{53}
+\gdef \@abspage@last{57}
